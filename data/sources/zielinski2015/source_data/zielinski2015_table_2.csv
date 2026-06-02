@@ -1,0 +1,6 @@
+Surfactant,Gibbs energy of adsorption (kJ/mol),Area per molecule at CMC (nm2),CMC (mol/dm3),Surface tension at CMC (mN/m),Gibbs energy of micellization (kJ/mol),Temp_Celsius,source_doi,reference_doi,SMILES
+2xC10E-Br,−32.4,0.47,0.005,35,−22.8,21.85,10.1016/j.colsurfa.2015.01.050,,CCCCCCCCCCOC(=O)CC[N+](C)(C)CCC(=O)OCCCCCCCCCC.[Br-]
+2xC12E-Br,−35.0,0.49,0.00015,45,−31.5,21.85,10.1016/j.colsurfa.2015.01.050,,CCCCCCCCCCCCOC(=O)CC[N+](C)(C)CCC(=O)OCCCCCCCCCCCC.[Br-]
+2xC8A-Br,−37.0,0.49,0.003,25,−24.1,21.85,10.1016/j.colsurfa.2015.01.050,,CCCCCCCCNC(=O)CC[N+](C)(C)CCC(=O)NCCCCCCCC.[Br-]
+2xC10A-Br,−41.2,0.49,0.0001,25,−32.4,21.85,10.1016/j.colsurfa.2015.01.050,,CCCCCCCCCCNC(=O)CC[N+](C)(C)CCC(=O)NCCCCCCCCCC.[Br-]
+2xC12A-Br,−41.5,0.44,8e-05,27,−33.0,21.85,10.1016/j.colsurfa.2015.01.050,,CCCCCCCCCCCCNC(=O)CC[N+](C)(C)CCC(=O)NCCCCCCCCCCCC.[Br-]

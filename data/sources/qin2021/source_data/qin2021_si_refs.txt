@@ -1,0 +1,51 @@
+1.
+Jo, S.; Kim, T.; Iyer, V. G.; Im, W., CHARMM-GUI: A web-based graphical user interface for
+CHARMM. Journal of Computational Chemistry 2008, 29 (11), 1859-1865.
+2.
+Kim, S.; Lee, J.; Jo, S.; Brooks, C. L.; Lee, H. S.; Im, W., CHARMM-GUI ligand reader and modeler
+for CHARMM force field generation of small molecules. Journal of Computational Chemistry 2017, 38 (21),
+1879-1886.
+3.
+Pronk, S.; Páll, S.; Schulz, R.; Larsson, P.; Bjelkmar, P.; Apostolov, R.; Shirts, M. R.; Smith, J. C.;
+Kasson, P. M.; Van Der Spoel, D. et al., GROMACS 4.5: A high-throughput and highly parallel open source
+molecular simulation toolkit. Bioinformatics 2013, 29 (7), 845-854.
+4.
+Martinez, L.; Andrade, R.; Birgin, E. G.; Martínez, J. M., PACKMOL: A package for building initial
+configurations for molecular dynamics simulations. Journal of Computational Chemistry 2009, 30 (13),
+2157-2164.
+5.
+Gahan, C. G.; Patel, S. J.; Boursier, M. E.; Nyffeler, K. E.; Jennings, J.; Abbott, N. L.; Blackwell, H.
+E.; Van Lehn, R. C.; Lynn, D. M., Bacterial Quorum Sensing Signals Self-Assemble in Aqueous Media to
+Form Micelles and Vesicles: An Integrated Experimental and Molecular Dynamics Study. J. Phys. Chem
+2020, 2020, 3628-3628.
+6.
+Jakobtorweihen, S.; Ingram, T.; Smirnova, I., Combination of COSMOmic and molecular dynamics
+simulations for the calculation of membrane-water partition coefficients. Journal of Computational
+Chemistry 2013, 34 (15), 1332-1340.
+7.
+Eckert, F., COSMOtherm User Manual, Version C2.1, Release 01.10. 2009.
+8.
+Klamt, A.; Huniar, U.; Spycher, S.; Keldenich, J., COSMOmic: A mechanistic approach to the
+calculation of membrane-water partition coefficients and internal distributions within membranes and
+micelles. Journal of Physical Chemistry B 2008, 112 (38), 12148-12157.
+9.
+Jakobtorweihen, S.; Yordanova, D.; Smirnova, I., Predicting Critical Micelle Concentrations with
+Molecular Dynamics Simulations and COSMOmic. Chemie Ingenieur Technik 2017, 89 (10), 1288-1296.
+10.
+Van der Maaten, L.; Hinton, G., Visualizing data using t-SNE. Journal of machine learning research
+2008, 9 (11).
+11.
+Rogers, D.; Hahn, M., Extended-Connectivity Fingerprints. Journal of Chemical Information and
+Modeling 2010, 50 (5), 742-754.
+12.
+Rosen, M. J.; Kunjappu, J. T., Surfactants and Interfacial Phenomena: Fourth Edition. John Wiley
+and Sons: 2012.
+13.
+Gaudin, T.; Rotureau, P.; Pezron, I.; Fayet, G., New QSPR models to predict the critical micelle
+concentration of sugar-based surfactants. Industrial and Engineering Chemistry Research 2016.
+14.
+Mukerjee, P.; Mysels, K. J. Critical micelle concentrations of aqueous surfactant systems; National
+Standard reference data system: 1971.
+15.
+Wu, Z.; Ramsundar, B.; Feinberg, E. N.; Gomes, J.; Geniesse, C.; Pappu, A. S.; Leswing, K.; Pande,
+V., MoleculeNet: A Benchmark for Molecular Machine Learning. Chemical Science 2017, 9 (2), 513-530.

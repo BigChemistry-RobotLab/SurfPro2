@@ -1,0 +1,12 @@
+Surfactant,cmc (mM),γ(mN/m),−(∂γ/∂log c)cmcT,Γcmc × 1010 n=3 (mol/cm2),Γcmc × 1010 n=2 (mol/cm2),Surface area per molecule at cmc n=3 (A ́2),Surface area per molecule at cmc n=2 (A ́2),Surface area per molecule at cmc n=1 (A ́2),Surface area of the headgroup (at fully extended spacer) (A2),Temp_Celsius,source_doi,reference_doi,SMILES
+DTABr,15.0,38.0,33.7,3.0,,56.0,,,32,21.85,10.1016/j.colsurfa.2011.01.007,,CCCCCCCCCCCC[N+](C)(C)C.[Br-]
+dDDABr,0.07,26.0,32.6,2.9,,57.0,,,32,21.85,10.1016/j.colsurfa.2011.01.007,,CCCCCCCCCCCC[N+](CCCCCCCCCCCC)(C)C.[Br-]
+d(DDA)EBr2,0.85,31.5,36.2,2.1,3.2,77.0,51.0,,50,21.85,10.1016/j.colsurfa.2011.01.007,,CCCCCCCCCCCC[N+](C)(C)CC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-]
+d(DDA)PBr2,1.0,34.0,34.1,2.0,3.0,82.0,55.0,,62,21.85,10.1016/j.colsurfa.2011.01.007,,CCCCCCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-]
+d(DDA)BBr,1.17,38.0,29.8,1.8,2.7,94.0,63.0,,70,21.85,10.1016/j.colsurfa.2011.01.007,,CCCCCCCCCCCCC[N+](C)(C)CCCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-]
+d(DDA)HBr,1.15,40.0,25.4,1.5,2.3,110.0,73.0,,80,21.85,10.1016/j.colsurfa.2011.01.007,,CCCCCCCCCCCC[N+](C)(C)CCCCCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-]
+d(DDA)OBr,0.8,41.0,16.8,1.1,1.7,151.0,101.0,,93,21.85,10.1016/j.colsurfa.2011.01.007,,CCCCCCCCCCCC[N+](C)(C)CCCCCCCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-]
+d(DDA)XBr,0.6,39.0,17.1,1.0,1.5,166.0,111.0,,108,21.85,10.1016/j.colsurfa.2011.01.007,,CCCCCCCCCCCC[N+](C)(C)CCCCCCCCCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-]
+d(DDA)DBr,0.12,45.0,18.6,1.1,1.7,151.0,101.0,,122,21.85,10.1016/j.colsurfa.2011.01.007,,CCCCCCCCCCCC[N+](C)(C)CCCCCCCCCCCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-]
+d(DDA)BBr + 10−2 M KBr,0.1,36.0,10.9,1.9,,,,87.0,70,21.85,10.1016/j.colsurfa.2011.01.007,,CCCCCCCCCCCC[N+](C)(C)CCCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-].[K+].[Br-]
+d(DDA)OBr + 10−2 M KBr,0.1,40.0,7.6,1.3,,,,128.0,93,21.85,10.1016/j.colsurfa.2011.01.007,,CCCCCCCCCCCC[N+](C)(C)CCCCCCCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-].[K+].[Br-]

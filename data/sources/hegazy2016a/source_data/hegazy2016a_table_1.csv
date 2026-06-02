@@ -1,0 +1,4 @@
+Surfactant name,Ccmc surface tension x 103 (M),γcmc surface tension (mN m−1),πcmc surface tension (mN m−1),Γmax × 1010 surface tension (mol cm−2),Amin conductivity (nm2),Ccmc conductivity × 103 (M),β conductivity,ΔG°mic conductivity (kJ mol−1),SMILES,source_doi,reference_doi,Temp_Celsius
+A,2.87,33.14,38.86,2.99,0.56,2.7,0.5,-30.37,CCCCCCCCCCCC[N+]1(CCCC1=NCCc2ccccc2)C.[Br-],10.1016/j.molliq.2015.11.047,,25
+B,3.1,33.92,38.08,2.84,0.58,3.04,0.54,-29.33,CCCCCCCCCCCC[N+]1(CCCC1=NCCO)C.[Br-],10.1016/j.molliq.2015.11.047,,25
+C,2.63,29.0,43.0,3.13,0.53,2.55,0.5,-30.7,CCCCCCCCCCCC[N+]1(CCCC1=Nc2ccc(O)cc2)C.[Br-],10.1016/j.molliq.2015.11.047,,25

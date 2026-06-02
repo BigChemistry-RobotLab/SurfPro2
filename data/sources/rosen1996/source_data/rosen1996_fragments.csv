@@ -1,0 +1,5 @@
+compound,text_structure,text_code,SMILES_template
+,RN+(CH3)2(CH2)mN+(CH3)2R . 2Br-,(CnN)2(CH2)2,C[N+](${r_group})(C)C $m [N+](C)(${r_group})C
+,RN+(CH3)2CH2C6H4CH2N+(CH3)2R . Br-,(CnN)2Ar,C[N+](${r_group})(C)Cc1ccc(C[N+](${r_group})(C)C)cc1
+,[CnH2n + 1 N+(CH3)2CH2CHOH]2 . 2Br-,(CnN)2(OH)2,OC(C[N+](C)(C)${r_group})C(O)C[N+](${r_group})(C)C
+"1,4-dibromo-2,3-butanediol",,,BrCC(O)C(O)CBr

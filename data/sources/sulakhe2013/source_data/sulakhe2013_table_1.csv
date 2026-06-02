@@ -1,0 +1,5 @@
+Surfactants,CMC (mM),CMC st err (mM),CMC conductivity (mM),CMC conductivity err (mM),C20 (mM),CMC/C20,γcmc (mN/m),Γmax (mol/m2),Amin (A ̊ 2),βcb,Ref.,Temp_Celsius,source_doi,reference_doi,SMILES
+LGDMAC,1.22,0.03,1.32,0.05,0.27,4.52,40.0,2.07e-06,80.0,0.43,,25,10.1007/s11743-013-1436-6,,CCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)CO.[Cl-]
+CTAC,1.3,,,,0.8,1.63,41.0,3.07e-06,54.0,0.63,[22],25,10.1007/s11743-013-1436-6,10.1016/j.tca.2004.11.009,CCCCCCCCCCCCCCCC[N+](C)(C)C.[Cl-]
+CTAB,1.0,,,,0.4,2.5,35.3,3.21e-06,51.7,0.84,[22],25,10.1007/s11743-013-1436-6,10.1016/j.tca.2004.11.009,CCCCCCCCCCCCCCCC[N+](C)(C)C.[Br-]
+GCMA,0.5,,,,0.2,2.5,41.0,,,,[3],25,10.1007/s11743-013-1436-6,10.1016/j.tca.2004.11.009,C[N+](C)(CC(CO)O)CCCCCCCCCCC.[Cl-]

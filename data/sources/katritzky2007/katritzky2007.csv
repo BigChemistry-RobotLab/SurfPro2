@@ -1,0 +1,24 @@
+no.,surfactant code,ref,corrected experimental log(CMC),predicted log(CMC) eq3,predicted log(CMC) eq (Table 5),Temp_Celsius,ref_key,SMILES,source_doi,ref_keys,pCMC
+1,C6SO4Na,24,-0.364,-0.045,-0.03,25,aniansson1976,CCCCCCOS(=O)(=O)[O-].[Na+],10.1021/j100550a001,aniansson1976,0.377
+2,C7SO4Na,24,-0.645,-0.351,-0.538,25,aniansson1976,CCCCCCCOS(=O)(=O)[O-].[Na+],10.1021/j100550a001,aniansson1976,0.658
+3,C9SO4Na,24,-1.209,-0.972,-1.297,25,aniansson1976,CCCCCCCCCOS(=O)(=O)[O-].[Na+],10.1021/j100550a001,aniansson1976,1.222
+33,C10EO2SO4Na,15,-1.9254,-2.108,-2.12,25,roberts2002,CCCCCCCCCCOCCOCCOS(=O)(=O)[O-].[Na+],10.1021/la0108050,roberts2002,1.91
+34,C12EO4SO4Na,26,-2.7849,-3.333,-2.869,25,rosen1996,CCCCCCCCCCCCOCCOCCOCCOCCOS(=O)(=O)[O-].[Na+],10.1007/BF02517990,rosen1996,2.77
+35,C14EOSO4Na,26,-2.8723,-3.045,-2.705,25,rosen1996,CCCCCCCCCCCCCCOCCOS(=O)(=O)[O-].[Na+],10.1007/BF02517990,rosen1996,2.857
+36,C14EO2SO4Na,15,-3.0854,-3.38,-2.989,25,roberts2002,CCCCCCCCCCCCCCOCCOCCOS(=O)(=O)[O-].[Na+],10.1021/la0108050,roberts2002,3.07
+37,C14EO4SO4Na,26,-3.1753,-3.97,-3.279,25,rosen1996,CCCCCCCCCCCCCCOCCOCCOCCOCCOS(=O)(=O)[O-].[Na+],10.1007/BF02517990,rosen1996,3.16
+42,CF4C2C(C3)SO4Na,6,-1.702,-1.819,-1.876,25,miyazawa2003,CCCC(CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)F)OS(=O)(=O)[O-].[Na+],10.1016/j.jfluchem.2003.08.007,miyazawa2003,1.602
+43,CF6C2C(C3)SO4Na,6,-2.498,-2.808,-2.588,25,miyazawa2003,CCCC(CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)OS(=O)(=O)[O-].[Na+],10.1016/j.jfluchem.2003.08.007,miyazawa2003,2.398
+44,CF8C2C(C3)SO4Na,6,-3.42,-3.804,-3.204,25,miyazawa2003,CCCC(CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)OS(=O)(=O)[O-].[Na+],10.1016/j.jfluchem.2003.08.007,miyazawa2003,3.328
+45,CF4C2C(C5)SO4Na,6,-2.141,-2.199,-2.291,25,miyazawa2003,CCCCCC(CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)F)OS(=O)(=O)[O-].[Na+],10.1016/j.jfluchem.2003.08.007,miyazawa2003,2.041
+46,CF6C2C(C5)SO4Na,6,-3.021,-3.182,-2.942,25,miyazawa2003,CCCCCC(CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)OS(=O)(=O)[O-].[Na+],10.1016/j.jfluchem.2003.08.007,miyazawa2003,2.921
+47,CF8C2C(C5)SO4Na,6,-3.896,-4.052,-3.48,25,miyazawa2003,CCCCCC(CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)OS(=O)(=O)[O-].[Na+],10.1016/j.jfluchem.2003.08.007,miyazawa2003,3.796
+48,CF4C2C(C7)SO4Na,6,-2.487,-2.579,-2.681,25,miyazawa2003,CCCCCCCC(CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)F)OS(=O)(=O)[O-].[Na+],10.1016/j.jfluchem.2003.08.007,miyazawa2003,2.387
+49,CF6C2C(C7)SO4Na,6,-3.401,-3.549,-3.283,25,miyazawa2003,CCCCCCCC(CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)OS(=O)(=O)[O-].[Na+],10.1016/j.jfluchem.2003.08.007,miyazawa2003,3.301
+50,CF8C2C(C7)SO4Na,6,-4.255,-4.54,-3.85,25,miyazawa2003,CCCCCCCC(CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)OS(=O)(=O)[O-].[Na+],10.1016/j.jfluchem.2003.08.007,miyazawa2003,4.155
+57,C5PhePhSO3Na,2,-1.817,-2.757,-2.038,25,baczko2004,CCCCCOC(=O)[C@@H](Cc1ccccc1)NC(=O)c1ccccc1S(=O)(=O)[O-].[Na+],10.1016/j.tetasy.2004.01.022,baczko2004,1.854
+58,C8PhePhSO3Na,2,-2.817,-3.289,-2.903,25,baczko2004,CCCCCCCCOC(=O)[C@@H](Cc1ccccc1)NC(=O)c1ccccc1S(=O)(=O)[O-].[Na+],10.1016/j.tetasy.2004.01.022,baczko2004,2.854
+59,C10PhePhSO3Na,2,-3.445,-3.847,-3.494,25,baczko2004,CCCCCCCCCCOC(=O)[C@@H](Cc1ccccc1)NC(=O)c1ccccc1S(=O)(=O)[O-].[Na+],10.1016/j.tetasy.2004.01.022,baczko2004,3.481
+60,C12PheSO3Na,2,-4.164,-3.563,-3.31,25,baczko2004,CCCCCCCCCCCCOC(=O)[C@@H](C)NC(=O)c1ccccc1S(=O)(=O)[O-].[Na+],10.1016/j.tetasy.2004.01.022,baczko2004,4.201
+61,C14PhePhSO3Na,2,-4.759,-4.933,-4.498,25,baczko2004,CCCCCCCCCCCCCCOC(=O)[C@@H](Cc1ccccc1)NC(=O)c1ccccc1S(=O)(=O)[O-].[Na+],10.1016/j.tetasy.2004.01.022,baczko2004,4.796
+62,C12AlaPhSO3Na,2,-3.351,-4.035,-3.359,25,baczko2004,CCCCCCCCCCCCOC(=O)[C@@H](C)NC(=O)c1ccccc1S(=O)(=O)[O-].[Na+],10.1016/j.tetasy.2004.01.022,baczko2004,3.387

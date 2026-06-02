@@ -1,0 +1,5 @@
+compound,cac surface tension (mM),standard_deviation,γmin (mN/m),standard_deviation.1,Γmax ( 106 mol/m2),standard_deviation.2,Amin (nm2),standard_deviation.3,cac conductivity (mM),standard_deviation.4,cac ion chloride (mM),standard_deviation.5,Temp_Celsius,source_doi,reference_doi
+LGG12,0.2,0.05,33.0,1,2.8,0.4,0.58,0.1,8.0,0.01,6.0,0.01,25.0,10.1021/la901675p,
+LGG14,0.07,0.02,31.0,1,2.5,0.4,0.66,0.1,0.7,0.01,1.0,0.01,25.0,10.1021/la901675p,
+LGGdi12,0.03,0.01,24.5,1,5.0,3.0,0.33,0.2,0.5,0.01,0.6,0.01,25.0,10.1021/la901675p,
+LGGdi14,0.06,0.02,25.0,1,8.8,8.0,0.19,0.2,0.4,0.01,0.3,0.01,25.0,10.1021/la901675p,

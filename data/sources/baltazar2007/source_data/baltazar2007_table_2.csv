@@ -1,0 +1,7 @@
+Number,Abbreviation,Substituents 1,Substituents 2,CMC (mM),Surface tension at CMC (mN/m),source_doi,reference_doi,Temp_Celsius,SMILES
+13,C8(BIm)2-2Br,R1: butyl,n: octyl,323.0,47,10.1016/j.colsurfa.2007.02.012,,25.0,CCCC[N+]1=CN(CCCCCCCCN2C=C[N+](CCCC)=C2)C=C1.[Br-].[Br-]
+14,C10(BIm)2-2Br,R1: butyl,n: decyl,117.0,38,10.1016/j.colsurfa.2007.02.012,,25.0,CCCC[N+]1=CN(CCCCCCCCCCN2C=C[N+](CCCC)=C2)C=C1.[Br-].[Br-]
+15,C12(BIm)2-2Br,R1: butyl,n: dodecyl,72.0,46,10.1016/j.colsurfa.2007.02.012,,25.0,CCCC[N+]1=CN(CCCCCCCCCCCCN2C=C[N+](CCCC)=C2)C=C1.[Br-].[Br-]
+16,C10(MIm)2-2Br,R1: methyl,n: decyl,149.0,38,10.1016/j.colsurfa.2007.02.012,,25.0,C[N+]1=CN(CCCCCCCCCCN2C=C[N+](C)=C2)C=C1.[Br-].[Br-]
+17,C4(DIm)2-2Br,R1: decyl,n: butyl,2.0,35,10.1016/j.colsurfa.2007.02.012,,25.0,CCCCCCCCCC[N+]1=CN(CCCCN2C=C[N+](CCCCCCCCCC)=C2)C=C1.[Br-].[Br-]
+18,C12(DIm)2-2Br,R1: decyl,n: dodecyl,0.6,48,10.1016/j.colsurfa.2007.02.012,,25.0,CCCCCCCCCC[N+]1=CN(CCCCCCCCCCCCN2C=C[N+](CCCCCCCCCC)=C2)C=C1.[Br-].[Br-]

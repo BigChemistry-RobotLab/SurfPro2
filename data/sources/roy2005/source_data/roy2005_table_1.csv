@@ -1,0 +1,4 @@
+identifier,cac (mM),πcac (mN m−1),Γmax × 10−6 (mol m−2),A0 (nm2),Rh (nm),Nagg,I1/I3,ηm (mPa s),Tc (K),Tm (K),Temp_Celsius,source_doi,reference_doi,SMILES
+DMEB,4.0,39.0,1.99,0.84,165.0,815000.0,1.21,30.75,301.0,316.5,29.85,10.1016/j.jcis.2005.05.054,,CCCCCCCCCCCC[N+](C)(C)C(C)C(O)C1=CC=CC=C1.[Br-]
+DMEB,3.9,,,,,,,,,,29.85,10.1016/j.jcis.2005.05.054,10.1021/jp9506494,CCCCCCCCCCCC[N+](C)(C)C(C)C(O)C1=CC=CC=C1.[Br-]
+DTAB,14.7,39.0,1.4,1.18,1.39,48.0,1.42,13.23,,,29.85,10.1016/j.jcis.2005.05.054,,CCCCCCCCCCCC[N+](C)(C)C.[Br-]

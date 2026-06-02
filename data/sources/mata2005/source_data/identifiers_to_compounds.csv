@@ -1,0 +1,16 @@
+Surfactants,name,SMILES
+CPyB,hexadecylpyridinium bromide,[Br-].CCCCCCCCCCCCCCCC[n+]1ccccc1
+CPyC,Hexadecylpyridinium chloride,[Cl-].CCCCCCCCCCCCCCCC[n+]1ccccc1
+CPyI,Hexadecylpyridinium iodide,[I-].CCCCCCCCCCCCCCCC[n+]1ccccc1
+CTAB,hexadecyltrimethylammonium bromide,CCCCCCCCCCCCCCCC[N+](C)(C)C.[Br-]
+CTAC,Hexadecyltrimethylammonium chloride,CCCCCCCCCCCCCCCC[N+](C)(C)C.[Cl-]
+CTAT,hexadecyltrimethylammonium p-toluene sulfonate,Cc1ccc(cc1)S([O-])(=O)=O.CCCCCCCCCCCCCCCC[N+](C)(C)C
+DPyB,dodecylpyridinium bromide,[Br-].CCCCCCCCCCCC[n+]1ccccc1
+DPyC,dodecylpyridinium chloride,[Cl-].CCCCCCCCCCCC[n+]1ccccc1
+DPyI,Dodecylpyridinium iodide,[I-].CCCCCCCCCCCC[n+]1ccccc1
+DTAB,dodecyltrimethylammonium bromide,CCCCCCCCCCCC[N+](C)(C)C.[Br-]
+OTAB,octadecyltrimethylammonium bromide,CCCCCCCCCCCCCCCCCC[N+](C)(C)C.[Br-]
+TPicB,tetradecyl-4-picolinium bromide,CCCCCCCCCCCCCC[n+]1ccc(C)cc1.[Br-]
+TPyB,tetradecylpyridinium bromide,[Br-].CCCCCCCCCCCCCC[n+]1ccccc1
+TTAB,tetradecyltrimethylammonium bromide,CCCCCCCCCCCCCC[N+](C)(C)C.[Br-]
+TTPB,tetradecyltriphenylphosphonium bromide,CCCCCCCCCCCCCC[P+](C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3.[Br-]

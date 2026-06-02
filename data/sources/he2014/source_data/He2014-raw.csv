@@ -1,0 +1,7 @@
+Surfactant,cmc (mmol/L),gamma_cmc (mN/m),PC20,CMC/C20,Gamma_m × 10^10 (mol/cm2 ),Amin (Å2 ),Temp,Surfactant_Type,Note,Ref_all,SMILES,Temp_Celsius
+PP3S,0.059,34.4,5.17,8.7,1.66,100.1,25,anionic,Table1: Surface activity parameters of PPn S at 25 ◦ C.,10.1016/j.colsurfa.2014.03.012,CCCCCCCCCc1ccc(OCC(C)OCC(C)OCC(C)OS(=O)[O-])cc1.[Na+],25
+PP6S,0.03,34.1,5.73,16.2,1.29,128.8,25,anionic,Table1: Surface activity parameters of PPn S at 25 ◦ C.,10.1016/j.colsurfa.2014.03.012,CCCCCCCCCc1ccc(OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OS(=O)[O-])cc1.[Na+],25
+PP9S,0.016,33.7,6.17,24.1,1.17,141.4,25,anionic,Table1: Surface activity parameters of PPn S at 25 ◦ C.,10.1016/j.colsurfa.2014.03.012,CCCCCCCCCc1ccc(OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OS(=O)[O-])cc1.[Na+],25
+PP12S,0.012,36.9,6.28,23.2,0.97,170.8,25,anionic,Table1: Surface activity parameters of PPn S at 25 ◦ C.,10.1016/j.colsurfa.2014.03.012,CCCCCCCCCc1ccc(OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OS(=O)[O-])cc1.[Na+],25
+AP8S,0.13,33.2,5.42,34.2,1.08,153,25,not digitised,Table1: Surface activity parameters of PPn S at 25 ◦ C.,10.1016/j.colsurfa.2014.03.012,not digitised,25
+SDS,7.94,38,2.51,2.6,3.16,52.5,25,not digitised,Table1: Surface activity parameters of PPn S at 25 ◦ C.,10.1016/j.colsurfa.2014.03.012,not digitised,25

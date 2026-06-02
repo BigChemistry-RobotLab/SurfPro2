@@ -1,0 +1,4 @@
+Compounds,CMC tensiometry (mM),CMC tensiometry err (mM),CMC conductometry (mM),CMC conductometry err (mM),γCMC (mN/m),Γmax (μmol/m2),Amin (nm2),pC20,ΠCMC (mN/m),CMC/C20,Temp_Celsius,source_doi,reference_doi,SMILES
+C12-PG-C12,1.649,0.04,1.858,0.02,47.87,2.26,0.74,3.01,24.12,1.70,25.0,10.1016/j.molliq.2017.05.092,,CCCCCCCCCCCC[N+](C)(C)CC(=O)OCCCOC(=O)C[N+](C)(C)CCCCCCCCCCCC.[Cl-].[Cl-]
+C14-PG-C14,0.2689,0.02,0.3144,0.01,45.47,1.34,1.24,3.55,26.52,0.95,25.0,10.1016/j.molliq.2017.05.092,,CCCCCCCCCCCCCC[N+](C)(C)CC(=O)OCCCOC(=O)C[N+](C)(C)CCCCCCCCCCCCCC.[Cl-].[Cl-]
+C16-PG-C16,0.0560,0.005,0.0676,0.004,43.24,1.06,1.57,4.44,28.75,1.54,25.0,10.1016/j.molliq.2017.05.092,,CCCCCCCCCCCCCCCC[N+](C)(C)CC(=O)OCCCOC(=O)C[N+](C)(C)CCCCCCCCCCCCCCCC.[Cl-].[Cl-]

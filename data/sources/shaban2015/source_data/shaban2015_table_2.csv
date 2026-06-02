@@ -1,0 +1,10 @@
+Comp,Temp. °C,ΔG°mica kJ·mol-1,ΔHmic kJ·mol-1,ΔSmic kJ·mol-1·K-1,ΔG°adsa kJ·mol-1,ΔHads kJ·mol-1,ΔSads kJ·mol-1·K-1,source_doi,reference_doi,SMILES
+C10Dim,25,-43.26,,,-43.76,,,10.1016/j.molliq.2015.03.043,,CCCCCCCCCC[N+](C)(C)CCC/N=C/c1ccc(OC)c(OC)c1.[Br-]
+C10Dim,40,-48.28,56.57,0.335,-48.82,56.88,0.337,10.1016/j.molliq.2015.03.043,,CCCCCCCCCC[N+](C)(C)CCC/N=C/c1ccc(OC)c(OC)c1.[Br-]
+C10Dim,60,-55.27,61.21,0.35,-55.84,61.11,0.351,10.1016/j.molliq.2015.03.043,,CCCCCCCCCC[N+](C)(C)CCC/N=C/c1ccc(OC)c(OC)c1.[Br-]
+C12Dim,25,-47.74,,,-48.3,,,10.1016/j.molliq.2015.03.043,,CCCCCCCCCCCC[N+](C)(C)CCC/N=C/c1ccc(OC)c(OC)c1.[Br-]
+C12Dim,40,-53.03,57.33,0.352,-53.64,57.92,0.356,10.1016/j.molliq.2015.03.043,,CCCCCCCCCCCC[N+](C)(C)CCC/N=C/c1ccc(OC)c(OC)c1.[Br-]
+C12Dim,60,-59.61,50.01,0.329,-60.25,49.86,0.33,10.1016/j.molliq.2015.03.043,,CCCCCCCCCCCC[N+](C)(C)CCC/N=C/c1ccc(OC)c(OC)c1.[Br-]
+C16Dim,25,-57.76,,,-58.25,,,10.1016/j.molliq.2015.03.043,,CCCCCCCCCCCCCCCC[N+](C)(C)CCC/N=C/c1ccc(OC)c(OC)c1.[Br-]
+C16Dim,40,-61.9,24.52,0.276,-62.45,25.29,0.28,10.1016/j.molliq.2015.03.043,,CCCCCCCCCCCCCCCC[N+](C)(C)CCC/N=C/c1ccc(OC)c(OC)c1.[Br-]
+C16Dim,60,-68.48,41.22,0.329,-69.15,42.44,0.335,10.1016/j.molliq.2015.03.043,,CCCCCCCCCCCCCCCC[N+](C)(C)CCC/N=C/c1ccc(OC)c(OC)c1.[Br-]

@@ -1,0 +1,5 @@
+The article states 'The CMC was determined by measuring the electrical conductivity of surfactant solutions with varying concentration on a conductometer at 25 °C. The conductometric method was based on the finding of a break point on the plots of conductivity against surfactant concentration (Rosen, 2004).'
+However, it is hard to verify the temperatures given the cited references.
+Individual structures are challenging to track backwards through the literature as per-entry references are not given.
+Most of Table 1 in this publication appears to have been obtained from Kardanpour, 2005 (10.1016/j.aca.2004.10.028).
+This source also does not provide per-entry references, and does not state the temperature that the entries were recorded at.

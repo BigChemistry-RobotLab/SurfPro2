@@ -1,0 +1,3 @@
+SMILES,Surfactant_Type,Temp_Celsius,AW_ST_CMC,source_doi,reference_doi,Temp_Celsius.1
+CCCCCCCCn1cc[n+](C)c1.[Cl-],cationic,,37.0,10.1021/la035940m,,25.0
+CCCCCCCCn1cc[n+](C)c1.[I-],cationic,,34.5,10.1021/la035940m,,25.0

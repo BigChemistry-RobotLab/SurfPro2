@@ -1,0 +1,18 @@
+Class,Name Pattern,Formula,Description,Members
+Linear alkylsulfates,c##so4,R-OSO3,Alkylsulfate,"C8, C10, C11, C12, C13, C14, C15, C16, C18"
+Branched alkylsulfates,#c##so4,CxCH(Cy)-OSO3,#-Alkylsulfate,"2C10, 2C14, 2C15, 2C17, 2C18, 3C14, 3C15, 4C14, 4C16, 4C18, 5C14, 5C15, 5C19, 6C16, 6C18, 7C14, 8C15, 8C16, 9C17, 10C19"
+Branched alkylsulfates,#c15cso4,C15–nCH(C(n–1))CH2–OSO3,Pentadecyl-#-methylsulfate,"# = 2, 3, 4, 5, 6, 7, 8"
+Linear alkylsulfonates,c##so3,R–SO3,Alkylsulfonate,"C6, C8, C10, C12, C13, C14, C15, C16, C17"
+Linear alkylsulfonates,c##2zso3,2-alkenesulfonate,"2-Alkenesulfonate","C12, C14, C16, C18"
+Branched alkylsulfonates,#c##so3,CxCH(Cy)-SO3,#-Alkylsulfonate,"2C12, 3C12, 4C12, 5C12, 6C12, 8C15"
+Alkylbenzenesulfonates,c##bso3,R–C6H4–SO3,4-Alkylbenzenesulfonate,"C7, C8"
+Alkylbenzenesulfonates,#c##bso3,R–C6H4–SO3,4-(#-Alkyl)benzenesulfonate,"2C10, 2C11, 2C12, 2C13, 2C15, 3C9, 3C10, 3C12, 4C12, 5C10, 6C12"
+3-Substituted alkylsulfonates,c##3Xso3,C##–3C(X)C2–SO3,3-(X)-Alkylsulfonate,"X = A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,X; C12: A–L,X; C14: A,J,K,L,M,N,O,P,Q,R,X; C16: A,B,D,F,X; C18: A"
+Other oxy-containing sulfates/sulfonates,c12e#so4,C12–(OC2H4)#–OSO3,Dodecyl[di]oxyethylsulfate,"# = 1, 2"
+Other oxy-containing sulfates/sulfonates,c10eso3,C10–(OC2H4)–SO3,Decyloxyethylsulfonate,
+Other oxy-containing sulfates/sulfonates,c##aso3,R–OC(O)–CH2–SO3,Alkyl acetate 2‑sulfonate,"C6, C8, C10"
+Other oxy-containing sulfates/sulfonates,c14pso3,C14–OC(O)–C2H4–SO3,Tetradecyl propionate 3‑sulfonate,
+Other oxy-containing sulfates/sulfonates,c##ohso3,R–CH(SO3)–CH2OH,1‑Hydroxy‑2‑alkylsulfonate,"C12, C14"
+Other oxy-containing sulfates/sulfonates,c##1Xso3,R–(SO3)–C(O)O–X,1‑Carboalkoxyalkylsulfonate,"X=S; C11:S; C13:S; C15:S,T,U; C17:S,T,U,V"
+Dialkyl sulfosuccinates,c#c#succ,R–OC(O)CH(SO3)CH2C(O)O–R,Dialkyl sulfosuccinate,"C4, C5, C6, C8"
+Dialkyl sulfosuccinates,aot,Bis-2-ethylhexyl sulfosuccinate,Aerosol OT,"i‑C8"

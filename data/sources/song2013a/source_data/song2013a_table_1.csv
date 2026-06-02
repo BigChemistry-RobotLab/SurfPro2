@@ -1,0 +1,4 @@
+identifier,Surface Tension CMC (mM),Surface Tension γCMC (mN/m),Surface Tension Γmax10-10 (mol/cm2),Surface Tension Amin (A ̊ 2),Conductivity CMC (mM),Conductivity β,Conductivity Gmic  0 (kJ/mol),SMILES,Temp_Celsius,source_doi,reference_doi
+2a,145.0,35.9,1.58,105.0,130.0,0.68,-49.2,C[N+](CCCCNC(N(C)C)=[NH2+])(C)CCCCCCCC.[Br-].[Br-],25,10.1007/s11743-012-1417-1,
+2b,16.9,33.7,1.77,93.6,18.5,0.72,-51.5,C[N+](CCCCNC(N(C)C)=[NH2+])(C)CCCCCCCCCC.[Br-].[Br-],25,10.1007/s11743-012-1417-1,
+2c,2.05,31.9,1.97,84.3,2.31,0.76,-55.8,C[N+](CCCCNC(N(C)C)=[NH2+])(C)CCCCCCCCCCCC.[Br-].[Br-],25,10.1007/s11743-012-1417-1,

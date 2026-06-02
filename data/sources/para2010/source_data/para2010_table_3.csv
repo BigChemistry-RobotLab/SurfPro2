@@ -1,0 +1,9 @@
+Compound,Abbreviation,cmc [mM],γ [mN/m],-(d /dlgc)T, Γ × 1010 [mol/cm2],Surface area [A2],Temp_Celsius,source_doi,reference_doi,SMILES
+"N-(n-dodecyl)-N,N,N-trialkylammonium bromides",DDTEABr,11.0,39.0,27.6,2.87,57.9,21.85,10.1016/j.colsurfa.2010.02.004,,CC[N+](CC)(CC)CCCCCCCCCCCC.[Br-]
+"N-(n-dodecyl)-N,N,N-trialkylammonium bromides",DDTPABr,8.5,39.0,26.8,2.38,69.8,21.85,10.1016/j.colsurfa.2010.02.004,,CCC[N+](CCC)(CCC)CCCCCCCCCCCC.[Br-]
+"N-(n-dodecyl)-N,N,N-trialkylammonium bromides",DDTBABr,4.5,35.5,32.3,2.45,67.8,21.85,10.1016/j.colsurfa.2010.02.004,,CCCC[N+](CCCC)(CCCC)CCCCCCCCCCCC.[Br-]
+"N,N-(dialkyl)-N,N-dimethylammonium bromides",dDDABr,1.2,25.0,25.9,2.3,72.0,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(CCCCCCCCCC)CCCCCCCCCC.[Br-]
+"N,N-(dialkyl)-N,N-dimethylammonium bromides",dDDDABr,0.07,26.0,32.6,2.9,57.0,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(CCCCCCCCCCCC)CCCCCCCCCCCC.[Br-]
+"N,N,N’,N’-tetramethyl-N,N’-di(dodecyl)alkylenediammonium bromides",d(DDA)EBr,0.85,31.5,36.2,2.14,77.0,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(CCCCCCCCCCCC)CC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-]
+"N,N,N’,N’-tetramethyl-N,N’-di(dodecyl)alkylenediammonium bromides",d(DDA)PBr,1.0,34.0,34.1,2.02,82.0,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(CCCCCCCCCCCC)CCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-]
+"N,N,N’,N’-tetramethyl-N,N’-di(dodecyl)alkylenediammonium bromides",d(DDA)BBr,1.17,38.0,29.8,1.76,94.4,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(CCCCCCCCCCCC)CCCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-]

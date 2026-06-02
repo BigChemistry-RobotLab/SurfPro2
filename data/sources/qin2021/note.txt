@@ -1,0 +1,10 @@
+The following file were obtained from [https://github.com/zavalab/ML/tree/master/CMC_GCN/data](https://github.com/zavalab/ML/tree/master/CMC_GCN/data):
+
+- `dataset_122.csv`
+- `dataset_202.csv`
+
+
+CCCCCCSC1OC(=O)C(O)C1O: incorrect SMILES for S-Hexyl 5-Thio-Arabinonolactone
+There may be more examples of this. Note that pubchem alse gives a strange structure for this one.
+
+"CCCCCCCCCCCCOCCOCCOCCOCCO" for "propaethylene glycol monododecyl ether" could be wrong

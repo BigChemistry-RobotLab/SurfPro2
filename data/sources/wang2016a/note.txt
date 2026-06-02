@@ -1,0 +1,4 @@
+The units in the table are inconsistent for CMC.
+The reported CMC for C12TAB should be around 0.015 M according to other sources, so there is likely a unit conversion error.
+The units for CMC are assumed to be incorrectly reported, and should be in mM, not M.
+The processing reflects this assumption.

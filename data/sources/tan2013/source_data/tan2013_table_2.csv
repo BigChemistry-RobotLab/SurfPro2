@@ -1,0 +1,4 @@
+Surfactants,γCMC (mN m−1),πCMC (mN m−1),Γmax (μmol m−2),Amin (Å2),source_doi,reference_doi,Temp_Celsius,SMILES
+Si4mam-OHCl,21.2,51.3,1.01,164.5,10.1016/j.colsurfa.2012.10.041,,25.0,OCC[N+](C)(C)CCC[Si](O[Si](C)(C)C)(O[Si](C)(C)C)O[Si](C)(C)C.[Cl-]
+Si4mimCl,20.4,52.1,0.84,197.5,10.1016/j.colsurfa.2012.10.041,,25.0,C[Si](C)(C)O[Si](O[Si](C)(C)C)(O[Si](C)(C)C)CCC[N+]1=CN(C)C=C1.[Cl-]
+Si4pyCl,20.0,52.5,1.24,134.0,10.1016/j.colsurfa.2012.10.041,,25.0,C[Si](C)(C)O[Si](O[Si](C)(C)C)(O[Si](C)(C)C)CCC[N+]1(C)CCCC1.[Cl-]

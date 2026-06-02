@@ -1,0 +1,793 @@
+{
+    "2-decanediol": [
+        "CCCCCCCCC(O)CCO",
+        "CCCCCCCCCCN(C)C(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO",
+        "CCCCCCCCC(O)CO",
+        "CCCCCCCCCCCC(=O)OCC1OC(OCC2OC(OCC3OC(OC4(CO)OC(CO)C(O)C4O)C(O)C(O)C3O)C(O)C(O)C2O)C(O)C(O)C1O",
+        "CCCCCCCCCCCCC(C(=O)OCC)S(=O)(=O)[O-].[Na+]"
+    ],
+    "1,3-undecanediol": [
+        "CCCCCCCCC(O)CCO",
+        "CCCCCCCCCCN(C)C(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO",
+        "CCCCCCCCC(O)CO",
+        "CCCCCCCCCCCC(=O)OCC1OC(OCC2OC(OCC3OC(OC4(CO)OC(CO)C(O)C4O)C(O)C(O)C3O)C(O)C(O)C2O)C(O)C(O)C1O",
+        "CCCCCCCCCCCCC(C(=O)OCC)S(=O)(=O)[O-].[Na+]"
+    ],
+    "6-O-Dodecanoylstachyose": [
+        "CCCCCCCCC(O)CCO",
+        "CCCCCCCCCCN(C)C(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO",
+        "CCCCCCCCC(O)CO",
+        "CCCCCCCCCCCC(=O)OCC1OC(OCC2OC(OCC3OC(OC4(CO)OC(CO)C(O)C4O)C(O)C(O)C3O)C(O)C(O)C2O)C(O)C(O)C1O",
+        "CCCCCCCCCCCCC(C(=O)OCC)S(=O)(=O)[O-].[Na+]"
+    ],
+    "N-Decyl-N-Methyl Lactobionamide": [
+        "CCCCCCCCC(O)CCO",
+        "CCCCCCCCCCN(C)C(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO",
+        "CCCCCCCCC(O)CO",
+        "CCCCCCCCCCCC(=O)OCC1OC(OCC2OC(OCC3OC(OC4(CO)OC(CO)C(O)C4O)C(O)C(O)C3O)C(O)C(O)C2O)C(O)C(O)C1O",
+        "CCCCCCCCCCCCC(C(=O)OCC)S(=O)(=O)[O-].[Na+]"
+    ],
+    "C12H25CH(SO3-Na+)COOC2H5": [
+        "CCCCCCCCC(O)CCO",
+        "CCCCCCCCCCN(C)C(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO",
+        "CCCCCCCCC(O)CO",
+        "CCCCCCCCCCCC(=O)OCC1OC(OCC2OC(OCC3OC(OC4(CO)OC(CO)C(O)C4O)C(O)C(O)C3O)C(O)C(O)C2O)C(O)C(O)C1O",
+        "CCCCCCCCCCCCC(C(=O)OCC)S(=O)(=O)[O-].[Na+]",
+        "CCCCCCCCC(CC)OS(=O)(=O)[O-].CCC[N+](CCC)(CCC)CCC"
+    ],
+    "1,3-pentadecanediol": [
+        "CCCCCCCCCCCCC(O)CCO"
+    ],
+    "octyl glycol ether": [
+        "CCCCCCCCOCCO",
+        "CC(C)CCCC(C)CCOC1OC(CO)C(OC2OC(CO)C(OC3OC(CO)C(O)C(O)C3O)C(O)C2O)C(O)C1O",
+        "OCCOCCOCCOCCOCCOCCOCCOCCSCCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+        "O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F.[Li+]"
+    ],
+    "C6F13C2H4S(OC2H4)7OH": [
+        "CCCCCCCCOCCO",
+        "O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F.[Li+]",
+        "OCCOCCOCCOCCOCCOCCOCCOCCSCCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F"
+    ],
+    "3,7-Dimethyloctyl-Maltotrioside": [
+        "CCCCCCCCOCCO",
+        "O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F.[Li+]",
+        "CC(C)CCCC(C)CCOC1OC(CO)C(OC2OC(CO)C(OC3OC(CO)C(O)C(O)C3O)C(O)C2O)C(O)C1O"
+    ],
+    "C8F17COO-Li+": [
+        "CCCCCCCCOCCO",
+        "CC(C)CCCC(C)CCOC1OC(CO)C(OC2OC(CO)C(OC3OC(CO)C(O)C(O)C3O)C(O)C2O)C(O)C1O",
+        "OCCOCCOCCOCCOCCOCCOCCOCCSCCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+        "O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F.[Li+]"
+    ],
+    "triethylene glycol monooctyl ether": [
+        "CCCCCCCCOCCOCCOCCO",
+        "CCCCCCCCCCCC[N+](C)(C)CCCC.[Br-]"
+    ],
+    "C12H25N+(C4H9)(CH3)2Br-": [
+        "CCCCCCCCOCCOCCOCCO",
+        "CCCCCCCCCCCC[N+](C)(C)CCCC.[Br-]"
+    ],
+    "pentaethylene glycol monooctyl ether": [
+        "CCCCCCOCC(O)C(O)C(O)CO",
+        "CCCCCCCOCC(O)C(O)C(O)CO",
+        "CCCCCCCCOCCOCCOCCOCCOCCO",
+        "CCCCCCCCCCCCS(=O)(=O)[O-].[K+]"
+    ],
+    "1-O-Heptyl-Xylitol": [
+        "CCCCCCOCC(O)C(O)C(O)CO",
+        "CCCCCCCOCC(O)C(O)C(O)CO",
+        "CCCCCCCCOCCOCCOCCOCCOCCO",
+        "CCCCCCCCCCCCS(=O)(=O)[O-].[K+]"
+    ],
+    "1-O-Hexyl-Xylitol": [
+        "CCCCCCOCC(O)C(O)C(O)CO",
+        "CCCCCCCOCC(O)C(O)C(O)CO",
+        "CCCCCCCCOCCOCCOCCOCCOCCO",
+        "CCCCCCCCCCCCS(=O)(=O)[O-].[K+]"
+    ],
+    "C12H25SO3-K+": [
+        "CCCCCCOCC(O)C(O)C(O)CO",
+        "CCCCCCCOCC(O)C(O)C(O)CO",
+        "CCCCCCCCOCCOCCOCCOCCOCCO",
+        "CCCCCCCCCCCCS(=O)(=O)[O-].[K+]"
+    ],
+    "hexaethylene glycol monooctyl ether": [
+        "CCCCCCC(=O)OCC(O)C(O)C(O)CO",
+        "CCCCCCCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "1-O-Heptanoyl-Xylitol": [
+        "CCCCCCC(=O)OCC(O)C(O)C(O)CO",
+        "CCCCCCCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "propaethylene glycol monodecyl ether": [
+        "CCCCCCCCCCOCCOCCOCCOCCO"
+    ],
+    "pentaethylene glycol monodecyl ether": [
+        "CCCCCCCCCCOCCOCCOCCOCCOCCO"
+    ],
+    "hexaethylene glycol monodecyl ether": [
+        "CCCCCCCCOC(=O)CC(C(=O)OCCCCCCCC)S(=O)(=O)[O-].[Na+]",
+        "CCCCCCCCCCCCCCCC[n+]1ccccc1.[Cl-]",
+        "CCCCCCCCCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "C16H33Pyr+Cl-": [
+        "CCCCCCCCOC(=O)CC(C(=O)OCCCCCCCC)S(=O)(=O)[O-].[Na+]",
+        "CCCCCCCCCCCCCCCC[n+]1ccccc1.[Cl-]",
+        "CCCCCCCCCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "C8H17OOCCH2CH(SO3-Na+)COOC8H17": [
+        "CCCCCCCCOC(=O)CC(C(=O)OCCCCCCCC)S(=O)(=O)[O-].[Na+]",
+        "CCCCCCCCCCCCCCCC[n+]1ccccc1.[Cl-]",
+        "CCCCCCCCCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "octaethylene glycol monodecyl ether": [
+        "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCOCCOCCOCCOCCOCCOCCO)cc1",
+        "CCCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCO",
+        "CCCCCCCCCCCCCCCC[N+](C)(C)C.[Br-]",
+        "CCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "C16H33N+(CH3)3Br-": [
+        "CCCCCCCCCCCCCCCC[N+](C)(C)C.[Br-]",
+        "CCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "p-t-C8H17C6H4O(C2H4O)9H": [
+        "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCOCCOCCOCCOCCOCCOCCO)cc1",
+        "CCCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "diethylene glycol monododecyl ether": [
+        "CCCCCCCCCCSC1OC(=O)C(O)C1O",
+        "CCCCCCCCCCCCOCCOCCO"
+    ],
+    "S-Decyl 5-Thio-Arabinonolactone": [
+        "CCCCCCCCCCSC1OC(=O)C(O)C1O",
+        "CCCCCCCCCCCCOCCOCCO"
+    ],
+    "triethylene glycol monododecyl ether": [
+        "CCCCCCCCCCCCOCCOCCOCCO"
+    ],
+    "propaethylene glycol monododecyl ether": [
+        "CCCCCCCCCCCCOCCOCCOCCOCCO",
+        "CCCCCCCCCCCCOCCOCCOCCOCCOCCO"
+    ],
+    "pentaethylene glycol monododecyl ether": [
+        "CCCCCCCCCCCCOCCOCCOCCOCCO",
+        "CCCCCCCCCCCCOCCOCCOCCOCCOCCO"
+    ],
+    "heptaethylene glycol monododecyl ether": [
+        "CCCCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "octaethylene glycol monododecyl ether": [
+        "CCCCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "pentaethylene glycol monotridecyl ether": [
+        "CCCCCCCCCCCCCOCCOCCOCCOCCOCCO"
+    ],
+    "octaethylene glycol monotridecyl ether": [
+        "CCCCCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "hexaethylene glycol monotetradecyl ether": [
+        "CCCCCCCCCCCCCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "octaethylene glycol monotetradecyl ether": [
+        "CCCCCCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "octaethylene glycol monopentadecyl ether": [
+        "CCCCCCCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "hexaethylene glycol monohexadecyl ether": [
+        "CCCCCCCCCCCCCCCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "heptaethylene glycol monohexadecyl ether": [
+        "CCCCCCCCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCO",
+        "CCCCCCCCCCCCCCCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "nonaethylene glycol monohexadecyl ether": [
+        "CCCCCCCCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "dodecaethylene glycol monohexadecyl ether": [
+        "CCCCCCCCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "pentadecaethylene glycol monohexadecyl ether": [
+        "CCCCCCCCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "henicosaethylene glycol monohexadecyl ether": [
+        "CCCCCCCCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "N,N-Bis(2-hydroxyethyl)dodecanamide": [
+        "CCCCCCCCCCCC(=O)N(CCO)CCO"
+    ],
+    "C6F13C2H4S(OC2H4)2OH": [
+        "OCCOCCOCCSCCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+        "CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)[O-].[Na+]"
+    ],
+    "C4H9CH(C2H5)CH2OOCCH2CH(SO3-Na+)COOCH2CH(C2H5)C4H9": [
+        "OCCOCCOCCSCCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+        "CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)[O-].[Na+]"
+    ],
+    "C6F13C2H4S(OC2H4)3OH": [
+        "OCCOCCOCCOCCSCCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F"
+    ],
+    "C6F13C2H4S(OC2H4)5OH": [
+        "OCCOCCOCCOCCOCCOCCSCCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F"
+    ],
+    "hexyl-D-maltonamide": [
+        "CCCCCCNC(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "p-t-C8H17C6H4O(C2H4O)10H": [
+        "CCCCCCCCCCCC(=O)OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O",
+        "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO)cc1"
+    ],
+    "6'-O-Dodecanoylmaltose": [
+        "CCCCCCCCCCCC(=O)OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O",
+        "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO)cc1"
+    ],
+    "p-t-C8H17C6H4O(C2H4O)2H": [
+        "CC(C)(C)CC(C)(C)c1ccc(OCCOCCO)cc1",
+        "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCOCCO)cc1"
+    ],
+    "p-t-C8H17C6H4O(C2H4O)4H": [
+        "CC(C)(C)CC(C)(C)c1ccc(OCCOCCO)cc1",
+        "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCOCCO)cc1"
+    ],
+    "p-t-C8H17C6H4O(C2H4O)3H": [
+        "CCCCCCCCCC(=O)CC(=O)NC1CCOC1=O",
+        "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCO)cc1"
+    ],
+    "3-oxo-C12-AHL": [
+        "CCCCCCCCCC(=O)CC(=O)NC1CCOC1=O",
+        "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCO)cc1"
+    ],
+    "p-t-C8H17C6H4O(C2H4O)5H": [
+        "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCOCCOCCO)cc1"
+    ],
+    "p-t-C8H17C6H4O(C2H4O)6H": [
+        "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCOCCOCCOCCO)cc1"
+    ],
+    "p-t-C8H17C6H4O(C2H4O)7H": [
+        "CCCCCCCCCCCCN(C)C(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO",
+        "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCOCCOCCOCCOCCO)cc1"
+    ],
+    "N-Dodecyl-N-Methyl Lactobionamide": [
+        "CCCCCCCCCCCCN(C)C(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO",
+        "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCOCCOCCOCCOCCO)cc1"
+    ],
+    "p-t-C8H17C6H4O(C2H4O)8H": [
+        "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCOCCOCCOCCOCCOCCO)cc1"
+    ],
+    "sucrose monooleate": [
+        "CCCCCCCCC=CCCCCCCCC(=O)OC1(OC2(CO)OC(CO)C(O)C2O)OC(CO)C(O)C(O)C1O"
+    ],
+    "3-oxo-C8-AHL": [
+        "CCCCCC(=O)CC(=O)NC1CCOC1=O",
+        "CCCCCCCCC(CC)OS(=O)(=O)[O-].CCC[N+](CCC)(CCC)CCC"
+    ],
+    "C12H25SO4-N(C3H7)4+": [
+        "CCCCCC(=O)CC(=O)NC1CCOC1=O",
+        "CCCCCCCCC(CC)OS(=O)(=O)[O-].CCC[N+](CCC)(CCC)CCC"
+    ],
+    "C12-AHL": [
+        "CCCCCCCCCCCC(=O)NC1CCOC1=O"
+    ],
+    "C16-AHL": [
+        "CCCCCCCCCCCCCCCC(=O)NC1CCOC1=O"
+    ],
+    "Octyl-Glycerol": [
+        "CCCCCCCCOCC(O)CO",
+        "CCCCCCCCNC(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "Octyl-Maltonamide": [
+        "CCCCCCCCOCC(O)CO",
+        "CCCCCCCCNC(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "Octyl-glucoside": [
+        "CCCCCCCCOC1OC(CO)C(O)C(O)C1O",
+        "CCCCCCCCCCCC[N+]CCO.[Cl-]"
+    ],
+    "C12H25NH+(CH2CH2OH)3Cl-": [
+        "CCCCCCCCOC1OC(CO)C(O)C(O)C1O",
+        "CCCCCCCCCCCC[N+]CCO.[Cl-]"
+    ],
+    "1-O-Butyl-Xylitol": [
+        "CCCCCC(=O)OCC(O)C(O)C(O)CO",
+        "CCCCOCC(O)C(O)C(O)CO"
+    ],
+    "1-O-Hexanoyl-Xylitol": [
+        "CCCCCC(=O)OCC(O)C(O)C(O)CO",
+        "CCCCOCC(O)C(O)C(O)CO"
+    ],
+    "1-O-Decanoyl-Xylitol": [
+        "CCCCCCCCCC(=O)OCC(O)C(O)C(O)CO"
+    ],
+    "1-O-Nonanoyl-Xylitol": [
+        "CCCCCCCCC(=O)OCC(O)C(O)C(O)CO"
+    ],
+    "1-Methylnonyl-Glucoside": [
+        "CCCCCCCCC(=O)OCC(O)C(O)C(O)CO",
+        "CCCCCCCCC(C)OC1OC(CO)C(O)C(O)C1O",
+        "CCCCCCCCCCCC[N+](C)(C)CCCC(=O)[O-]",
+        "CCCCCCCCCCCCCC[N+](C)(C)C.[Cl-]"
+    ],
+    "C14H29N+(CH3)3Cl-": [
+        "CCCCCCCCC(=O)OCC(O)C(O)C(O)CO",
+        "CCCCCCCCC(C)OC1OC(CO)C(O)C(O)C1O",
+        "CCCCCCCCCCCC[N+](C)(C)CCCC(=O)[O-]",
+        "CCCCCCCCCCCCCC[N+](C)(C)C.[Cl-]"
+    ],
+    "1-O-Nonyl-Xylitol": [
+        "CCCCCCCCCCCCCC[N+](CCC)(CCC)CCC.[Br-]",
+        "CCCCCCCCCCCCCCOS(=O)(=O)[O-].[Na+]",
+        "CCCCCCCCCOCC(O)C(O)C(O)CO"
+    ],
+    "C14H29N+(C3H7)3Br-": [
+        "CCCCCCCCCCCCCC[N+](CCC)(CCC)CCC.[Br-]",
+        "CCCCCCCCCCCCCCOS(=O)(=O)[O-].[Na+]",
+        "CCCCCCCCCOCC(O)C(O)C(O)CO"
+    ],
+    "C14H29SO4-Na+": [
+        "CCCCCCCCCCCCCC[N+](CCC)(CCC)CCC.[Br-]",
+        "CCCCCCCCCCCCCCOS(=O)(=O)[O-].[Na+]",
+        "CCCCCCCCCOCC(O)C(O)C(O)CO"
+    ],
+    "1-O-Octanoyl-Xylitol": [
+        "CCCCCCCCCC[N+](C)(C)CC(=O)[O-]",
+        "CCCCCCCC(=O)OCC(O)C(O)C(O)CO"
+    ],
+    "C10H21N+(CH3)2CH2COO-": [
+        "CCCCCCCCCC[N+](C)(C)CC(=O)[O-]",
+        "CCCCCCCC(=O)OCC(O)C(O)C(O)CO"
+    ],
+    "1-O-Octyl-Xylitol": [
+        "CCCCCCCCOCC(O)C(O)C(O)CO",
+        "CCCCCCCCCC(=O)N(C)CC(O)C(O)C(O)C(O)CO",
+        "CCCCCCSC1OC(=O)C(O)C1O"
+    ],
+    "Decanoyl-N-Methylglucamine": [
+        "CCCCCCCCOCC(O)C(O)C(O)CO",
+        "CCCCCCCCCC(=O)N(C)CC(O)C(O)C(O)C(O)CO",
+        "CCCCCCSC1OC(=O)C(O)C1O"
+    ],
+    "S-Hexyl 5-Thio-Arabinonolactone": [
+        "CCCCCCCCOCC(O)C(O)C(O)CO",
+        "CCCCCCCCCC(=O)N(C)CC(O)C(O)C(O)C(O)CO",
+        "CCCCCCSC1OC(=O)C(O)C1O"
+    ],
+    "1-O-Pentanoyl-Xylitol": [
+        "CCCCC(=O)OCC(O)C(O)C(O)CO"
+    ],
+    "1-O-Pentyl-Xylitol": [
+        "CCCCCOCC(O)C(O)C(O)CO"
+    ],
+    "S-Butyl-1-Thio-Xylitol": [
+        "CCCCSCC(O)C(O)C(O)CO"
+    ],
+    "S-Pentyl-1-Thio-Xylitol": [
+        "CCCCCCCCCCCC[NH2+]CCO.[Cl-]",
+        "CCCCCSCC(O)C(O)C(O)CO",
+        "CCCCCCCC(=O)NC1C(O)OC(CO)C(O)C1O"
+    ],
+    "Octanoyl-Galactosylamine": [
+        "CCCCCCCCCCCC[NH2+]CCO.[Cl-]",
+        "CCCCCCCCCC[n+]1ccccc1.[Br-]",
+        "CCCCCSCC(O)C(O)C(O)CO",
+        "CCCCCCCC(=O)NC1C(O)OC(CO)C(O)C1O"
+    ],
+    "C12H25NH2+CH2CH2OHCl-": [
+        "CCCCCCCCCCCC[NH2+]CCO.[Cl-]",
+        "CCCCCCCCCC[n+]1ccccc1.[Br-]",
+        "CCCCCSCC(O)C(O)C(O)CO",
+        "CCCCCCCC(=O)NC1C(O)OC(CO)C(O)C1O"
+    ],
+    "1-Butylhexyl-Glucoside": [
+        "CCCCCC(CCCC)OC1OC(CO)C(O)C(O)C1O"
+    ],
+    "1-Ethyloctyl-Glucoside": [
+        "CCCCCCCCSC1OC(CO)C(O)C(O)C1O",
+        "CCCCCCCC(CC)OC1OC(CO)C(O)C(O)C1O"
+    ],
+    "Octyl-Thioglucoside": [
+        "CCCCCCCCSC1OC(CO)C(O)C(O)C1O",
+        "CCCCCCCC(CC)OC1OC(CO)C(O)C(O)C1O"
+    ],
+    "C12H25N+(CH3)2(CH2)3COO-": [
+        "CCCCCCCCC(C)OC1OC(CO)C(O)C(O)C1O",
+        "CCCCCCCCCCCC[N+](C)(C)CCCC(=O)[O-]",
+        "CCCCCCCCCCCCCC[N+](C)(C)C.[Cl-]"
+    ],
+    "1-Propylheptyl-Glucoside": [
+        "CCCCCCC(CCC)OC1OC(CO)C(O)C(O)C1O",
+        "CCCCCCSCC(O)C(O)C(O)CO"
+    ],
+    "S-Hexyl 1-Thio-Xylitol": [
+        "CCCCCCC(CCC)OC1OC(CO)C(O)C(O)C1O",
+        "CCCCCCSCC(O)C(O)C(O)CO"
+    ],
+    "6-O-[(Hexyloctyl)-3-Propylsulfide)ethanoyl]-Mannose": [
+        "CCCCCCCC(CCCCCC)SCCC(=O)OCC1(O)C(O)C(O)C(O)C1O"
+    ],
+    "Nonanoyl-N-Methylglucamine": [
+        "CCCCCCCCC(=O)N(C)CC(O)C(O)C(O)C(O)CO",
+        "CCCCCCCCCCC[n+]1ccccc1.[Br-]"
+    ],
+    "C11H23Pyr+Br-": [
+        "CCCCCCCCC(=O)N(C)CC(O)C(O)C(O)C(O)CO",
+        "CCCCCCCCCCC[n+]1ccccc1.[Br-]"
+    ],
+    "Octanoyl-N-Methylglucamine": [
+        "CCCCCCCCCC[N+](C)(C)C.[Cl-]",
+        "CCCCCCCC(=O)N(C)CC(O)C(O)C(O)C(O)CO",
+        "CCCCCCCCCC[N+](C)(C)C.[Br-]",
+        "CCCCCCCC(=O)NC1OC(CO)C(O)C(O)C1O"
+    ],
+    "Octanoyl-Glucosylamine": [
+        "CCCCCCCC(=O)N(C)CC(O)C(O)C(O)C(O)CO",
+        "CCCCCCCC(=O)NC1OC(CO)C(O)C(O)C1O"
+    ],
+    "C10H21N+(CH3)3Br-": [
+        "CCCCCCCCCC[N+](C)(C)C.[Cl-]",
+        "CCCCCCCC(=O)N(C)CC(O)C(O)C(O)C(O)CO",
+        "CCCCCCCCCC[N+](C)(C)C.[Br-]"
+    ],
+    "C10H21N+(CH3)3Cl-": [
+        "CCCCCCCCCC[N+](C)(C)C.[Cl-]",
+        "CCCCCCCC(=O)N(C)CC(O)C(O)C(O)C(O)CO",
+        "CCCCCCCCCC[N+](C)(C)C.[Br-]"
+    ],
+    "6-O-Dodecanoylraffinose": [
+        "CCCCCCCCCCCC(=O)OCC1OC(OCC2OC(OC3(CO)OC(CO)C(O)C3O)C(O)C(O)C2O)C(O)C(O)C1O"
+    ],
+    "6-O-Dodecanoylsucrose": [
+        "CCCCCCCCCCCC(=O)OCC1OC(OC2(CO)OC(CO)C(O)C2O)C(O)C(O)C1O",
+        "CCCCCCCCCCCC(=O)N(C)CC(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "N-Dodecanoyl-N-Methyl Lactitolamine": [
+        "CCCCCCCCCCCC(=O)OCC1OC(OC2(CO)OC(CO)C(O)C2O)C(O)C(O)C1O",
+        "CCCCCCCCCCCC(=O)N(C)CC(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "S-Decyl 1-Thio-Xylitol": [
+        "CCCCCCCCCCSCC(O)C(O)C(O)CO"
+    ],
+    "S-Octyl 1-Thio-Xylitol": [
+        "CCCCCCCCCCCCCC[N+](CCCC)(CCCC)CCCC.[Br-]",
+        "CCCCCCCCSCC(O)C(O)C(O)CO"
+    ],
+    "C14H29N+(C4H9)3Br-": [
+        "CCCCCCCCCCCCCC[N+](CCCC)(CCCC)CCCC.[Br-]",
+        "CCCCCCCCSCC(O)C(O)C(O)CO"
+    ],
+    "S-Octyl 5-Thio-Arabinonolactone": [
+        "CCCCCCCCSC1OC(=O)C(O)C1O"
+    ],
+    "3,7-Dimethyloctyl-Glucoside": [
+        "CC(C)CCCC(C)CCOC1OC(CO)C(O)C(O)C1O"
+    ],
+    "3,7-Dimethyloctyl-Maltoside": [
+        "CC(C)CCCC(C)CCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O",
+        "CCCCCCCCCCCCC[n+]1ccccc1.[Br-]",
+        "CCCCCCCCCCCC[n+]1ccccc1.[I-]",
+        "CCCCCCCCCCC(C(=O)[O-])[n+]1ccccc1"
+    ],
+    "C12H25Pyr+I-": [
+        "CC(C)CCCC(C)CCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O",
+        "CCCCCCCCCCCCC[n+]1ccccc1.[Br-]",
+        "CCCCCCCCCCCC[n+]1ccccc1.[I-]",
+        "CCCCCCCCCCC(C(=O)[O-])[n+]1ccccc1"
+    ],
+    "C13H27Pyr+Br-": [
+        "CC(C)CCCC(C)CCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O",
+        "CCCCCCCCCCCCC[n+]1ccccc1.[Br-]",
+        "CCCCCCCCCCCC[n+]1ccccc1.[I-]",
+        "CCCCCCCCCCC(C(=O)[O-])[n+]1ccccc1"
+    ],
+    "C10H21CH(Pyr+)COO-": [
+        "CC(C)CCCC(C)CCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O",
+        "CCCCCCCCCCCCC[n+]1ccccc1.[Br-]",
+        "CCCCCCCCCCCC[n+]1ccccc1.[I-]",
+        "CCCCCCCCCCC(C(=O)[O-])[n+]1ccccc1"
+    ],
+    "2-Amino-2-Deoxy-Nonyl-Glucoside": [
+        "CCCCCCCCCOC1OC(CO)C(O)C(O)C1N",
+        "CCCCCCCCCOC1OC(CO)C(O)C(O)C1O"
+    ],
+    "Nonyl-Glucoside": [
+        "CCCCCCCCCOC1OC(CO)C(O)C(O)C1N",
+        "CCCCCCCCCOC1OC(CO)C(O)C(O)C1O"
+    ],
+    "2-Amino-2-Deoxy-Octyl-Glucoside": [
+        "CCCCCCCCOC1OC(CO)C(O)C(O)C1N"
+    ],
+    "N-Decyl-N-Methyl Gluconamide": [
+        "CCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO",
+        "CCCCCCCCCCCCCCC[n+]1ccccc1.[Br-]",
+        "CCCCCCCCCCN(C)C(=O)C(O)C(O)C(O)C(O)CO",
+        "CCCCCCCCCCNC(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "Decyl-Maltonamide": [
+        "CCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO",
+        "CCCCCCCCCCCCCCC[n+]1ccccc1.[Br-]",
+        "CCCCCCCCCCN(C)C(=O)C(O)C(O)C(O)C(O)CO",
+        "CCCCCCCCCCNC(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "nonaethylene glycol monodecyl ether": [
+        "CCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO",
+        "CCCCCCCCCCCCCCC[n+]1ccccc1.[Br-]",
+        "CCCCCCCCCCN(C)C(=O)C(O)C(O)C(O)C(O)CO",
+        "CCCCCCCCCCNC(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "C15H31Pyr+Br-": [
+        "CCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO",
+        "CCCCCCCCCCCCCCC[n+]1ccccc1.[Br-]",
+        "CCCCCCCCCCN(C)C(=O)C(O)C(O)C(O)C(O)CO",
+        "CCCCCCCCCCNC(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "N-Dodecyl-N-Methyl Gluconamide": [
+        "CCCCCCCCCCCCN(C)C(=O)C(O)C(O)C(O)C(O)CO"
+    ],
+    "N-Hexadecyl-N-Methyl Lactobionamide": [
+        "CCCCCCCCCCCCCCCCN(C)C(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "N-Octadecyl-N-Methyl Lactobionamide": [
+        "CCCCCCCCCCCCCCCCCCN(C)C(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "N-Oleyl-N-Methyl Gluconamide": [
+        "CCCCCCCCC=CCCCCCCCCN(C)C(=O)C(O)C(O)C(O)C(O)CO"
+    ],
+    "N-Oleyl-N-Methyl Lactobionamide": [
+        "CCCCCCCCC=CCCCCCCCCN(C)C(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "N-Tetradecyl-N-Methyl Gluconamide": [
+        "CCCCCCCCCCCCCCN(C)C(=O)C(O)C(O)C(O)C(O)CO"
+    ],
+    "N-Tetradecyl-N-Methyl Lactobionamide": [
+        "CCCCCCCCCCCCCCN(C)C(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "Dodecanoyl-N-Methylglyceramine": [
+        "CCCCCCCCCCCC(=O)N(C)CC(O)CO"
+    ],
+    "Dodecanoyl-N-Methylxylamine": [
+        "CCCCCCCCCCCC(=O)N(C)CC(O)C(O)C(O)CO"
+    ],
+    "Decyl-glucoside": [
+        "CCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1.[Cl-]",
+        "CCCCCCCCCCOC1OC(CO)C(O)C(O)C1O",
+        "CCCCCCCCCCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O",
+        "CCCCCCCCCCCC[N+](C)(C)CC(=O)[O-]"
+    ],
+    "Decyl-maltoside": [
+        "CCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1.[Cl-]",
+        "CCCCCCCCCCOC1OC(CO)C(O)C(O)C1O",
+        "CCCCCCCCCCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O",
+        "CCCCCCCCCCCC[N+](C)(C)CC(=O)[O-]"
+    ],
+    "C14H29N+(CH2C6H5)(CH3)2Cl-": [
+        "CCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1.[Cl-]",
+        "CCCCCCCCCCOC1OC(CO)C(O)C(O)C1O",
+        "CCCCCCCCCCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O",
+        "CCCCCCCCCCCC[N+](C)(C)CC(=O)[O-]"
+    ],
+    "C12H25N+(CH3)2CH2COO-": [
+        "CCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1.[Cl-]",
+        "CCCCCCCCCCOC1OC(CO)C(O)C(O)C1O",
+        "CCCCCCCCCCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O",
+        "CCCCCCCCCCCC[N+](C)(C)CC(=O)[O-]"
+    ],
+    "Dodecyl-glucoside": [
+        "CCCCCCCCCCCCOC1OC(CO)C(O)C(O)C1O"
+    ],
+    "[N-(Oleoyl)-2 -Ethylamino]-Maltoside": [
+        "CCCCCCCCC=CCCCCCCCC(=O)NCCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O"
+    ],
+    "Oleyl-Maltoside": [
+        "CCCCCCCCC=CCCCCCCCCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O",
+        "CCCCCCCCCCCCCCCC[N+](C)(C)CC(=O)[O-]"
+    ],
+    "C16H33N+(CH3)2CH2COO-": [
+        "CCCCCCCCC=CCCCCCCCCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O",
+        "CCCCCCCCCCCCCCCC[N+](C)(C)CC(=O)[O-]"
+    ],
+    "Oleyl-Maltotrioside": [
+        "CCCCCCCCC=CCCCCCCCCOC1OC(CO)C(OC2OC(CO)C(OC3OC(CO)C(O)C(O)C3O)C(O)C2O)C(O)C1O"
+    ],
+    "Dodecyl-Maltonamide": [
+        "CCCCCCCCCCCCNC(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "Dodecyl-maltoside": [
+        "CCCCCCCCCCCCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O"
+    ],
+    "N-Decanoyl-N-Methyl Lactitolamine": [
+        "CCCCCCCCCC(=O)N(C)CC(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "N-Tetradecanoyl-N-Methyl Lactitolamine": [
+        "CCCCCCCCCCCCCC(=O)N(C)CC(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+    ],
+    "triethylene glycol monohexyl ether": [
+        "CCCCCCOCCOCCOCCO"
+    ],
+    "triethylene glycol monodecyl ether": [
+        "CCCCCCCCCCOCCOCCOCCO",
+        "CCCCCCCCCCCCC(C(=O)[O-])[n+]1ccccc1"
+    ],
+    "C12H25CH(Pyr+)COO-": [
+        "CCCCCCCCCCOCCOCCOCCO",
+        "CCCCCCCCCCCCC(C(=O)[O-])[n+]1ccccc1"
+    ],
+    "hexaethylene glycol monododecyl ether": [
+        "CCCCCCCCCCCCOCCOCCOCCOCCOCCOCCO",
+        "CCCCCCCCC(CCCCCC)COCCOCCOCCOCCOCCOS(=O)(=O)[O-].[Na+]"
+    ],
+    "C8H17CH(C6H13)CH2(OC2H4)5SO4-Na+": [
+        "CCCCCCCCCCCCOCCOCCOCCOCCOCCOCCO",
+        "CCCCCCCCC(CCCCCC)COCCOCCOCCOCCOCCOS(=O)(=O)[O-].[Na+]"
+    ],
+    "nonaethylene glycol monooctyl ether": [
+        "CCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCO"
+    ],
+    "C8H17N+(CH3)3Br-": [
+        "CCCCCCCC[N+](C)(C)C.[Br-]"
+    ],
+    "C12H25N+(CH3)3Br-": [
+        "CCCCCCCCCCCC[N+](C)(C)C.[Br-]",
+        "CCCCCCCCCCOCCS(=O)(=O)[O-].[Na+]"
+    ],
+    "C10H21OC2H4SO3-Na+": [
+        "CCCCCCCCCCCC[N+](C)(C)C.[Br-]",
+        "CCCCCCCCCCOCCS(=O)(=O)[O-].[Na+]"
+    ],
+    "C12H25N+(CH3)3Cl-": [
+        "CCCCCCCCCCCC[N+](C)(C)C.[Cl-]"
+    ],
+    "C14H29N+(CH3)3Br-": [
+        "CCCCCCCCCCCCCC[N+](C)(C)C.[Br-]"
+    ],
+    "C10H21Pyr+Br-": [
+        "CCCCCCCCCCS(=O)(=O)[O-].[Na+]",
+        "CCCCCCCCCC[n+]1ccccc1.[Br-]"
+    ],
+    "C12H25Pyr+Br-": [
+        "CCCCCCCCCCCC[n+]1ccccc1.[Br-]"
+    ],
+    "C12H25Pyr+Cl-": [
+        "CCCCCCCCCCCC[n+]1ccccc1.[Cl-]"
+    ],
+    "C14H29Pyr+Br-": [
+        "CCCCCCCCCCCCCC[n+]1ccccc1.[Br-]"
+    ],
+    "C14H29Pyr+Cl-": [
+        "CCCCCCCCCCCCCC[n+]1ccccc1.[Cl-]"
+    ],
+    "C16H33Pyr+Br-": [
+        "CCCCCCCCCCCCCCCC[n+]1ccccc1.[Br-]"
+    ],
+    "C18H37Pyr+Cl-": [
+        "CCCCCCCCCCCCCCCCCC[n+]1ccccc1.[Cl-]"
+    ],
+    "C12H25N+(C2H5)(CH3)2Br-": [
+        "CCCCCCCCCCCC[N+](C)(C)CC.[Br-]"
+    ],
+    "C12H25N+(C6H13)(CH3)2Br-": [
+        "CCCCCCCCCCCCCC[N+](CC)(CC)CC.[Br-]",
+        "CCCCCCCCCCCC[N+](C)(C)CCCCCC.[Br-]"
+    ],
+    "C14H29N+(C2H5)3Br-": [
+        "CCCCCCCCCCCCCC[N+](CC)(CC)CC.[Br-]",
+        "CCCCCCCCCCCC[N+](C)(C)CCCCCC.[Br-]"
+    ],
+    "C12H25N+(C8H17)(CH3)3Br-": [
+        "CCCCCCCCCCCC[N+](C)(C)CCCCCCCC.[Br-]"
+    ],
+    "C10H21N+(CH2C6H5)(CH3)2Cl-": [
+        "CCCCCCCCCC[N+](C)(C)Cc1ccccc1.[Cl-]"
+    ],
+    "C12H25N+(CH2C6H5)(CH3)2Cl-": [
+        "CCCCCCCCCCCCS(=O)(=O)[O-].[NH4+]",
+        "CCCCCCCCCCCC[N+](C)(C)Cc1ccccc1.[Cl-]",
+        "CCCCCCCCCCCCOS(=O)(=O)[O-].[Li+]"
+    ],
+    "C12H25SO3-NH4+": [
+        "CCCCCCCCCCCCS(=O)(=O)[O-].[NH4+]",
+        "CCCCCCCCCCCC[N+](C)(C)Cc1ccccc1.[Cl-]",
+        "CCCCCCCCCCCCOS(=O)(=O)[O-].[Li+]"
+    ],
+    "C12H25SO4-Li+": [
+        "CCCCCCCCCCCCS(=O)(=O)[O-].[NH4+]",
+        "CCCCCCCCCCCC[N+](C)(C)Cc1ccccc1.[Cl-]",
+        "CCCCCCCCCCCCOS(=O)(=O)[O-].[Li+]"
+    ],
+    "C12H25NH+(CH2CH2OH)2Cl-": [
+        "CCCCCCCCCCCC[NH+]CCO.[Cl-]"
+    ],
+    "(C10H21)2N+(CH3)2Br-": [
+        "CCCCCCCCCC[N+](C)(C)CCCCCCCCCC.[Br-]"
+    ],
+    "(C12H25)2N+(CH3)2Br-": [
+        "CCCCCCCCCCCC[N+](C)(C)CCCCCCCCCCCC.[Br-]"
+    ],
+    "C15H31CONHCH[CH(CH3)2]COO-Na+": [
+        "CCCCCCCCCCCCCCCC(=O)NC(C(=O)[O-])C(C)C.[Na+]"
+    ],
+    "C15H31CONHCH[CH2CH(CH3)2]COO-Na+": [
+        "CCCCCCCCCCCC[N+](C)(C)CCCCCCCC(=O)[O-]",
+        "CCCCCCCCCCCCCCCC(=O)NC(CC(C)C)C(=O)[O-].[Na+]"
+    ],
+    "C12H25N+(CH3)2(CH2)7COO-": [
+        "CCCCCCCCCCCC[N+](C)(C)CCCCCCCC(=O)[O-]",
+        "CCCCCCCCCCCCCCCC(=O)NC(CC(C)C)C(=O)[O-].[Na+]"
+    ],
+    "C10H21SO3-Na+": [
+        "CCCCCCCCCCS(=O)(=O)[O-].[Na+]"
+    ],
+    "C12H25SO3-Na+": [
+        "CCCCCCCCCCCCS(=O)(=O)[O-].[Na+]"
+    ],
+    "C12H25SO3-Li+": [
+        "CCCCCCCCCCCCS(=O)(=O)[O-].[Li+]"
+    ],
+    "C12H25SO4-Na+": [
+        "CCCCCCCCCCCCOS(=O)(=O)[O-].[Na+]"
+    ],
+    "C12H25SO4-N(CH3)4+": [
+        "CCCCCCCCC(CC)OS(=O)(=O)[O-].C[N+](C)(C)C"
+    ],
+    "C12H25OC2H4SO4-Na+": [
+        "CCCCCCCCCCCCOCCOS(=O)(=O)[O-].[Na+]"
+    ],
+    "C12H25(OC2H4)2SO4-Na+": [
+        "CCCCCCCCCCCCOCCOCCOS(=O)(=O)[O-].[Na+]"
+    ],
+    "C16H33(OC2H4)5SO4-Na+": [
+        "CCCCCCCCCCCCCCCCOCCOCCOCCOCCOCCOS(=O)(=O)[O-].[Na+]"
+    ],
+    "C6H13OOCCH2SO3-Na+": [
+        "CCCCCCOC(=O)CS(=O)(=O)[O-].[Na+]"
+    ],
+    "C8H17OOCCH2SO3-Na+": [
+        "CCCCCCCCOC(=O)CS(=O)(=O)[O-].[Na+]"
+    ],
+    "C10H21OOCCH2SO3-Na+": [
+        "CCCCCCCCCCOC(=O)CS(=O)(=O)[O-].[Na+]"
+    ],
+    "C4H9OOCCH2CH(SO3-Na+)COOC4H9": [
+        "CCCCOC(=O)CC(C(=O)OCCCC)S(=O)(=O)[O-].[Na+]"
+    ],
+    "C5H11OOCCH2CH(SO3-Na+)COOC5H11": [
+        "CCCCCOC(=O)CC(C(=O)OCCCCC)S(=O)(=O)[O-].[Na+]"
+    ],
+    "C12H25CH(SO3-Na+)COOC4H9": [
+        "CCCCCCCCCCCCC(C(=O)OCCCC)S(=O)(=O)[O-].[Na+]"
+    ],
+    "C7F15COO-K+": [
+        "O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F.[K+]"
+    ],
+    "C7F15COO-Na+": [
+        "O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F.[Na+]",
+        "O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(C(F)(F)F)C(F)(F)F.[Na+]"
+    ],
+    "(CF3)2CF(CF2)4COO-Na+": [
+        "O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F.[Na+]",
+        "O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(C(F)(F)F)C(F)(F)F.[Na+]"
+    ],
+    "C7F15COO-Li+": [
+        "O=C([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F.[Li+]"
+    ],
+    "C8F17SO3-Li+": [
+        "O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F.[Li+]"
+    ],
+    "C6H13OOCCH2CH(SO3-Na+)COOC6H13": [
+        "CCCCCCOC(=O)CC(C(=O)OCCCCCC)S(=O)(=O)[O-].[Na+]"
+    ],
+    "C14H29CH(SO3-Na+)COOCH3": [
+        "CCCCCCCCCCCCCCC(C(=O)OC)S(=O)(=O)[O-].[Na+]"
+    ],
+    "C14H29N+(CH3)2CH2COO-": [
+        "CCCCCCCCCCCCCC[N+](C)(C)CC(=O)[O-]"
+    ],
+    "C12H25N+(CH3)2(CH2)5COO-": [
+        "CCCCCCCCCCCC[N+](C)(C)CCCCCC(=O)[O-]"
+    ],
+    "C12H25N+(CH3)2(CH2)3SO3-": [
+        "CCCCCCCCCCCC[N+](C)(C)CCCS(=O)(=O)[O-]"
+    ],
+    "C14H29N+(CH3)2(CH2)3SO3-": [
+        "CCCCCCCCCCCCCC[N+](C)(C)CCCS(=O)(=O)[O-]"
+    ]
+}

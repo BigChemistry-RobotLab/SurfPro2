@@ -1,0 +1,6 @@
+surfactant,cmc (mM),Acmc (Å2),πcmc (mN/m),∆adsμ° (kJ/mol),Temp_Celsius,reference_doi,SMILES,source_doi
+decyl β-glucoside,2.0,41,43.5,-32.0,25.0,,O(CCCCCCCCCC)[C@@H]1O[C@@H]([C@@H](O)[C@H](O)[C@H]1O)CO,10.1021/la980519x
+decyl β-maltoside,2.0,56,36.4,-32.2,25.0,,CCCCCCCCCCO[C@@H]1O[C@H](CO)[C@@H](O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O,10.1021/la980519x
+dodecyl β-glucoside,0.19,10,36.0,32.5,25.0,10.1246/bcsj.34.237,O(CCCCCCCCCCCC)[C@@H]1O[C@@H]([C@@H](O)[C@H](O)[C@H]1O)CO,10.1021/la980519x
+dodecyl β-maltoside,0.15,13,50.0,35.8,25.0,10.1021/j100256a060,CCCCCCCCCCCCO[C@@H]1O[C@H](CO)[C@@H](O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O,10.1021/la980519x
+N-decanoyl-N-methyl-1-amino-1-deoxy-D-glucitol,5.5,40,39.9,-27.9,25.0,,C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O)N(C)C(=O)CCCCCCCCCC,10.1021/la980519x

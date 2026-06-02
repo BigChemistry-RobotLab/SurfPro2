@@ -1,0 +1,37 @@
+number,reference,ref_key
+1,"A.R. Katritzky, V.S. Lobanov, M. Karelson, Chem. Soc. Rev. 1995;  279.",katritzky1995
+2,"A.R. Katritzky, U. Maran, V.S. Lobanov, M. Karelson, J. Chem. Inf.  Comput. Sci. 40 (2000) 1.",katritzky2000
+3,"A.R. Katritzky, R. Petrukhin, D. Tatham, S. Basak, E. Benfenati,  M. Karelson, U. Maran, J. Chem. Inf. Comput. Sci. 41 (2001) 679.",katritzky2001
+4,"D.C. Young, Computational Chemistry: A Practical Guide for  Applying Techniques to Real-World Problems, Wiley, New York, 2001, p. 243.",young2001
+5,"M. Karelson, V.S. Lobanov, A.R. Katritzky, Chem. Rev. 96 (1996)  1027.",karelson1996
+6,"K. Shinoda, J. Phys. Chem. 59 (1955) 432.",shinoda1955
+7,"M.J. Schick, S.M. Atlas, F.R. Eirich, J. Phys. Chem. 66 (1962)  1326.",schick1962
+8,"M.J. Rosen, J. Colloid Interface Sci. 56 (1976) 320.",rosen1976
+9,"K. Meguro, Y. Takasawa, N. Kawahashi, Y. Tabata, M. Ueno,  J. Colloid Interface Sci. 83 (1981) 50.",meguro1981
+10,"H.B. Klevens, J. Am. Oil. Chem. Soc. 30 (1953) 74.",klevens1953
+11,"K. Shinoda, T. Nakagawa, B. Tamamushi, T. Isemura, Colloidal  Surfactants, Academic, New York, 1963. p. 1.",shinoda1963
+12,"D. Myers, Surfactant Science and Technology, second ed, VCH, New  York, 1992. p. 81.",myers1992
+13,"M. Kuanar, S.K. Kuanar, B.K. Mishra, Indian J. Chem. A 38 (1999)  113.",kuanar1999
+14,"Z. Wang, G. Li, X. Zhang, R. Wang, A. Lou, Colloids Surf. A 197  (2002) 37.",wang2002
+15,"S.L. Yuan, Z.T. Cai, G.Y. Xu, Y.S. Jiang, Colloid Polym. Sci. 280  (2002) 630.",yuan2002
+16,"P.D.T. Huibers, V.S. Lobanov, A.R. Katritzky, D.O. Shah,  M.K. Karelson, Langmuir 12 (1996) 1462.",huibers1996
+17,"P.D.T. Huibers, V.S. Lobanov, A.R. Katritzky, D.O. Shah,  M.K. Karelson, J. Colloid Interface Sci. 187 (1997) 113.",huibers1997
+18,"S.L. Yuan, Z.T. Cai, G.Y. Xu, Y.S. Jiang, J. Dispersion Sci. Technol.  23 (2002) 465.",yuan2002
+19,"M. Jalali-Heravi, E. Konouz, J. Surfact. Deterg. 3 (2000) 47.",jalali-heravi2000
+20,"M. Jalali-Heravi, E. Konouz, J. Surfact. Deterg. 6 (2003) 25.",jalali-heravi2003
+21,"N. Anoune, M. Nouiri, Y. Berrah, J.Y. Gauvrit, P. Lanteri, J. Surfact.  Deterg. 5 (2002) 45.",anoune2002
+22,"D.W. Robert, Langmuir 18 (2002) 345.",roberts2002
+23,"H.B. Klevens, J. Phys. Colloid. Chem. 52 (1948) 130.",klevens1948
+24,"M. Dahanayake, A.W. Cohen, M.J. Rosen, J. Phys. Chem. 90 (1986)  2413.",dahanayake1986
+25,"S.L. Kuang, Chemical Engineering Technology, Chemical Industry  press, Beijing, 2002. p. 1325.",kuang2002
+26,"T. Hikota, K. Morohara, K. Meguro, Bull. Chem. Soc. Jpn. 43 (1970)  3913.",hikota1970
+27,"H.C. Evans, J. Chem. Soc. 1956; 579.",evans1956
+28,"E. G ̈otte, M.J. Schwuger" Tenside 6 (1969) 131.",gotte1969
+29,"J.W. Gershman, J. Phys. Chem. 61 (1957) 581.",gershman1957
+30,"M.J. Frisch, G.W. Trucks, H.B. Schlegel, G.E. Scuseria, M.A. Robb,  J.R. Cheeseman, V.G. Zakrzewski, J.A. Montgomerg, R.E. Stratmann, J.C. Burant, S. Dapprich, J.M. Millam, A.D. Daniels, K.N. Kudin, M.C. Strain, O. Farkas, J. Tomas, V. Barone, M. Cossi, R. Cammi, B. Mennucci, C. Pomelli, C. Adamo, S. Clifford, J. Ochterski,  Table 3 The calculated logarithm of cmc for nine anionic surfactants comparing with the experimental cmc No. Structures (hydrophobichydrophilic segments)  NT m (D) QC-max (a.u.) Log10 cmc (exp) Log10 cmc (cal)  n-Alkyl sulfates 1 C6H13SO4  K 24 15.8320 K0.0311 K0.377 [35] K0.306 2 C7H15SO4  K 27 18.3971 K0.0310 K0.658 [35] K0.598 3 C9H19SO4  K 33 23.8740 K0.0311 K1.222 [35] K1.193 2,5-Dialkyl benzenesulfonates 4 R2ZC7H15, R5ZC7H15 57 14.4507 K0.0110 K2.695 [36] K2.554 5 R2ZC3H7, R5ZC11H23 57 25.0785 K0.0171 K3.143 [36] K2.899 6 R2ZC2H5, R5ZC12H25 57 28.9069 K0.0140 K3.284 [36] K3.022 7 R2ZC13H27, R5ZCH3 57 22.9595 K0.0127 K3.180 [36] K2.829 8 R2ZC12H25, R5ZC2H5 57 19.5352 K0.0113 K3.056 [36] K2.718 9 R2ZC11H23, R5ZC3H7 57 16.4871 K0.0102 K2.917 [36] K2.619 G.A. Petersson, P.Y. Ayala, Q. Cui, K. Morokuma, D.K. Malick, A.D. Rabuck, K. Raghavachari, J.B. Foresman, J. Cioslowski, J.V. Oritizi, B.B. Stefanov, G. Liu, A. Liashenico, P. Piskorz, I. Komaromi, R. Gomperts, R.L. Martin, D.J. Fox, T. Keith, M.A. Al-Laham, C.Y. Peng, A. Nanagakkara, C. Gonzalez, M. Challacombe, P.M.W. Gill, B.G. Johnson, W. Chen, M.W. Wong, J.L. Andres, C. Gonzalez, M. Head-Gordon, E.S. Replogle, J.A. Pople, Gaussian 98, Revision A.6, GAUSSIAN, Inc. Pittsburgh PA, 1998",frisch1998
+31,"E.D. Glendening, A.E. Reed, J.E. Carpenter, F. Weinhold, NBO  Version 3.1.",glendening
+32,"N. Bodor, Z. Gabany, C.K. Wang, J. Am. Chem. Soc. 111 (1989)  3783.",bodor1989
+33,"N. Bodor, M.J. Huang, J. Comput. Chem. 12 (1991) 1182.",bodor1991
+34,"J.W. Chen, X. Xue, K.W. Schramm, X. Quan, F. Yang, A. Kettrup,  Chemosphere 48 (2002) 535.",chen2002
+35,"E.A.G. Aniannson, S.N. Wall, M. Almgren, H. Hoffmann, I. Kielman,  W. Ulbricht, R. Zana, J. Lang, C. Tondre, J. Phys. Chem. 80 (1976) 905.",aniannson1976
+36,"E. Fanghanel, W. Ortman, K. Behrmann, S. Willscher, N.J. Turro,  I.R. Gould, J. Phys. Chem. 91 (1987) 3700.",fanghanel1987

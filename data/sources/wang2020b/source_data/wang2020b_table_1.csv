@@ -1,0 +1,4 @@
+surfactant,CAC1 (mM),CAC2 (mM),γCAC1 (mN·m-1),γCAC2 (mN·m-1),πCAC (mN·m-1),Γmax (μmol·m-2),Amin (nm2),pC20,β,ΔGa°gg (kJ·mol-1),ΔGa°ds (kJ·mol-1),Temp_Celsius,source_doi,reference_doi,SMILES
+AMC-C16,0.1,1.44,37.5,32.4,34.52,2.04,0.82,4.62,0.54,-30.49,-47.38,25.0,10.1021/acsomega.0c00294,,c1ccccc1NC(=O)C[N+](C)(C)CCCCCCCCCCCCCCCC.[Cl-]
+BAC-16,0.43,,40.5,,31.55,1.49,1.11,3.87,0.44,-27.51,-44.38,25.0,10.1021/acsomega.0c00294,,c1ccccc1C[N+](C)(C)CCCCCCCCCCCCCCCC.[Cl-]
+BAC-16,0.4,,39.6,,1.46,1.14,4.13,,,,,25.0,10.1021/acsomega.0c00294,10.1021/jp065225w,c1ccccc1C[N+](C)(C)CCCCCCCCCCCCCCCC.[Cl-]

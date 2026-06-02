@@ -1,0 +1,5 @@
+Samples,CMC conductivity (mol/L),CMC surface tension (mol/L),γ (mN/m),ΓLa max x 10^10 (mol/cm2),Amin (A2),pC20,ΔG0ad (kJ/mol),Temp_Celsius,source_doi,reference_doi,SMILES
+"4BCAP-6, 8",3.16e-05,3.17e-05,64.6,0.455,365.0,,,25.0,10.1016/j.cclet.2011.01.030,,CCCCCC[n+]1ccc(C(=O)NCCCCCCNC(=O)c2cc[n+](CCCCCC)cc2)cc1.[Br-].[Br-]
+"4BCAP-6, 10",2.78e-05,2.84e-05,47.3,1.4,118.6,4.7,51.09,25.0,10.1016/j.cclet.2011.01.030,,CCCCCCCCCC[n+]1ccc(C(=O)NCCCCCCNC(=O)c2cc[n+](CCCCCCCCCC)cc2)cc1.[Br-].[Br-]
+"4BCAP-6, 12",2.095e-05,2.7e-05,44.5,1.9,87.4,4.81,48.01,25.0,10.1016/j.cclet.2011.01.030,,CCCCCCCCCCCC[n+]1ccc(C(=O)NCCCCCCNC(=O)c2cc[n+](CCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]
+"4BCAP-6, 14",9.74e-06,8.35e-06,43.0,2.29,72.5,5.28,48.84,25.0,10.1016/j.cclet.2011.01.030,,CCCCCCCCCCCCCC[n+]1ccc(C(=O)NCCCCCCNC(=O)c2cc[n+](CCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]

@@ -1,0 +1,3 @@
+The structure definitions in this paper are ambiguous.
+Inspection of the cited sources next to each structure identifier aids in clarification.
+The pair `RN+(CH3)2(CH2)mN+(CH3)2R . 2Br-1` and `(CnN)2(CH2)2` is inferred to have an m of 2.

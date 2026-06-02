@@ -1,0 +1,10 @@
+identifier,SMILES
+C10DGPB,O=C(NCCC[N+](C)(CCCCCCCCCC)C)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO.[Br-]
+C12DGPB,O=C(NCCC[N+](C)(CCCCCCCCCCCC)C)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO.[Br-]
+C14DGPB,O=C(NCCC[N+](C)(CCCCCCCCCCCCCC)C)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO.[Br-]
+C14DLPB,OC[C@@H](O)[C@H]([C@H](O)[C@@H](O)C(NCCC[N+](C)(CCCCCCCCCCCCCC)C)=O)O[C@H](O1)[C@H](O)[C@@H](O)[C@@H](O)[C@H]1CO.[Br-]
+C12DLPB,OC[C@@H](O)[C@H]([C@H](O)[C@@H](O)C(NCCC[N+](C)(CCCCCCCCCCCC)C)=O)O[C@H](O1)[C@H](O)[C@@H](O)[C@@H](O)[C@H]1CO.[Br-]
+C10DLPB,OC[C@@H](O)[C@H]([C@H](O)[C@@H](O)C(NCCC[N+](C)(CCCCCCCCCC)C)=O)O[C@H](O1)[C@H](O)[C@@H](O)[C@@H](O)[C@H]1CO.[Br-]
+1a,
+MAL-C12,OC[C@@H](O)[C@H]([C@H](O)[C@@H](O)C(NCCCCCCCCCCCC)=O)O[C@@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO
+DEX9-C12,O[C@@H](C(OC[C@@H]1[C@@H](O)[C@H](O)[C@@H](O)C(OC[C@@H]2[C@@H](O)[C@H](O)[C@@H](O)C(OC[C@@H]3[C@@H](O)[C@H](O)[C@@H](O)C(OC[C@@H]4[C@@H](O)[C@H](O)[C@@H](O)C(OC[C@@H]5[C@@H](O)[C@H](O)[C@@H](O)C(OC[C@@H]6[C@@H](O)[C@H](O)[C@@H](O)C(OC[C@@H]7[C@@H](O)[C@H](O)[C@@H](O)C(OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C(NCCCCCCCCCCCC)=O)O7)O6)O5)O4)O3)O2)O1)O8)[C@@H](O)[C@H](O)[C@H]8CO

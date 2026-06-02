@@ -1,0 +1,6 @@
+__pycache__/
+.DS_Store
+*._*
+*.db
+/split_remainder
+/target

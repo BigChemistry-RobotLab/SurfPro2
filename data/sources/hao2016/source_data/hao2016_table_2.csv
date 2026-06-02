@@ -1,0 +1,5 @@
+Compound,pC20,CMC (mol L-1),γ_cmc (mN m-1),D_dls (m2 s-1),Frumkin model B (m3 mol-1),Frumkin model ω0 (m2 mol-1),Frumkin model α,Frumkin model ε (mm N-1),Frumkin model E %,SMILES,Temp_Celsius,source_doi,reference_doi
+5a,2.57,0.0137,39.8,3.4e-12,3040.0,290000.0,0.0,0,17.1,[N+]1(CCCCCCCC)=CC(NC(NC2=CC=C[N+](CCCCCCCC)=C2)=O)=CC=C1.[Br-].[Br-],25.0,10.1007/s11743-016-1850-7,
+5b,3.97,0.000846,33.5,7.09e-13,57400.0,280000.0,0.0,0,19.9,[N+]1(CCCCCCCCCC)=CC(NC(NC2=CC=C[N+](CCCCCCCCCC)=C2)=O)=CC=C1.[Br-].[Br-],25.0,10.1007/s11743-016-1850-7,
+5c,5.13,0.000167,30.7,8.2e-13,76800.0,240000.0,2.0,0,38.6,[N+]1(CCCCCCCCCCCC)=CC(NC(NC2=CC=C[N+](CCCCCCCCCCCC)=C2)=O)=CC=C1.[Br-].[Br-],25.0,10.1007/s11743-016-1850-7,
+5d,5.03,1.55e-05,36.2,8.1e-13,26500.0,65000.0,1.8,0,4.59,[N+]1(CCCCCCCCCCCCCC)=CC(NC(NC2=CC=C[N+](CCCCCCCCCCCCCC)=C2)=O)=CC=C1.[Br-].[Br-],25.0,10.1007/s11743-016-1850-7,

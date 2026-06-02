@@ -1,0 +1,5 @@
+Surfactant,CMC (mM),γ_CMC (mN/m),−[dγ/dlnC]T,Temp_Celsius,source_doi,reference_doi
+12Q1COOH,3.7,35.2,10.75,25,10.1016/j.colsurfa.2016.08.020,
+12Q2OH,11.3,32.4,15.16,25,10.1016/j.colsurfa.2016.08.020,
+12Q1COOH 1:1 12Q2OH,5.3,33.6,11.89,25,10.1016/j.colsurfa.2016.08.020,
+12Q2OCO1Q12,0.92,30.8,15.57,25,10.1016/j.colsurfa.2016.08.020,

@@ -1,0 +1,6 @@
+Surfactant,cac(mM),γcac(mN/m),Γmax 10−10 (mol/cm2),Amin (Å2),pC20,cac/c20,Temp_Celsius,source_doi,reference_doi,SMILES
+diC8GQ,9.02,28.1,1.2,138.0,3.17,13.5,25.0,10.1016/j.colsurfa.2012.11.004,,CCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCC.[Cl-].[Cl-]
+diC10GQ,0.81,28.5,1.28,130.0,4.19,12.1,25.0,10.1016/j.colsurfa.2012.11.004,,CCCCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCCCC.[Cl-].[Cl-]
+diC12GQ,0.13,29.4,1.63,102.0,4.72,7.24,25.0,10.1016/j.colsurfa.2012.11.004,,CCCCCCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCCCCCC.[Cl-].[Cl-]
+C12MG,0.67,32.5,3.05,54.4,3.75,3.76,25.0,10.1016/j.colsurfa.2012.11.004,,
+DTAC,15.5,40.5,2.99,55.6,2.64,5.8,25.0,10.1016/j.colsurfa.2012.11.004,,[Cl-].CCCCCCCCCCCC[N+](C)(C)C

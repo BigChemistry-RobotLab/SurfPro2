@@ -1,0 +1,2 @@
+The values for Si3-EO16a and Si4-EO16a were incorrectly converted from their source data (10.1002/jsde.12276).
+The table in source_data/tan2019_table_1.csv has been modified relative to the manuscript text to reflect this.

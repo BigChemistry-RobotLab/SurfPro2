@@ -1,0 +1,8 @@
+[MgCl2] (mM),Cond CMC (mM),Tens CMC (mM),Fluo CMC (mM),Ave,β,ΔG0m (kJ/mol),106 x Γmax (mol/m2),Amin (nm2/mol),ΔGa0ds (kJ/mol),P,Temp_Celsius,source_doi,reference_doi,SMILES
+0.0,12.9,13.2,14.11,13.4,0.47,-30.22,2.44,0.68,-57.1,0.31,24.85,10.1021/acsomega.8b00718,,CCCCCCCCCCCC(=O)N(C)CC(=O)[O-].[Na+]
+0.005,9.6,8.36,8.52,8.83,0.48,-32.3,1.73,0.96,-59.52,0.22,24.85,10.1021/acsomega.8b00718,,CCCCCCCCCCCC(=O)N(C)CC(=O)[O-].[Na+]
+0.05,7.14,5.12,5.56,5.94,0.2,-27.08,1.89,0.88,-53.27,0.24,24.85,10.1021/acsomega.8b00718,,CCCCCCCCCCCC(=O)N(C)CC(=O)[O-].[Na+]
+0.1,5.54,4.54,4.6,4.89,0.18,-27.38,1.9,0.87,-54.38,0.24,24.85,10.1021/acsomega.8b00718,,CCCCCCCCCCCC(=O)N(C)CC(=O)[O-].[Na+]
+0.5,2.43,2.48,2.46,2.46,0.16,-29.33,1.92,0.86,-51.26,0.24,24.85,10.1021/acsomega.8b00718,,CCCCCCCCCCCC(=O)N(C)CC(=O)[O-].[Na+]
+3.0,0.84,0.96,1.56,1.23,0.11,-28.73,2.02,0.82,-49.08,0.25,24.85,10.1021/acsomega.8b00718,,CCCCCCCCCCCC(=O)N(C)CC(=O)[O-].[Na+]
+5.0,,0.92,1.28,1.1,,,2.04,0.81,,0.26,24.85,10.1021/acsomega.8b00718,,CCCCCCCCCCCC(=O)N(C)CC(=O)[O-].[Na+]

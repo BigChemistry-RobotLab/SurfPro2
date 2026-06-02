@@ -1,0 +1,7 @@
+compound_id,SMILES
+3,CCCCCCCC[N+](C)(C)CCOC1OC(COC)C(OC)C(OC)C1OC.[Br-]
+4,CCCCCCCCCCCC[N+](C)(C)CCO[C@H]1O[C@@H](COC(C)=O)[C@H](OC(C)=O)[C@@H](OC(C)=O)[C@@H]1OC(C)=O.[Br-]
+5,CCCCCCCCCCCCCCCC[N+](C)(C)CCO[C@H]1O[C@@H](COC(C)=O)[C@H](OC(C)=O)[C@@H](OC(C)=O)[C@@H]1OC(C)=O.[Br-]
+7,CCCCCCCCCCCC[N+](C)(C)CCO[C@H]1O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]1O.[Br-]
+8,CCCCCCCCCCCCCCCC[N+](C)(C)CCO[C@H]1O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]1O.[Br-]
+dummy,NONE

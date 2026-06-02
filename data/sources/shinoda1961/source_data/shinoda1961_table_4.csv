@@ -1,0 +1,4 @@
+Substance,CMC/ mol/L,Surface Excess 10^-10 mol/cm2,Residual area A2,Temp_Celsius,source_doi,reference_doi,SMILES
+Octyl glucoside,0.025,3.9,42,25.0,10.1246/bcsj.34.237,,CCCCCCCCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO
+Decyl glucoside,0.0022,3.5,47,25.0,10.1246/bcsj.34.237,,CCCCCCCCCCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO
+Dodecyl glucoside,0.00019,4.6,36,25.0,10.1246/bcsj.34.237,,CCCCCCCCCCCCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO

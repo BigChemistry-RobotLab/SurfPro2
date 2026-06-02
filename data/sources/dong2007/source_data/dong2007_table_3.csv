@@ -1,0 +1,4 @@
+ILs,cmc (mmol/L),γcmc (mN/m),Πcmc (mN/m),pC20,Γmax (μmol/m2),Amin (Å2),source_doi,SMILES,reference_doi,Temp_Celsius
+[C10mim][Br],29.3,39.7,33.3,2.15,1.72,96.7,10.1021/la0633029,CCCCCCCCCCn1cc[n+](C)c1.[Br-],,25.0
+[C12mim][Br],10.9,39.4,33.6,2.67,1.91,86.8,10.1021/la0633029,CCCCCCCCCCCCn1cc[n+](C)c1.[Br-],,25.0
+[C12mim][BF4],9.2,38.2,34.8,2.74,2.16,76.7,10.1021/la0633029,CCCCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F,,25.0

@@ -1,0 +1,203 @@
+Surfactant,Experimental CMC (M),Temperature (°C),Experimental log CMC (uM),Predicted log CMC (uM),Surfactant Type,Train/Test,Ref
+2-decanediol,0.0023,25,3.362,3.232,nonionic,train,12
+"1,3-undecanediol",0.0023,25,3.362,3.295,nonionic,train,12
+"1,3-pentadecanediol",1.30E-05,25,1.114,1.205,nonionic,train,12
+octyl glycol ether,4.90E-03,25,3.69,3.646,nonionic,train,12
+triethylene glycol monooctyl ether,0.0075,25,3.875,3.857,nonionic,train,12
+pentaethylene glycol monooctyl ether,0.0092,25,3.964,3.967,nonionic,train,12
+hexaethylene glycol monooctyl ether,0.0099,25,3.996,4,nonionic,train,12
+propaethylene glycol monodecyl ether,0.00068,25,2.833,2.807,nonionic,train,12
+pentaethylene glycol monodecyl ether,0.00076,25,2.881,2.885,nonionic,test,12
+hexaethylene glycol monodecyl ether,0.0009,25,2.954,2.964,nonionic,train,12
+octaethylene glycol monodecyl ether,0.001,25,3,2.988,nonionic,train,12
+octaethylene glycol monodecyl ether,0.0003,25,2.477,2.467,nonionic,train,12
+diethylene glycol monododecyl ether,0.000033,25,1.519,1.692,nonionic,train,12
+triethylene glycol monododecyl ether,0.000052,25,1.716,1.727,nonionic,train,12
+propaethylene glycol monododecyl ether,0.000064,25,1.806,1.77,nonionic,test,12
+pentaethylene glycol monododecyl ether,0.000064,25,1.806,1.82,nonionic,train,12
+heptaethylene glycol monododecyl ether,0.000082,25,1.914,1.966,nonionic,train,12
+octaethylene glycol monododecyl ether,0.000109,25,2.037,1.993,nonionic,train,12
+pentaethylene glycol monotridecyl ether,0.000049,25,1.69,1.361,nonionic,train,12
+octaethylene glycol monotridecyl ether,0.000027,25,1.431,1.499,nonionic,train,12
+hexaethylene glycol monotetradecyl ether,0.00001,25,1,0.973,nonionic,train,12
+octaethylene glycol monotetradecyl ether,0.000009,25,0.954,1.037,nonionic,train,12
+octaethylene glycol monopentadecyl ether,0.0000035,25,0.544,0.638,nonionic,train,12
+hexaethylene glycol monohexadecyl ether,0.00000166,25,0.22,0.198,nonionic,train,12
+heptaethylene glycol monohexadecyl ether,0.0000017,25,0.23,0.243,nonionic,train,12
+nonaethylene glycol monohexadecyl ether,0.0000021,25,0.322,0.373,nonionic,train,12
+dodecaethylene glycol monohexadecyl ether,0.0000023,25,0.362,0.472,nonionic,test,12
+pentadecaethylene glycol monohexadecyl ether,0.0000031,25,0.491,0.537,nonionic,train,12
+henicosaethylene glycol monohexadecyl ether,0.0000039,25,0.591,0.626,nonionic,train,12
+"N,N-Bis(2-hydroxyethyl)dodecanamide",0.000264,25,2.422,2.55,nonionic,train,12
+C6F13C2H4S(OC2H4)2OH,0.0025,25,3.398,3.578,nonionic,train,12
+C6F13C2H4S(OC2H4)3OH,0.0028,25,3.447,3.618,nonionic,test,12
+C6F13C2H4S(OC2H4)5OH,0.0037,25,3.568,3.7,nonionic,train,12
+C6F13C2H4S(OC2H4)7OH,0.0048,25,3.681,3.736,nonionic,train,12
+hexyl-D-maltonamide,0.083,25,4.919,4.709,nonionic,train,12
+p-t-C8H17C6H4O(C2H4O)10H,0.00033,25,2.519,2.528,nonionic,train,12
+p-t-C8H17C6H4O(C2H4O)2H,0.00013,25,2.114,2.053,nonionic,train,12
+p-t-C8H17C6H4O(C2H4O)3H,0.000097,25,1.987,2.042,nonionic,train,12
+p-t-C8H17C6H4O(C2H4O)4H,0.00013,25,2.114,2.085,nonionic,train,12
+p-t-C8H17C6H4O(C2H4O)5H,0.00015,25,2.176,2.163,nonionic,train,12
+p-t-C8H17C6H4O(C2H4O)6H,0.00021,25,2.322,2.247,nonionic,train,12
+p-t-C8H17C6H4O(C2H4O)7H,0.00025,25,2.398,2.334,nonionic,train,12
+p-t-C8H17C6H4O(C2H4O)8H,0.00028,25,2.447,2.403,nonionic,train,12
+p-t-C8H17C6H4O(C2H4O)9H,0.0003,25,2.477,2.453,nonionic,test,12
+sucrose monooleate,0.0000051,25,0.708,0.959,nonionic,train,12
+3-oxo-C12-AHL,0.000097,room temperature,1.987,2.004,nonionic,train,5
+3-oxo-C8-AHL,0.00217,room temperature,3.336,3.484,nonionic,train,5
+C12-AHL,0.000004,room temperature,0.602,0.758,nonionic,train,5
+C16-AHL,0.00000016,room temperature,-0.796,-0.872,nonionic,train,5
+Octyl-Glycerol,0.0058,25,3.763,3.719,nonionic,train,13
+Octyl-glucoside,0.025,25,4.398,4.062,nonionic,train,13
+1-O-Butyl-Xylitol,0.058,25,4.763,4.753,nonionic,train,13
+1-O-Decanoyl-Xylitol,0.0018,25,3.255,3.258,nonionic,train,13
+1-O-Heptanoyl-Xylitol,0.01,25,4,4.289,nonionic,train,13
+1-O-Heptyl-Xylitol,0.0092,25,3.964,3.905,nonionic,test,13
+1-O-Hexanoyl-Xylitol,0.058,25,4.763,4.709,nonionic,train,13
+1-O-Hexyl-Xylitol,0.0094,25,3.973,4.103,nonionic,train,13
+1-O-Nonanoyl-Xylitol,0.0044,25,3.643,3.672,nonionic,test,13
+1-O-Nonyl-Xylitol,0.0021,25,3.322,3.441,nonionic,train,13
+1-O-Octanoyl-Xylitol,0.018,25,4.255,4.011,nonionic,train,13
+1-O-Octyl-Xylitol,0.0067,25,3.826,3.729,nonionic,train,13
+1-O-Pentanoyl-Xylitol,0.12,25,5.079,5.149,nonionic,train,13
+1-O-Pentyl-Xylitol,0.038,25,4.58,4.58,nonionic,train,13
+S-Butyl-1-Thio-Xylitol,0.18,25,5.255,4.907,nonionic,train,13
+S-Pentyl-1-Thio-Xylitol,0.046,25,4.663,4.557,nonionic,train,13
+1-Butylhexyl-Glucoside,0.015,25,4.176,4.227,nonionic,train,13
+1-Ethyloctyl-Glucoside,0.0085,25,3.929,3.961,nonionic,train,13
+1-Methylnonyl-Glucoside,0.0045,25,3.653,3.607,nonionic,train,13
+1-Propylheptyl-Glucoside,0.012,25,4.079,4.204,nonionic,test,13
+6'-O-Dodecanoylmaltose,0.00033,22,2.519,2.67,nonionic,train,13
+6-O-[(Hexyloctyl)-3-Propylsulfide)ethanoyl]-Mannose,0.0000063,25,0.799,0.803,nonionic,train,13
+Decanoyl-N-Methylglucamine,0.0067,25,3.826,3.622,nonionic,train,13
+Nonanoyl-N-Methylglucamine,0.021,25,4.322,4.111,nonionic,test,13
+Octanoyl-N-Methylglucamine,0.069,25,4.839,4.616,nonionic,train,13
+6-O-Dodecanoylraffinose,0.00095,20,2.978,3.02,nonionic,train,13
+6-O-Dodecanoylstachyose,0.0023,20,3.362,3.332,nonionic,train,13
+6-O-Dodecanoylsucrose,0.00046,20,2.663,2.61,nonionic,train,13
+S-Decyl 1-Thio-Xylitol,0.0004,20,2.602,2.769,nonionic,train,13
+S-Decyl 5-Thio-Arabinonolactone,0.000033,20,1.519,1.625,nonionic,train,13
+S-Hexyl 1-Thio-Xylitol,0.012,20,4.079,4.064,nonionic,train,13
+S-Hexyl 5-Thio-Arabinonolactone,0.0067,20,3.826,3.971,nonionic,test,13
+S-Octyl 1-Thio-Xylitol,0.0012,20,3.079,3.444,nonionic,train,13
+S-Octyl 5-Thio-Arabinonolactone,0.00048,20,2.681,2.752,nonionic,train,13
+Octanoyl-Galactosylamine,0.045,25,4.653,4.633,nonionic,train,13
+Octanoyl-Glucosylamine,0.07,25,4.845,4.834,nonionic,train,13
+"3,7-Dimethyloctyl-Glucoside",0.004,25,3.602,3.572,nonionic,train,13
+"3,7-Dimethyloctyl-Maltoside",0.0053,25,3.724,3.741,nonionic,train,13
+"3,7-Dimethyloctyl-Maltotrioside",0.005,25,3.699,3.83,nonionic,train,13
+2-Amino-2-Deoxy-Nonyl-Glucoside,0.007,25,3.845,3.922,nonionic,train,13
+2-Amino-2-Deoxy-Octyl-Glucoside,0.023,25,4.362,4.445,nonionic,train,13
+N-Decyl-N-Methyl Gluconamide,0.0013,25,3.114,3.126,nonionic,train,13
+N-Decyl-N-Methyl Lactobionamide,0.0023,20,3.362,3.294,nonionic,train,13
+N-Dodecyl-N-Methyl Gluconamide,0.00014,20,2.146,2.158,nonionic,train,13
+N-Dodecyl-N-Methyl Lactobionamide,0.00025,20,2.398,2.52,nonionic,train,13
+N-Hexadecyl-N-Methyl Lactobionamide,0.0000093,20,0.968,1.147,nonionic,train,13
+N-Octadecyl-N-Methyl Lactobionamide,0.0000033,20,0.519,0.708,nonionic,train,13
+N-Oleyl-N-Methyl Gluconamide,0.000032,20,1.505,1.578,nonionic,train,13
+N-Oleyl-N-Methyl Lactobionamide,0.000054,20,1.732,1.689,nonionic,train,13
+N-Tetradecyl-N-Methyl Gluconamide,0.000024,25,1.38,1.277,nonionic,train,13
+N-Tetradecyl-N-Methyl Lactobionamide,0.000036,20,1.556,1.768,nonionic,test,13
+Dodecanoyl-N-Methylglyceramine,0.00023,25,2.362,2.266,nonionic,train,13
+Dodecanoyl-N-Methylxylamine,0.00036,25,2.556,2.492,nonionic,train,13
+Decyl-glucoside,0.002,25,3.301,3.277,nonionic,train,13
+Decyl-maltoside,0.002,22,3.301,3.373,nonionic,train,13
+Dodecyl-glucoside,0.00019,25,2.279,2.119,nonionic,train,13
+[N-(Oleoyl)-2 -Ethylamino]-Maltoside,0.00009,25,1.954,1.87,nonionic,train,13
+Oleyl-Maltoside,0.00002,25,1.301,1.505,nonionic,train,13
+Oleyl-Maltotrioside,0.000042,25,1.623,1.731,nonionic,train,13
+Decyl-Maltonamide,0.0013,25,3.114,3.094,nonionic,train,13
+Dodecyl-Maltonamide,0.00031,25,2.491,2.387,nonionic,train,13
+Dodecyl-maltoside,0.00017,25,2.23,2.709,nonionic,test,13
+Octyl-Maltonamide,0.0057,25,3.756,3.873,nonionic,train,13
+N-Decanoyl-N-Methyl Lactitolamine,0.0033,25,3.519,3.646,nonionic,train,13
+N-Dodecanoyl-N-Methyl Lactitolamine,0.00045,25,2.653,2.803,nonionic,train,13
+N-Tetradecanoyl-N-Methyl Lactitolamine,0.000068,25,1.833,2.125,nonionic,train,13
+Nonyl-Glucoside,0.0069,20,3.839,3.77,nonionic,train,13
+Octyl-Thioglucoside,0.0085,25,3.929,3.821,nonionic,train,13
+triethylene glycol monohexyl ether,0.1,25,5,4.736,nonionic,train,14
+triethylene glycol monodecyl ether,0.0006,25,2.778,2.761,nonionic,train,14
+hexaethylene glycol monododecyl ether,0.000087,25,1.94,1.913,nonionic,train,14
+nonaethylene glycol monooctyl ether,0.013,25,4.114,4.054,nonionic,train,14
+nonaethylene glycol monodecyl ether,0.0013,25,3.114,2.988,nonionic,train,14
+C8H17N+(CH3)3Br-,0.14,25,5.146,5.392,cationic,train,12
+C10H21N+(CH3)3Br-,0.068,25,4.833,4.724,cationic,train,12
+C10H21N+(CH3)3Cl-,0.068,25,4.833,4.969,cationic,train,12
+C12H25N+(CH3)3Br-,0.016,25,4.204,4.124,cationic,test,12
+C12H25N+(CH3)3Cl-,0.02,25,4.301,4.346,cationic,train,12
+C14H29N+(CH3)3Br-,0.0036,25,3.556,3.648,cationic,train,12
+C14H29N+(CH3)3Cl-,0.0045,25,3.653,3.81,cationic,train,12
+C16H33N+(CH3)3Br-,0.00098,25,2.991,3.063,cationic,train,12
+C10H21Pyr+Br-,0.044,25,4.643,4.735,cationic,train,12
+C11H23Pyr+Br-,0.021,25,4.322,4.409,cationic,train,12
+C12H25Pyr+Br-,0.0114,25,4.057,4.105,cationic,test,12
+C12H25Pyr+Cl-,0.017,25,4.23,4.223,cationic,train,12
+C12H25Pyr+I-,0.0053,25,3.724,3.768,cationic,train,12
+C13H27Pyr+Br-,0.0053,25,3.724,3.784,cationic,train,12
+C14H29Pyr+Br-,0.0027,25,3.431,3.455,cationic,train,12
+C14H29Pyr+Cl-,0.0035,25,3.544,3.55,cationic,train,12
+C15H31Pyr+Br-,0.0013,25,3.114,3.117,cationic,train,12
+C16H33Pyr+Br-,0.00064,25,2.806,2.781,cationic,train,12
+C16H33Pyr+Cl-,0.0009,25,2.954,2.871,cationic,test,12
+C18H37Pyr+Cl-,0.00024,25,2.38,2.237,cationic,train,12
+C12H25N+(C2H5)(CH3)2Br-,0.014,25,4.146,4.001,cationic,train,12
+C12H25N+(C4H9)(CH3)2Br-,0.0075,25,3.875,3.872,cationic,train,12
+C12H25N+(C6H13)(CH3)2Br-,0.0031,25,3.491,3.608,cationic,train,12
+C12H25N+(C8H17)(CH3)3Br-,0.0011,25,3.041,3.181,cationic,train,12
+C14H29N+(C2H5)3Br-,0.0031,25,3.491,3.47,cationic,train,12
+C14H29N+(C3H7)3Br-,0.0021,25,3.322,3.325,cationic,train,12
+C14H29N+(C4H9)3Br-,0.0012,25,3.079,3.23,cationic,train,12
+C10H21N+(CH2C6H5)(CH3)2Cl-,0.039,25,4.591,4.567,cationic,train,12
+C12H25N+(CH2C6H5)(CH3)2Cl-,0.0088,25,3.944,4.021,cationic,test,12
+C14H29N+(CH2C6H5)(CH3)2Cl-,0.002,25,3.301,3.469,cationic,train,12
+C12H25NH2+CH2CH2OHCl-,0.045,25,4.653,4.732,cationic,train,12
+C12H25NH+(CH2CH2OH)2Cl-,0.036,25,4.556,4.715,cationic,train,12
+C12H25NH+(CH2CH2OH)3Cl-,0.025,25,4.398,4.533,cationic,train,12
+(C10H21)2N+(CH3)2Br-,0.00185,25,3.267,3.181,cationic,train,12
+(C12H25)2N+(CH3)2Br-,0.000176,25,2.246,2.291,cationic,train,12
+C15H31CONHCH[CH(CH3)2]COO-Na+,0.0019,25,3.279,3.476,anionic,train,12
+C15H31CONHCH[CH2CH(CH3)2]COO-Na+,0.0015,25,3.176,3.366,anionic,train,12
+C10H21SO3-Na+,0.043,25,4.633,4.863,anionic,train,12
+C12H25SO3-Na+,0.0124,25,4.093,4.353,anionic,train,12
+C12H25SO3-Li+,0.011,25,4.041,4.299,anionic,train,12
+C12H25SO3-NH4+,0.0089,25,3.949,4.165,anionic,train,12
+C12H25SO3-K+,0.0093,25,3.968,4.182,anionic,train,12
+C12H25SO4-Na+,0.0082,25,3.914,4.018,anionic,test,12
+C12H25SO4-Li+,0.0089,25,3.949,3.974,anionic,train,12
+C12H25SO4-N(CH3)4+,0.0055,25,3.74,3.918,anionic,train,12
+C12H25SO4-N(C3H7)4+,0.0022,25,3.342,3.375,anionic,train,12
+C14H29SO4-Na+,0.0021,25,3.322,3.577,anionic,train,12
+C10H21OC2H4SO3-Na+,0.0159,25,4.201,4.427,anionic,train,12
+C12H25OC2H4SO4-Na+,0.0039,25,3.591,3.654,anionic,train,12
+C12H25(OC2H4)2SO4-Na+,0.0029,25,3.462,3.363,anionic,test,12
+C16H33(OC2H4)5SO4-Na+,0.000025,25,1.398,1.545,anionic,train,12
+C8H17CH(C6H13)CH2(OC2H4)5SO4-Na+,0.000086,25,1.934,2.554,anionic,train,12
+C6H13OOCCH2SO3-Na+,0.17,25,5.23,5.635,anionic,train,12
+C8H17OOCCH2SO3-Na+,0.066,25,4.82,4.949,anionic,train,12
+C10H21OOCCH2SO3-Na+,0.022,25,4.342,4.5,anionic,train,12
+C4H9OOCCH2CH(SO3-Na+)COOC4H9,0.2,25,5.301,5.19,anionic,train,12
+C5H11OOCCH2CH(SO3-Na+)COOC5H11,0.053,25,4.724,4.388,anionic,test,12
+C4H9CH(C2H5)CH2OOCCH2CH(SO3-Na+)COOCH2CH(C2H5)C4H9,0.0025,25,3.398,3.485,anionic,train,12
+C8H17OOCCH2CH(SO3-Na+)COOC8H17,0.00091,25,2.959,3.124,anionic,train,12
+C12H25CH(SO3-Na+)COOC2H5,0.00225,25,3.352,3.342,anionic,train,12
+C12H25CH(SO3-Na+)COOC4H9,0.00135,25,3.13,3.182,anionic,train,12
+C7F15COO-K+,0.029,25,4.462,4.465,anionic,train,12
+C7F15COO-Na+,0.03,25,4.477,4.677,anionic,train,12
+C7F15COO-Li+,0.033,25,4.519,3.995,anionic,test,12
+(CF3)2CF(CF2)4COO-Na+,0.03,25,4.477,4.686,anionic,train,12
+C8F17COO-Li+,0.0049,25,3.69,3.868,anionic,train,12
+C8F17SO3-Li+,0.0063,25,3.799,4.04,anionic,train,12
+C6H13OOCCH2CH(SO3-Na+)COOC6H13,0.0014,25,3.146,3.594,anionic,train,12
+C14H29CH(SO3-Na+)COOCH3,0.00073,23,2.863,3.069,anionic,train,12
+C10H21N+(CH3)2CH2COO-,0.018,23,4.255,4.274,zwitterionic,train,12
+C12H25N+(CH3)2CH2COO-,0.002,25,3.301,3.455,zwitterionic,test,12
+C14H29N+(CH3)2CH2COO-,0.00022,25,2.342,2.448,zwitterionic,train,12
+C16H33N+(CH3)2CH2COO-,0.00002,23,1.301,1.464,zwitterionic,train,12
+C12H25N+(CH3)2(CH2)3COO-,0.0046,25,3.663,3.736,zwitterionic,train,12
+C12H25N+(CH3)2(CH2)5COO-,0.0026,25,3.415,3.111,zwitterionic,train,12
+C12H25N+(CH3)2(CH2)7COO-,0.0015,25,3.176,2.117,zwitterionic,test,12
+C10H21CH(Pyr+)COO-,0.0052,25,3.716,3.683,zwitterionic,train,12
+C12H25CH(Pyr+)COO-,0.0006,25,2.778,2.879,zwitterionic,train,12
+C12H25N+(CH3)2(CH2)3SO3-,0.003,25,3.477,3.359,zwitterionic,train,12
+C14H29N+(CH3)2(CH2)3SO3-,0.00032,25,2.505,2.752,zwitterionic,train,12

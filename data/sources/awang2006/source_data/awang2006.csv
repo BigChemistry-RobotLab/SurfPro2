@@ -1,0 +1,3 @@
+SMILES,Surfactant_Type,Temp_Celsius,AW_ST_CMC,source_doi,reference_doi
+CCCCCCCCC(O)C(O)CCCCCCCC(=O)NCCCO,non-ionic,,39.0,https://palmoilis.mpob.gov.my/publications/joprv18june-roila.pdf,
+CCCCCCCCC(O)C(O)CCCCCCCC(=O)NCCO,non-ionic,,35.0,https://palmoilis.mpob.gov.my/publications/joprv18june-roila.pdf,

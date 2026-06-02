@@ -1,0 +1,5 @@
+Compound,CMC (mM/L),πcmc (mN/m),Pc20 (mM/L),Γmax (x10-11 Mol K-1 cm-1),Amin  (A ̊ 2),ΔGads (kJ/Mole),ΔGmic (kJ/Mole),IT (mN/m),Emulsification efficiency (s),source_doi,reference_doi,SMILES,Temp_Celsius
+SB-12,2.63,27,0.71,7.08,24.25,-8.19,-8.15,12.0,50,10.1007/s11743-009-1156-0,,CCCCCCCCCCCCN=Cc1ccc([N+](C)(CC)CC)cc1.[I-],25.0
+SB-14,1.35,31,0.39,6.48,25.63,-9.11,-9.07,5.5,275,10.1007/s11743-009-1156-0,,CCCCCCCCCCCCCCN=Cc1ccc([N+](C)(CC)CC)cc1.[I-],25.0
+SB-16,0.73,44,0.14,6.14,27.05,-9.99,-9.92,3.0,665,10.1007/s11743-009-1156-0,,CCCCCCCCCCCCCCCCN=Cc1ccc([N+](C)(CC)CC)cc1.[I-],25.0
+SB-18,1.26,35,0.24,6.31,26.35,-9.23,-9.17,4.0,620,10.1007/s11743-009-1156-0,,CCCCCCCCCCCCCCCCCCN=Cc1ccc([N+](C)(CC)CC)cc1.[I-],25.0

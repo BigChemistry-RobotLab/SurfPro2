@@ -1,0 +1,10 @@
+,Amphiphile,CMC tensiometry/ mM,CMC conductometry/ mM,CMC fluorimetry/ mM,source_doi,reference_doi,SMILES,Temp_Celsius,106Γmax/ mol/m2,Amin/ nm2,-ΔGm/ kJ/mol,-ΔGad/ J/mol,P
+0,IAC-14(Et),1.3,1.2,2.0,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCC)c1.[Br-],25.0,,,,,
+1,IAC-14(Bu),0.5,0.5,0.5,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25.0,,,,,
+2,IAC-16(Et),0.3,0.5,0.5,10.1016/j.molliq.2020.114094,10.1016/j.molliq.2019.111961,CCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCC)c1.[Br-],25.0,,,,,
+3,IAC-16(Bu),0.15,0.15,0.17,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25.0,,,,,
+4,IAC-18(Et),0.1,0.3 mM,0.3,10.1016/j.molliq.2020.114094,10.1016/j.molliq.2019.111961,CCCCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCC)c1.[Br-],25.0,,,,,
+5,IAC-18(Bu),0.05,0.05,0.05,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25.0,,,,,
+0,IAC-14(Bu),,,,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25.0,1.57,1.06,32.2,53.6,0.198
+1,IAC-16(Bu),,,,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25.0,1.64,1.02,39.0,57.0,0.245
+2,IAC-18(Bu),,,,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25.0,1.8,0.923,42.1,59.0,0.298

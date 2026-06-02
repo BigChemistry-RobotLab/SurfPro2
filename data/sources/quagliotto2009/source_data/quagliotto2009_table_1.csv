@@ -1,0 +1,8 @@
+Compound,cmc conductivity (mM),β conductivity (%),Discontinuity before cmc conductivity (mM),β at discontinuity conductivity,cmc conductivity non-linear fit (mM),β conductivity non-linear fit (%),Discontinuity before cmc conductivity non-linear fit(mM),β at discontinuity surface tension non-linear fit,cmc surface tension (mM),Discontinuity before cmcc surface tension (mM),Temp_Celsius,source_doi,reference_doi,SMILES
+1a,17.0,60.0,,16.5,59.0,,16.2,,,,25.0,10.1016/j.jcis.2009.09.009,,CCCCCCCCCCCC[n+]1ccccc1.[Cl-]
+1b,11.3,73.0,,11.3,73.0,,11.5,,,,25.0,10.1016/j.jcis.2009.09.009,,CCCCCCCCCCCC[n+]1ccccc1.[Br-]
+2a,15.1,56.0,0.25,6.0,15.7,63.0,0.24,7.0,14.2,1.51,25.0,10.1016/j.jcis.2009.09.009,,CCCCCCCCCCCC[n+]1ccc(C)cc1.[Cl-]
+2b,8.1,77.0,0.28,20.0,9.1,77.0,0.26,19.0,9.15,0.32,25.0,10.1016/j.jcis.2009.09.009,,CCCCCCCCCCCC[n+]1ccc(C)cc1.[Br-]
+3a,7.39,46.0,0.26,21.0,7.21,46.0,0.23,21.0,7.76,0.52,25.0,10.1016/j.jcis.2009.09.009,,CCCCCCCCCCCC[N+]1=CC=C(C)C2=C1C=CC=C2.[Cl-]
+3b,4.9,68.0,0.12,9.0,4.7,70.0,0.095,17.0,4.3,0.019,25.0,10.1016/j.jcis.2009.09.009,,CCCCCCCCCCCC[N+]1=CC=C(C)C2=C1C=CC=C2.[Br-]
+3b,,,0.27,26.0,,,0.27,31.0,,0.1,25.0,10.1016/j.jcis.2009.09.009,,CCCCCCCCCCCC[N+]1=CC=C(C)C2=C1C=CC=C2.[Br-]

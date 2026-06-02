@@ -1,0 +1,10 @@
+identifier,cmc surface tension (mM),cmc surface tension err (mM),cmc conductivity (mM),cmc conductivity err (mM),γmc (mN m−1),Γ∞ (10−6 mol m−2),Amin (nm2),α,α err,source_doi,reference_doi,SMILES,Temp_Celsius
+12G,0.79,0.02,0.8,0.02,33.4,1.478,1.124,0.25,0.01,10.1016/j.colsurfa.2013.12.079,,C=CC(=O)OC(C[N+](C)(C)CCCCCCCCCCCC)C[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-],25.0
+14G,0.24,0.02,0.25,0.02,31.3,1.402,1.185,0.27,0.01,10.1016/j.colsurfa.2013.12.079,,C=CC(=O)OC(C[N+](C)(C)CCCCCCCCCCCCCC)C[N+](C)(C)CCCCCCCCCCCCCC.[Br-].[Br-],25.0
+16G,0.031,0.015,0.036,0.015,32.5,1.588,1.046,0.32,0.02,10.1016/j.colsurfa.2013.12.079,,C=CC(=O)OC(C[N+](C)(C)CCCCCCCCCCCCCCCC)C[N+](C)(C)CCCCCCCCCCCCCCCC.[Br-].[Br-],25.0
+12D,4.13,0.1,4.35,0.1,43.1,2.338,0.715,0.17,0.02,10.1016/j.colsurfa.2013.12.079,,C=CC(=O)OCC[N+](C)(C)CCCCCCCCCCCC.[Br-],25.0
+14D,1.26,0.1,1.36,0.1,42.8,2.308,0.719,0.19,0.02,10.1016/j.colsurfa.2013.12.079,,C=CC(=O)OCC[N+](C)(C)CCCCCCCCCCCCCC.[Br-],25.0
+16D,0.84,0.1,0.9,0.1,43.2,2.312,0.718,0.21,0.02,10.1016/j.colsurfa.2013.12.079,,C=CC(=O)OCC[N+](C)(C)CCCCCCCCCCCCCCCC.[Br-],25.0
+12-3-12a,0.91,,0.96,,35.0,1.58,1.05,0.22,,10.1016/j.colsurfa.2013.12.079,10.1021/la00028a011,C[N+](C)(CCCCCCCCCCCC)CCC[N+](C)(CCCCCCCCCCCC)C.[Br-].[Br-],25.0
+14-3-14b,,,0.38,,,,,,,10.1016/j.colsurfa.2013.12.079,,C[N+](C)(CCCCCCCCCCCCCC)CCC[N+](C)(CCCCCCCCCCCCCC)C.[Br-].[Br-],25.0
+16-3-16c,0.0255,,,,,,,,0.32,10.1016/j.colsurfa.2013.12.079,10.1021/la00054a008,C[N+](C)(CCCCCCCCCCCCCCCC)CCC[N+](C)(CCCCCCCCCCCCCCCC)C.[Br-].[Br-],25.0

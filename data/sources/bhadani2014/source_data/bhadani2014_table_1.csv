@@ -1,0 +1,4 @@
+Surfactant,cmc surface tension (mM),cmc conductivity (mM),cmc fluorescence (mM),γcmc (mN.m−1),106 Γmax (mol.m−2),Amin  (nm2),C20 (M),source_doi,SMILES,Temp_Celsius,reference_doi
+[C12-(MEG)-C12]2Br,0.55,0.86,0.57,29.1,1.81,0.92,8.91e-05,10.1007/s00396-014-3233-9,CCCCCCCCCCCC[N+](C)(C)CC(=O)OCCOC(=O)C[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-],25.0,
+[C12-(DEG)-C12]2Br,0.61,0.9,0.59,30.7,1.87,0.89,0.000132,10.1007/s00396-014-3233-9,CCCCCCCCCCCC[N+](C)(C)CC(=O)OCCOCCOC(=O)C[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-],25.0,
+[C12-(TEG)-C12]2Br,0.67,1.23,0.78,30.9,1.74,0.94,0.000138,10.1007/s00396-014-3233-9,CCCCCCCCCCCC[N+](C)(C)CC(=O)OCCOCCOCCOC(=O)C[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-],25.0,

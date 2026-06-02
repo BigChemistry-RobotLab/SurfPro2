@@ -1,0 +1,4 @@
+Compound,Apparent TKrafft (°C),103×CMC (mol/L),Nagg,α,ΔG°mic (kJ/mol),Temp_Celsius,source_doi,reference_doi,SMILES,Temp_Celsius.1
+3a,<0,25.0,28,0.33,-33.5,40,10.1016/S0008-6215(01)00077-5,,O[C@@H]([C@@H]1O)[C@@H](NC(CCCCCCC)=O)C(OC)O[C@@H]1COS(=O)([O-])=O.[Na+],40.0
+3b,14,1.7,56,0.2,-48.6,40,10.1016/S0008-6215(01)00077-5,,O[C@@H]([C@@H]1O)[C@@H](NC(CCCCCCCCCCC)=O)C(OC)O[C@@H]1COS(=O)([O-])=O.[Na+],40.0
+3c,39,0.12,95,0.17,-62.3,40,10.1016/S0008-6215(01)00077-5,,O[C@@H]([C@@H]1O)[C@@H](NC(CCCCCCCCCCCCCCC)=O)C(OC)O[C@@H]1COS(=O)([O-])=O.[Na+],40.0

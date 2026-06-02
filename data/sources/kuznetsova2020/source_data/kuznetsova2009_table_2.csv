@@ -1,0 +1,4 @@
+Amphiphile,106Γmax/ mol/m2,Amin/ nm2,-ΔGm/ kJ/mol,-ΔGad/ J/mol,P,source_doi,reference_doi,SMILES,Temp_Celsius
+IAC-14(Bu),1.57,1.06,32.2,53.6,0.198,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25.0
+IAC-16(Bu),1.64,1.02,39,57,0.245,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25.0
+IAC-18(Bu),1.8,0.923,42.1,59,0.298,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25.0

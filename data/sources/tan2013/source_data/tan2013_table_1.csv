@@ -1,0 +1,4 @@
+Surfactants,CMC surface tension (mM),CMC surface tension err (mM),CMC conductivity (mM),CMC conductivity err (mM),CMC fluorescence (mM),CMC fluorescence err (mM),source_doi,reference_doi,SMILES,Temp_Celsius
+Si4mam-OHCl,11.4,0.1,11.6,0.1,10.8,0.1,10.1016/j.colsurfa.2012.10.041,,OCC[N+](C)(C)CCC[Si](O[Si](C)(C)C)(O[Si](C)(C)C)O[Si](C)(C)C.[Cl-],25.0
+Si4mimCl,7.4,0.1,7.5,0.1,7.7,0.1,10.1016/j.colsurfa.2012.10.041,,C[Si](C)(C)O[Si](O[Si](C)(C)C)(O[Si](C)(C)C)CCC[N+]1=CN(C)C=C1.[Cl-],25.0
+Si4pyCl,5.7,0.1,5.5,0.1,5.8,0.1,10.1016/j.colsurfa.2012.10.041,,C[Si](C)(C)O[Si](O[Si](C)(C)C)(O[Si](C)(C)C)CCC[N+]1(C)CCCC1.[Cl-],25.0

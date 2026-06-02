@@ -1,0 +1,2 @@
+SMILES,Surfactant_Type,Temp_Celsius,AW_ST_CMC,CMC,source_doi,reference_doi,Molecular_Weight,InChI
+C[N+](CCO)(CCO)CC(O)CC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F.[Cl-],cationic,25,25,0.0024,10.1016/0927-7757(93)02679-9,,631.751,"InChI=1S/C16H19F17NO3.ClH/c1-34(2-4-35,3-5-36)7-8(37)6-9(17,18)10(19,20)11(21,22)12(23,24)13(25,26)14(27,28)15(29,30)16(31,32)33;/h8,35-37H,2-7H2,1H3;1H/q+1;/p-1"
