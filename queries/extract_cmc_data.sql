@@ -1,3 +1,8 @@
+-- Select the earliest (first-reported) measurement for each unique (compound,
+-- property, value, temperature) combination by ranking all entries
+-- chronologically by publication year and insertion order, then return only
+-- the first occurrence (rn = 1) for CMC measurements measured between 20–25°C,
+-- including property name, units, and DOI.
 WITH ranked_measurements AS (
     SELECT
         m.compound_id,
