@@ -7,6 +7,7 @@ from utilities import biblio_by_doi
 
 PROPERTY_INFO = toml.loads(Path("data/property_info.toml").read_text())
 
+
 def create_database(DB_PATH, schema_file):
     create_commands = Path(schema_file).read_text()
     with sqlite3.connect(DB_PATH) as connection:
@@ -22,19 +23,19 @@ def upsert_literature(lit_entry, cursor):
     issn = lit_entry.get("issn")
     id_key = lit_entry.get("ID")
 
-    title = lit_entry.get("title", "")
-    shorttitle = lit_entry.get("shorttitle", "")
-    author = lit_entry.get("author", "")
-    date = lit_entry.get("date", "")
-    journaltitle = lit_entry.get("journaltitle", "")
-    shortjournal = lit_entry.get("shortjournal", "")
-    volume = lit_entry.get("volume", "")
-    number = lit_entry.get("number", "")
-    pages = lit_entry.get("pages", "")
-    url = lit_entry.get("url", "")
-    urldate = lit_entry.get("urldate", "")
-    abstract = lit_entry.get("abstract", "")
-    langid = lit_entry.get("langid", "")
+    title = lit_entry.get("title")
+    shorttitle = lit_entry.get("shorttitle")
+    author = lit_entry.get("author")
+    date = lit_entry.get("date")
+    journaltitle = lit_entry.get("journaltitle")
+    shortjournal = lit_entry.get("shortjournal")
+    volume = lit_entry.get("volume")
+    number = lit_entry.get("number")
+    pages = lit_entry.get("pages")
+    url = lit_entry.get("url")
+    urldate = lit_entry.get("urldate")
+    abstract = lit_entry.get("abstract")
+    langid = lit_entry.get("langid")
 
     if all([x is None for x in [doi, isbn, issn]]):
         return
@@ -116,6 +117,11 @@ def upsert_compound(row, cursor):
 
     if inchi is None:
         return
+
+    try:
+        mol_wt = round(float(mol_wt), 3) if mol_wt else None
+    except ValueError:
+        mol_wt = None
 
     query = """
     INSERT INTO compounds (
@@ -219,8 +225,6 @@ def upsert_property_type(name, cursor):
 
 
 def upsert_measurement(row, compound_id, source_id, cited_id, source_file, cursor):
-    properties = ["CMC", "pC20", "Gamma_max", "AW_ST_CMC", "Pi_CMC", "Area_min"]
-
     query = """
     INSERT INTO measurements (
         compound_id,
@@ -232,7 +236,9 @@ def upsert_measurement(row, compound_id, source_id, cited_id, source_file, curso
         source_file
     )
     VALUES (?, ?, ?, ?, ?, ?, ?)
-    ON CONFLICT
+    ON CONFLICT (
+        compound_id, property_type_id, value, temperature_norm, citation_id
+    )
     DO UPDATE SET
         unit_id = COALESCE(excluded.unit_id, measurements.unit_id),
         source_file = COALESCE(excluded.source_file, measurements.source_file),
@@ -240,7 +246,7 @@ def upsert_measurement(row, compound_id, source_id, cited_id, source_file, curso
     """
     # (compound_id, property_type, value, temperature, source_id, cited_id)
 
-    for property_type in properties:
+    for property_type in PROPERTY_INFO:
         value = row.get(property_type)
         unit, dimension, property_name = PROPERTY_INFO.get(property_type)
         temperature = row.get("Temp_Celsius")
@@ -284,11 +290,11 @@ def insert_or_update_row(row, source_file, cursor, bib_database):
         )
         cited_id = upsert_literature(cited_bibtex_entry, cursor)
 
-    if compound_id and source_id:
+    if compound_id is None or source_id is None:
+        raise ValueError(f"Insertion failed for {source_file}")
+    else:
         upsert_identifier(row, compound_id, source_id, cited_id, source_file, cursor)
         upsert_measurement(row, compound_id, source_id, cited_id, source_file, cursor)
-    else:
-        print(f"Issue inserting {source_file}")
 
 
 def ingest_file(data_file, DB_PATH, bib_by_doi):
@@ -330,7 +336,7 @@ def main():
     SCHEMA_FILE = Path(config["SCHEMA_FILE"])
 
     if not DB_PATH.parent.is_dir():
-        DB_PATH.mkdir(exist_ok=True)
+        DB_PATH.mkdir(parents=True, exist_ok=True)
 
     bibtex_string = Path(LIT_DATABASE).read_text(encoding="utf-8")
     bib_database = bibtexparser.loads(bibtex_string)

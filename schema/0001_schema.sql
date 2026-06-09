@@ -66,6 +66,7 @@ CREATE TABLE IF NOT EXISTS measurements (
     property_type_id INTEGER,
     value REAL,
     temperature REAL,
+    temperature_norm INTEGER REAL ALWAYS AS (COALESCE(temperature, -9999)) STORED, -- for unique index
     unit_id INTEGER NOT NULL,
     citation_id INTEGER NOT NULL,
     source_file TEXT,
@@ -100,18 +101,18 @@ CREATE UNIQUE INDEX IF NOT EXISTS idx_units_name ON units(name);
 
 CREATE INDEX IF NOT EXISTS idx_measurements_compound ON measurements(compound_id);
 CREATE INDEX IF NOT EXISTS idx_measurements_citation ON measurements(citation_id);
-CREATE UNIQUE INDEX IF NOT EXISTS idx_measurement_uniqueness ON measurements (compound_id, property_type_id, value, COALESCE(temperature, -9999), citation_id);
+CREATE UNIQUE INDEX IF NOT EXISTS idx_measurement_uniqueness ON measurements (compound_id, property_type_id, value, temperature_norm, citation_id);
 
 CREATE INDEX IF NOT EXISTS idx_identifiers_citation ON identifiers(citation_id);
 CREATE UNIQUE INDEX IF NOT EXISTS idx_identifier_uniqueness ON identifiers (citation_id, compound_id, identifier);
+CREATE INDEX IF NOT EXISTS idx_identifiers_compound ON identifiers(compound_id);
 
 CREATE INDEX IF NOT EXISTS idx_citations_source ON citations(source_id);
 CREATE INDEX IF NOT EXISTS idx_citations_cited ON citations(cited_id);
-CREATE UNIQUE INDEX IF NOT EXISTS idx_citation_uniqueness
-ON citations (source_id, cited_id_norm);
+CREATE UNIQUE INDEX IF NOT EXISTS idx_citation_uniqueness ON citations (source_id, cited_id_norm);
 
 CREATE TRIGGER IF NOT EXISTS update_measurements_updated_at
-AFTER UPDATE ON measurements
+BEFORE UPDATE ON measurements
 FOR EACH ROW
 BEGIN
     UPDATE measurements
