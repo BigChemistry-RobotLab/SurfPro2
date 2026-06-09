@@ -1,7 +1,6 @@
 import numpy as np
 from rdkit import Chem
 import pandas as pd
-from rdkit import Chem
 from rdkit.Chem import Descriptors
 
 Si3 = "C[Si](C)(C)CCCSCCC"

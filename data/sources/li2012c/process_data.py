@@ -2,8 +2,6 @@ import numpy as np
 import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import Descriptors
-import bibtexparser
-from pathlib import Path
 
 
 def get_doi(bibtex_key, bibtex_entries):

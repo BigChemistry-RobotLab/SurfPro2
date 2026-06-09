@@ -1,4 +1,3 @@
-from string import Template
 
 # Myrj
 "CCCCCCCCCCCCCCCCCC(=O)O$chain"

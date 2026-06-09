@@ -1,7 +1,6 @@
 import pandas as pd
 import json
 from pathlib import Path
-import pandas as pd
 import pubchempy as pcp
 from rdkit import Chem
 

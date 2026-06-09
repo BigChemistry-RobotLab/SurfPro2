@@ -1,5 +1,4 @@
 import numpy as np
-from string import Template
 import pandas as pd
 from pathlib import Path
 from rdkit import Chem
