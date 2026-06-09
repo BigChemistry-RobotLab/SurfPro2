@@ -23,7 +23,7 @@ def initialise_database():
     bib_by_doi = biblio_by_doi(bib_database)
 
     literature_to_omit = []
-    with open("./data/removed_literature.csv", "r") as file:
+    with open("./data/omitted_literature.csv", "r") as file:
         reader = csv.DictReader(file)
         for r in reader:
             entry = bib_by_doi.get(r["DOI"])
