@@ -13,22 +13,31 @@ The database also incorporates a citation file (`data/CMC_database.bib`), and a 
 The schema for the database are given in `schema`.
 Relative paths for the various components in the SurfPro2.0 database are stored in `config.toml`.
 
-## Installing Dependencies
-
+## UV environment
+We use [UV](https://docs.astral.sh/uv/getting-started/installation) to create a reproducible python environment.
 ```
-pip install -r requirements.txt
+git clone https://github.com/BigChemistry-RobotLab/SurfPro2.0.git
+cd SurfPro2.0
+
+uv sync
 ```
 
 ## Building the Database
 
-After installing the dependencies, run the following command to build the database:
+After installing the uv environment, run the following command to build the database:
 
 ```
-python scripts/initialise_database.py
+uv run python scripts/initialise_database.py
 ```
 
-The database can then be browsed using standard SQLite browser software (e.g. [DB Browser for SQLite](https://sqlitebrowser.org/)), or interacted with via Python's `sqlite3`.
+The database can then be browsed using standard SQLite browser software (e.g. [DB Browser for SQLite](https://sqlitebrowser.org/)), python-based SQLite explorers (`datasette` or `harlequin`) or interacted with via Python's `sqlite3`.
 Example scripts and queries to extract subsets of the data are give in the `scripts` and `queries` directories, respectively.
+
+```
+uv add datasette harlequin
+uv run datasette target/surfpro.db
+uv run harlequin target/surfpro.db
+```
 
 ## Updating the Database
 
@@ -40,7 +49,7 @@ TODO! provide more precise instructions.
 
 This database has been assembled and curated by:
 
-- William E. Robinson
 - Stefan L. Hödl
-- Pim Dankloff
-- Alexander Korotkevich
+- Pim F.J. Dankloff
+- Alexander A. Korotkevich
+- William E. Robinson

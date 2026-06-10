@@ -1,0 +1,32 @@
+[project]
+name = "SurfPro2.0"
+authors = [
+  {name = "Stefan L. Hoedl", email = "stefan.hoedl@ru.nl"},
+  {name = "Pim F. J. Dankloff", email = "pim.dankloff@ru.nl"},
+  {name = "Alexander A. Korotkevich", email = "alexander.korotkevich@ru.nl"},
+  {name = "Wilhelm T.S. Huck", email = "wilhelm.huck@ru.nl"},
+  {name = "William E. Robinson", email = "william.robinson@ru.nl"}
+]
+description = "SurfPro 2.0: An update to the SurfPro database"
+version = "2.0"
+readme = "README.md"
+license-files = ["LICENSE.md"]
+keywords = ["surfactants", "database", "critical micelle concentration", "surface tension", "data curation"]
+requires-python = "==3.12.4"
+dependencies = [
+  "bibtexparser==1.4.4",
+  "datasette>=0.65.2",
+  "numpy==2.3.0",
+  "openpyxl==3.1.5",
+  "pandas==2.3.1",
+  "PubChemPy==1.0.5",
+  "rdkit==2025.3.3",
+  "ruff==0.12.10",
+  "scikit-learn==1.7.1",
+  "scipy==1.16.1",
+  "toml==0.10.2",
+]
+
+[project.urls]
+Github = "https://github.com/BigChemistry-RobotLab/SurfPro2.0"
+Zenodo = "https://doi.org/10.5281/zenodo.14931936"
