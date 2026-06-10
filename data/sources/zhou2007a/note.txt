@@ -1,1 +1,1 @@
-temperature is given as 'room temperature', so therefore omitted from the table.
+The temperature variable is given as 'room temperature', so therefore is omitted from the table.
