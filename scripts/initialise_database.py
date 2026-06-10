@@ -53,9 +53,6 @@ def initialise_database():
 
     add_surfactant_types(DB_PATH)
 
-def main():
-    initialise_database()
-
 
 if __name__ == "__main__":
-    main()
+    initialise_database()

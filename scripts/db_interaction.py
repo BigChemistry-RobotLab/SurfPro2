@@ -327,7 +327,7 @@ def add_surfactant_types(DB_PATH):
         connection.commit()
 
 
-def main():
+if __name__ == "__main__":
     config = toml.loads(Path("config.toml").read_text())
 
     DATA_ROOT = Path(config["DATA_ROOT"])
@@ -349,7 +349,3 @@ def main():
         source_dir = DATA_ROOT / key / "processed_data"
         for file in source_dir.iterdir():
             ingest_file(file, DB_PATH, bib_by_doi)
-
-
-if __name__ == "__main__":
-    main()

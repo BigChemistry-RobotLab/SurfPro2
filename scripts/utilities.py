@@ -18,5 +18,3 @@ def biblio_by_key(bib_database):
         if entry_key:
             bibliography[entry_key] = e
     return bibliography
-
-
