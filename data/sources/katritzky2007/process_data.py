@@ -118,13 +118,13 @@ translations = {
     "CF6C2C(C7)SO4Na": "",
     "CF8C2C(C7)SO4Na": "",
     "CC(C)C5PhEO10PO4H2": paraPh.substitute(
-        chain_1="CC(C)" + C * 5, chain_2=EO * 10 + PO4H2
+        chain_1=C * 5 + "C(C)C", chain_2=EO * 10 + PO4H2
     ),
     "CC(C)C5PhEO15PO4H2": paraPh.substitute(
-        chain_1="CC(C)" + C * 5, chain_2=EO * 15 + PO4H2
+        chain_1=C * 5 + "C(C)C", chain_2=EO * 15 + PO4H2
     ),
     "CC(C)C5PhEO20PO4H2": paraPh.substitute(
-        chain_1="CC(C)" + C * 5, chain_2=EO * 20 + PO4H2
+        chain_1=C * 5 + "C(C)C", chain_2=EO * 20 + PO4H2
     ),
     "C7C(O)NGlupyrSO4Na": nGlupyr.substitute(R="C(=O)" + C * 7),
     "C11C(O)NGlupyrSO4Na": nGlupyr.substitute(R="C(=O)" + C * 11),
