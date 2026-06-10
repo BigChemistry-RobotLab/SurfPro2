@@ -249,6 +249,8 @@ df["reference_doi"] = reference_doi
 df["reference_key"] = reference_keys
 df["Temp_Celsius"] = 25.0
 df = df.rename(columns={"-log(CMC)": "pCMC", "structure_code": "identifier"})
+
+df["CMC"] = 10**-df.pCMC
 df = df.drop(columns=["no."])
 df = df[~(df.SMILES == "")]
 
