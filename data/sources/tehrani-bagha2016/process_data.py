@@ -16,6 +16,8 @@ def get_doi(bibtex_key, bibtex_entries):
 
 # Compare to manual transcription
 df = pd.read_csv("source_data/tehrani-bagha2016_table_1.csv")
+
+df = df.iloc[[0,1,3]]
 df_maps = pd.read_csv("source_data/mappings.csv").set_index("Surfactant")
 bibtex_string = Path("../../CMC_database.bib").read_text(encoding="latin-1")
 bib_database = bibtexparser.loads(bibtex_string)
