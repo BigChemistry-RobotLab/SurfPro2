@@ -1,7 +1,8 @@
+import json
 from string import Template
 
 temp = Template(
-    "${R}Oc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)${S}(=O)Nc2ccc(O${R})cc2)cc1.[Br-].[Br-]"
+    "${R}c1ccc(NC(=O)C[N+](C)(C)${S}[N+](C)(C)CC(=O)Nc2ccc(O${R})cc2)cc1.[Br-].[Br-]"
 )
 
 codes = {
@@ -22,24 +23,12 @@ codes = {
     "16-6-16": (16, 6),
 }
 
+results = {}
 for c in codes:
     smiles = temp.substitute(R=codes[c][0]*"C", S=codes[c][1]*"C")
-    print(smiles)
+    results[c] = smiles
 
-"""
-CCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCC)cc2)cc1.[Br-].[Br-]
-CCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CCCC(=O)Nc2ccc(OCCCCCCCC)cc2)cc1.[Br-].[Br-]
-CCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CCCCCC(=O)Nc2ccc(OCCCCCCCC)cc2)cc1.[Br-].[Br-]
-CCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCC)cc2)cc1.[Br-].[Br-]
-CCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CCCC(=O)Nc2ccc(OCCCCCCCCCC)cc2)cc1.[Br-].[Br-]
-CCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CCCCCC(=O)Nc2ccc(OCCCCCCCCCC)cc2)cc1.[Br-].[Br-]
-CCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]
-CCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CCCC(=O)Nc2ccc(OCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]
-CCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CCCCCC(=O)Nc2ccc(OCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]
-CCCCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]
-CCCCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CCCC(=O)Nc2ccc(OCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]
-CCCCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CCCCCC(=O)Nc2ccc(OCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]
-CCCCCCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]
-CCCCCCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CCCC(=O)Nc2ccc(OCCCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]
-CCCCCCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CCCCCC(=O)Nc2ccc(OCCCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]
-"""
+output = json.dumps(results, indent=4)
+
+with open("source_data/code_to_smiles.json", "w") as file:
+    file.write(output)
