@@ -14,38 +14,38 @@
     "decyl-β-D-galactoside": {"SMILES": "OC[C@H]([C@@H]([C@@H]([C@H]1O)O)O)O[C@H]1OCCCCCCCCCC"},
     "dodecyl-α-D-mannoside": {"SMILES": "OC[C@@H](O1)[C@@H](O)[C@H](O)[C@H](O)[C@H]1OCCCCCCCCCCCC"},
     "dodecyl-β-D-Galactoside": {"SMILES": "OC[C@H]([C@@H]([C@@H]([C@H]1O)O)O)O[C@H]1OCCCCCCCCCCCC"},
-   "1-O-butyl-D,L-xylitol": {"SMILES": "OC(C(C(CO)O)O)COCCCC"},
-    "1-O-pentyl-D,L-xylitol": {"SMILES": "OC(C(C(CO)O)O)COCCCCC"},
-    "1-O-hexyl-D,L-xylitol": {"SMILES": "OC(C(C(CO)O)O)COCCCCCC"},
+    "1-O-butyl-D,L-xylitol": {"SMILES": "CCCCOC[C@@H](O)[C@H](O)[C@@H](O)CO.CCCCOC[C@H](O)[C@@H](O)[C@H](O)CO"},
+    "1-O-pentyl-D,L-xylitol": {"SMILES": "CCCCCOC[C@@H](O)[C@H](O)[C@@H](O)CO.CCCCCOC[C@H](O)[C@@H](O)[C@H](O)CO"},
+    "1-O-hexyl-D,L-xylitol": {"SMILES": "CCCCCCOC[C@@H](O)[C@H](O)[C@@H](O)CO.CCCCCCOC[C@H](O)[C@@H](O)[C@H](O)CO"},
     "1-O-heptyl-D,L-xylitol": {
-        "SMILES": "CCCCCCCOC([C@@H](O)C(O)[C@@H](O)CO)[C@@H](O)CO"
+        "SMILES": "CCCCCCCOC[C@@H](O)[C@H](O)[C@@H](O)CO.CCCCCCCOC[C@H](O)[C@@H](O)[C@H](O)CO"
     },
     "1-O-octyl-D,L-xylitol": {
-        "SMILES": "CCCCCCCCOC([C@@H](O)C(O)[C@@H](O)CO)[C@@H](O)CO"
+        "SMILES": "CCCCCCCCOC[C@@H](O)[C@H](O)[C@@H](O)CO.CCCCCCCCOC[C@H](O)[C@@H](O)[C@H](O)CO"
     },
     "1-O-nonyl-D,L-xylitol": {
-        "SMILES": "CCCCCCCCCOC([C@@H](O)C(O)[C@@H](O)CO)[C@@H](O)CO"
+        "SMILES": "CCCCCCCCCOC[C@@H](O)[C@H](O)[C@@H](O)CO.CCCCCCCCCOC[C@H](O)[C@@H](O)[C@H](O)CO"
     },
     "1-O-pentanoyl-D,L-xylitol": {
-        "SMILES": "CCCCCOC(=O)C([C@@H](O)C(O)[C@@H](O)CO)[C@@H](O)CO"
+        "SMILES": "CCCCC(OC[C@H]([C@@H]([C@H](CO)O)O)O)=O.CCCCC(OC[C@@H]([C@H]([C@@H](CO)O)O)O)=O"
     },
     "1-O-hexanoyl-D,L-xylitol": {
-        "SMILES": "CCCCCCOC(=O)C([C@@H](O)C(O)[C@@H](O)CO)[C@@H](O)CO"
+        "SMILES": "CCCCCC(OC[C@H]([C@@H]([C@H](CO)O)O)O)=O.CCCCCC(OC[C@@H]([C@H]([C@@H](CO)O)O)O)=O"
     },
     "1-O-heptanoyl-D,L-xylitol": {
-        "SMILES": "CCCCCCCOC(=O)C([C@@H](O)C(O)[C@@H](O)CO)[C@@H](O)CO"
+        "SMILES": "CCCCCCC(OC[C@H]([C@@H]([C@H](CO)O)O)O)=O.CCCCCCC(OC[C@@H]([C@H]([C@@H](CO)O)O)O)=O"
     },
     "1-O-octanoyl-D,L-xylitol": {
-        "SMILES": "CCCCCCCCOC(=O)C([C@@H](O)C(O)[C@@H](O)CO)[C@@H](O)CO"
+        "SMILES": "CCCCCCCC(OC[C@H]([C@@H]([C@H](CO)O)O)O)=O.CCCCCCCC(OC[C@@H]([C@H]([C@@H](CO)O)O)O)=O"
     },
     "1-O-nonanoyl-D,L-xylitol": {
-        "SMILES": "CCCCCCCCCOC(=O)C([C@@H](O)C(O)[C@@H](O)CO)[C@@H](O)CO"
+        "SMILES": "CCCCCCCCC(OC[C@H]([C@@H]([C@H](CO)O)O)O)=O.CCCCCCCCC(OC[C@@H]([C@H]([C@@H](CO)O)O)O)=O"
     },
     "1-O-decanoyl-D,L-xylitol": {
-        "SMILES": "CCCCCCCCCCOC(=O)C([C@@H](O)C(O)[C@@H](O)CO)[C@@H](O)CO"
+        "SMILES": "CCCCCCCCCC(OC[C@H]([C@@H]([C@H](CO)O)O)O)=O.CCCCCCCCCC(OC[C@@H]([C@H]([C@@H](CO)O)O)O)=O"
     },
-    "S-butyl-1-thio-D,L-xylitol": {"SMILES": "OC(C(C(CO)O)O)CSCCCC"},
-    "S-pentyl-1-thio-D,L-xylitol": {"SMILES": "OC(C(C(CO)O)O)CSCCCCC"},
+    "S-butyl-1-thio-D,L-xylitol": {"SMILES": "CCCCSC[C@H]([C@@H]([C@H](CO)O)O)O.CCCCSC[C@@H]([C@H]([C@@H](CO)O)O)O"},
+    "S-pentyl-1-thio-D,L-xylitol": {"SMILES": "CCCCCSC[C@H]([C@@H]([C@H](CO)O)O)O.CCCCCSC[C@@H]([C@H]([C@@H](CO)O)O)O"},
     "S-hexyl-1-thio-L-xylitol": {"SMILES": "O[C@@H]([C@@H]([C@H](CO)O)O)CSCCCCCC"},
     "S-octyl-1-thio-L-xylitol": {"SMILES": "O[C@@H]([C@@H]([C@H](CO)O)O)CSCCCCCCCC"},
     "S-decyl-1-thio-L-xylitol": {"SMILES": "O[C@@H]([C@@H]([C@H](CO)O)O)CSCCCCCCCCCC"},
@@ -117,7 +117,7 @@
     },
     "decanoyl-N-methylglucamine": {"SMILES": "CCCCCCCCCC(=O)N(C)C[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO"},
     "decyl-β-D-maltoside": {
-        "SMILES": "CCCCCCCCCCOC1CC(O)C(OC2OC(CO)C(O)C(O)C2O)C(CO)O1"
+        "SMILES": "CCCCCCCCCCO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O "
     },
     "decyl-β-D-glucoside": {"SMILES": "OC[C@H]([C@H]([C@@H]([C@H]1O)O)O)O[C@H]1OCCCCCCCCCC"},
     "dodecyl-β-D-maltoside": {
