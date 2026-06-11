@@ -73,7 +73,7 @@ translations = {
     "C12-Lactitol": "CCCCCCCCCCCC(=O)OC[C@H]1O[C@@H](O[C@@H]([C@H](O)[C@@H](O)CO)[C@H](O)CO)[C@H](O)[C@@H](O)[C@H]1O",
     "C16-Lactose": "CCCCCCCCCCCCCCCC(=O)OC[C@H]1O[C@@H](O[C@H]2[C@H](O)[C@@H](O)[C@H](O)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@H]1O",
     "C16-Lactitol": "CCCCCCCCCCCCCCCC(=O)OC[C@H]1O[C@@H](O[C@@H]([C@H](O)[C@@H](O)CO)[C@H](O)CO)[C@H](O)[C@@H](O)[C@H]1O",
-    "n-C12-Mpyr": "CCCCCCCCCCCCO[C@H]1C([C@H]([C@@H](C(O1)CO)O[C@@H]2C([C@H]([C@@H](C(O2)CO)O)O)O)O)O",
+    "n-C12-Mpyr": "CCCCCCCCCCCCO[C@@H]1O[C@@H]([C@H]([C@@H]([C@H]1O)O)O[C@H]2O[C@@H]([C@H]([C@@H]([C@H]2O)O)O)CO)CO",
     "C4-OCO-Xyl": "CCCCC(=O)OCC(O)C(O)C(O)CO",
     "C5-OCO-Xyl": "CCCCCC(=O)OCC(O)C(O)C(O)CO",
     "C6-OCO-Xyl": "CCCCCCC(=O)OCC(O)C(O)C(O)CO",
