@@ -1,3 +1,4 @@
+import json
 import numpy as np
 import pandas as pd
 from rdkit import Chem
@@ -5,6 +6,9 @@ from rdkit.Chem import Descriptors
 
 SOURCE_FILE = "source_data/taleb2017_table_1.csv"
 PROCESSED_FILE = "processed_data/taleb2017.csv"
+
+with open("source_data/code_to_smiles.json", "r") as file:
+    code_to_smiles = json.loads(file.read())
 
 df = pd.read_csv(SOURCE_FILE)
 df["Gamma_max"] = df["Γmax (μmol/m2)"] / 10**6
@@ -41,7 +45,8 @@ smiles_list = []
 inchi_list = []
 mol_wts = []
 for i, row in df.iterrows():
-    smiles = row.SMILES
+    code = row.identifier
+    smiles = code_to_smiles.get(code)
 
     if pd.isna(smiles):
         mol = None
