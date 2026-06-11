@@ -31,7 +31,7 @@ for i, row in df.iterrows():
     entry = names_to_id.get(row.molecule)
 
     ref = row.ref
-    ref_key = refs.loc[ref][0]
+    ref_key = refs.loc[ref].key
     doi = get_doi(ref_key, bib_database)
 
     reference_doi.append(doi)
