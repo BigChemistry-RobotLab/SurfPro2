@@ -20,25 +20,25 @@ SELECT
     MAX(CASE WHEN r.property_type_id = 1 THEN r.temperature END) AS CMC_temperature,
     MAX(CASE WHEN r.property_type_id = 1 THEN l.doi END) AS CMC_doi,
 
-    MAX(CASE WHEN r.property_type_id = 2 THEN r.value END) AS Gamma_max,
-    MAX(CASE WHEN r.property_type_id = 2 THEN r.temperature END) AS Gamma_max_temperature,
-    MAX(CASE WHEN r.property_type_id = 2 THEN l.doi END) AS Gamma_max_doi,
+    MAX(CASE WHEN r.property_type_id = 70 THEN r.value END) AS air_water_surface_tension_CMC,
+    MAX(CASE WHEN r.property_type_id = 70 THEN r.temperature END) AS air_water_surface_tension_CMC_temperature,
+    MAX(CASE WHEN r.property_type_id = 70 THEN l.doi END) AS air_water_surface_tension_CMC_doi,
 
-    MAX(CASE WHEN r.property_type_id = 3 THEN r.value END) AS air_water_surface_tension_CMC,
-    MAX(CASE WHEN r.property_type_id = 3 THEN r.temperature END) AS air_water_surface_tension_CMC_temperature,
-    MAX(CASE WHEN r.property_type_id = 3 THEN l.doi END) AS air_water_surface_tension_CMC_doi,
+    MAX(CASE WHEN r.property_type_id = 69 THEN r.value END) AS Gamma_max,
+    MAX(CASE WHEN r.property_type_id = 69 THEN r.temperature END) AS Gamma_max_temperature,
+    MAX(CASE WHEN r.property_type_id = 69 THEN l.doi END) AS Gamma_max_doi,
 
-    MAX(CASE WHEN r.property_type_id = 4 THEN r.value END) AS Pi_CMC,
-    MAX(CASE WHEN r.property_type_id = 4 THEN r.temperature END) AS Pi_CMC_temperature,
-    MAX(CASE WHEN r.property_type_id = 4 THEN l.doi END) AS Pi_CMC_doi,
+    MAX(CASE WHEN r.property_type_id = 68 THEN r.value END) AS pC20,
+    MAX(CASE WHEN r.property_type_id = 68 THEN r.temperature END) AS pC20_temperature,
+    MAX(CASE WHEN r.property_type_id = 68 THEN l.doi END) AS pC20_doi,
 
-    MAX(CASE WHEN r.property_type_id = 5 THEN r.value END) AS Area_min,
-    MAX(CASE WHEN r.property_type_id = 5 THEN r.temperature END) AS Area_min_temperature,
-    MAX(CASE WHEN r.property_type_id = 5 THEN l.doi END) AS Area_min_doi,
+    MAX(CASE WHEN r.property_type_id = 2 THEN r.value END) AS Pi_CMC,
+    MAX(CASE WHEN r.property_type_id = 2 THEN r.temperature END) AS Pi_CMC_temperature,
+    MAX(CASE WHEN r.property_type_id = 2 THEN l.doi END) AS Pi_CMC_doi,
 
-    MAX(CASE WHEN r.property_type_id = 17 THEN r.value END) AS pC20,
-    MAX(CASE WHEN r.property_type_id = 17 THEN r.temperature END) AS pC20_temperature,
-    MAX(CASE WHEN r.property_type_id = 17 THEN l.doi END) AS pC20_doi
+    MAX(CASE WHEN r.property_type_id = 71 THEN r.value END) AS Area_min,
+    MAX(CASE WHEN r.property_type_id = 71 THEN r.temperature END) AS Area_min_temperature,
+    MAX(CASE WHEN r.property_type_id = 71 THEN l.doi END) AS Area_min_doi
 
 FROM compounds c
 LEFT JOIN ranked r
