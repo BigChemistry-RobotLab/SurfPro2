@@ -1,0 +1,5 @@
+This source reports the synthesis of mixtures of products which were not obtained in pure amounts.
+The SMILES strings were transcribed to contain all of the compounds reported to be in the product mixture.
+However, the products are not equally distributed.
+The article states in reference to LGG12 and LGG14: 'The percentage of the target compound (1a in Figure 2) is also greater than 90%.'
+The article states in reference to LGGdi12 and LGGdi14: 'The 13C NMR and DEPT spectra of the LGGdi14 and LGGdi12 present the signal corresponding to the compound b1 (Figure 2) with very good intensity. Two small additional signals with low intensity (lower than 10%) in the region corresponding to the carbons of the glycidol group are also present.'
