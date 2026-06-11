@@ -44,7 +44,7 @@ df["CMC"] = df["CMC/ (mM.L−1)"] / 1000
 df["pCMC"] = -np.log10(df["CMC/ (mM.L−1)"] / 1000)
 
 df["C20"] = df["C20  *10−5 (mol. L−1)"] / 10**5
-df["pC20"] = -np.log(df["C20"])
+df["pC20"] = -np.log10(df["C20"])
 df["Gamma_max"] = df["Гmax *10−10 (mol. cm−2)"] / 10**6
 df["Area_min"] = df["Amin/ A2"] / 100
 
