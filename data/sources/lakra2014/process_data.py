@@ -7,6 +7,7 @@ SOURCE_FILE = "source_data/lakra2014_table_1.csv"
 PROCESSED_FILE = "processed_data/lakra2014.csv"
 
 df = pd.read_csv(SOURCE_FILE)
+df = df[:4]
 
 smiles_list = []
 inchi_list = []
