@@ -32,7 +32,8 @@ df["Molecular_Weight"] = mol_wts
 df["CMC"] = df["CMC (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 
-df["Gamma_max"] = df["Γmax 10^-11"] / 10**11
+# Assume units are mol/cm2
+df["Gamma_max"] = df["Γmax 10^-11"] / 10**7
 df["Area_min"] = df["Amin"] /100
 
 df = df.rename(
