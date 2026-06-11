@@ -1,6 +1,7 @@
 import toml
 import sqlite3
 import pandas as pd
+import numpy as np
 from pathlib import Path
 
 config = toml.loads(Path("config.toml").read_text())
@@ -24,4 +25,16 @@ cursor.execute(query)
 
 df = pd.DataFrame([dict(s) for s in cursor.fetchall()])
 
-df.to_csv("target/new_db.csv", index=False)
+df = df.rename(columns={
+    'cmc_value': 'CMC',
+    'aw_st_cmc_value': 'AW_ST_CMC',
+    'gamma_max_value': 'Gamma_max',
+    'pC20_value': 'pC20',
+    'surfactant_type': 'type',
+    'temperature_bracket': 'temperature',
+})
+df['pCMC'] = -np.log10(df['CMC'])
+
+col_order = ['SMILES', 'pCMC', 'AW_ST_CMC', 'Gamma_max', 'pC20', 'temperature']
+col_order = col_order + [col for col in df.columns if col not in col_order]
+df[col_order].to_csv("target/surfprov2_multi.csv", index=False)

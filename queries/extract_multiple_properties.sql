@@ -24,6 +24,7 @@ WITH ranked_measurements AS (
 )
 SELECT
     comp.SMILES,
+    comp.surfactant_type,
     r.rounded_temp AS temperature_bracket, -- Shows the grouped temperature (e.g. 25)
 
     MAX(CASE WHEN p.name = 'CMC' THEN r.value END) AS cmc_value,
@@ -33,12 +34,15 @@ SELECT
     MAX(CASE WHEN p.name = 'air_water_surface_tension_CMC' THEN r.doi END) AS aw_st_cmc_first_doi,
 
     MAX(CASE WHEN p.name = 'Gamma_max' THEN r.value END) AS gamma_max_value,
-    MAX(CASE WHEN p.name = 'Gamma_max' THEN r.doi END) AS gamma_max_doi
+    MAX(CASE WHEN p.name = 'Gamma_max' THEN r.doi END) AS gamma_max_doi,
+
+    MAX(CASE WHEN p.name = 'pC20' THEN r.value END) AS pC20_value,
+    MAX(CASE WHEN p.name = 'pC20' THEN r.doi END) AS pC20_doi
 
 FROM ranked_measurements r
 JOIN property_types p ON r.property_type_id = p.property_type_id
 JOIN compounds comp ON r.compound_id = comp.compound_id
 WHERE r.rn = 1
-  AND r.temperature BETWEEN 20 AND 25
-GROUP BY r.compound_id, comp.SMILES, r.rounded_temp
-HAVING cmc_value IS NOT NULL;
+  AND r.temperature BETWEEN 20 AND 30
+GROUP BY r.compound_id, comp.SMILES, comp.surfactant_type, r.rounded_temp;
+-- HAVING cmc_value IS NOT NULL;
