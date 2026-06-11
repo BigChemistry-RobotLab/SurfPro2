@@ -7,6 +7,7 @@ SOURCE_FILE = "source_data/gonzalez-perez2003_table_1.csv"
 PROCESSED_FILE = "processed_data/gonzalez-perez2003.csv"
 
 df = pd.read_csv(SOURCE_FILE)
+df = df.drop(11)
 
 replace_columns = {"Compound": "identifier", "cmc M": "CMC"}
 
