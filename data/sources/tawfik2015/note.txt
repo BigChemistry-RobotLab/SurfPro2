@@ -1,0 +1,1 @@
+The units for Γmax are not given in the main text. Based on the magnitude of the values, process_data.py assumes that the units are mol/cm2.
