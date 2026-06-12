@@ -30,10 +30,14 @@ df = df.rename(columns={
     'aw_st_cmc_value': 'AW_ST_CMC',
     'gamma_max_value': 'Gamma_max',
     'pC20_value': 'pC20',
-    'surfactant_type': 'type',
+    'Surfactant_Type': 'type',
     'temperature_bracket': 'temperature',
 })
 df['pCMC'] = -np.log10(df['CMC'])
+
+# drop mixtures
+assert not any(df.type.isna())
+df = df[~df['type'].isin(['anionic-cationic mixture'])]
 
 col_order = ['SMILES', 'pCMC', 'AW_ST_CMC', 'Gamma_max', 'pC20', 'temperature']
 col_order = col_order + [col for col in df.columns if col not in col_order]
