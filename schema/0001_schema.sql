@@ -22,6 +22,16 @@ CREATE TABLE IF NOT EXISTS literature (
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
+CREATE TABLE IF NOT EXISTS literature_notes (
+    note_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    literature_id INTEGER NOT NULL,
+    content TEXT NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+
+    FOREIGN KEY (literature_id) REFERENCES literature(literature_id) ON DELETE CASCADE
+);
+
 CREATE TABLE IF NOT EXISTS citations (
     citation_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
     source_id INTEGER NOT NULL, -- source of the value
@@ -95,6 +105,9 @@ CREATE TABLE IF NOT EXISTS units (
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
+CREATE UNIQUE INDEX IF NOT EXISTS idx_notes_literature
+ON literature_notes(literature_id);
+
 CREATE UNIQUE INDEX IF NOT EXISTS idx_compounds_inchi ON compounds(InChI);
 
 CREATE UNIQUE INDEX IF NOT EXISTS idx_units_name ON units(name);
@@ -118,4 +131,13 @@ BEGIN
     UPDATE measurements
     SET updated_at = CURRENT_TIMESTAMP
     WHERE measurement_id = OLD.measurement_id;
+END;
+
+CREATE TRIGGER IF NOT EXISTS update_literature_notes_updated_at
+BEFORE UPDATE ON literature_notes
+FOR EACH ROW
+BEGIN
+    UPDATE literature_notes
+    SET updated_at = CURRENT_TIMESTAMP
+    WHERE note_id = OLD.note_id;
 END;

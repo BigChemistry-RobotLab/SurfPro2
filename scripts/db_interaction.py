@@ -4,6 +4,7 @@ import sqlite3
 import bibtexparser
 from pathlib import Path
 from utilities import biblio_by_doi
+from utilities import biblio_by_key
 
 PROPERTY_INFO = toml.loads(Path("data/property_info.toml").read_text())
 
@@ -104,6 +105,24 @@ def upsert_literature(lit_entry, cursor):
             id_key,
         ),
     )
+
+    return cursor.fetchone()[0]
+
+
+def upsert_literature_note(contents, literature_id, cursor):
+    query = """
+    INSERT INTO literature_notes (
+        literature_id,
+        content
+    )
+    VALUES (?, ?)
+    ON CONFLICT(literature_id) DO UPDATE SET
+        content = excluded.content,
+        updated_at = CURRENT_TIMESTAMP
+    RETURNING note_id;
+    """
+    # Execute and return the ID (New or Existing)
+    cursor.execute(query, (literature_id, contents))
 
     return cursor.fetchone()[0]
 
@@ -327,6 +346,21 @@ def add_surfactant_types(DB_PATH):
         connection.commit()
 
 
+def ingest_notes(key, DB_PATH, source_dir, bib_by_key):
+    with sqlite3.connect(DB_PATH) as connection:
+        cursor = connection.cursor()
+        cursor.execute("PRAGMA foreign_keys = ON")
+        notes_file = source_dir / "note.txt"
+
+        source_bibtex_entry = bib_by_key.get(key)
+
+        lit_id = upsert_literature(source_bibtex_entry, cursor)
+
+        if notes_file.is_file():
+            with open(notes_file, "r") as file:
+                upsert_literature_note(file.read(), lit_id, cursor)
+
+
 def main():
     config = toml.loads(Path("config.toml").read_text())
 
@@ -341,14 +375,18 @@ def main():
     bibtex_string = Path(LIT_DATABASE).read_text(encoding="utf-8")
     bib_database = bibtexparser.loads(bibtex_string)
     bib_by_doi = biblio_by_doi(bib_database)
+    bib_by_key = biblio_by_key(bib_database)
 
     create_database(DB_PATH, SCHEMA_FILE)
 
     ingestion_keys = []
     for key in ingestion_keys:
-        source_dir = DATA_ROOT / key / "processed_data"
-        for file in source_dir.iterdir():
+        source_dir = DATA_ROOT / "sources" / key
+        processed_data_dir = source_dir / "processed_data"
+        for file in processed_data_dir.iterdir():
             ingest_file(file, DB_PATH, bib_by_doi)
+
+        ingest_notes(key, DB_PATH, source_dir, bib_by_key)
 
 
 if __name__ == "__main__":
