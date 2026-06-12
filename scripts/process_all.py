@@ -2,6 +2,7 @@ import os
 import subprocess
 
 def run_process_in_subdirs(root_dir):
+    failed_runs = []
     for dirpath, dirnames, filenames in os.walk(root_dir):
 
         if dirpath == root_dir:
@@ -27,8 +28,12 @@ def run_process_in_subdirs(root_dir):
 
             except Exception as e:
                 print(f"Failed in {dirpath}: {e}")
+                failed_runs.append((dirpath, e))
 
+    print("Processing for the following directories failed:")
+    for f in failed_runs:
+        print(f)
 
 if __name__ == "__main__":
-    root_directory = os.getcwd()
+    root_directory = "./data/sources"
     run_process_in_subdirs(root_directory)
