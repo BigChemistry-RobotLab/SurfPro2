@@ -15,6 +15,8 @@ Relative paths for the various components in the SurfPro2.0 database are stored 
 
 ## Installing Dependencies
 
+The scripts in this repository run using Python 3.12.11.
+
 ```
 pip install -r requirements.txt
 ```
