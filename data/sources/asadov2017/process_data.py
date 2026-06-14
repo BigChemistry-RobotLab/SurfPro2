@@ -23,7 +23,7 @@ translations = {
     "NTEAI": C*9 + "[N+]"  + "(CCO)(CCO)CCO" + ".[I-]",
 }
 
-df = pd.read_csv("source_data/asadov2017_table_2.csv")
+df = pd.read_csv("source_data/asadov2017_table_1.csv")
 
 smiles_list = []
 inchi_list = []
@@ -45,7 +45,7 @@ df["SMILES"] = smiles_list
 df["Molecular_Weight"] = mol_wts
 df["InChI"] = inchi_list
 
-df["CMC"] = df["CMC tensiometry × 103 mol·dm-3"] / 1000
+df["CMC"] = df["CMC × 103 mol·dm-3"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 df["Gamma_max"] = df["Γmax × 1010 mol·cm-2"] / 10**6
 df["Area_min"] = df["Amin × 102 nm2"] /100
@@ -60,8 +60,7 @@ df = df.rename(
 df = df.drop(
     columns=[
         "β",
-        "CMC conductivity × 103 mol·dm-3",
-        "CMC tensiometry × 103 mol·dm-3",
+        "CMC × 103 mol·dm-3",
         "Γmax × 1010 mol·cm-2",
         "ΔGmic kJ·mol-1",
         "ΔGad kJ·mol-1",
