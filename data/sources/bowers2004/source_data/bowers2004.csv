@@ -1,3 +1,7 @@
-SMILES,Surfactant_Type,Temp_Celsius,AW_ST_CMC,source_doi,reference_doi,Temp_Celsius.1
-CCCCCCCCn1cc[n+](C)c1.[Cl-],cationic,,37.0,10.1021/la035940m,,25.0
-CCCCCCCCn1cc[n+](C)c1.[I-],cationic,,34.5,10.1021/la035940m,,25.0
+identifier,CMC/ mM,CMC err/ mM,SMILES,Surfactant_Type,AW_ST_CMC,source_doi,reference_doi,Temp_Celsius,method
+[C4mim][BF4],800,100,CCCCn1cc[n+](C)c1.[B-](F)(F)(F)F,cationic,34.5,10.1021/la035940m,,25,tensiometry
+[C8mim][Cl],100,10,CCCCCCCCn1cc[n+](C)c1.[Cl-],cationic,37,10.1021/la035940m,,25,tensiometry
+[C8mim][I],100,10,CCCCCCCCn1cc[n+](C)c1.[I-],cationic,34.5,10.1021/la035940m,,25,tensiometry
+[C4mim][BF4],820,100,CCCCn1cc[n+](C)c1.[B-](F)(F)(F)F,cationic,,10.1021/la035940m,,25,conductometry
+[C8mim][Cl],90,20,CCCCCCCCn1cc[n+](C)c1.[Cl-],cationic,,10.1021/la035940m,,25,conductometry
+[C8mim][I],150,40,CCCCCCCCn1cc[n+](C)c1.[I-],cationic,,10.1021/la035940m,,25,conductometry
