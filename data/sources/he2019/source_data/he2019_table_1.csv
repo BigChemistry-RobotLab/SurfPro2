@@ -1,5 +1,9 @@
-Surfactants,CMC (mM),γCMC (mN m−1),πCMC (mN m−1),pC20,Γmax (μmol m−2),Amin (nm2),SMILES,reference_doi,Temp_Celsius,source_doi
-a,6.08,39.6,32.4,2.87,1.67,0.99,CCCCCCCCCCCC[N+](C)(CC(NC1=NC=CC=N1)=O)C.[Cl-],,25.0,10.1002/jsde.12221
-b,2.4,35.13,36.87,3.63,1.47,1.13,CCCCCCCCCCCC[N+](C)(CC(NC1=NC=CS1)=O)C.[Cl-],,25.0,10.1002/jsde.12221
-c,1.11,33.3,38.7,3.73,2.09,0.79,CCCCCCCCCCCC[N+](C)(CC(NC1=CC=CC=C1)=O)C.[Cl-],,25.0,10.1002/jsde.12221
-BAC-12aa,9.08,38.0,,2.85,1.64,1.01,CCCCCCCCCCCC[N+](C)(CC1=CC=CC=C1)C.[Cl-],10.1039/C4RA07363K,25.0,10.1002/jsde.12221
+Surfactants,CMC (mM),γCMC (mN m−1),πCMC (mN m−1),pC20,Γmax (μmol m−2),Amin (nm2),beta,ΔG0mic (kJ/mol),ΔG0ads (kJ/mol),SMILES,reference_doi,Temp_Celsius,source_doi,method
+a,6.08,39.6,32.4,2.87,1.67,0.99,,,,CCCCCCCCCCCC[N+](C)(CC(NC1=NC=CC=N1)=O)C.[Cl-],,25,10.1002/jsde.12221,tensiometry
+b,2.4,35.13,36.87,3.63,1.47,1.13,,,,CCCCCCCCCCCC[N+](C)(CC(NC1=NC=CS1)=O)C.[Cl-],,25,10.1002/jsde.12221,tensiometry
+c,1.11,33.3,38.7,3.73,2.09,0.79,,,,CCCCCCCCCCCC[N+](C)(CC(NC1=CC=CC=C1)=O)C.[Cl-],,25,10.1002/jsde.12221,tensiometry
+BAC-12,9.08,38,,2.85,1.64,1.01,,,,CCCCCCCCCCCC[N+](C)(CC1=CC=CC=C1)C.[Cl-],10.1039/C4RA07363K,25,10.1002/jsde.12221,tensiometry
+a,9.47,,,,,,0.49,-31.82,-54.22,CCCCCCCCCCCC[N+](C)(CC(NC1=NC=CC=N1)=O)C.[Cl-],,25,10.1002/jsde.12221,conductometry
+b,4.82,,,,,,0.46,-33.89,-58.97,CCCCCCCCCCCC[N+](C)(CC(NC1=NC=CS1)=O)C.[Cl-],,25,10.1002/jsde.12221,conductometry
+c,2.24,,,,,,0.54,-41.26,-59.77,CCCCCCCCCCCC[N+](C)(CC(NC1=CC=CC=C1)=O)C.[Cl-],,25,10.1002/jsde.12221,conductometry
+BAC-12,9.51,,,,,,0.59,-34.2,,CCCCCCCCCCCC[N+](C)(CC1=CC=CC=C1)C.[Cl-],10.1039/C4RA07363K,25,10.1002/jsde.12221,conductometry
