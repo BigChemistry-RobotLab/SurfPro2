@@ -1,11 +1,11 @@
-compound,cmc 10^3 (mM),cmc err,γcmc (mN/m),γcmc err,Γmax 1012 (mol/mm2),Γmax err,Amin (A ̊ 2),Amin err,SMILES,source_doi,reference_doi
-[C10ArOCH2]MImBr,125.0,38.0,39.0,1.3,7.7,0.4,21.4,1.4,CCCCCCCCCCOc1ccc(C[n+]2ccn(C)c2)cc1.[Br-],10.1002/ejlt.201000437,
-[C12ArOCH2]MImBr,18.3,2.5,37.9,0.6,3.5,0.26,47.3,3.4,CCCCCCCCCCCCOc1ccc(C[n+]2ccn(C)c2)cc1.[Br-],10.1002/ejlt.201000437,
-[C14ArOCH2]MImBr,79.7,11.6,35.8,0.5,3.49,0.12,47.5,1.7,CCCCCCCCCCCCCCOc1ccc(C[n+]2ccn(C)c2)cc1.[Br-],10.1002/ejlt.201000437,
-[C16ArOCH2]MImBr,12.3,3.0,37.9,1.4,6.39,0.13,25.9,0.6,CCCCCCCCCCCCCCCCOc1ccc(C[n+]2ccn(C)c2)cc1.[Br-],10.1002/ejlt.201000437,
-C3[C10ArOCH2Im]2.2Br,4.22,0.41,37.2,2.4,7.51,0.27,23.8,3.6,CCCCCCCCCCOc1ccc(C[n+]2ccn(CCCn3cc[n+](Cc4ccc(OCCCCCCCCCC)cc4)c3)c2)cc1.[Br-].[Br-],10.1002/ejlt.201000437,
-C3[C12ArOCH2Im]2.2Br,0.365,0.1,32.8,0.7,23.5,1.0,6.97,0.33,CCCCCCCCCCCCOc1ccc(C[n+]2ccn(CCCn3cc[n+](Cc4ccc(OCCCCCCCCCCCC)cc4)c3)c2)cc1.[Br-].[Br-],10.1002/ejlt.201000437,
-C3[C14ArOCH2Im]2.2Br,44.37,3.5,42.6,1.1,4.98,0.06,33.3,0.4,CCCCCCCCCCCCCCOc1ccc(C[n+]2ccn(CCCn3cc[n+](Cc4ccc(OCCCCCCCCCCCCCC)cc4)c3)c2)cc1.[Br-].[Br-],10.1002/ejlt.201000437,
-C6[C10ArOCH2Im]2.2Br,3.02,0.75,39.8,1.5,7.3,0.95,23.4,2.9,CCCCCCCCCCOc1ccc(C[n+]2ccn(CCCCCCn3cc[n+](Cc4ccc(OCCCCCCCCCC)cc4)c3)c2)cc1.[Br-].[Br-],10.1002/ejlt.201000437,
-C6[C12ArOCH2Im]2.2Br,0.175,0.02,42.8,0.1,17.2,0.2,9.6,0.13,CCCCCCCCCCCCOc1ccc(C[n+]2ccn(CCCCCCn3cc[n+](Cc4ccc(OCCCCCCCCCCCC)cc4)c3)c2)cc1.[Br-].[Br-],10.1002/ejlt.201000437,
-C6[C14ArOCH2Im]2.2Br,68.6,6.8,48.7,2.1,5.8,0.4,28.5,1.9,CCCCCCCCCCCCCCOc1ccc(C[n+]2ccn(CCCCCCn3cc[n+](Cc4ccc(OCCCCCCCCCCCCCC)cc4)c3)c2)cc1.[Br-].[Br-],10.1002/ejlt.201000437,
+compound,cmc 10^3 (mM),cmc err,γcmc (mN/m),γcmc err,Γmax 1012 (mol/mm2),Γmax err,Amin (A ̊ 2),Amin err,SMILES,source_doi,reference_doi,method
+[C10ArOCH2]MImBr,125,38,39,1.3,7.7,0.4,21.4,1.4,CCCCCCCCCCOc1ccc(C[n+]2ccn(C)c2)cc1.[Br-],10.1002/ejlt.201000437,,tensiometry
+[C12ArOCH2]MImBr,18.3,2.5,37.9,0.6,3.5,0.26,47.3,3.4,CCCCCCCCCCCCOc1ccc(C[n+]2ccn(C)c2)cc1.[Br-],10.1002/ejlt.201000437,,tensiometry
+[C14ArOCH2]MImBr,79.7,11.6,35.8,0.5,3.49,0.12,47.5,1.7,CCCCCCCCCCCCCCOc1ccc(C[n+]2ccn(C)c2)cc1.[Br-],10.1002/ejlt.201000437,,tensiometry
+[C16ArOCH2]MImBr,12.3,3,37.9,1.4,6.39,0.13,25.9,0.6,CCCCCCCCCCCCCCCCOc1ccc(C[n+]2ccn(C)c2)cc1.[Br-],10.1002/ejlt.201000437,,tensiometry
+C3[C10ArOCH2Im]2.2Br,4.22,0.41,37.2,2.4,7.51,0.27,23.8,3.6,CCCCCCCCCCOc1ccc(C[n+]2ccn(CCCn3cc[n+](Cc4ccc(OCCCCCCCCCC)cc4)c3)c2)cc1.[Br-].[Br-],10.1002/ejlt.201000437,,tensiometry
+C3[C12ArOCH2Im]2.2Br,0.365,0.1,32.8,0.7,23.5,1,6.97,0.33,CCCCCCCCCCCCOc1ccc(C[n+]2ccn(CCCn3cc[n+](Cc4ccc(OCCCCCCCCCCCC)cc4)c3)c2)cc1.[Br-].[Br-],10.1002/ejlt.201000437,,tensiometry
+C3[C14ArOCH2Im]2.2Br,44.37,3.5,42.6,1.1,4.98,0.06,33.3,0.4,CCCCCCCCCCCCCCOc1ccc(C[n+]2ccn(CCCn3cc[n+](Cc4ccc(OCCCCCCCCCCCCCC)cc4)c3)c2)cc1.[Br-].[Br-],10.1002/ejlt.201000437,,tensiometry
+C6[C10ArOCH2Im]2.2Br,3.02,0.75,39.8,1.5,7.3,0.95,23.4,2.9,CCCCCCCCCCOc1ccc(C[n+]2ccn(CCCCCCn3cc[n+](Cc4ccc(OCCCCCCCCCC)cc4)c3)c2)cc1.[Br-].[Br-],10.1002/ejlt.201000437,,tensiometry
+C6[C12ArOCH2Im]2.2Br,0.175,0.02,42.8,0.1,17.2,0.2,9.6,0.13,CCCCCCCCCCCCOc1ccc(C[n+]2ccn(CCCCCCn3cc[n+](Cc4ccc(OCCCCCCCCCCCC)cc4)c3)c2)cc1.[Br-].[Br-],10.1002/ejlt.201000437,,tensiometry
+C6[C14ArOCH2Im]2.2Br,68.6,6.8,48.7,2.1,5.8,0.4,28.5,1.9,CCCCCCCCCCCCCCOc1ccc(C[n+]2ccn(CCCCCCn3cc[n+](Cc4ccc(OCCCCCCCCCCCCCC)cc4)c3)c2)cc1.[Br-].[Br-],10.1002/ejlt.201000437,,tensiometry

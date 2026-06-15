@@ -1,2 +1,2 @@
-SMILES,Surfactant_Type,Temp_Celsius,γcmc/ mN/m,source_doi,CMC/ mM,reference_doi
-CCCCCCCCCCCC[N+](C)(C)CCNC(=O)CCN(CCC(=O)NCC[N+](C)(C)CCCCCCCCCCCC)CCN(CCC(=O)NCC[N+](C)(C)CCCCCCCCCCCC)CCC(=O)NCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-].[Br-].[Br-],gemini cationic,25.0,47.6,10.1021/la903672r,0.08,
+SMILES,Surfactant_Type,Temp_Celsius,γcmc/ mN/m,source_doi,CMC/ mM,reference_doi,method
+CCCCCCCCCCCC[N+](C)(C)CCNC(=O)CCN(CCC(=O)NCC[N+](C)(C)CCCCCCCCCCCC)CCN(CCC(=O)NCC[N+](C)(C)CCCCCCCCCCCC)CCC(=O)NCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-].[Br-].[Br-],gemini cationic,25.0,47.6,10.1021/la903672r,0.08,,tensiometry

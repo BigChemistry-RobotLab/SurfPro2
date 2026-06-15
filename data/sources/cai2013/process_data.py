@@ -9,7 +9,7 @@ PROCESSED_FILE = "processed_data/cai2013.csv"
 
 df1 = pd.read_csv(SOURCE_FILE_1)
 
-df1["CMC"] = df1["CMC surface tension no salt (mM)"] / 1000
+df1["CMC"] = df1["CMC no salt (mM)"] / 1000
 
 replace_columns = {
     "Surfactants": "identifier",
@@ -18,16 +18,12 @@ replace_columns = {
 }
 
 drop_columns = [
-    "CMC surface tension no salt (mM)",
-    "CMC surface tension with salt (mM)",
-    "CMC conductivity no salt (mM)",
-    "CMC fluorescence no salt (mM)",
+    "CMC no salt (mM)",
+    "CMC with salt (mM)",
     "γ_CMC with salt (mN/m)",
     "A_min with salt (nm2)",
-    "CMC surface tension second breakpoint no salt (mM)",
-    "CMC surface tension second breakpoint with salt (mM)",
-    "CMC conductivity second breakpoint no salt (mM)",
-    "CMC second breakpoint fluorescence no salt (mM)",
+    "CMC second breakpoint no salt (mM)",
+    "CMC second breakpoint with salt (mM)",
     "γ_CMC second breakpoint no salt (mN/m)",
     "γ_CMC second breakpoint with salt (mN/m)",
 ]

@@ -31,7 +31,7 @@ df["SMILES"] = new_smiles_list
 df["InChI"] = inchi_list
 df["Molecular_Weight"] = mol_wts
 
-df["CMC"] = df["cmc surface tension (mM)"] / 1000
+df["CMC"] = df["cmc (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 df["Gamma_max"] = df["Γc (mol/Å2) (×10-10)"] / 10**10
 df["Area_min"] = df["Aminc (Å2)"] / 100
@@ -41,7 +41,7 @@ df = df.rename(
         "compd": "identifier",
         "T °C": "Temp_Celsius",
         "structure_code": "identifier",
-        "γlim surface tension (mN/m)": "AW_ST_CMC",
+        "γlim (mN/m)": "AW_ST_CMC",
         "pC20c": "pC20",
     }
 )
@@ -49,10 +49,9 @@ df = df.rename(
 
 df = df.drop(
     columns=[
-        "cmc conductivity (mM)",
-        "β conductivity (%)",
-        "β surface tension (%)",
-        "cmc surface tension (mM)",
+        "cmc (mM)",
+        "β (%)",
+        "cmc (mM)",
         "Γc (mol/Å2) (×10-10)",
         "C20c (mM)",
         "cmc/C20c",

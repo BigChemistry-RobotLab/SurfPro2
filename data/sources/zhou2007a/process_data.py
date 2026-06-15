@@ -27,9 +27,9 @@ df["SMILES"] = smiles_list
 df["Molecular_Weight"] = mol_wts
 df["InChI"] = inchi_list
 
-df["CMC"] = df["cmc tensiometry (mM)"] / 1000
+df["CMC"] = df["cmc (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
-df["Gamma_max"] = df["106Γmax (mol/m2)"] / 1000000
+df["Gamma_max"] = df["106Γmax (mol/m2)"] / 10**6
 df["C20"] = df["C20 (mM)"] / 1000
 df["pC20"] = 10 ** (df.C20)
 
@@ -44,13 +44,11 @@ df = df.rename(
 df = df.drop(
     columns=[
         "surfactant",
-        "cmc tensiometry (mM)",
-        "cmc fluorometry (mM)",
+        "cmc (mM)",
         "C20 (mM)",
         "106Γmax (mol/m2)",
         "γcac (mN/m)",
-        "cac tensiometry (mM)",
-        "cac fluorometry (mM)",
+        "cac (mM)",
     ]
 )
 

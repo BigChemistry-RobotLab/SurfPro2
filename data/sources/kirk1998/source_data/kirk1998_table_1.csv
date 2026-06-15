@@ -1,6 +1,6 @@
-Compound,n,6-O-Acyl side chain,CMC (10−4 mol/L),γmin (mN/m),source_doi,Temp_Celsius,SMILES,reference_doi
-4a,8,Decanoyl,6.9,33.8,10.1007/s11743-998-0005-7,20.0,O[C@@H]([C@@H](OCCC[N+](C)(C)C)O1)[C@@H](O)[C@H](O)[C@H]1COC(CCCCCCCCCC)=O.[I-],
-4b,10,Dodecanoyl,0.46,29.6,10.1007/s11743-998-0005-7,20.0,O[C@@H]([C@@H](OCCC[N+](C)(C)C)O1)[C@@H](O)[C@H](O)[C@H]1COC(CCCCCCCCCCCC)=O.[I-],
-4c,12,Tetradecanoyl,0.57,27.3,10.1007/s11743-998-0005-7,20.0,O[C@@H]([C@@H](OCCC[N+](C)(C)C)O1)[C@@H](O)[C@H](O)[C@H]1COC(CCCCCCCCCCCCCC)=O.[I-],
-4d,14,Hexadecanoyl,1.2,33.5,10.1007/s11743-998-0005-7,20.0,O[C@@H]([C@@H](OCCC[N+](C)(C)C)O1)[C@@H](O)[C@H](O)[C@H]1COC(CCCCCCCCCCCCCCCC)=O.[I-],
-4e,16,Octadecanoyl,1.5,39.7,10.1007/s11743-998-0005-7,20.0,O[C@@H]([C@@H](OCCC[N+](C)(C)C)O1)[C@@H](O)[C@H](O)[C@H]1COC(CCCCCCCCCCCCCCCCCC)=O.[I-],
+Compound,n,6-O-Acyl side chain,CMC (10−4 mol/L),γmin (mN/m),source_doi,Temp_Celsius,SMILES,reference_doi,method
+4a,8,Decanoyl,6.9,33.8,10.1007/s11743-998-0005-7,20.0,O[C@@H]([C@@H](OCCC[N+](C)(C)C)O1)[C@@H](O)[C@H](O)[C@H]1COC(CCCCCCCCCC)=O.[I-],,tensiometry
+4b,10,Dodecanoyl,0.46,29.6,10.1007/s11743-998-0005-7,20.0,O[C@@H]([C@@H](OCCC[N+](C)(C)C)O1)[C@@H](O)[C@H](O)[C@H]1COC(CCCCCCCCCCCC)=O.[I-],,tensiometry
+4c,12,Tetradecanoyl,0.57,27.3,10.1007/s11743-998-0005-7,20.0,O[C@@H]([C@@H](OCCC[N+](C)(C)C)O1)[C@@H](O)[C@H](O)[C@H]1COC(CCCCCCCCCCCCCC)=O.[I-],,tensiometry
+4d,14,Hexadecanoyl,1.2,33.5,10.1007/s11743-998-0005-7,20.0,O[C@@H]([C@@H](OCCC[N+](C)(C)C)O1)[C@@H](O)[C@H](O)[C@H]1COC(CCCCCCCCCCCCCCCC)=O.[I-],,tensiometry
+4e,16,Octadecanoyl,1.5,39.7,10.1007/s11743-998-0005-7,20.0,O[C@@H]([C@@H](OCCC[N+](C)(C)C)O1)[C@@H](O)[C@H](O)[C@H]1COC(CCCCCCCCCCCCCCCCCC)=O.[I-],,tensiometry

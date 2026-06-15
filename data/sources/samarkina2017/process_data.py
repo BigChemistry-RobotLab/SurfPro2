@@ -8,19 +8,15 @@ PROCESSED_FILE = "processed_data/samarkina2017.csv"
 
 df = pd.read_csv(SOURCE_FILE)
 
-df["CMC"] = df["Tensiometry (mM)"]/1000
+df["CMC"] = df["CMC (mM)"]/1000
 
 replace_columns = {
     "Compound": "identifier",
 }
 
 drop_columns = [
-    "Tensiometry (mM)",
-    "Tensiometry err (mM)",
-    "Conductometry (mM)",
-    "Conductometry err (mM)",
-    "Fluorescence (mM)",
-    "Fluorescence err (mM)",
+    "CMC (mM)",
+    "CMC err (mM)",
 ]
 
 df = df.rename(columns=replace_columns)

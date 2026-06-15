@@ -1,5 +1,5 @@
-Compound,Temp_Celsius_CMC,CMC (mol/L),γcmc (mN/m),106 Γcmc (mol/m2),Acmc (A ̊ 2),ΔGcmc (kJ/mol),C_cmc_kraft (mol/L),Krafft point (°C),SMILES,source_doi,reference_doi
-5a,20,5.01e-6,51.5,1.17,141,29.93,7.1e-6,30–32,CCCCCCCCCCCCCCCC(NCCC[N+](C)(CCO[C@H]1O[C@@H]([C@H]([C@@H]([C@H]1O)O)O)CO)C)=O.[Cl-],10.1007/s11743-010-1225-4,
-5b,20,5.25e-6,47.8,1.05,157,29.82,6.9e-6,>65,O=C(NCCC[N+](C)(CCO[C@H]1O[C@@H]([C@H]([C@@H]([C@H]1O)O)O)CO)C)CCCCCCCCCCCCCCCCC.[Cl-],10.1007/s11743-010-1225-4,
-6a,20,4.78e-7,46.1,4.25,39,35.70,7.0e-6,50–52,CCCCCCCCCCCCCCCC(NCCC[N+](C)(CC(CO[C@H]1O[C@@H]([C@H]([C@@H]([C@H]1O)O)O)CO)O)C)=O.[Cl-],10.1007/s11743-010-1225-4,
-6b,20,5.01e-7,35.9,2.15,76,35.58,7.4e-6,>65,O=C(NCCC[N+](C)(CC(CO[C@H]1O[C@@H]([C@H]([C@@H]([C@H]1O)O)O)CO)O)C)CCCCCCCCCCCCCCCCC.[Cl-],10.1007/s11743-010-1225-4,
+Compound,Temp_Celsius_CMC,CMC (mol/L),γcmc (mN/m),106 Γcmc (mol/m2),Acmc (A ̊ 2),ΔGcmc (kJ/mol),C_cmc_kraft (mol/L),Krafft point (°C),SMILES,source_doi,reference_doi,method
+5a,20,5.01e-6,51.5,1.17,141,29.93,7.1e-6,30–32,CCCCCCCCCCCCCCCC(NCCC[N+](C)(CCO[C@H]1O[C@@H]([C@H]([C@@H]([C@H]1O)O)O)CO)C)=O.[Cl-],10.1007/s11743-010-1225-4,,tensiometry
+5b,20,5.25e-6,47.8,1.05,157,29.82,6.9e-6,>65,O=C(NCCC[N+](C)(CCO[C@H]1O[C@@H]([C@H]([C@@H]([C@H]1O)O)O)CO)C)CCCCCCCCCCCCCCCCC.[Cl-],10.1007/s11743-010-1225-4,,tensiometry
+6a,20,4.78e-7,46.1,4.25,39,35.70,7.0e-6,50–52,CCCCCCCCCCCCCCCC(NCCC[N+](C)(CC(CO[C@H]1O[C@@H]([C@H]([C@@H]([C@H]1O)O)O)CO)O)C)=O.[Cl-],10.1007/s11743-010-1225-4,,tensiometry
+6b,20,5.01e-7,35.9,2.15,76,35.58,7.4e-6,>65,O=C(NCCC[N+](C)(CC(CO[C@H]1O[C@@H]([C@H]([C@@H]([C@H]1O)O)O)CO)O)C)CCCCCCCCCCCCCCCCC.[Cl-],10.1007/s11743-010-1225-4,,tensiometry

@@ -8,7 +8,7 @@ PROCESSED_FILE = "processed_data/wang2008.csv"
 
 df = pd.read_csv(SOURCE_FILE)
 
-df["CMC"] = df["CMC tensiometry mM/l"] / 1000
+df["CMC"] = df["CMC mM/l"] / 1000
 
 replace_columns = {
     "Surfactant": "identifier",
@@ -17,8 +17,7 @@ replace_columns = {
 }
 
 drop_columns = [
-    "CMC tensiometry mM/l",
-    "CMC fluorescence mM/",
+    "CMC mM/l",
     "Γcmc mmol/ m2",
     "I1/I3",
 ]

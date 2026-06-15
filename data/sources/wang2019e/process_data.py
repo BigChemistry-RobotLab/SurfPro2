@@ -8,7 +8,7 @@ PROCESSED_FILE = "processed_data/wang2019e.csv"
 
 df = pd.read_csv(SOURCE_FILE)
 
-df["CMC"] = df["CMC surface tension (mmol/L)"] / 1000
+df["CMC"] = df["CMC (mmol/L)"] / 1000
 df["Gamma_max"] = df["Гmax (10−10mol/cm2)"] / 10**6
 
 replace_columns = {
@@ -19,8 +19,7 @@ replace_columns = {
 }
 
 drop_columns = [
-    "CMC surface tension (mmol/L)",
-    "CMC conductivity (mmol/L)",
+    "CMC (mmol/L)",
     "Гmax (10−10mol/cm2)",
     "△G°mic (kJ/mol)",
     "△G°ads (kJ/mol)",

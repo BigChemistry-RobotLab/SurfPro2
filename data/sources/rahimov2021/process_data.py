@@ -27,17 +27,26 @@ for i, row in df.iterrows():
 df["SMILES"] = canonical_smiles
 df["InChI"] = inchi_list
 df["Molecular_Weight"] = mol_wts
-df["CMC"] = df["CMCb × 10^4  mol dm−3 (surface tension)"] / 10000
+df["CMC"] = df["CMC × 10^4  mol dm−3"] / 10000
 df["pCMC"] = -np.log10(df["CMC"])
-df["Area_min"] = df["Amin × 102  nm2"] / 100
 df["AW_ST_CMC"] = df["γCMC  mN m−1"]
 df["Pi_CMC"] = df["πCMC  mN m−1"]
+df["Gamma_max"] = df["Γmax × 10^10 n=2 mol cm−2 "] / 10**6
+df["AW_ST_CMC"] = df["γCMC  mN m−1"]
+df["Pi_CMC"] = df["πCMC  mN m−1"]
+df["Area_min"] = df["Amin × 102 n=2 nm2"] / 100
+df["C20"] = 10**-df.pC20
+
+df = df.rename(columns={"Surfactants": "identifier"})
 
 df = df.drop(
     columns=[
-        "CMCb × 10^4  mol dm−3 (surface tension)",
-        "CMCc × 104  mol dm−3 (conductivity)",
-        "Amin × 102  nm2",
+        "β",
+        "CMC × 10^4  mol dm−3",
+        "Γmax × 10^10 n=2 mol cm−2 ",
+        "Γmax × 10^10 n=3 mol cm−2 ",
+        "Amin × 102 n=2 nm2",
+        "Amin × 102 n=3 nm2",
         "γCMC  mN m−1",
         "πCMC  mN m−1",
     ]

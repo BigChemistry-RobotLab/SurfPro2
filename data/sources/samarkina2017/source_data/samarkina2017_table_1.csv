@@ -1,4 +1,10 @@
-Compound,Tensiometry (mM),Tensiometry err (mM),Conductometry (mM),Conductometry err (mM),Fluorescence (mM),Fluorescence err (mM),Temp_Celsius,source_doi,reference_doi,SMILES
-C14H29Im+Br−,2.7,0.081,2.5,0.075,2.5,0.075,25.0,10.1016/j.colsurfa.2017.07.018,,CCCCCCCCCCCCCC[n+]1ccn(C)c1.[Br-]
-C16H33Im+Br−,0.9,0.027,0.8,0.024,0.8,0.024,25.0,10.1016/j.colsurfa.2017.07.018,,CCCCCCCCCCCCCCCC[n+]1ccn(C)c1.[Br-]
-C18H37Im+Br−,0.7,0.021,0.2,0.0006,0.2,0.0006,25.0,10.1016/j.colsurfa.2017.07.018,,CCCCCCCCCCCCCCCCCC[n+]1ccn(C)c1.[Br-]
+Compound,CMC (mM),CMC err (mM),method,Temp_Celsius,source_doi,reference_doi,SMILES
+C14H29Im+Br−,2.7,0.081,tensiometry,25,10.1016/j.colsurfa.2017.07.018,,CCCCCCCCCCCCCC[n+]1ccn(C)c1.[Br-]
+C16H33Im+Br−,0.9,0.027,tensiometry,25,10.1016/j.colsurfa.2017.07.018,,CCCCCCCCCCCCCCCC[n+]1ccn(C)c1.[Br-]
+C18H37Im+Br−,0.7,0.021,tensiometry,25,10.1016/j.colsurfa.2017.07.018,,CCCCCCCCCCCCCCCCCC[n+]1ccn(C)c1.[Br-]
+C14H29Im+Br−,2.5,0.075,conductometry,25,10.1016/j.colsurfa.2017.07.018,,CCCCCCCCCCCCCC[n+]1ccn(C)c1.[Br-]
+C16H33Im+Br−,0.8,0.024,conductometry,25,10.1016/j.colsurfa.2017.07.018,,CCCCCCCCCCCCCCCC[n+]1ccn(C)c1.[Br-]
+C18H37Im+Br−,0.2,0.0006,conductometry,25,10.1016/j.colsurfa.2017.07.018,,CCCCCCCCCCCCCCCCCC[n+]1ccn(C)c1.[Br-]
+C14H29Im+Br−,2.5,0.075,fluorimetry,25,10.1016/j.colsurfa.2017.07.018,,CCCCCCCCCCCCCC[n+]1ccn(C)c1.[Br-]
+C16H33Im+Br−,0.8,0.024,fluorimetry,25,10.1016/j.colsurfa.2017.07.018,,CCCCCCCCCCCCCCCC[n+]1ccn(C)c1.[Br-]
+C18H37Im+Br−,0.2,0.0006,fluorimetry,25,10.1016/j.colsurfa.2017.07.018,,CCCCCCCCCCCCCCCCCC[n+]1ccn(C)c1.[Br-]

@@ -4,49 +4,69 @@ from rdkit import Chem
 from rdkit.Chem import Descriptors
 
 df = pd.read_csv("source_data/abdel-lateef2016_table_1.csv")
+SOURCE_FILE = "source_data/abdel-lateef2016_table_1.csv"
+PROCESSED_FILE = "processed_data/abdel-lateef2016.csv"
 
-new_smiles_list = []
+df = pd.read_csv(SOURCE_FILE)
+
+df["CMC"] = df["CMC (mM/L)"] / 1000
+df["Gamma_max"] = df["Γmax 10^11 (mol/cm2)"] / 10**7
+
+replace_columns = {
+    "Compounds": "identifier",
+    "Pi_CMC (mN/m)": "Pi_CMC",
+    "γCMC (mN/m)": "AW_ST_CMC",
+    "Amin (nm2)": "Area_min",
+}
+
+drop_columns = [
+    "CMC (mM/L)",
+    "Γmax 10^11 (mol/cm2)",
+    "α conductivity",
+    "β conductivity",
+    "ΔGomic conductivity (kJ/mol)",
+    "ΔGoads conductivity (kJ/mol)",
+]
+
+df = df.rename(columns=replace_columns)
+
+df = df.drop(columns=drop_columns)
+
+if "CMC" in df.columns:
+    df["pCMC"] = -np.log10(df.CMC)
+elif "pCMC" in df.columns:
+    df["CMC"] = 10**-df.pCMC
+
+if "pC20" in df.columns:
+    df["C20"] = 10**-df.pC20
+elif "C20" in df.columns:
+    df["pC20"] = -np.log10(df.C20)
+
+smiles_list = []
 inchi_list = []
 mol_wts = []
 for i, row in df.iterrows():
-    mol = Chem.MolFromSmiles(row.SMILES)
-    smiles = Chem.MolToSmiles(mol)
-    inchi = Chem.MolToInchi(mol)
-    mw = Descriptors.MolWt(mol)
+    smiles = row.SMILES
 
-    new_smiles_list.append(smiles)
+    if pd.isna(smiles):
+        mol = None
+        smiles = ""
+        inchi = ""
+        mw = np.nan
+    else:
+        mol = Chem.MolFromSmiles(smiles)
+        smiles = Chem.MolToSmiles(mol)
+        inchi = Chem.MolToInchi(mol)
+        mw = Descriptors.MolWt(mol)
+
+    smiles_list.append(smiles)
     inchi_list.append(inchi)
     mol_wts.append(mw)
 
-df["SMILES"] = new_smiles_list
-df["InChI"] = inchi_list
+df["SMILES"] = smiles_list
 df["Molecular_Weight"] = mol_wts
+df["InChI"] = inchi_list
 
-df["CMC"] = df["CMC surface tension (mM/L)"] / 1000
-df["pCMC"] = -np.log10(df.CMC)
+df = df[df.SMILES != ""]
 
-df["Gamma_max"] = df["Γmax surface tension 10^11 (mol/cm2)"] / 10**7
-
-df = df.rename(
-    columns={
-        "Compounds": "identifier",
-        "Pi_CMC surface tension (mN/m)": "Pi_CMC",
-        "γCMC surface tension (mN/m)": "AW_ST_CMC",
-        "Amin surface tension (nm2)": "Area_min",
-    }
-)
-
-df = df.drop(
-    columns=[
-        "CMC surface tension (mM/L)",
-        "Γmax surface tension 10^11 (mol/cm2)",
-        "CMC conductivity (mM/L)",
-        "α conductivity",
-        "β conductivity",
-        "ΔGomic conductivity (kJ/mol)",
-        "ΔGoads conductivity (kJ/mol)",
-    ]
-)
-
-
-df.to_csv("processed_data/abdel-lateef2016.csv", index=False)
+df.to_csv(PROCESSED_FILE, index=False)

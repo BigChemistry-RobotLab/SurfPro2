@@ -55,7 +55,7 @@ df.index.name = "identifier"
 df["SMILES"] = smiles_list
 df["Molecular_Weight"] = mol_wts
 df["InChI"] = inchi_list
-df["CMC"] = df["CMC surface tension M"]
+df["CMC"] = df["CMC M"]
 df["pCMC"] = -np.log10(df.CMC)
 df["AW_ST_CMC"] = df["γcmc (mN m−1)"]
 df["Pi_CMC"] = df["Πcmc (mN m−1)"]
@@ -67,13 +67,8 @@ df["Temp_Celsius"] = 25.0
 df = df.drop(
     columns=[
         "code",
-        "CMC surface tension/10−5 M",
-        "CMC fluorescence/10−5 M",
+        "CMC/10−5 M",
         "I1/I3",
-        "CMC surface tension M",
-        "CMC fluorescence M",
-        "pCMC surface tension M",
-        "pCMC fluorescence M",
         "code",
         "γcmc (mN m−1)",
         "Πcmc (mN m−1)",

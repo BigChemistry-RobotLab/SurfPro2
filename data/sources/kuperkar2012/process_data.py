@@ -8,7 +8,7 @@ PROCESSED_FILE = "processed_data/kuperkar2012.csv"
 
 df = pd.read_csv(SOURCE_FILE)
 
-df["CMC"] = df["CMC S.T. (mM)"] / 1000
+df["CMC"] = df["CMC (mM)"] / 1000
 df["C20"] = df["C20 mM"] / 1000
 df["Gamma_max"] = df["Γmax x 10-10 mol cm-2"] / 10**6
 
@@ -20,8 +20,7 @@ replace_columns = {
 }
 
 drop_columns = [
-    "CMC S.T. (mM)",
-    "CMC Cond. (mM)",
+    "CMC (mM)",
     "C20 mM",
     "pC20",
     "β",

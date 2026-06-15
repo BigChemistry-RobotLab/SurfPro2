@@ -20,8 +20,6 @@ replace_columns = {
 drop_columns = [
     "CMC (mM)",
     "CMC st err (mM)",
-    "CMC conductivity (mM)",
-    "CMC conductivity err (mM)",
     "C20 (mM)",
     "CMC/C20",
     "Amin (A ̊ 2)",

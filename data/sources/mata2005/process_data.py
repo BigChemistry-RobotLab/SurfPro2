@@ -34,8 +34,7 @@ df["SMILES"] = smiles_list
 df["Molecular_Weight"] = mol_wts
 df["InChI"] = inchi_list
 
-# chosen conductivity as there are more values
-df["CMC"] = df["CMC conductivity (mM)"] / 1000
+df["CMC"] = df["CMC (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 
 df["Temp_Celsius"] = df["Temperature (K)"] - 272.15
@@ -52,10 +51,7 @@ df = df.drop(
     columns=[
         "Area/molecule (A2)",
         "Area/molecule literature (A2)",
-        "CMC conductivity (mM)",
-        "CMC dye solubilisation (mM)",
-        "CMC literature (mM)",
-        "CMC surface tension (mM)",
+        "CMC (mM)",
         "Cπ = 20 (mM)",
         "Nagg",
         "Temperature (K)",

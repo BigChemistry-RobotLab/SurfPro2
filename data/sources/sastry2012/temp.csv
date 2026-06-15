@@ -1,0 +1,25 @@
+,IL,CAC (mM),method,Temp_Celsius,source_doi,reference_doi,SMILES,γCAC (mN m-1),∏CAC (mN m-1),pC20,Γmax (10^10 mol cm-2),Γmax err (10^10 mol cm-2),αs (Å2),αs err (Å2),β,ΔGoa (kJ mol-1),ΔGoa err (kJ mol-1),ΔHoa (kJ mol-1),ΔHoa err (kJ mol-1),ΔSoa (J mol-1 K-1),ΔSoa err (J mol-1 K-1)
+0,1-Butylpyridinium chloride,902.0,tensiometry,25.0,10.1016/j.jcis.2011.12.077,,CCCC[n+]1ccccc1.[Cl-],,,,,,,,,,,,,,
+1,1-Hexylpyridinium chloride,802.0,tensiometry,25.0,10.1016/j.jcis.2011.12.077,,CCCCCC[n+]1ccccc1.[Cl-],,,,,,,,,,,,,,
+2,1-Octylpyridinium chloride,181.0,tensiometry,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1ccccc1.[Cl-],,,,,,,,,,,,,,
+3,1-Octyl-2-methylpyridinium chloride,166.0,tensiometry,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1c(C)cccc1.[Cl-],,,,,,,,,,,,,,
+4,1-Octyl-3-methylpyridinium chloride,170.0,tensiometry,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1cc(C)ccc1.[Cl-],,,,,,,,,,,,,,
+5,1-Octyl-4-methylpyridinium chloride,175.0,tensiometry,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1ccc(C)cc1.[Cl-],,,,,,,,,,,,,,
+6,1-Butylpyridinium chloride,900.0,conductometry,25.0,10.1016/j.jcis.2011.12.077,,CCCC[n+]1ccccc1.[Cl-],,,,,,,,,,,,,,
+7,1-Hexylpyridinium chloride,800.0,conductometry,25.0,10.1016/j.jcis.2011.12.077,,CCCCCC[n+]1ccccc1.[Cl-],,,,,,,,,,,,,,
+8,1-Octylpyridinium chloride,180.0,conductometry,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1ccccc1.[Cl-],,,,,,,,,,,,,,
+9,1-Octyl-2-methylpyridinium chloride,165.0,conductometry,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1c(C)cccc1.[Cl-],,,,,,,,,,,,,,
+10,1-Octyl-3-methylpyridinium chloride,170.0,conductometry,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1cc(C)ccc1.[Cl-],,,,,,,,,,,,,,
+11,1-Octyl-4-methylpyridinium chloride,175.0,conductometry,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1ccc(C)cc1.[Cl-],,,,,,,,,,,,,,
+12,1-Butylpyridinium chloride,900.0,1H NMR,25.0,10.1016/j.jcis.2011.12.077,,CCCC[n+]1ccccc1.[Cl-],,,,,,,,,,,,,,
+13,1-Hexylpyridinium chloride,800.0,1H NMR,25.0,10.1016/j.jcis.2011.12.077,,CCCCCC[n+]1ccccc1.[Cl-],,,,,,,,,,,,,,
+14,1-Octylpyridinium chloride,180.0,1H NMR,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1ccccc1.[Cl-],,,,,,,,,,,,,,
+15,1-Octyl-2-methylpyridinium chloride,,1H NMR,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1c(C)cccc1.[Cl-],,,,,,,,,,,,,,
+16,1-Octyl-3-methylpyridinium chloride,170.0,1H NMR,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1cc(C)ccc1.[Cl-],,,,,,,,,,,,,,
+17,1-Octyl-4-methylpyridinium chloride,175.0,1H NMR,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1ccc(C)cc1.[Cl-],,,,,,,,,,,,,,
+0,1-Butylpyridinium chloride,,tensiometry,25.0,10.1016/j.jcis.2011.12.077,,CCCC[n+]1ccccc1.[Cl-],51.06,20.7,0.1,1.2,0.02,137.0,2.0,0.419,14.5,0.1,1.18,0.03,44.6,0.3
+1,1-Hexylpyridinium chloride,,tensiometry,25.0,10.1016/j.jcis.2011.12.077,,CCCCCC[n+]1ccccc1.[Cl-],36.35,35.4,1.5,1.41,0.01,118.0,1.0,0.426,15.0,0.1,1.26,0.03,46.0,0.3
+2,1-Octylpyridinium chloride,,tensiometry,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1ccccc1.[Cl-],36.84,34.6,1.6,1.7,0.01,98.0,1.0,0.436,20.4,0.2,1.49,0.03,63.4,0.6
+3,1-Octyl-2-methylpyridinium chloride,,tensiometry,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1c(C)cccc1.[Cl-],31.8,40.1,3.0,1.67,0.01,99.0,1.0,0.49,21.5,0.2,1.54,0.03,66.8,0.6
+4,1-Octyl-3-methylpyridinium chloride,,tensiometry,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1cc(C)ccc1.[Cl-],32.38,39.2,1.9,1.71,0.01,97.0,1.0,0.48,21.2,0.2,1.64,0.04,65.7,0.5
+5,1-Octyl-4-methylpyridinium chloride,,tensiometry,25.0,10.1016/j.jcis.2011.12.077,,CCCCCCCC[n+]1ccc(C)cc1.[Cl-],31.0,40.7,2.2,1.65,0.01,101.0,1.0,0.461,20.8,0.3,1.59,0.05,64.6,0.6

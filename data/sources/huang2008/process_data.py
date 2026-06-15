@@ -27,7 +27,7 @@ df["SMILES"] = smiles_list
 df["Molecular_Weight"] = mol_wts
 df["InChI"] = inchi_list
 
-df["CMC"] = df["CMC surface tension (mM)"] / 1000
+df["CMC"] = df["CMC (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 
 df = df.rename(
@@ -39,9 +39,7 @@ df = df.rename(
 
 df = df.drop(
     columns=[
-        "CMC surface tension (mM)",
-        "CMC conductivity (mM)",
-        "CMC calorimetry (mM)",
+        "CMC (mM)",
         "ΔHmic (kJ/mol)",
     ]
 )

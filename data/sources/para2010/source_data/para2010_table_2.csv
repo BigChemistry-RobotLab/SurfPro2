@@ -1,13 +1,13 @@
-Surfactant,αs [mol/dm3],Γ∞ [mol/cm2],Hs [kJ/mol],As∞ = 1/NA Γ∞ [nm2],Aheadgroup [nm2],Temp_Celsius,source_doi,reference_doi,SMILES
-DTABr,0.00021,5.4e-06,4.5,0.32,0.32,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(C)CCCCCCCCCC.[Br-]
-DDTABr,2.2e-05,5.4e-06,4.8,0.32,0.32,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(C)CCCCCCCCCCCC.[Br-]
-TTABr,2e-06,5.4e-06,5.2,0.32,0.32,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(C)CCCCCCCCCCCCC.[Br-]
-CTABr,2.2e-07,5.4e-06,5.5,0.32,0.32,21.85,10.1016/j.colsurfa.2010.02.004,,CCCCCCCCCCCCCCCC[N+](C)(C)C.[Br-]
-DDTEABr,7.2e-06,4.2e-06,3.7,0.4,0.4,21.85,10.1016/j.colsurfa.2010.02.004,,CC[N+](CC)(CC)CCCCCCCCCCCC.[Br-]
-DDTPABr,1.7e-06,3.3e-06,2.7,0.5,0.62,21.85,10.1016/j.colsurfa.2010.02.004,,CCC[N+](CCC)(CCC)CCCCCCCCCCCC.[Br-]
-DDTBABr,2.5e-07,3.3e-06,2.7,0.5,0.98,21.85,10.1016/j.colsurfa.2010.02.004,,CCCC[N+](CCCC)(CCCC)CCCCCCCCCCCC.[Br-]
-dDDAB,1.8e-08,4.3e-06,3.5,0.39,0.32,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(CCCCCCCCCC)CCCCCCCCCC.[Br-]
-dDDDABr,2.4e-10,4.8e-06,5.5,0.35,0.32,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(CCCCCCCCCCCC)CCCCCCCCCCCC.[Br-]
-d(DDA)EBrb,2.2e-11,4.1e-06,3.6,0.41,0.43,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(CCCCCCCCCCCC)CC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-]
-d(DDA)PBrb,2.4e-11,3.8e-06,3.4,0.44,0.54,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(CCCCCCCCCCCC)CCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-]
-d(DDA)BBrb,2.4e-11,3.2e-06,2.7,0.51,0.61,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(CCCCCCCCCCCC)CCCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-]
+Surfactant,αs [mol/dm3],Γ∞ [mol/cm2],Hs [kJ/mol],As∞ = 1/NA Γ∞ [nm2],Aheadgroup [nm2],Temp_Celsius,source_doi,reference_doi,SMILES,method
+DTABr,0.00021,5.4e-06,4.5,0.32,0.32,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(C)CCCCCCCCCC.[Br-],tensiometry
+DDTABr,2.2e-05,5.4e-06,4.8,0.32,0.32,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(C)CCCCCCCCCCCC.[Br-],tensiometry
+TTABr,2e-06,5.4e-06,5.2,0.32,0.32,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(C)CCCCCCCCCCCCC.[Br-],tensiometry
+CTABr,2.2e-07,5.4e-06,5.5,0.32,0.32,21.85,10.1016/j.colsurfa.2010.02.004,,CCCCCCCCCCCCCCCC[N+](C)(C)C.[Br-],tensiometry
+DDTEABr,7.2e-06,4.2e-06,3.7,0.4,0.4,21.85,10.1016/j.colsurfa.2010.02.004,,CC[N+](CC)(CC)CCCCCCCCCCCC.[Br-],tensiometry
+DDTPABr,1.7e-06,3.3e-06,2.7,0.5,0.62,21.85,10.1016/j.colsurfa.2010.02.004,,CCC[N+](CCC)(CCC)CCCCCCCCCCCC.[Br-],tensiometry
+DDTBABr,2.5e-07,3.3e-06,2.7,0.5,0.98,21.85,10.1016/j.colsurfa.2010.02.004,,CCCC[N+](CCCC)(CCCC)CCCCCCCCCCCC.[Br-],tensiometry
+dDDAB,1.8e-08,4.3e-06,3.5,0.39,0.32,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(CCCCCCCCCC)CCCCCCCCCC.[Br-],tensiometry
+dDDDABr,2.4e-10,4.8e-06,5.5,0.35,0.32,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(CCCCCCCCCCCC)CCCCCCCCCCCC.[Br-],tensiometry
+d(DDA)EBrb,2.2e-11,4.1e-06,3.6,0.41,0.43,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(CCCCCCCCCCCC)CC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-],tensiometry
+d(DDA)PBrb,2.4e-11,3.8e-06,3.4,0.44,0.54,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(CCCCCCCCCCCC)CCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-],tensiometry
+d(DDA)BBrb,2.4e-11,3.2e-06,2.7,0.51,0.61,21.85,10.1016/j.colsurfa.2010.02.004,,C[N+](C)(CCCCCCCCCCCC)CCCC[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-],tensiometry

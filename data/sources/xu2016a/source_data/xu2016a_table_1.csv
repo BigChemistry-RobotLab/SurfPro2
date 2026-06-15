@@ -1,4 +1,7 @@
-Compounds,CMC tensiometry (mM),CMC tensiometry err (mM),CMC conductometry (mM),CMC conductometry err (mM),γCMC (mN/m),Γmax n=2 (μmol/m2),Γmax n=3 (μmol/m2),Amin n=2 (nm2),Amin n=3 (nm2),pC20,α,ΔGm (KJ/mol),Temp_Celsius,source_doi,reference_doi,SMILES
-C12-PPDA-C12,1.17,0.05,1.253,0.06,36.31,2.22,1.48,0.75,1.12,3.57,0.482,-54.54,28,10.1007/s11743-015-1752-0,,CCCCCCCCCCCC[N+](C)(C)CCCNC(=O)c1ccc(C(=O)NCCC[N+](C)(C)CCCCCCCCCCCC)cc1.[Br-].[Br-]
-C14-PPDA-C14,0.218,0.01,0.26,0.02,40.89,1.86,1.24,0.89,1.34,4.13,0.4408,-65.08,28,10.1007/s11743-015-1752-0,,CCCCCCCCCCCCCC[N+](C)(C)CCCNC(=O)c1ccc(C(=O)NCCC[N+](C)(C)CCCCCCCCCCCCCC)cc1.[Br-].[Br-]
-C16-PPDA-C16,0.0601,0.002,0.0754,0.003,43.41,1.16,0.77,1.43,2.16,4.9,0.3629,-76.93,28,10.1007/s11743-015-1752-0,,CCCCCCCCCCCCCCCC[N+](C)(C)CCCNC(=O)c1ccc(C(=O)NCCC[N+](C)(C)CCCCCCCCCCCCCCCC)cc1.[Br-].[Br-]
+Compounds,CMC (mM),CMC err (mM),method,γCMC (mN/m),Γmax n=2 (μmol/m2),Γmax n=3 (μmol/m2),Amin n=2 (nm2),Amin n=3 (nm2),pC20,α,ΔGm (KJ/mol),Temp_Celsius,source_doi,reference_doi,SMILES
+C12-PPDA-C12,1.17,0.05,tensiometry,36.31,2.22,1.48,0.75,1.12,3.57,0.482,-54.54,28,10.1007/s11743-015-1752-0,,CCCCCCCCCCCC[N+](C)(C)CCCNC(=O)c1ccc(C(=O)NCCC[N+](C)(C)CCCCCCCCCCCC)cc1.[Br-].[Br-]
+C14-PPDA-C14,0.218,0.01,tensiometry,40.89,1.86,1.24,0.89,1.34,4.13,0.4408,-65.08,28,10.1007/s11743-015-1752-0,,CCCCCCCCCCCCCC[N+](C)(C)CCCNC(=O)c1ccc(C(=O)NCCC[N+](C)(C)CCCCCCCCCCCCCC)cc1.[Br-].[Br-]
+C16-PPDA-C16,0.0601,0.002,tensiometry,43.41,1.16,0.77,1.43,2.16,4.9,0.3629,-76.93,28,10.1007/s11743-015-1752-0,,CCCCCCCCCCCCCCCC[N+](C)(C)CCCNC(=O)c1ccc(C(=O)NCCC[N+](C)(C)CCCCCCCCCCCCCCCC)cc1.[Br-].[Br-]
+C12-PPDA-C12,1.253,0.06,conductometry,,,,,,,,,28,10.1007/s11743-015-1752-0,,CCCCCCCCCCCC[N+](C)(C)CCCNC(=O)c1ccc(C(=O)NCCC[N+](C)(C)CCCCCCCCCCCC)cc1.[Br-].[Br-]
+C14-PPDA-C14,0.26,0.02,conductometry,,,,,,,,,28,10.1007/s11743-015-1752-0,,CCCCCCCCCCCCCC[N+](C)(C)CCCNC(=O)c1ccc(C(=O)NCCC[N+](C)(C)CCCCCCCCCCCCCC)cc1.[Br-].[Br-]
+C16-PPDA-C16,0.0754,0.003,conductometry,,,,,,,,,28,10.1007/s11743-015-1752-0,,CCCCCCCCCCCCCCCC[N+](C)(C)CCCNC(=O)c1ccc(C(=O)NCCC[N+](C)(C)CCCCCCCCCCCCCCCC)cc1.[Br-].[Br-]

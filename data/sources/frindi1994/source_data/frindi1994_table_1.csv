@@ -1,3 +1,7 @@
-surfactant,cmc spectrofluorometry (mM),cmc ultrasonic (mM),cmc conductivity (mM),α,Temp_Celsius,source_doi,reference_doi,SMILES
-8-3-8,57,55,53,0.26,25.0,10.1021/la00016a028,,CCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCC.[Br-].[Br-]
-8-6-8,73,70,73,0.33,25.0,10.1021/la00016a028,,CCCCCCCC[N+](C)(C)CCCCCC[N+](C)(C)CCCCCCCC.[Br-].[Br-]
+surfactant,cmc (mM),α,Temp_Celsius,source_doi,reference_doi,SMILES,method
+8-3-8,57,,25,10.1021/la00016a028,,CCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCC.[Br-].[Br-],fluorimetry
+8-6-8,73,,25,10.1021/la00016a028,,CCCCCCCC[N+](C)(C)CCCCCC[N+](C)(C)CCCCCCCC.[Br-].[Br-],fluorimetry
+8-3-8,55,,25,10.1021/la00016a028,,CCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCC.[Br-].[Br-],ultrasonic
+8-6-8,70,,25,10.1021/la00016a028,,CCCCCCCC[N+](C)(C)CCCCCC[N+](C)(C)CCCCCCCC.[Br-].[Br-],ultrasonic
+8-3-8,53,0.26,25,10.1021/la00016a028,,CCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCC.[Br-].[Br-],conductometry
+8-6-8,73,0.33,25,10.1021/la00016a028,,CCCCCCCC[N+](C)(C)CCCCCC[N+](C)(C)CCCCCCCC.[Br-].[Br-],conductometry

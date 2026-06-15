@@ -1,13 +1,13 @@
-Number,Abbreviation,Substituents 1,Substituents 2,CMC (mM),Surface tension at CMC (mN/m),Temp_Celsius,source_doi,reference_doi,SMILES
-1,HBIm-Br,R1: butyl,R2: hexyl,271.0,42,25.0,10.1016/j.colsurfa.2007.02.012,,CCCC[N+]1=CN(CCCCCC)C=C1.[Br-]
-2,OBIm-Br,R1: butyl,R2: octyl,41.0,40,25.0,10.1016/j.colsurfa.2007.02.012,,CCCC[N+]1=CN(CCCCCCCC)C=C1.[Br-]
-3,DBIm-Br,R1: butyl,R2: decyl,6.3,36,25.0,10.1016/j.colsurfa.2007.02.012,,CCCC[N+]1=CN(CCCCCCCCCC)C=C1.[Br-]
-4,DDBIm-Br,R1: butyl,R2: dodecyl,2.4,38,25.0,10.1016/j.colsurfa.2007.02.012,,CCCC[N+]1=CN(CCCCCCCCCCCC)C=C1.[Br-]
-5,HDBIm-Br,R1: butyl,R2: hexadecyl,0.1,45,25.0,10.1016/j.colsurfa.2007.02.012,,CCCC[N+]1=CN(CCCCCCCCCCCCCC)C=C1.[Br-]
-6,HMIm-Br,R1: methyl,R2: hexyl,470.0,39,25.0,10.1016/j.colsurfa.2007.02.012,,C[N+]1=CN(CCCCCC)C=C1.[Br-]
-7,OMIm-Br,R1: methyl,R2: octyl,121.0,41,25.0,10.1016/j.colsurfa.2007.02.012,,C[N+]1=CN(CCCCCCCC)C=C1.[Br-]
-8,DMIm-Br,R1: methyl,R2: decyl,20.0,39,25.0,10.1016/j.colsurfa.2007.02.012,,C[N+]1=CN(CCCCCCCCCC)C=C1.[Br-]
-9,DDMIm-Br,R1: methyl,R2: dodecyl,4.3,35,25.0,10.1016/j.colsurfa.2007.02.012,,C[N+]1=CN(CCCCCCCCCCCC)C=C1.[Br-]
-10,HDMIm-Br,R1: methyl,R2: hexadecyl,0.8,41,25.0,10.1016/j.colsurfa.2007.02.012,,C[N+]1=CN(CCCCCCCCCCCCCCCC)C=C1.[Br-]
-11,(O)2IM-Br,R1: odyl,R2: octyl,5.6,32,25.0,10.1016/j.colsurfa.2007.02.012,,CCCCCCCC[N+]1=CN(CCCCCCCC)C=C1.[Br-]
-12,(DD)2IM-Br,R1: dodecyl,R2: dodecyl,0.1,28,25.0,10.1016/j.colsurfa.2007.02.012,,CCCCCCCCCCCC[N+]1=CN(CCCCCCCCCCCC)C=C1.[Br-]
+Number,Abbreviation,Substituents 1,Substituents 2,CMC (mM),Surface tension at CMC (mN/m),Temp_Celsius,source_doi,reference_doi,SMILES,method
+1,HBIm-Br,R1: butyl,R2: hexyl,271.0,42,25.0,10.1016/j.colsurfa.2007.02.012,,CCCC[N+]1=CN(CCCCCC)C=C1.[Br-],tensiometry
+2,OBIm-Br,R1: butyl,R2: octyl,41.0,40,25.0,10.1016/j.colsurfa.2007.02.012,,CCCC[N+]1=CN(CCCCCCCC)C=C1.[Br-],tensiometry
+3,DBIm-Br,R1: butyl,R2: decyl,6.3,36,25.0,10.1016/j.colsurfa.2007.02.012,,CCCC[N+]1=CN(CCCCCCCCCC)C=C1.[Br-],tensiometry
+4,DDBIm-Br,R1: butyl,R2: dodecyl,2.4,38,25.0,10.1016/j.colsurfa.2007.02.012,,CCCC[N+]1=CN(CCCCCCCCCCCC)C=C1.[Br-],tensiometry
+5,HDBIm-Br,R1: butyl,R2: hexadecyl,0.1,45,25.0,10.1016/j.colsurfa.2007.02.012,,CCCC[N+]1=CN(CCCCCCCCCCCCCC)C=C1.[Br-],tensiometry
+6,HMIm-Br,R1: methyl,R2: hexyl,470.0,39,25.0,10.1016/j.colsurfa.2007.02.012,,C[N+]1=CN(CCCCCC)C=C1.[Br-],tensiometry
+7,OMIm-Br,R1: methyl,R2: octyl,121.0,41,25.0,10.1016/j.colsurfa.2007.02.012,,C[N+]1=CN(CCCCCCCC)C=C1.[Br-],tensiometry
+8,DMIm-Br,R1: methyl,R2: decyl,20.0,39,25.0,10.1016/j.colsurfa.2007.02.012,,C[N+]1=CN(CCCCCCCCCC)C=C1.[Br-],tensiometry
+9,DDMIm-Br,R1: methyl,R2: dodecyl,4.3,35,25.0,10.1016/j.colsurfa.2007.02.012,,C[N+]1=CN(CCCCCCCCCCCC)C=C1.[Br-],tensiometry
+10,HDMIm-Br,R1: methyl,R2: hexadecyl,0.8,41,25.0,10.1016/j.colsurfa.2007.02.012,,C[N+]1=CN(CCCCCCCCCCCCCCCC)C=C1.[Br-],tensiometry
+11,(O)2IM-Br,R1: odyl,R2: octyl,5.6,32,25.0,10.1016/j.colsurfa.2007.02.012,,CCCCCCCC[N+]1=CN(CCCCCCCC)C=C1.[Br-],tensiometry
+12,(DD)2IM-Br,R1: dodecyl,R2: dodecyl,0.1,28,25.0,10.1016/j.colsurfa.2007.02.012,,CCCCCCCCCCCC[N+]1=CN(CCCCCCCCCCCC)C=C1.[Br-],tensiometry

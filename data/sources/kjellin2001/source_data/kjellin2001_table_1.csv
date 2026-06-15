@@ -1,6 +1,6 @@
-surfactant,Temp_Celsius,cmc lower [mM],cmc upper [mM],cmc mean [mM],Γcmc [μmol/m2],Acmc [nm2],γcmc [mN/m],∆Gcmc0 [kJ/mol],source_doi,SMILES,reference_doi
-LABA,22,0.3,0.37,0.335,4.0,0.42,38.0,-29.4,10.1021/la001309z,CCCCCCCCCCCCNC([C@@H]([C@H]([C@H](O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O)[C@@H](CO)O)O)O)=O,
-LABA,50,0.35,0.35,0.35,3.5,0.47,35.0,-32.2,10.1021/la001309z,CCCCCCCCCCCCNC([C@@H]([C@H]([C@H](O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O)[C@@H](CO)O)O)O)=O,
-C12-Maltose ester,22,0.33,0.33,0.33,3.3,0.5,39.0,-29.5,10.1021/la001309z,O[C@H]([C@H](C(O[C@@H]1CO)O)O)[C@@H]1O[C@H]2O[C@H](COC(CCCCCCCCCCC)=O)[C@H]([C@@H]([C@H]2O)O)O,
-C12-Maltose ester,50,0.33,0.33,0.33,3.3,0.51,36.5,-32.3,10.1021/la001309z,O[C@H]([C@H](C(O[C@@H]1CO)O)O)[C@@H]1O[C@H]2O[C@H](COC(CCCCCCCCCCC)=O)[C@H]([C@@H]([C@H]2O)O)O,
-Csβ,22,22.0,22.0,22.0,4.4,0.38,30.8,-19.2,10.1021/la001309z,O[C@@H]([C@@H](OCCCCCCCC)O1)[C@@H](O)[C@H](O)[C@H]1CO,
+surfactant,Temp_Celsius,cmc lower [mM],cmc upper [mM],cmc mean [mM],Γcmc [μmol/m2],Acmc [nm2],γcmc [mN/m],∆Gcmc0 [kJ/mol],source_doi,SMILES,reference_doi,method
+LABA,22,0.3,0.37,0.335,4.0,0.42,38.0,-29.4,10.1021/la001309z,CCCCCCCCCCCCNC([C@@H]([C@H]([C@H](O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O)[C@@H](CO)O)O)O)=O,,tensiometry
+LABA,50,0.35,0.35,0.35,3.5,0.47,35.0,-32.2,10.1021/la001309z,CCCCCCCCCCCCNC([C@@H]([C@H]([C@H](O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O)[C@@H](CO)O)O)O)=O,,tensiometry
+C12-Maltose ester,22,0.33,0.33,0.33,3.3,0.5,39.0,-29.5,10.1021/la001309z,O[C@H]([C@H](C(O[C@@H]1CO)O)O)[C@@H]1O[C@H]2O[C@H](COC(CCCCCCCCCCC)=O)[C@H]([C@@H]([C@H]2O)O)O,,tensiometry
+C12-Maltose ester,50,0.33,0.33,0.33,3.3,0.51,36.5,-32.3,10.1021/la001309z,O[C@H]([C@H](C(O[C@@H]1CO)O)O)[C@@H]1O[C@H]2O[C@H](COC(CCCCCCCCCCC)=O)[C@H]([C@@H]([C@H]2O)O)O,,tensiometry
+Csβ,22,22.0,22.0,22.0,4.4,0.38,30.8,-19.2,10.1021/la001309z,O[C@@H]([C@@H](OCCCCCCCC)O1)[C@@H](O)[C@H](O)[C@H]1CO,,tensiometry

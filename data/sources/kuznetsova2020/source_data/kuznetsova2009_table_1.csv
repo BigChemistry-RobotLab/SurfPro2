@@ -1,7 +1,19 @@
-Amphiphile,CMC tensiometry/ mM,CMC conductometry/ mM,CMC fluorimetry/ mM,source_doi,reference_doi,SMILES,Temp_Celsius
-IAC-14(Et),1.3,1.2,2,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCC)c1.[Br-],25.0
-IAC-14(Bu),0.5,0.5,0.5,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25.0
-IAC-16(Et),0.3,0.5,0.5,10.1016/j.molliq.2020.114094,10.1016/j.molliq.2019.111961,CCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCC)c1.[Br-],25.0
-IAC-16(Bu),0.15,0.15,0.17,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25.0
-IAC-18(Et),0.1,0.3 mM,0.3,10.1016/j.molliq.2020.114094,10.1016/j.molliq.2019.111961,CCCCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCC)c1.[Br-],25.0
-IAC-18(Bu),0.05,0.05,0.05,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25.0
+Amphiphile,CMC/ mM,method,source_doi,reference_doi,SMILES,Temp_Celsius
+IAC-14(Et),1.3,tensiometry,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCC)c1.[Br-],25
+IAC-14(Bu),0.5,tensiometry,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25
+IAC-16(Et),0.3,tensiometry,10.1016/j.molliq.2020.114094,10.1016/j.molliq.2019.111961,CCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCC)c1.[Br-],25
+IAC-16(Bu),0.15,tensiometry,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25
+IAC-18(Et),0.1,tensiometry,10.1016/j.molliq.2020.114094,10.1016/j.molliq.2019.111961,CCCCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCC)c1.[Br-],25
+IAC-18(Bu),0.05,tensiometry,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25
+IAC-14(Et),1.2,conductometry,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCC)c1.[Br-],25
+IAC-14(Bu),0.5,conductometry,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25
+IAC-16(Et),0.5,conductometry,10.1016/j.molliq.2020.114094,10.1016/j.molliq.2019.111961,CCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCC)c1.[Br-],25
+IAC-16(Bu),0.15,conductometry,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25
+IAC-18(Et),0.3,conductometry,10.1016/j.molliq.2020.114094,10.1016/j.molliq.2019.111961,CCCCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCC)c1.[Br-],25
+IAC-18(Bu),0.05,conductometry,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25
+IAC-14(Et),2,fluorimetry,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCC)c1.[Br-],25
+IAC-14(Bu),0.5,fluorimetry,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25
+IAC-16(Et),0.5,fluorimetry,10.1016/j.molliq.2020.114094,10.1016/j.molliq.2019.111961,CCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCC)c1.[Br-],25
+IAC-16(Bu),0.17,fluorimetry,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25
+IAC-18(Et),0.3,fluorimetry,10.1016/j.molliq.2020.114094,10.1016/j.molliq.2019.111961,CCCCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCC)c1.[Br-],25
+IAC-18(Bu),0.05,fluorimetry,10.1016/j.molliq.2020.114094,,CCCCCCCCCCCCCCCCCC[n+]1ccn(CCOC(=O)NCCCC)c1.[Br-],25

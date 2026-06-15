@@ -45,9 +45,9 @@ for i, row in df.iterrows():
 df["SMILES"] = new_smiles_list
 df["InChI"] = inchi_list
 df["Molecular_Weight"] = mol_wts
-df["CMC"] = df["CMC surface tension × 104 mol·dm−3"] / 10000
+df["CMC"] = df["CMC × 104 mol·dm-3"] / 10000
 df["pCMC"] = -np.log10(df.CMC)
-df["Gamma_max"] = df["Γmax × 1010 mol·cm−2"] / 10**6
+df["Gamma_max"] = df["Γmax × 1010 mol·cm-2"] / 10**6
 df["Area_min"] = df["Amin × 102 nm2"] / 100
 df["Temp_Celsius"] = 25.0
 df["C20"] = 10 ** -df["pC20"]
@@ -57,8 +57,8 @@ df = df.rename(
         "Surfactants": "identifier",
         "T °C": "Temp_Celsius",
         "structure_code": "identifier",
-        "πCMC mN·m−1": "Pi_CMC",
-        "γCMC mN·m−1": "AW_ST_CMC"
+        "πCMC mN·m-1": "Pi_CMC",
+        "γCMC mN·m-1": "AW_ST_CMC"
     }
 )
 
@@ -66,12 +66,11 @@ df = df.rename(
 df = df.drop(
     columns=[
     "β",
-    "CMC surface tension × 104 mol·dm−3",
-    "CMC conductivity × 104 mol·dm−3",
-    "Γmax × 1010 mol·cm−2",
+    "CMC × 104 mol·dm-3",
+    "Γmax × 1010 mol·cm-2",
     "Amin × 102 nm2",
-    "ΔGmic kJ·mol−1",
-    "ΔGad kJ·mol−1",
+    "ΔGmic kJ·mol-1",
+    "ΔGad kJ·mol-1",
     ]
 )
 df = df[~(df.SMILES == "")]

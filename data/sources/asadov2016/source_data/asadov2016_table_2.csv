@@ -1,8 +1,8 @@
-Surfactants,beta,γCMC (mN m-1),Γmax x 10^10 (mol cm-2),Amin x 102 (nm2),CMC x 10^3 (mol dm-3),pC20,pCMC,DGmic (kJ mol-1),DGad (kJ mol-1),Temp_Celsius,source_doi,reference_doi
-Dodecylisopropylolammonium acetate,0.34,26.7,2.88,57.6,2.47,3.16,45.3,-19.93,-21.5,25,10.1007/s11743-015-1762-y,
-Dodecylisopropylolammonium propionate,0.23,30.1,2.62,63.4,1.13,3.58,41.9,-20.68,-22.28,25,10.1007/s11743-015-1762-y,
-Dodecylisopropylolammonium chloride,0.25,26.4,2.46,67.6,2.03,3.52,45.6,-19.2,-21.06,25,10.1007/s11743-015-1762-y,
-Dodecylisopropylolammonium bromide,0.28,26.1,2.41,68.8,1.66,3.65,45.9,-20.3,-22.2,25,10.1007/s11743-015-1762-y,
-Dodecylmethylisopropylolammonium iodide,0.32,28.1,2.55,65.0,2.6,3.39,43.9,-19.47,-21.18,25,10.1007/s11743-015-1762-y,
-Dodecylethylisopropylolammonium bromide,0.39,27.4,2.81,59.0,1.3,3.61,44.6,-22.89,-24.47,25,10.1007/s11743-015-1762-y,
-Dodecylpropylisopropylolammonium bromide,0.31,26.2,2.87,57.9,1.11,3.72,45.8,-22.08,-23.68,25,10.1007/s11743-015-1762-y,
+Surfactants,beta,γCMC (mN m-1),Γmax x 10^10 (mol cm-2),Amin x 102 (nm2),CMC x 10^3 (mol dm-3),pC20,pCMC,DGmic (kJ mol-1),DGad (kJ mol-1),Temp_Celsius,source_doi,reference_doi,method
+Dodecylisopropylolammonium acetate,0.34,26.7,2.88,57.6,2.47,3.16,45.3,-19.93,-21.5,25,10.1007/s11743-015-1762-y,,tensiometry
+Dodecylisopropylolammonium propionate,0.23,30.1,2.62,63.4,1.13,3.58,41.9,-20.68,-22.28,25,10.1007/s11743-015-1762-y,,tensiometry
+Dodecylisopropylolammonium chloride,0.25,26.4,2.46,67.6,2.03,3.52,45.6,-19.2,-21.06,25,10.1007/s11743-015-1762-y,,tensiometry
+Dodecylisopropylolammonium bromide,0.28,26.1,2.41,68.8,1.66,3.65,45.9,-20.3,-22.2,25,10.1007/s11743-015-1762-y,,tensiometry
+Dodecylmethylisopropylolammonium iodide,0.32,28.1,2.55,65.0,2.6,3.39,43.9,-19.47,-21.18,25,10.1007/s11743-015-1762-y,,tensiometry
+Dodecylethylisopropylolammonium bromide,0.39,27.4,2.81,59.0,1.3,3.61,44.6,-22.89,-24.47,25,10.1007/s11743-015-1762-y,,tensiometry
+Dodecylpropylisopropylolammonium bromide,0.31,26.2,2.87,57.9,1.11,3.72,45.8,-22.08,-23.68,25,10.1007/s11743-015-1762-y,,tensiometry

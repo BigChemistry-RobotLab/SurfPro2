@@ -19,8 +19,7 @@ df3 = df3.rename(columns={"T (◦C)": "Temp_Celsius"})
 df = pd.concat([df1, df2, df3], axis=0)
 df["Area_min"] = df["Amin (Å2)"] / 100
 
-# use conductivity measurements for CMC for consistency
-df["CMC"] = df["CMC conductivity (mM)"] / 1000
+df["CMC"] = df["CMC (mM)"] / 1000
 df["Gamma_max"] = df["Γmax (μmol m−2)"]/ 10**6
 
 replace_columns = {
@@ -30,12 +29,8 @@ replace_columns = {
 }
 
 drop_columns = [
-    "CMC conductivity (mM)",
-    "CMC conductivity err (mM)",
-    "CMC fluorescence (mM)",
-    "CMC fluorescence err (mM)",
-    "CMC surface tension (mM)",
-    "CMC surface tension err (mM)",
+    "CMC (mM)",
+    "CMC err (mM)",
     "Γmax (μmol m−2)",
     "β",
 ]

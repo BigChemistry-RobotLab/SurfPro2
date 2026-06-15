@@ -40,7 +40,7 @@ df["SMILES"] = smiles_list
 df["Molecular_Weight"] = mol_wts
 df["InChI"] = inchi_list
 
-df["CMC"] = df["cmc surface tension (a) (mM)"] / 1000
+df["CMC"] = df["cmc (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 # Incorrect units in paper?
 # df["Gamma_max"] = df["Γmax (mol cm-2)"] * 1000
@@ -49,9 +49,7 @@ df["Area_min"] = df["Amin (Å2)"] / 10
 df = df.drop(
     columns=[
         "compd",
-        "cmc surface tension (a) (mM)",
-        " cmcb conductivity (b) (mM)",
-        "ratioc b/a",
+        "cmc (mM)",
         "cmc/C20",
         "Γmax (mol cm-2)",
     ]

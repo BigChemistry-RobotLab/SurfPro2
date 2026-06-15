@@ -34,7 +34,7 @@ df["Area_min"] = (df["F x 10^20/ m2"] / 10**20) * 10**18
 df = df.rename(
     columns={
         "Compound": "identifier",
-        "CMC surface tension/ mol/dm3": "CMC",
+        "CMC/ mol/dm3": "CMC",
         "γcmc/ mN/m": "AW_ST_CMC",
     }
 )
@@ -46,11 +46,9 @@ df = df.drop(
     columns=[
         "R",
         "X",
-        "CMC conductivity/ mol/dm3",
         "-(dγ/dlogc)T",
         "Γmax x 10^6/ mol/m2",
-        "-ΔGm surface tension/ kJ/mol",
-        "-ΔGm conductivity / kJ/mol",
+        "-ΔGm/ kJ/mol",
         "(nCH2)eq",
         "I",
     ]

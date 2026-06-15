@@ -1,5 +1,5 @@
-Surfactant,HLBa,γCMCb (mN/m),CMC (mo/L),Γmax (mol/m2),A0c (nm2/molec),aL c (mol/L),source_doi,SMILES,reference_doi,Temp_Celsius
-2a,8.9,29.0,1.3e-06,,,,10.1016/j.carres.2013.07.003,OC(O1)[C@@H](O)[C@@H](O)[C@H](O)[C@H]1COC(CCSCCCCCCCCCCCCCC)=O,,25.0
-2b,8.9,28.5,6.3e-06,5.3e-06,3.1,4.6e-07,10.1016/j.carres.2013.07.003,OC(O1)[C@@H](O)[C@@H](O)[C@H](O)[C@H]1COC(CCSC(CCCCCCCC)CCCCCCCC)=O,,25.0
-2c,11.3,45.0,1.6e-05,1.9e-06,8.7,9.1e-07,10.1016/j.carres.2013.07.003,OC(O1)[C@@H](O)[C@@H](O)[C@H](O)[C@H]1COC(CCSCCCCCCCCCCCCCCSCCC(OC[C@@H]2[C@@H](O)[C@H](O)[C@H](O)C(O)O2)=O)=O,,25.0
-2d,11.3,42.5,4e-06,2.8e-06,5.9,1.4e-07,10.1016/j.carres.2013.07.003,OC(O1)[C@@H](O)[C@@H](O)[C@H](O)[C@H]1COC(CCSCC(CCCCCCCCCCCC)SCCC(OC[C@@H]2[C@@H](O)[C@H](O)[C@H](O)C(O)O2)=O)=O,,25.0
+Surfactant,HLBa,γCMCb (mN/m),CMC (mo/L),Γmax (mol/m2),A0c (nm2/molec),aL c (mol/L),source_doi,SMILES,reference_doi,Temp_Celsius,method
+2a,8.9,29.0,1.3e-06,,,,10.1016/j.carres.2013.07.003,OC(O1)[C@@H](O)[C@@H](O)[C@H](O)[C@H]1COC(CCSCCCCCCCCCCCCCC)=O,,25.0,tensiometry
+2b,8.9,28.5,6.3e-06,5.3e-06,3.1,4.6e-07,10.1016/j.carres.2013.07.003,OC(O1)[C@@H](O)[C@@H](O)[C@H](O)[C@H]1COC(CCSC(CCCCCCCC)CCCCCCCC)=O,,25.0,tensiometry
+2c,11.3,45.0,1.6e-05,1.9e-06,8.7,9.1e-07,10.1016/j.carres.2013.07.003,OC(O1)[C@@H](O)[C@@H](O)[C@H](O)[C@H]1COC(CCSCCCCCCCCCCCCCCSCCC(OC[C@@H]2[C@@H](O)[C@H](O)[C@H](O)C(O)O2)=O)=O,,25.0,tensiometry
+2d,11.3,42.5,4e-06,2.8e-06,5.9,1.4e-07,10.1016/j.carres.2013.07.003,OC(O1)[C@@H](O)[C@@H](O)[C@H](O)[C@H]1COC(CCSCC(CCCCCCCCCCCC)SCCC(OC[C@@H]2[C@@H](O)[C@H](O)[C@H](O)C(O)O2)=O)=O,,25.0,tensiometry

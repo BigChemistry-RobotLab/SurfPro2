@@ -1,11 +1,11 @@
-Surfactant,TK (◦C),CMC (mM),γCMC (mN/m),ΓCMC (μmol/m2),ACMC (nm2/molecule),References,Temp_Celsius,source_doi,reference_doi,SMILES
-β-Glc(Ger),<0,4.0,27.7,4.4,0.38,This work,25.0,10.1016/j.chemphyslip.2005.01.001,,CC(CCCC(C)C)CCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO
-β-Mal2(Ger),<0,5.3,33.7,3.5,0.47,This work,25.0,10.1016/j.chemphyslip.2005.01.001,,O[C@H]([C@H](C(O[C@@H]1CO)OCCC(C)CCCC(C)C)O)[C@@H]1O[C@H]2O[C@H](CO)[C@H]([C@@H]([C@H]2O)O)O
-β-Mal3(Ger),<0,5.0,39.6,3.1,0.52,This work,25.0,10.1016/j.chemphyslip.2005.01.001,,O[C@@H]1[C@H]([C@@H]([C@H](O[C@@H]1O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@H]3[C@@H]([C@H](C(O[C@@H]3CO)OCCC(C)CCCC(C)C)O)O)CO)CO)O)O
-β-GlcC8,<0,25.0,30.1,3.9,0.42,Shinoda et al. (1961),25.0,10.1016/j.chemphyslip.2005.01.001,10.1246/bcsj.34.237,CCCCCCCCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO
-β-GlcC9,,6.5,,,,De Grip and Bovee-Geurts (1979),25.0,10.1016/j.chemphyslip.2005.01.001,10.1016/0009-3084(79)90010-0,CCCCCCCCCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO
-β-GlcC10,,,27.7,,,This work,25.0,10.1016/j.chemphyslip.2005.01.001,,CCCCCCCCCCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO
-β-GlcC10,,2.2,,3.5,0.47,Shinoda et al. (1961),25.0,10.1016/j.chemphyslip.2005.01.001,10.1246/bcsj.34.237,CCCCCCCCCCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO
-β-GlcC10,,,,4.05,0.41,Aveyard et al. (1998),25.0,10.1016/j.chemphyslip.2005.01.001,10.1021/la980519x,CCCCCCCCCCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO
-β-GlcC10,~25,,,,,Boyd et al. (2000),25.0,10.1016/j.chemphyslip.2005.01.001,10.1021/la991573w,CCCCCCCCCCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO
-β-Mal2C10,,2.0,35.6,3.0,0.56,Aveyard et al. (1998),25.0,10.1016/j.chemphyslip.2005.01.001,10.1021/la980519x,O[C@H]([C@H](C(O[C@@H]1CO)OCCCCCCCCCC)O)[C@@H]1O[C@H]2O[C@H](CO)[C@H]([C@@H]([C@H]2O)O)O
+Surfactant,TK (◦C),CMC (mM),γCMC (mN/m),ΓCMC (μmol/m2),ACMC (nm2/molecule),References,Temp_Celsius,source_doi,reference_doi,SMILES,method
+β-Glc(Ger),<0,4.0,27.7,4.4,0.38,This work,25.0,10.1016/j.chemphyslip.2005.01.001,,CC(CCCC(C)C)CCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,tensiometry
+β-Mal2(Ger),<0,5.3,33.7,3.5,0.47,This work,25.0,10.1016/j.chemphyslip.2005.01.001,,O[C@H]([C@H](C(O[C@@H]1CO)OCCC(C)CCCC(C)C)O)[C@@H]1O[C@H]2O[C@H](CO)[C@H]([C@@H]([C@H]2O)O)O,tensiometry
+β-Mal3(Ger),<0,5.0,39.6,3.1,0.52,This work,25.0,10.1016/j.chemphyslip.2005.01.001,,O[C@@H]1[C@H]([C@@H]([C@H](O[C@@H]1O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@H]3[C@@H]([C@H](C(O[C@@H]3CO)OCCC(C)CCCC(C)C)O)O)CO)CO)O)O,tensiometry
+β-GlcC8,<0,25.0,30.1,3.9,0.42,Shinoda et al. (1961),25.0,10.1016/j.chemphyslip.2005.01.001,10.1246/bcsj.34.237,CCCCCCCCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,tensiometry
+β-GlcC9,,6.5,,,,De Grip and Bovee-Geurts (1979),25.0,10.1016/j.chemphyslip.2005.01.001,10.1016/0009-3084(79)90010-0,CCCCCCCCCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,tensiometry
+β-GlcC10,,,27.7,,,This work,25.0,10.1016/j.chemphyslip.2005.01.001,,CCCCCCCCCCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,tensiometry
+β-GlcC10,,2.2,,3.5,0.47,Shinoda et al. (1961),25.0,10.1016/j.chemphyslip.2005.01.001,10.1246/bcsj.34.237,CCCCCCCCCCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,tensiometry
+β-GlcC10,,,,4.05,0.41,Aveyard et al. (1998),25.0,10.1016/j.chemphyslip.2005.01.001,10.1021/la980519x,CCCCCCCCCCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,tensiometry
+β-GlcC10,~25,,,,,Boyd et al. (2000),25.0,10.1016/j.chemphyslip.2005.01.001,10.1021/la991573w,CCCCCCCCCCO[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,tensiometry
+β-Mal2C10,,2.0,35.6,3.0,0.56,Aveyard et al. (1998),25.0,10.1016/j.chemphyslip.2005.01.001,10.1021/la980519x,O[C@H]([C@H](C(O[C@@H]1CO)OCCCCCCCCCC)O)[C@@H]1O[C@H]2O[C@H](CO)[C@H]([C@@H]([C@H]2O)O)O,tensiometry

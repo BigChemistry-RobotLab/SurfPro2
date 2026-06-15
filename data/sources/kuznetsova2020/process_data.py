@@ -11,7 +11,6 @@ df1 = pd.read_csv(SOURCE_FILE_1)
 df2 = pd.read_csv(SOURCE_FILE_2)
 
 df = pd.concat([df1, df2], axis=0)
-df.to_csv("temp.csv")
 
 smiles_list = []
 inchi_list = []
@@ -32,7 +31,7 @@ df["SMILES"] = smiles_list
 df["Molecular_Weight"] = mol_wts
 df["InChI"] = inchi_list
 
-df["CMC"] = df["CMC tensiometry/ mM"] / 1000
+df["CMC"] = df["CMC/ mM"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 
 df["Gamma_max"] = df["106Γmax/ mol/m2"] / 1000000
@@ -47,9 +46,7 @@ df = df.rename(
 
 df = df.drop(
     columns=[
-        "CMC tensiometry/ mM",
-        "CMC conductometry/ mM",
-        "CMC fluorimetry/ mM",
+        "CMC/ mM",
         "106Γmax/ mol/m2",
         "-ΔGm/ kJ/mol",
         "-ΔGad/ J/mol",

@@ -1,2 +1,2 @@
-Surfactant,CMCmM,γCMC mN m−1,ΠCMC mN m−1,Γmax mol cm−2,Amin nm2,ΔGomic kJ mol−1,ΔGaods kJ mol−1,Temp_Celsius,source_doi,reference_doi,SMILES
-DHPB,4.47,29.5,42.8,8.42e-11,197.1,-14.76,-19.84,25.0,10.1016/j.molliq.2019.111480,,CCCCCCCCCCCC[n+]1cccc(CO)c1.[Br-]
+Surfactant,CMCmM,γCMC mN m−1,ΠCMC mN m−1,Γmax mol cm−2,Amin nm2,ΔGomic kJ mol−1,ΔGaods kJ mol−1,Temp_Celsius,source_doi,reference_doi,SMILES,method
+DHPB,4.47,29.5,42.8,8.42e-11,197.1,-14.76,-19.84,25.0,10.1016/j.molliq.2019.111480,,CCCCCCCCCCCC[n+]1cccc(CO)c1.[Br-],tensiometry

@@ -1,6 +1,6 @@
-Compound,cmc (mM),γCMC (mN/m),Amin x 10^2 (nm2),Temp_Celsius,note,source_doi,reference_doi,SMILES
-C10βGlc,0.80,27.8,49,25.0,,10.5650/jos1956.40.709,,OC[C@H]1O[C@@H](O)[C@H](OCCCCCCCCCC)[C@@H](O)[C@@H]1O
-C10β(2)Glc,4.5,28.0,51,25.0,,10.5650/jos1956.40.709,,OC[C@H]1O[C@H]([C@@H]([C@H]([C@@H]1O)O)O[C@H](C)CCCCCCCC)O.OC[C@H]1O[C@H]([C@@H]([C@H]([C@@H]1O)O)O[C@@H](C)CCCCCCCC)O
-C10β(3)Glc,8.5,27.0,53,25.0,,10.5650/jos1956.40.709,,OC[C@H]1O[C@H]([C@@H]([C@H]([C@@H]1O)O)O[C@@H](CC)CCCCCCC)O.OC[C@H]2O[C@H]([C@@H]([C@H]([C@@H]2O)O)O[C@H](CC)CCCCCCC)O
-C10β(4)Glc,12,26.0,54,25.0,turbid,10.5650/jos1956.40.709,,OC[C@H]1O[C@H]([C@@H]([C@H]([C@@H]1O)O)O[C@H](CCC)CCCCCC)O.OC[C@H]2O[C@H]([C@@H]([C@H]([C@@H]2O)O)O[C@@H](CCC)CCCCCC)O
-C10β(5)Glc,15,25.1,55,25.0,turbid,10.5650/jos1956.40.709,,OC[C@H]1O[C@H]([C@@H]([C@H]([C@@H]1O)O)O[C@H](CCCC)CCCCC)O.OC[C@H]2O[C@H]([C@@H]([C@H]([C@@H]2O)O)O[C@@H](CCCC)CCCCC)O
+Compound,cmc (mM),γCMC (mN/m),Amin x 10^2 (nm2),Temp_Celsius,note,source_doi,reference_doi,SMILES,method
+C10βGlc,0.80,27.8,49,25.0,,10.5650/jos1956.40.709,,OC[C@H]1O[C@@H](O)[C@H](OCCCCCCCCCC)[C@@H](O)[C@@H]1O,tensiometry
+C10β(2)Glc,4.5,28.0,51,25.0,,10.5650/jos1956.40.709,,OC[C@H]1O[C@H]([C@@H]([C@H]([C@@H]1O)O)O[C@H](C)CCCCCCCC)O,tensiometry
+C10β(3)Glc,8.5,27.0,53,25.0,,10.5650/jos1956.40.709,,OC[C@H]1O[C@H]([C@@H]([C@H]([C@@H]1O)O)O[C@@H](CC)CCCCCCC)O,tensiometry
+C10β(4)Glc,12,26.0,54,25.0,turbid,10.5650/jos1956.40.709,,OC[C@H]1O[C@H]([C@@H]([C@H]([C@@H]1O)O)O[C@H](CCC)CCCCCC)O,tensiometry
+C10β(5)Glc,15,25.1,55,25.0,turbid,10.5650/jos1956.40.709,,OC[C@H]1O[C@H]([C@@H]([C@H]([C@@H]1O)O)O[C@H](CCCC)CCCCC)O,tensiometry
