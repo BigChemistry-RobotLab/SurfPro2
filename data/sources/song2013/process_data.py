@@ -4,7 +4,10 @@ from rdkit import Chem
 from rdkit.Chem import Descriptors
 
 # Compare to manual transcription
-df = pd.read_csv("source_data/song2013_table_1.csv")
+df1 = pd.read_csv("source_data/song2013_table_1.csv")
+df2 = pd.read_csv("source_data/song2013_table_2.csv")
+
+df = pd.concat([df1, df2], axis=0)
 
 # update the database with generated smiles
 new_smiles_list = []
@@ -35,25 +38,32 @@ for i, row in df.iterrows():
 df["SMILES"] = new_smiles_list
 df["InChI"] = inchi_list
 df["Molecular_Weight"] = mol_wts
-
-df["CMC"] = df["cac(mM)"] / 1000
+df["Temp_Celsius"] = df["Temperature (K)"] - 272.15
+df["CMC"] = df["cac (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 df["Gamma_max"] = df["Γmax 10−10 (mol/cm2)"] / 10**6
 df["Area_min"] = df["Amin (Å2)"] / 100
+df["AW_ST_CMC"] = df["γcac (mN/m)"]
 
 df = df.rename(
     columns={
         "Surfactant": "identifier",
-        "AW_ST_CMC": "γcac(mN/m)",
     }
 )
 
 df = df.drop(
     columns=[
-        "cac(mM)",
-        "Γmax 10−10 (mol/cm2)",
         "Amin (Å2)",
+        "Temperature (K)",
+        "cac (mM)",
         "cac/c20",
+        "pC20",
+        "Γmax 10−10 (mol/cm2)",
+        "ΔGagg (kJ/mol)",
+        "ΔHagg (kJ/mol)",
+        "β",
+        "−TΔSagg (kJ/mol)",
+        "γcac (mN/m)",
     ]
 )
 
