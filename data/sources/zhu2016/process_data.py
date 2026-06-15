@@ -3,12 +3,16 @@ import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 
-SOURCE_FILE = "source_data/zhu2016_table_1.csv"
+SOURCE_FILE_1 = "source_data/zhu2016_table_1.csv"
+SOURCE_FILE_2 = "source_data/zhu2016_table_2.csv"
 PROCESSED_FILE = "processed_data/zhu2016.csv"
 
-df = pd.read_csv(SOURCE_FILE)
+df1 = pd.read_csv(SOURCE_FILE_1)
+df2 = pd.read_csv(SOURCE_FILE_2)
 
-df["CMC"] = df["CMCs (mmol L-1)"] / 1000
+df = pd.concat([df1, df2], axis=0)
+
+df["CMC"] = df["CMC (mmol L-1)"] / 1000
 df["Gamma_max"] = df["Γmax (10-10 mol cm-2)"] / 10**6
 
 replace_columns = {
@@ -18,9 +22,13 @@ replace_columns = {
 }
 
 drop_columns = [
+    "CMC (mmol L-1)",
     "TKrafft (°C)",
-    "CMCs (mmol L-1)",
+    "TΔmicS0 (KJ mol-1)",
     "Γmax (10-10 mol cm-2)",
+    "ΔmicG0 (KJ mol-1)",
+    "ΔmicH0 (KJ mol-1)",
+    "β",
 ]
 
 df = df.rename(columns=replace_columns)
