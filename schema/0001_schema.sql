@@ -78,6 +78,7 @@ CREATE TABLE IF NOT EXISTS measurements (
     temperature REAL,
     temperature_norm INTEGER REAL ALWAYS AS (COALESCE(temperature, -9999)) STORED, -- for unique index
     unit_id INTEGER NOT NULL,
+    method_id INTEGER,
     citation_id INTEGER NOT NULL,
     source_file TEXT,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -86,7 +87,16 @@ CREATE TABLE IF NOT EXISTS measurements (
     FOREIGN KEY (compound_id) REFERENCES compounds(compound_id) ON DELETE CASCADE,
     FOREIGN KEY (citation_id) REFERENCES citations(citation_id) ON DELETE CASCADE,
     FOREIGN KEY (property_type_id) REFERENCES property_types(property_type_id),
+    FOREIGN KEY (method_id) REFERENCES methods(method_id),
     FOREIGN KEY (unit_id) REFERENCES units(unit_id)
+);
+
+
+CREATE TABLE IF NOT EXISTS methods (
+    method_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
 
@@ -112,9 +122,12 @@ CREATE UNIQUE INDEX IF NOT EXISTS idx_compounds_inchi ON compounds(InChI);
 
 CREATE UNIQUE INDEX IF NOT EXISTS idx_units_name ON units(name);
 
+CREATE UNIQUE INDEX IF NOT EXISTS idx_methods_name ON methods(name);
+
 CREATE INDEX IF NOT EXISTS idx_measurements_compound ON measurements(compound_id);
 CREATE INDEX IF NOT EXISTS idx_measurements_citation ON measurements(citation_id);
-CREATE UNIQUE INDEX IF NOT EXISTS idx_measurement_uniqueness ON measurements (compound_id, property_type_id, value, temperature_norm, citation_id);
+CREATE UNIQUE INDEX IF NOT EXISTS idx_measurement_uniqueness
+ON measurements (compound_id, property_type_id, value, temperature_norm, method_id, citation_id);
 
 CREATE INDEX IF NOT EXISTS idx_identifiers_citation ON identifiers(citation_id);
 CREATE UNIQUE INDEX IF NOT EXISTS idx_identifier_uniqueness ON identifiers (citation_id, compound_id, identifier);

@@ -54,7 +54,7 @@ def initialise_database():
                 print("Ingesting", file.name)
                 ingest_file(file, DB_PATH, bib_by_doi)
 
-        ingest_notes(key, DB_PATH, dir, bib_by_key)
+        ingest_notes(dir.name, DB_PATH, dir, bib_by_key)
 
     add_surfactant_types(DB_PATH)
 

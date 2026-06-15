@@ -215,6 +215,23 @@ def upsert_unit(unit, dimension, cursor):
 
     return cursor.fetchone()[0]
 
+def upsert_method(method, cursor):
+    query = """
+    INSERT INTO methods (name)
+    VALUES (?)
+    ON CONFLICT(name) DO UPDATE SET
+        updated_at = CURRENT_TIMESTAMP
+    RETURNING method_id;
+    """
+
+    cursor.execute(
+        query,
+        (method,),
+    )
+
+    return cursor.fetchone()[0]
+
+
 
 def upsert_citation(source_id, cited_id, cursor):
     query = """
@@ -251,12 +268,13 @@ def upsert_measurement(row, compound_id, source_id, cited_id, source_file, curso
         value,
         temperature,
         unit_id,
+        method_id,
         citation_id,
         source_file
     )
-    VALUES (?, ?, ?, ?, ?, ?, ?)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
     ON CONFLICT (
-        compound_id, property_type_id, value, temperature_norm, citation_id
+        compound_id, property_type_id, value, temperature_norm, method_id, citation_id
     )
     DO UPDATE SET
         unit_id = COALESCE(excluded.unit_id, measurements.unit_id),
@@ -269,10 +287,12 @@ def upsert_measurement(row, compound_id, source_id, cited_id, source_file, curso
         value = row.get(property_type)
         unit, dimension, property_name = PROPERTY_INFO.get(property_type)
         temperature = row.get("Temp_Celsius")
+        method = row.get("method", "")
 
         if value is None or value == "":
             continue
 
+        method_id = upsert_method(method, cursor)
         unit_id = upsert_unit(unit, dimension, cursor)
         citation_id = upsert_citation(source_id, cited_id, cursor)
         property_type_id = upsert_property_type(property_name, cursor)
@@ -285,6 +305,7 @@ def upsert_measurement(row, compound_id, source_id, cited_id, source_file, curso
                 value,
                 temperature,
                 unit_id,
+                method_id,
                 citation_id,
                 source_file,
             ),
@@ -357,7 +378,7 @@ def ingest_notes(key, DB_PATH, source_dir, bib_by_key):
         lit_id = upsert_literature(source_bibtex_entry, cursor)
 
         if notes_file.is_file():
-            with open(notes_file, "r") as file:
+            with open(notes_file, "r", encoding="utf-8") as file:
                 upsert_literature_note(file.read(), lit_id, cursor)
 
 
