@@ -287,6 +287,10 @@ def upsert_measurement(row, compound_id, source_id, cited_id, source_file, curso
         value = row.get(property_type)
         unit, dimension, property_name = PROPERTY_INFO.get(property_type)
         temperature = row.get("Temp_Celsius")
+
+        if temperature == "":
+            temperature = None
+
         method = row.get("method", "")
 
         if value is None or value == "":
