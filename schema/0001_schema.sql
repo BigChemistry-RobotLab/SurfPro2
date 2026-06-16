@@ -34,8 +34,8 @@ CREATE TABLE IF NOT EXISTS literature_notes (
 
 CREATE TABLE IF NOT EXISTS citations (
     citation_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    source_id INTEGER NOT NULL, -- source of the value
-    cited_id INTEGER, -- cited work in the source
+    source_id INTEGER NOT NULL, -- literature_id for the source of the value
+    cited_id INTEGER, -- literature_id for the cited work in the source
     cited_id_norm INTEGER GENERATED ALWAYS AS (COALESCE(cited_id, -1)) STORED,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP,
