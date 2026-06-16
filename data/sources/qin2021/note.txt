@@ -6,3 +6,5 @@ The following files were obtained from [https://github.com/zavalab/ML/tree/maste
 The SMILES from these files were used as a starting point for mapping to the data reported in the supplemetary information of the paper.
 Upon inspection, many of the SMILES required updating for various reasons.
 Many of the sugar structures were updated manually based on the names given to the structures.
+
+Entries containing a temperature value of "room temperature" have had their temperature values removed.
