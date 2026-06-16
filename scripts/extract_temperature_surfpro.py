@@ -13,7 +13,7 @@ CITATION_GRAPH = config["CITATION_GRAPH"]
 SCHEMA_FILE = config["SCHEMA_FILE"]
 assert Path(DB_PATH).is_file()
 
-query = Path("queries/extract_multiple_properties.sql").read_text()
+query = Path("queries/extract_surfpro_temperature.sql").read_text()
 
 connection = sqlite3.connect(DB_PATH)
 connection.row_factory = sqlite3.Row
@@ -21,6 +21,7 @@ cursor = connection.cursor()
 cursor.execute(query)
 
 df = pd.DataFrame([dict(s) for s in cursor.fetchall()])
+
 df = df.rename(columns={
     'cmc_value': 'CMC',
     'aw_st_cmc_value': 'AW_ST_CMC',
@@ -58,3 +59,5 @@ print('temp counts', df['temperature'].value_counts(), '\n')
 print('unique SMILES', len(pd.unique(df['SMILES'])))
 for prop in properties:
     print(prop, df[prop].notna().sum())
+
+assert sum(df.temperature == 0) == 0, f'{sum(df.temperature == 0)}\n{df[df.temperature == 0.]}'
