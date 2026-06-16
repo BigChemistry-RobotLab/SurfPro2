@@ -1,10 +1,8 @@
-The following file were obtained from [https://github.com/zavalab/ML/tree/master/CMC_GCN/data](https://github.com/zavalab/ML/tree/master/CMC_GCN/data):
+The following files were obtained from [https://github.com/zavalab/ML/tree/master/CMC_GCN/data](https://github.com/zavalab/ML/tree/master/CMC_GCN/data):
 
 - `dataset_122.csv`
 - `dataset_202.csv`
 
-
-CCCCCCSC1OC(=O)C(O)C1O: incorrect SMILES for S-Hexyl 5-Thio-Arabinonolactone
-There may be more examples of this. Note that pubchem alse gives a strange structure for this one.
-
-"CCCCCCCCCCCCOCCOCCOCCOCCO" for "propaethylene glycol monododecyl ether" could be wrong
+The SMILES from these files were used as a starting point for mapping to the data reported in the supplemetary information of the paper.
+Upon inspection, many of the SMILES required updating for various reasons.
+Many of the sugar structures were updated manually based on the names given to the structures.
