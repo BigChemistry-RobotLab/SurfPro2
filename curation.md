@@ -108,7 +108,7 @@ Where possible, we have reported the values for the equation fitted with $n = 2$
 ## Two CMC values
 
 In some cases, two CMC values are reported.
-In these cases, the higher concentration CMC is reported.
+In these cases, the CMC from the first breakpoint is reported.
 
 Critical aggregation concentrations (CACs) are also taken to be CMC values in this database.
 In future versions, CMC may be changed to CAC in the database, as CMC can be regarded as a type of CAC (micellisation is a form of aggregation).
@@ -122,7 +122,7 @@ However, in some cases quantities such as $\gamma_{lim}$ (limiting surface tensi
 Ideally, the quantity $\gamma_{CMC}$ should reflect the lowest surface tension achievable with the surfactant.
 However, this may only be verified by inspection of the experimental data.
 
-In cases where two CMC values are obtained, the $\gamma_{CMC}$ values for the higher CMC concentration are reported.
+In cases where two CMC values are obtained, the $\gamma_{CMC}$ values for the first CMC are reported.
 
 ## Notes
 
