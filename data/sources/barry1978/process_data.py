@@ -3,10 +3,14 @@ import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 
-SOURCE_FILE = "source_data/barry1978_table_3.csv"
+SOURCE_FILE_1 = "source_data/barry1978_table_3.csv"
+SOURCE_FILE_2 = "source_data/barry1978_table_4.csv"
 PROCESSED_FILE = "processed_data/barry1978.csv"
 
-df = pd.read_csv(SOURCE_FILE)
+df1 = pd.read_csv(SOURCE_FILE_1)
+df2 = pd.read_csv(SOURCE_FILE_2)
+
+df = pd.concat([df1, df2], axis=0)
 
 smiles_list = []
 inchi_list = []

@@ -30,7 +30,7 @@ df["InChI"] = inchi_list
 df = df.rename(
     columns={
         "Abbreviation": "identifier",
-        "CMC surface tension (mol/liter)": "CMC",
+        "CMC (mol/liter)": "CMC",
     }
 )
 
@@ -39,7 +39,6 @@ df["pCMC"] = -np.log10(df.CMC)
 df = df.drop(
     columns=[
         "Compound",
-        "CMC conductivity (mol/liter)",
         "Degree of dissoc",
     ]
 )

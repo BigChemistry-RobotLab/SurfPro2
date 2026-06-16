@@ -1,4 +1,4 @@
-Surfactant,Krafft point (oC),cmc (mmol/L),γcmc (mN/m),106 Γmax (mol/cm2),Amin (nm2),pC20,cmc/C20,source_doi,SMILES,reference_doi,Temp_Celsius
-A,<0,0.6,40.2,1.14,1.46,3.83,4.05,10.1080/01932690903192580,CCCCCCCCCCCC[N+](C)(C)CC(O)COc1ccc(OCC(O)C[N+](C)(C)CCCCCCCCCCCC)cc1.[Cl-].[Cl-],,25.0
-B,<0,0.1,41.1,1.07,1.55,4.59,3.89,10.1080/01932690903192580,CCCCCCCCCCCCCC[N+](C)(C)CC(O)COc1ccc(OCC(O)C[N+](C)(C)CCCCCCCCCCCCCC)cc1.[Cl-].[Cl-],,25.0
-C,6.5,0.006,43.3,0.99,1.68,5.75,3.37,10.1080/01932690903192580,CCCCCCCCCCCCCCCC[N+](C)(C)CC(O)COc1ccc(OCC(O)C[N+](C)(C)CCCCCCCCCCCCCCCC)cc1.[Cl-].[Cl-],,25.0
+Surfactant,Krafft point (oC),cmc (mmol/L),γcmc (mN/m),106 Γmax (mol/cm2),Amin (nm2),pC20,cmc/C20,source_doi,SMILES,reference_doi,Temp_Celsius,method
+A,<0,0.6,40.2,1.14,1.46,3.83,4.05,10.1080/01932690903192580,CCCCCCCCCCCC[N+](C)(C)CC(O)COc1ccc(OCC(O)C[N+](C)(C)CCCCCCCCCCCC)cc1.[Cl-].[Cl-],,25.0,tensiometry
+B,<0,0.1,41.1,1.07,1.55,4.59,3.89,10.1080/01932690903192580,CCCCCCCCCCCCCC[N+](C)(C)CC(O)COc1ccc(OCC(O)C[N+](C)(C)CCCCCCCCCCCCCC)cc1.[Cl-].[Cl-],,25.0,tensiometry
+C,6.5,0.006,43.3,0.99,1.68,5.75,3.37,10.1080/01932690903192580,CCCCCCCCCCCCCCCC[N+](C)(C)CC(O)COc1ccc(OCC(O)C[N+](C)(C)CCCCCCCCCCCCCCCC)cc1.[Cl-].[Cl-],,25.0,tensiometry

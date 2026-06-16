@@ -1,8 +1,16 @@
 import os
 import subprocess
 
+LOG_FILE = "crash_log.txt"
+
+def log_crash(message):
+    with open(LOG_FILE, "a") as f:
+        f.write(message + "\n")
+
 def run_process_in_subdirs(root_dir):
-    failed_runs = []
+    # Clear previous log
+    open(LOG_FILE, "w").close()
+
     for dirpath, dirnames, filenames in os.walk(root_dir):
 
         if dirpath == root_dir:
@@ -21,18 +29,16 @@ def run_process_in_subdirs(root_dir):
                     text=True,
                 )
 
-                print(result.stdout)
-                if result.stderr:
-                    print("Errors:")
-                    print(result.stderr)
+                # Non-zero exit code means crash
+                if result.returncode != 0:
+                    msg = f"[CRASH] {dirpath}\nExit code: {result.returncode}\n{result.stderr}"
+                    print(msg)
+                    log_crash(msg)
 
             except Exception as e:
-                print(f"Failed in {dirpath}: {e}")
-                failed_runs.append((dirpath, e))
-
-    print("Processing for the following directories failed:")
-    for f in failed_runs:
-        print(f)
+                msg = f"[EXCEPTION] {dirpath}: {e}"
+                print(msg)
+                log_crash(msg)
 
 if __name__ == "__main__":
     root_directory = "./data/sources"

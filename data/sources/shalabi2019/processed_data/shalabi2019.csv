@@ -1,2 +1,2 @@
-identifier,AW_ST_CMC,Pi_CMC,Area_min,Temp_Celsius,source_doi,reference_doi,SMILES,CMC,Gamma_max,pCMC,Molecular_Weight,InChI
-DHPB,29.5,42.8,197.1,25.0,10.1016/j.molliq.2019.111480,,CCCCCCCCCCCC[n+]1cccc(CO)c1.[Br-],0.00447,8.42e-07,2.3496924768680634,358.364,"InChI=1S/C18H32NO.BrH/c1-2-3-4-5-6-7-8-9-10-11-14-19-15-12-13-18(16-19)17-20;/h12-13,15-16,20H,2-11,14,17H2,1H3;1H/q+1;/p-1"
+identifier,AW_ST_CMC,Pi_CMC,Area_min,Temp_Celsius,source_doi,reference_doi,SMILES,method,CMC,Gamma_max,pCMC,Molecular_Weight,InChI
+DHPB,29.5,42.8,197.1,25.0,10.1016/j.molliq.2019.111480,,CCCCCCCCCCCC[n+]1cccc(CO)c1.[Br-],tensiometry,0.00447,8.42e-07,2.3496924768680634,358.364,"InChI=1S/C18H32NO.BrH/c1-2-3-4-5-6-7-8-9-10-11-14-19-15-12-13-18(16-19)17-20;/h12-13,15-16,20H,2-11,14,17H2,1H3;1H/q+1;/p-1"

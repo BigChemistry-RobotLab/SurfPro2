@@ -57,7 +57,7 @@ df["SMILES"] = new_smiles_list
 df["InChI"] = inchi_list
 df["Molecular_Weight"] = mol_wts
 
-df["CMC"] = df["cac surface tension (mM)"] / 1000
+df["CMC"] = df["cac (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 df["Gamma_max"] = df["Γmax ( 106 mol/m2)"] / 10**6
 df["Area_min"] = df["Amin (nm2)"]
@@ -72,12 +72,9 @@ df = df.rename(
 
 df = df.drop(
     columns=[
-        "standard_deviation",
+        "cac (mM)",
+        "cac standard_deviation",
         "Γmax ( 106 mol/m2)",
-        "standard_deviation",
-        "standard_deviation",
-        "cac conductivity (mM)",
-        "standard_deviation",
         "cac ion chloride (mM)",
     ]
 )

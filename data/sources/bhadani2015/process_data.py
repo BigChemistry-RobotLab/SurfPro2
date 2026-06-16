@@ -27,7 +27,7 @@ df["SMILES"] = smiles_list
 df["Molecular_Weight"] = mol_wts
 df["InChI"] = inchi_list
 
-df["CMC"] = df["CMC surface tension (mM)"] / 1000
+df["CMC"] = df["CMC (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 
 df["Gamma_max"] = df["106 Γmax (mol/m2)"] / 1000000
@@ -45,12 +45,8 @@ df = df.rename(
 
 df = df.drop(
     columns=[
-        "CMC surface tension (mM)",
-        "CMC surface tension err (mM)",
-        "CMC conductivity (mM)",
-        "CMC conductivity err (mM)",
-        "CMC fluorescence (mM)",
-        "CMC fluorescence err (mM)",
+        "CMC (mM)",
+        "CMC err (mM)",
         "γCMC err (mN /m)",
         "106 Γmax (mol/m2)",
         "106 Γmax err (mol /m2)",

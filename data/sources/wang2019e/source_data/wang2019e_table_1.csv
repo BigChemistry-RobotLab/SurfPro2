@@ -1,4 +1,7 @@
-surfactants,CMC surface tension (mmol/L),CMC conductivity (mmol/L),γcmc (mN/m),pC20 (M/L),Гmax (10−10mol/cm2),Amin (nm2),△G°mic (kJ/mol),△G°ads (kJ/mol),Temp_Celsius,source_doi,reference_doi,SMILES
-ADQ-8,0.541,0.572,32.27,3.8,1.53,1.09,−25.16,−51.13,25.0,10.1016/j.colsurfa.2018.11.061,,CCCCCCCC(=O)NCCC[N+](C)(C)CC(O)C[N+](C)(C)CCCNC(=O)CCCCCCC.[Cl-].[Cl-]
-ADQ-12,0.148,0.278,34.78,4.75,1.32,1.26,−28.40,−56.60,25.0,10.1016/j.colsurfa.2018.11.061,,CCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)C[N+](C)(C)CCCNC(=O)CCCCCCCCCCC.[Cl-].[Cl-]
-ADQ-16,0.0562,0.071,37.47,4.68,1.38,1.2,−30.77,−55.79,25.0,10.1016/j.colsurfa.2018.11.061,,CCCCCCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)C[N+](C)(C)CCCNC(=O)CCCCCCCCCCCCCCC.[Cl-].[Cl-]
+surfactants,CMC (mmol/L),method,γcmc (mN/m),pC20 (M/L),Гmax (10−10mol/cm2),Amin (nm2),△G°mic (kJ/mol),△G°ads (kJ/mol),Temp_Celsius,source_doi,reference_doi,SMILES
+ADQ-8,0.541,tensiometry,32.27,3.8,1.53,1.09,−25.16,−51.13,25,10.1016/j.colsurfa.2018.11.061,,CCCCCCCC(=O)NCCC[N+](C)(C)CC(O)C[N+](C)(C)CCCNC(=O)CCCCCCC.[Cl-].[Cl-]
+ADQ-12,0.148,tensiometry,34.78,4.75,1.32,1.26,−28.40,−56.60,25,10.1016/j.colsurfa.2018.11.061,,CCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)C[N+](C)(C)CCCNC(=O)CCCCCCCCCCC.[Cl-].[Cl-]
+ADQ-16,0.0562,tensiometry,37.47,4.68,1.38,1.2,−30.77,−55.79,25,10.1016/j.colsurfa.2018.11.061,,CCCCCCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)C[N+](C)(C)CCCNC(=O)CCCCCCCCCCCCCCC.[Cl-].[Cl-]
+ADQ-8,0.572,conductometry,,,,,,,25,10.1016/j.colsurfa.2018.11.061,,CCCCCCCC(=O)NCCC[N+](C)(C)CC(O)C[N+](C)(C)CCCNC(=O)CCCCCCC.[Cl-].[Cl-]
+ADQ-12,0.278,conductometry,,,,,,,25,10.1016/j.colsurfa.2018.11.061,,CCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)C[N+](C)(C)CCCNC(=O)CCCCCCCCCCC.[Cl-].[Cl-]
+ADQ-16,0.071,conductometry,,,,,,,25,10.1016/j.colsurfa.2018.11.061,,CCCCCCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)C[N+](C)(C)CCCNC(=O)CCCCCCCCCCCCCCC.[Cl-].[Cl-]

@@ -4,3 +4,4 @@ __pycache__/
 *.db
 /split_remainder
 /target
+crash_log.txt

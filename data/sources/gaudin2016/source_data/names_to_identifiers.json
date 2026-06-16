@@ -89,24 +89,24 @@
     "N-tetradecyl-N-methyl gluconamide": {"SMILES": "CCCCCCCCCCCCCCCCN(C)C(=O)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO"},
     "N-oleyl-N-methyl gluconamide": {"SMILES": "CN(CCCCCCCC/C=C\\CCCCCCCC)C([C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO)=O"},
     "decyl-D-lactobionamide": {
-        "SMILES": "CCCCCCCCCCNC([C@@H]([C@H]([C@@H]([C@@H](CO)O)O[C@@H]1O[C@@H]([C@@H]([C@@H]([C@H]1O)O)O)O)O)O)=O"
+        "SMILES": "CCCCCCCCCCNC(=O)[C@H](O)[C@@H](O)[C@H](O[C@@H]1O[C@H](O)[C@H](O)[C@H](O)[C@H]1O)[C@H](O)CO"
     },
     "N-decyl-N-methyl lactobionamide": {
-        "SMILES": "CCCCCCCCCCN(C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O[C@@H]1O[C@@H]([C@@H]([C@@H]([C@H]1O)O)O)O)O)O)=O)C"
+        "SMILES": "CCCCCCCCCCN(C)C(=O)[C@H](O)[C@@H](O)[C@H](O[C@@H]1O[C@H](O)[C@H](O)[C@H](O)[C@H]1O)[C@H](O)CO"
     },
     "N-dodecyl-N-methyl lactobionamide": {
-        "SMILES": "CCCCCCCCCCCCN(C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O[C@@H]1O[C@@H]([C@@H]([C@@H]([C@H]1O)O)O)O)O)O)=O)C"
+        "SMILES": "O[C@@H]1[C@@H]([C@H]([C@@H](O[C@@H]1CO)O[C@@]([H])([C@@H]([C@H](C(N(C)CCCCCCCCCCCC)=O)O)O)[C@@H](CO)O)O)O"
     },
     "N-tetradecyl-N-methyl lactobionamide": {
-        "SMILES": "CCCCCCCCCCCCCCN(C)C(=O)[C@H](O)[C@@H](O)[C@H](O[C@@H]1O[C@H](C)[C@H](O)[C@H](O)[C@H]1O)[C@H](O)CO"
+        "SMILES": "O[C@@H]1[C@@H]([C@H]([C@@H](O[C@@H]1CO)O[C@@]([H])([C@@H]([C@H](C(N(C)CCCCCCCCCCCCCC)=O)O)O)[C@@H](CO)O)O)O"
     },
     "N-hexadecyl-N-methyl lactobionamide": {
-        "SMILES": "CCCCCCCCCCCCCCCCN(C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O[C@@H]1O[C@@H]([C@@H]([C@@H]([C@H]1O)O)O)O)O)O)=O)C"
+        "SMILES": "O[C@@H]1[C@@H]([C@H]([C@@H](O[C@@H]1CO)O[C@@]([H])([C@@H]([C@H](C(N(C)CCCCCCCCCCCCCCCC)=O)O)O)[C@@H](CO)O)O)O"
     },
     "N-octadecyl-N-methyl lactobionamide": {
-        "SMILES": "CCCCCCCCCCCCCCCCCCN(C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O[C@@H]1O[C@@H]([C@@H]([C@@H]([C@H]1O)O)O)O)O)O)=O)C"
+        "SMILES": "O[C@@H]1[C@@H]([C@H]([C@@H](O[C@@H]1CO)O[C@@]([H])([C@@H]([C@H](C(N(C)CCCCCCCCCCCCCCCCCC)=O)O)O)[C@@H](CO)O)O)O"
     },
-    "N-oleyl-N-methyl lactobionamide": {"SMILES": "CCCCCCCC/C=C\\CCCCCCCCN(C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O[C@@H]1O[C@@H]([C@@H]([C@@H]([C@H]1O)O)O)O)O)O)=O)C"},
+    "N-oleyl-N-methyl lactobionamide": {"SMILES": "O[C@H](CO)[C@H]([C@H](O)[C@@H](O)C(N(CCCCCCCC/C=C\\CCCCCCCC)C)=O)O[C@H](O1)[C@H](O)[C@@H](O)[C@@H](O)[C@H]1CO"},
     "dodecanoyl-N-methylglyceramine": {"SMILES": "OCC(CN(C(CCCCCCCCC)=O)C)O"},
     "dodecanoyl-N-methylxylamine": {
         "SMILES": "OC[C@@H](O)[C@H](O)[C@@H](O)CN(C)C(CCCCCCCCC)=O"

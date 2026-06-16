@@ -1,5 +1,0 @@
-Cpd.,cmc (mmol dm^-3),gamma (mN m^-1) = AWST,Gamma_cmc (x 10^-6 mol m^-2),Area_min (nm^2 molecule^-1),deltaG (kJ mol^-1),Temp,Surfactant_Type,Notes,Ref_all
-D1800,1.88,35.63,2.296,0.724,-8.676,25,sugar-based anionic,,http://dx.doi.org/10.1016/j.colsurfa.2015.09.021
-D1807,1.46,38.83,2.094,0.793,-8.822,25,sugar-based anionic,,http://dx.doi.org/10.1016/j.colsurfa.2015.09.021
-D1820,1.03,41.47,1.803,0.921,-9.026,25,sugar-based anionic,,http://dx.doi.org/10.1016/j.colsurfa.2015.09.021
-D1830,0.84,45.36,1.793,0.927,-9.144,25,sugar-based anionic,,http://dx.doi.org/10.1016/j.colsurfa.2015.09.021

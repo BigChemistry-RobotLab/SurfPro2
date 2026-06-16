@@ -1,0 +1,3 @@
+The values for CMC as measured by conductivity were taken from the 'conductivity 2' column of table 2.
+The authors note that for conductivity measurements 'It is the higher of the two concentrations that is associated with the cac from the surface tension measurements,...'.
+Measurements of CMC using the SANS method has been omitted from the digitised table.

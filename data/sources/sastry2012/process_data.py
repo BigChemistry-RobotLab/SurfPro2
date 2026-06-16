@@ -13,7 +13,7 @@ df2 = pd.read_csv(SOURCE_FILE_2)
 df = pd.concat([df1, df2], axis=0)
 df.to_csv("temp.csv")
 
-df["CMC"] = df["CAC Surface tension (mM)"] / 1000
+df["CMC"] = df["CAC (mM)"] / 1000
 df["Gamma_max"] = df["Γmax (10^10 mol cm-2)"] / 10**6
 df["Area_min"] = df["αs (Å2)"] / 100
 
@@ -24,9 +24,7 @@ replace_columns = {
 }
 
 drop_columns = [
-    "CAC 1H NMR  (mM)",
-    "CAC Electrical conductivity (mM)",
-    "CAC Surface tension (mM)",
+    "CAC (mM)",
     "Γmax (10^10 mol cm-2)",
     "Γmax err (10^10 mol cm-2)",
     "ΔGoa (kJ mol-1)",

@@ -8,7 +8,7 @@ PROCESSED_FILE = "processed_data/yoshimura2012.csv"
 
 df = pd.read_csv(SOURCE_FILE)
 
-df["CMC"] = df["cmc surface tension (mmol dm-3)"] / 1000
+df["CMC"] = df["cmc (mmol dm-3)"] / 1000
 df["Gamma_max"] = df["106Γ (mol m-2)"] / 10**6
 
 replace_columns = {
@@ -18,8 +18,7 @@ replace_columns = {
 }
 
 drop_columns = [
-    "cmc surface tension (mmol dm-3)",
-    "cmc conductivity (mmol dm-3)",
+    "cmc (mmol dm-3)",
     "106Γ (mol m-2)",
     "ΔG°mic (kJ mol-1)",
     "ΔG°ads (kJ mol-1)",

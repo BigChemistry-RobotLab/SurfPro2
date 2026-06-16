@@ -27,11 +27,11 @@ df["SMILES"] = smiles_list
 df["Molecular_Weight"] = mol_wts
 df["InChI"] = inchi_list
 
-df["CMC"] = df["CMC ST (mM)"] / 1000
+df["CMC"] = df["CMC (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 
 df["Gamma_max"] = df["Γmax 10^6 (mol/m2)"] / 10**6
-df["Area_min"] = df["Amin 10^20 (m2/mol)"] / 10
+df["Area_min"] = df["Amin 10^20 (m2/mol)"] / 100
 
 df = df.rename(
     columns={
@@ -43,9 +43,7 @@ df = df.rename(
 
 df = df.drop(
     columns=[
-        "CMC Cond (mM)",
-        "CMC ST (mM)",
-        "CMC FL (mM)",
+        "CMC (mM)",
         "Cideal (mM)",
         "α",
         "I1/I3",

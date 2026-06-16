@@ -27,28 +27,27 @@ df["SMILES"] = smiles_list
 df["Molecular_Weight"] = mol_wts
 df["InChI"] = inchi_list
 
-df["CMC"] = df["Ccmc surface tension x 103 (M)"] / 1000
+df["CMC"] = df["Ccmc x 103 (M)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 
-df["Gamma_max"] = (df["Γmax × 1010 surface tension (mol cm−2)"] / 10**10) * 10**4
+df["Gamma_max"] = (df["Γmax × 1010 (mol cm−2)"] / 10**10) * 10**4
 
 df = df.rename(
     columns={
         "Surfactant name": "identifier",
-        "γcmc surface tension (mN m−1)": "AW_ST_CMC",
-        "πcmc surface tension (mN m−1)": "Pi_CMC",
-        "Amin conductivity (nm2)": "Area_min",
+        "γcmc (mN m−1)": "AW_ST_CMC",
+        "πcmc (mN m−1)": "Pi_CMC",
+        "Amin (nm2)": "Area_min",
     }
 )
 
 
 df = df.drop(
     columns=[
-        "Ccmc surface tension x 103 (M)",
-        "Γmax × 1010 surface tension (mol cm−2)",
-        "Ccmc conductivity × 103 (M)",
-        "β conductivity",
-        "ΔG°mic conductivity (kJ mol−1)",
+        "Ccmc x 103 (M)",
+        "Γmax × 1010 (mol cm−2)",
+        "β",
+        "ΔG°mic (kJ mol−1)",
     ]
 )
 

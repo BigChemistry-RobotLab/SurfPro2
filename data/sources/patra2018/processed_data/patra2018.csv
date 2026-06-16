@@ -1,2 +1,4 @@
-Area_min,Temp_Celsius,source_doi,reference_doi,SMILES,CMC,Gamma_max,pCMC,Molecular_Weight,InChI
-0.68,24.85,10.1021/acsomega.8b00718,,CCCCCCCCCCCC(=O)N(C)CC(=O)[O-].[Na+],0.0129,2.44e-06,1.889410289700751,293.383,"InChI=1S/C15H29NO3.Na/c1-3-4-5-6-7-8-9-10-11-12-14(17)16(2)13-15(18)19;/h3-13H2,1-2H3,(H,18,19);/q;+1/p-1"
+method,Area_min,Temp_Celsius,source_doi,reference_doi,SMILES,CMC,Gamma_max,pCMC,Molecular_Weight,InChI
+conductometry,,24.85,10.1021/acsomega.8b00718,,CCCCCCCCCCCC(=O)N(C)CC(=O)[O-].[Na+],0.0129,,1.889410289700751,293.383,"InChI=1S/C15H29NO3.Na/c1-3-4-5-6-7-8-9-10-11-12-14(17)16(2)13-15(18)19;/h3-13H2,1-2H3,(H,18,19);/q;+1/p-1"
+tensiometry,0.68,24.85,10.1021/acsomega.8b00718,,CCCCCCCCCCCC(=O)N(C)CC(=O)[O-].[Na+],0.0132,2.44e-06,1.8794260687941502,293.383,"InChI=1S/C15H29NO3.Na/c1-3-4-5-6-7-8-9-10-11-12-14(17)16(2)13-15(18)19;/h3-13H2,1-2H3,(H,18,19);/q;+1/p-1"
+fluorimetry,,24.85,10.1021/acsomega.8b00718,,CCCCCCCCCCCC(=O)N(C)CC(=O)[O-].[Na+],0.01411,,1.8504729862456522,293.383,"InChI=1S/C15H29NO3.Na/c1-3-4-5-6-7-8-9-10-11-12-14(17)16(2)13-15(18)19;/h3-13H2,1-2H3,(H,18,19);/q;+1/p-1"

@@ -1,51 +1,51 @@
-No.,Chemical name,References,1st pCMC Exp.,1st pCMC Predicted model in Table 2,1st pCMC General ANN Predicted,2nd pCMC Exp.,2nd pCMC Predicted model in Table 3,ref_key
-1,1-undecylpyridinium bromide,Bězan et al. (1993),1.71,1.607,1.682,,,bezan1993
-2,1-dodecylpyridinium bromide,González-Pérez et al. (2006),1.952,1.963,2.181,1.287,1.234,gonzalez-perez2006
-3,1-tridecylpyridinium bromide,Bězan et al. (1993),2.337,2.231,2.27,,,bezan1993
-4,1-tetradecylpyridinium bromide,González-Pérez et al. (2006),2.558,2.635,2.748,1.777,1.845,gonzalez-perez2006
-5,1-pentadecylpyridinium bromide,González-Pérez et al. (2006),2.866,2.95,3.009,2.146,2.138,gonzalez-perez2006
-6,1-hexadecylpyridinium bromide,González-Pérez et al. (2006),3.14,3.307,3.256,2.407,2.39,gonzalez-perez2006
-7,4-dodecyl-1-methylpyridinium iodide,Engberts and Nusselder (1990),2.602,2.52,2.471,1.347,1.362,engberts1990
-8,"4-(9,9-dimethyldecyl)-1-methylpyridinium iodide",Engberts and Nusselder (1990),2.406,2.756,2.588,1.602,1.593,engberts1990
-9,4-(7-ethylnonyl)-1-methylpyridinium iodide,Engberts and Nusselder (1990),2.425,2.429,2.188,1.523,1.496,engberts1990
-10,4-dodecyl-1-ethylpyridinium iodide,Engberts and Nusselder (1990),2.656,2.539,2.605,1.432,1.428,engberts1990
-11,4-dodecyl-1-propylpyridinium iodide,Engberts and Nusselder (1990),2.719,2.677,2.656,1.553,1.495,engberts1990
-12,4-dodecyl-1-isopropylpyridinium iodide,Engberts and Nusselder (1990),2.714,2.574,2.694,1.523,1.498,engberts1990
-13,"N,N,N-trimethylhexadecan-1-aminium bromide",Treiner and Makayssi (1992),3,3.087,2.916,2.111,2.243,treiner1992
-14,"N,N,N-trimethyltetradecan-1-aminium bromide",González-Pérez et al. (2003),2.42,2.311,2.282,1.638,1.679,gonzalez-perez2003
-15,"N,N,N-trimethyldodecan-1-aminium bromide",González-Pérez et al. (2003),1.818,1.749,1.773,1.155,1.088,gonzalez-perez2003
-16,"N-benzyl-N,N-dimethylhexadecan-1-aminium chloride",González-Pérez et al. (2003),3.31,3.208,3.197,2.896,2.87,gonzalez-perez2003
-17,"N-benzyl-N,N-dimethyltetradecan-1-aminium chloride",González-Pérez et al. (2003),2.701,2.755,2.751,2.168,1.947,gonzalez-perez2003
-18,"N-benzyl-N,N-dimethyldodecan-1-aminium chloride",González-Pérez et al. (2003),2.056,2.194,2.171,1.082,1.287,gonzalez-perez2003
-19,"N-benzyl-N,N-dimethyltetradecan-1-aminium bromide",González-Pérez et al. (2003),2.824,2.838,2.768,2,2.054,gonzalez-perez2003
-20,"N,N,N-trimethylhexan-1-aminium bromide",Mosquera et al. (1998),0.305,0.35,0.284,,,mosquera1998
-21,"N,N,N-trimethyloctan-1-aminium bromide",Murphy and Taggart (2002),0.538,0.614,0.621,,,murphy2002
-22,"N,N,N-trimethyldecan-1-aminium bromide",Murphy and Taggart (2002),1.319,1.164,1.204,,,murphy2002
-23,"N-ethyl-N,N-dimethyldodecan-1-aminium bromide",Bai et al. (2001),1.83,1.897,1.961,,,bai2001
-24,"N-ethyl-N,N-dimethyltetradecan-1-aminium bromide",Bai et al. (2001),2.514,2.541,2.566,,,bai2001
-25,"N-dodecyl-N,N-dimethylbenzenaminium bromide",Del Castillo et al. (1999),2.301,2.348,2.275,,,delcastillo1999
-26,"N,N-dimethyl-N-tetradecylbenzenaminium bromide",Del Castillo et al. (1999),2.893,2.983,2.952,,,delcastillo1999
-27,"N-hexadecyl-N,N-dimethylbenzenaminium bromide",Del Castillo et al. (1999),3.514,3.681,3.58,,,delcastillo1999
-28,"N-(2-hydroxyethyl)-N,N-dimethylhexadecan-1-aminium bromide ",Das et al. (2005),3.695,3.457,3.572,,,das2005
-29,"N,N-bis(2-hydroxyethyl)-N-methylhexadecan-1-aminium bromide ",Das et al. (2005),3.815,3.721,3.818,,,das2005
-30,"N,N,N-tris(2-hydroxyethyl)hexadecan-1-aminium bromide",Das et al. (2005),4.444,4.071,4.38,,,das2005
-31,"N-(2-methoxyethyl)-N,N-dimethylhexadecan-1-aminium bromide",Das et al. (2005),3.693,3.51,3.798,,,das2005
-32,"N,N-bis(2-methoxyethyl)-N-methylhexadecan-1-aminium bromide",Das et al. (2005),3.914,3.848,4.059,,,das2005
-33,"N,N,N-tris(2-methoxyethyl)hexadecan-1-aminium bromide",Das et al. (2005),4.137,4.314,4.129,,,das2005
-34,"N,N-dimethyl-N-propylhexadecan-1-aminium bromide",Das et al. (2005),3.213,3.384,3.382,,,das2005
-35,"N-methyl-N,N-dipropylhexadecan-1-aminium bromide",Das et al. (2005),3.69,3.631,3.539,,,das2005
-36,"N,N,N-tripropylhexadecan-1-aminium bromide",Das et al. (2005),3.86,3.867,3.758,,,das2005
-37,"2-hydroxy-N-(2-hydroxyethyl)-N,N-dimethylhexadecan-1aminium chloride",Wong et al. (2002),2.752,2.929,2.807,,,wong2002
-38,"2-hydroxy-N,N-bis(2-hydroxyethyl)-N-methylhexadecan1-aminium chloride ",Wong et al. (2002),2.772,2.941,2.872,,,wong2002
-39,"2-hydroxy-N,N,N-trimethylhexadecan-1-aminium chloride",Wong et al. (2002),2.715,2.826,2.617,,,wong2002
-40,"11,11,12,12,13,14,14,14-octafluoro-N,N,N-trimethyl-13(trifluoromethyl)tetradecan-1-aminium bromide",Li et al. (2005),2.845,2.791,3.027,,,li2005a
-41,"12,12,13,13,14,14,15,15,15-nonafluoro-N,N,Ntrimethylpentadecan-1-aminium bromide",Li et al. (2005),2.801,2.831,2.943,,,li2005a
-42,"9,9,10,10,11,11,12,12,13,13,14,14,14-tridecafluoro-N,N,Ntrimethyltetradecan-1-aminium bromide ",Li et al. (2005),2.983,2.933,2.833,,,li2005a
-43,"7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,14-heptadecafluoroN,N,N-trimethyltetradecan-1-aminium bromide",Li et al. (2005),3.377,3.313,2.88,,,li2005a
-44,1-decylpyridinium chloride,Jalali-Heravi and Konouz (2003),1.061,1.212,1.204,,,jalali-heravi2003
-45,(Z)-4-(dodec-5-enyl)-1-methylpyridinium iodide,Jalali-Heravi and Konouz (2003),1.886,1.694,2.129,,,jalali-heravi2003
-46,4-(dodecan-2-yl)-1-methylpyridinium iodide,Jalali-Heravi and Konouz (2003),2.38,2.353,2.202,,,jalali-heravi2003
-47,"N,N,N-trimethyldecan-1-aminium chloride",Jalali-Heravi and Konouz (2003),1.215,1.104,1.126,,,jalali-heravi2003
-48,"N,N,N-triethyltetradecan-1-aminium bromide",Jalali-Heravi and Konouz (2003),2.509,2.505,2.559,,,jalali-heravi2003
-49,"N,N,N-tripropyltetradecan-1-aminium bromide",Jalali-Heravi and Konouz (2003),2.678,2.724,2.67,,,jalali-heravi2003
-50,"N,N,N-tributyltetradecan-1-aminium bromide",Jalali-Heravi and Konouz (2003),2.922,2.918,2.826,,,jalali-heravi2003
+No.,Chemical name,References,1st pCMC Exp.,1st pCMC Predicted model in Table 2,1st pCMC General ANN Predicted,2nd pCMC Exp.,2nd pCMC Predicted model in Table 3,ref_key,method
+1,1-undecylpyridinium bromide,Bězan et al. (1993),1.71,1.607,1.682,,,bezan1993,
+2,1-dodecylpyridinium bromide,González-Pérez et al. (2006),1.952,1.963,2.181,1.287,1.234,gonzalez-perez2006,
+3,1-tridecylpyridinium bromide,Bězan et al. (1993),2.337,2.231,2.27,,,bezan1993,
+4,1-tetradecylpyridinium bromide,González-Pérez et al. (2006),2.558,2.635,2.748,1.777,1.845,gonzalez-perez2006,
+5,1-pentadecylpyridinium bromide,González-Pérez et al. (2006),2.866,2.95,3.009,2.146,2.138,gonzalez-perez2006,
+6,1-hexadecylpyridinium bromide,González-Pérez et al. (2006),3.14,3.307,3.256,2.407,2.39,gonzalez-perez2006,
+7,4-dodecyl-1-methylpyridinium iodide,Engberts and Nusselder (1990),2.602,2.52,2.471,1.347,1.362,engberts1990,
+8,"4-(9,9-dimethyldecyl)-1-methylpyridinium iodide",Engberts and Nusselder (1990),2.406,2.756,2.588,1.602,1.593,engberts1990,
+9,4-(7-ethylnonyl)-1-methylpyridinium iodide,Engberts and Nusselder (1990),2.425,2.429,2.188,1.523,1.496,engberts1990,
+10,4-dodecyl-1-ethylpyridinium iodide,Engberts and Nusselder (1990),2.656,2.539,2.605,1.432,1.428,engberts1990,
+11,4-dodecyl-1-propylpyridinium iodide,Engberts and Nusselder (1990),2.719,2.677,2.656,1.553,1.495,engberts1990,
+12,4-dodecyl-1-isopropylpyridinium iodide,Engberts and Nusselder (1990),2.714,2.574,2.694,1.523,1.498,engberts1990,
+13,"N,N,N-trimethylhexadecan-1-aminium bromide",Treiner and Makayssi (1992),3,3.087,2.916,2.111,2.243,treiner1992,
+14,"N,N,N-trimethyltetradecan-1-aminium bromide",González-Pérez et al. (2003),2.42,2.311,2.282,1.638,1.679,gonzalez-perez2003,
+15,"N,N,N-trimethyldodecan-1-aminium bromide",González-Pérez et al. (2003),1.818,1.749,1.773,1.155,1.088,gonzalez-perez2003,
+16,"N-benzyl-N,N-dimethylhexadecan-1-aminium chloride",González-Pérez et al. (2003),3.31,3.208,3.197,2.896,2.87,gonzalez-perez2003,
+17,"N-benzyl-N,N-dimethyltetradecan-1-aminium chloride",González-Pérez et al. (2003),2.701,2.755,2.751,2.168,1.947,gonzalez-perez2003,
+18,"N-benzyl-N,N-dimethyldodecan-1-aminium chloride",González-Pérez et al. (2003),2.056,2.194,2.171,1.082,1.287,gonzalez-perez2003,
+19,"N-benzyl-N,N-dimethyltetradecan-1-aminium bromide",González-Pérez et al. (2003),2.824,2.838,2.768,2,2.054,gonzalez-perez2003,
+20,"N,N,N-trimethylhexan-1-aminium bromide",Mosquera et al. (1998),0.305,0.35,0.284,,,mosquera1998,
+21,"N,N,N-trimethyloctan-1-aminium bromide",Murphy and Taggart (2002),0.538,0.614,0.621,,,murphy2002,
+22,"N,N,N-trimethyldecan-1-aminium bromide",Murphy and Taggart (2002),1.319,1.164,1.204,,,murphy2002,
+23,"N-ethyl-N,N-dimethyldodecan-1-aminium bromide",Bai et al. (2001),1.83,1.897,1.961,,,bai2001,
+24,"N-ethyl-N,N-dimethyltetradecan-1-aminium bromide",Bai et al. (2001),2.514,2.541,2.566,,,bai2001,
+25,"N-dodecyl-N,N-dimethylbenzenaminium bromide",Del Castillo et al. (1999),2.301,2.348,2.275,,,delcastillo1999,
+26,"N,N-dimethyl-N-tetradecylbenzenaminium bromide",Del Castillo et al. (1999),2.893,2.983,2.952,,,delcastillo1999,
+27,"N-hexadecyl-N,N-dimethylbenzenaminium bromide",Del Castillo et al. (1999),3.514,3.681,3.58,,,delcastillo1999,
+28,"N-(2-hydroxyethyl)-N,N-dimethylhexadecan-1-aminium bromide ",Das et al. (2005),3.695,3.457,3.572,,,das2005,
+29,"N,N-bis(2-hydroxyethyl)-N-methylhexadecan-1-aminium bromide ",Das et al. (2005),3.815,3.721,3.818,,,das2005,
+30,"N,N,N-tris(2-hydroxyethyl)hexadecan-1-aminium bromide",Das et al. (2005),4.444,4.071,4.38,,,das2005,
+31,"N-(2-methoxyethyl)-N,N-dimethylhexadecan-1-aminium bromide",Das et al. (2005),3.693,3.51,3.798,,,das2005,
+32,"N,N-bis(2-methoxyethyl)-N-methylhexadecan-1-aminium bromide",Das et al. (2005),3.914,3.848,4.059,,,das2005,
+33,"N,N,N-tris(2-methoxyethyl)hexadecan-1-aminium bromide",Das et al. (2005),4.137,4.314,4.129,,,das2005,
+34,"N,N-dimethyl-N-propylhexadecan-1-aminium bromide",Das et al. (2005),3.213,3.384,3.382,,,das2005,
+35,"N-methyl-N,N-dipropylhexadecan-1-aminium bromide",Das et al. (2005),3.69,3.631,3.539,,,das2005,
+36,"N,N,N-tripropylhexadecan-1-aminium bromide",Das et al. (2005),3.86,3.867,3.758,,,das2005,
+37,"2-hydroxy-N-(2-hydroxyethyl)-N,N-dimethylhexadecan-1aminium chloride",Wong et al. (2002),2.752,2.929,2.807,,,wong2002,
+38,"2-hydroxy-N,N-bis(2-hydroxyethyl)-N-methylhexadecan1-aminium chloride ",Wong et al. (2002),2.772,2.941,2.872,,,wong2002,
+39,"2-hydroxy-N,N,N-trimethylhexadecan-1-aminium chloride",Wong et al. (2002),2.715,2.826,2.617,,,wong2002,
+40,"11,11,12,12,13,14,14,14-octafluoro-N,N,N-trimethyl-13(trifluoromethyl)tetradecan-1-aminium bromide",Li et al. (2005),2.845,2.791,3.027,,,li2005a,
+41,"12,12,13,13,14,14,15,15,15-nonafluoro-N,N,Ntrimethylpentadecan-1-aminium bromide",Li et al. (2005),2.801,2.831,2.943,,,li2005a,
+42,"9,9,10,10,11,11,12,12,13,13,14,14,14-tridecafluoro-N,N,Ntrimethyltetradecan-1-aminium bromide ",Li et al. (2005),2.983,2.933,2.833,,,li2005a,
+43,"7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,14-heptadecafluoroN,N,N-trimethyltetradecan-1-aminium bromide",Li et al. (2005),3.377,3.313,2.88,,,li2005a,
+44,1-decylpyridinium chloride,Jalali-Heravi and Konouz (2003),1.061,1.212,1.204,,,jalali-heravi2003,
+45,(Z)-4-(dodec-5-enyl)-1-methylpyridinium iodide,Jalali-Heravi and Konouz (2003),1.886,1.694,2.129,,,jalali-heravi2003,
+46,4-(dodecan-2-yl)-1-methylpyridinium iodide,Jalali-Heravi and Konouz (2003),2.38,2.353,2.202,,,jalali-heravi2003,
+47,"N,N,N-trimethyldecan-1-aminium chloride",Jalali-Heravi and Konouz (2003),1.215,1.104,1.126,,,jalali-heravi2003,
+48,"N,N,N-triethyltetradecan-1-aminium bromide",Jalali-Heravi and Konouz (2003),2.509,2.505,2.559,,,jalali-heravi2003,
+49,"N,N,N-tripropyltetradecan-1-aminium bromide",Jalali-Heravi and Konouz (2003),2.678,2.724,2.67,,,jalali-heravi2003,
+50,"N,N,N-tributyltetradecan-1-aminium bromide",Jalali-Heravi and Konouz (2003),2.922,2.918,2.826,,,jalali-heravi2003,

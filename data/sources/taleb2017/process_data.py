@@ -15,13 +15,12 @@ df["Gamma_max"] = df["Γmax (μmol/m2)"] / 10**6
 
 replace_columns = {
     "Surfactant": "identifier",
-    "cmc surface tension (mol/L)": "CMC",
+    "cmc (mol/L)": "CMC",
     "Amin (nm2)": "Area_min",
     "γcmc (mN/m)": "AW_ST_CMC",
 }
 
 drop_columns = [
-    "cmc conductivity (mol/L)",
     "β",
     "ΔG0mic (kJ/mol)",
     "cmc/C20",

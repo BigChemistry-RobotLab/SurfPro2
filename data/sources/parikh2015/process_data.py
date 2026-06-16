@@ -13,14 +13,13 @@ df["Area_min"] = df["Amin n=2 nm2"]
 
 replace_columns = {
     "Gemini surfactants": "identifier",
-    "CMC conductivity mol·dm−3": "CMC",
+    "CMC mol·dm−3": "CMC",
     "γ mN·m−1": "AW_ST_CMC",
     "pC20 mol·dm−3": "pC20",
     "πcmc mN·m−1": "Pi_CMC",
 }
 
 drop_columns = [
-    "CMC surface tension mol·dm−3",
     "α",
     "Γmax n=2 x 106 mol·m−2",
     "Γmax n=3 x 106 mol·m−2",

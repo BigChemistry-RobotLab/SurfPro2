@@ -8,7 +8,7 @@ PROCESSED_FILE = "processed_data/wei2014.csv"
 
 df = pd.read_csv(SOURCE_FILE)
 
-df["CMC"] = df["CMC conductivity mmol/kg"] / 1000
+df["CMC"] = df["CMC mmol/kg"] / 1000
 
 replace_columns = {
     "γCMC/ mN/m": "AW_ST_CMC",
@@ -17,9 +17,7 @@ replace_columns = {
 }
 
 drop_columns = [
-    "CMC surface tension mmol/kg",
-    "CMC conductivity mmol/kg",
-    "CMC fluorescence mmol/kg",
+    "CMC mmol/kg",
     "UV",
 ]
 

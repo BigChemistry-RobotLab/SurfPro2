@@ -42,17 +42,14 @@ df["InChI"] = inchi_list
 df["Molecular_Weight"] = mol_wts
 
 df["Gamma_max"] = df["Gamma max (umol / m2)"] / 10**6
-df["CMC"] = (
-    df["CMC (mM) note: took CMC determined via tensiometry which is superior to NMR "]
-    / 1000
-)
+df["CMC"] = df["CMC (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 
 df = df.rename(
     columns={
         "ID in paper": "identifier",
         "gamma_CMC (mN/m)": "AW_ST_CMC",
-        "A (nm2)": "Area-min",
+        "A (nm2)": "Area_min",
         "Temperature (Celsius)": "Temp_Celsius",
     }
 )
@@ -61,7 +58,7 @@ df = df.rename(
 df = df.drop(
     columns=[
         "Kraft temperature (Celsius)",
-        "CMC (mM) note: took CMC determined via tensiometry which is superior to NMR ",
+        "CMC (mM)",
     ]
 )
 df = df[~(df.SMILES == "")]

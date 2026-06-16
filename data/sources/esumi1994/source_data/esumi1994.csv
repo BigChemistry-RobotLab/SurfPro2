@@ -1,2 +1,2 @@
-SMILES,Surfactant_Type,Temp_Celsius,AW_ST_CMC,CMC,source_doi,reference_doi
-FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)CC(O)C[N+](C)(CCO)CCO.[Cl-],cationic,25,25,0.0024,10.1016/0927-7757(93)02679-9,
+SMILES,Surfactant_Type,Temp_Celsius,AW_ST_CMC,CMC,source_doi,reference_doi,method
+FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)CC(O)C[N+](C)(CCO)CCO.[Cl-],cationic,25,25,0.0024,10.1016/0927-7757(93)02679-9,,tensiometry

@@ -8,7 +8,7 @@ PROCESSED_FILE = "processed_data/patial2014a.csv"
 
 df = pd.read_csv(SOURCE_FILE)
 
-df["CMC"] = df["cmc surface tension (mM)"] / 1000
+df["CMC"] = df["cmc (mM)"] / 1000
 df["Gamma_max"] = df["106 Γmax (mol/m2)"] / 10**6
 
 replace_columns = {
@@ -20,10 +20,9 @@ replace_columns = {
 }
 
 drop_columns = [
-    "cmc conductivity (mM)",
+    "cmc (mM)",
     "α (%)",
     "β (%)",
-    "cmc surface tension (mM)",
     "cmc/C20",
     "106 Γmax (mol/m2)",
     "ΔGomic (kJ/mol)",

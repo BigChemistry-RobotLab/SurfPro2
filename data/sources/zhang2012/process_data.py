@@ -13,12 +13,11 @@ replace_columns = {
     "surfactant": "identifier",
     "γCMC (mN/m)": "AW_ST_CMC",
     "C20 (M)": "C20",
-    "cmc tensiometry (M)": "CMC",
+    "cmc (M)": "CMC",
     "Amin n=2 (nm2)": "Area_min",
 }
 
 drop_columns = [
-    "cmc conductometry (M)",
     "10^6 Γ n=3 (mol/m2)",
     "10^6 Γ n=2 (mol/m2)",
     "Amin n=3 (nm2)",

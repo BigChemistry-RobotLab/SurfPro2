@@ -1,17 +1,12 @@
 {
-    "8-2-8": "CCCCCCCCc1ccc(NC(=O)C[N+](C)(C)CC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCC)cc2)cc1.[Br-].[Br-]",
-    "8-4-8": "CCCCCCCCc1ccc(NC(=O)C[N+](C)(C)CCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCC)cc2)cc1.[Br-].[Br-]",
-    "8-6-8": "CCCCCCCCc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCC)cc2)cc1.[Br-].[Br-]",
-    "10-2-10": "CCCCCCCCCCc1ccc(NC(=O)C[N+](C)(C)CC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
-    "10-4-10": "CCCCCCCCCCc1ccc(NC(=O)C[N+](C)(C)CCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
-    "10-6-10": "CCCCCCCCCCc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
-    "12-2-12": "CCCCCCCCCCCCc1ccc(NC(=O)C[N+](C)(C)CC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
-    "12-4-12": "CCCCCCCCCCCCc1ccc(NC(=O)C[N+](C)(C)CCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
-    "12-6-12": "CCCCCCCCCCCCc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
-    "14-2-14": "CCCCCCCCCCCCCCc1ccc(NC(=O)C[N+](C)(C)CC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
-    "14-4-14": "CCCCCCCCCCCCCCc1ccc(NC(=O)C[N+](C)(C)CCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
-    "14-6-14": "CCCCCCCCCCCCCCc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
-    "16-2-16": "CCCCCCCCCCCCCCCCc1ccc(NC(=O)C[N+](C)(C)CC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
-    "16-4-16": "CCCCCCCCCCCCCCCCc1ccc(NC(=O)C[N+](C)(C)CCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
-    "16-6-16": "CCCCCCCCCCCCCCCCc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]"
+    "16-4-16": "CCCCCCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
+    "16-6-16": "CCCCCCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
+    "14-4-14": "CCCCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
+    "12-6-12": "CCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
+    "14-6-14": "CCCCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
+    "10-6-10": "CCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
+    "10-4-10": "CCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCC)cc2)cc1.[Br-].[Br-]",
+    "8-6-8": "CCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCC)cc2)cc1.[Br-].[Br-]",
+    "8-4-8": "CCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCC)cc2)cc1.[Br-].[Br-]",
+    "12-4-12": "CCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-]"
 }

@@ -1,16 +1,16 @@
-soap,temperature (oC),CMC M/L,decrease in CMC %,source_doi,reference_doi,SMILES
-Fatty acid soaps KC8,25,0.39,,10.1021/j150457a013,,CCCCCCCC(=O)[O-].[K+]
-Fatty acid soaps KC10,25,0.098,75.0,10.1021/j150457a013,,CCCCCCCCCC(=O)[O-].[K+]
-Fatty acid soaps KC12,25,0.0255,74.0,10.1021/j150457a013,,CCCCCCCCCCCC(=O)[O-].[K+]
-Fatty acid soaps KC14,25,0.0066,74.0,10.1021/j150457a013,,CCCCCCCCCCCCCC(=O)[O-].[K+]
-Fatty acid soaps KC16,35,0.0018,73.0,10.1021/j150457a013,,CCCCCCCCCCCCCCCC(=O)[O-].[K+]
-sodium alkyl sulfonates C8,25,0.155,,10.1021/j150457a013,,CCCCCCCCS(=O)(=O)[O-].[Na+]
-sodium alkyl sulfonates C10,25,0.041,74.0,10.1021/j150457a013,,CCCCCCCCCCS(=O)(=O)[O-].[Na+]
-sodium alkyl sulfonates C12,35,0.01,76.0,10.1021/j150457a013,,CCCCCCCCCCCCS(=O)(=O)[O-].[Na+]
-sodium alkyl sulfonates C14,45,0.0029,71.0,10.1021/j150457a013,,CCCCCCCCCCCCCCS(=O)(=O)[O-].[Na+]
-sodium alkyl sulfonates C16,52,0.0009,69.0,10.1021/j150457a013,,CCCCCCCCCCCCCCCCS(=O)(=O)[O-].[Na+]
-alkylamine hydrochlorides C10,25,0.04,,10.1021/j150457a013,,CCCCCCCCCC[NH3+].[Cl-]
-alkylamine hydrochlorides C12,30,0.013,67.0,10.1021/j150457a013,,CCCCCCCCCCCC[NH3+].[Cl-]
-alkylamine hydrochlorides C14,40,0.0031,76.0,10.1021/j150457a013,,CCCCCCCCCCCCCC[NH3+].[Cl-]
-alkylamine hydrochlorides C16,50,0.008,74.0,10.1021/j150457a013,,CCCCCCCCCCCCCCCC[NH3+].[Cl-]
-alkylamine hydrochlorides C18,60,0.00025,69.0,10.1021/j150457a013,,CCCCCCCCCCCCCCCCCC[NH3+].[Cl-]
+soap,temperature (oC),CMC M/L,decrease in CMC %,source_doi,reference_doi,SMILES,method
+Fatty acid soaps KC8,25,0.39,,10.1021/j150457a013,,CCCCCCCC(=O)[O-].[K+],interferometry
+Fatty acid soaps KC10,25,0.098,75.0,10.1021/j150457a013,,CCCCCCCCCC(=O)[O-].[K+],interferometry
+Fatty acid soaps KC12,25,0.0255,74.0,10.1021/j150457a013,,CCCCCCCCCCCC(=O)[O-].[K+],interferometry
+Fatty acid soaps KC14,25,0.0066,74.0,10.1021/j150457a013,,CCCCCCCCCCCCCC(=O)[O-].[K+],interferometry
+Fatty acid soaps KC16,35,0.0018,73.0,10.1021/j150457a013,,CCCCCCCCCCCCCCCC(=O)[O-].[K+],interferometry
+sodium alkyl sulfonates C8,25,0.155,,10.1021/j150457a013,,CCCCCCCCS(=O)(=O)[O-].[Na+],interferometry
+sodium alkyl sulfonates C10,25,0.041,74.0,10.1021/j150457a013,,CCCCCCCCCCS(=O)(=O)[O-].[Na+],interferometry
+sodium alkyl sulfonates C12,35,0.01,76.0,10.1021/j150457a013,,CCCCCCCCCCCCS(=O)(=O)[O-].[Na+],interferometry
+sodium alkyl sulfonates C14,45,0.0029,71.0,10.1021/j150457a013,,CCCCCCCCCCCCCCS(=O)(=O)[O-].[Na+],interferometry
+sodium alkyl sulfonates C16,52,0.0009,69.0,10.1021/j150457a013,,CCCCCCCCCCCCCCCCS(=O)(=O)[O-].[Na+],interferometry
+alkylamine hydrochlorides C10,25,0.04,,10.1021/j150457a013,,CCCCCCCCCC[NH3+].[Cl-],interferometry
+alkylamine hydrochlorides C12,30,0.013,67.0,10.1021/j150457a013,,CCCCCCCCCCCC[NH3+].[Cl-],interferometry
+alkylamine hydrochlorides C14,40,0.0031,76.0,10.1021/j150457a013,,CCCCCCCCCCCCCC[NH3+].[Cl-],interferometry
+alkylamine hydrochlorides C16,50,0.008,74.0,10.1021/j150457a013,,CCCCCCCCCCCCCCCC[NH3+].[Cl-],interferometry
+alkylamine hydrochlorides C18,60,0.00025,69.0,10.1021/j150457a013,,CCCCCCCCCCCCCCCCCC[NH3+].[Cl-],interferometry

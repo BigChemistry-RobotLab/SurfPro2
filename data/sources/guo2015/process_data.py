@@ -3,10 +3,14 @@ import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 
-SOURCE_FILE = "source_data/guo2015_table_1.csv"
+SOURCE_FILE_1 = "source_data/guo2015_table_1.csv"
+SOURCE_FILE_2 = "source_data/guo2015_table_2.csv"
 PROCESSED_FILE = "processed_data/guo2015.csv"
 
-df = pd.read_csv(SOURCE_FILE)
+df1 = pd.read_csv(SOURCE_FILE_1)
+df2 = pd.read_csv(SOURCE_FILE_2)
+
+df = pd.concat([df1, df2], axis=0)
 
 smiles_list = []
 inchi_list = []
@@ -32,6 +36,8 @@ df["pCMC"] = -np.log10(df.CMC)
 
 df["Gamma_max"] = df["Γmax (μmol/m2)"] / 10**6
 
+df["Temp_Celcius"] = df["T (K)"] - 272.15
+
 df = df.rename(
     columns={
         "SAA": "identifier",
@@ -46,6 +52,7 @@ df["C20"] = 10**-df.pC20
 
 df = df.drop(
     columns=[
+        "T (K)",
         "Krafft point (oC)",
         "CMC (mmol/L)",
         "Γmax (μmol/m2)",

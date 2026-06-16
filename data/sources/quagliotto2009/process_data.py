@@ -3,10 +3,14 @@ import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 
-SOURCE_FILE = "source_data/quagliotto2009_table_2.csv"
+SOURCE_FILE_1 = "source_data/quagliotto2009_table_1.csv"
+SOURCE_FILE_2 = "source_data/quagliotto2009_table_2.csv"
 PROCESSED_FILE = "processed_data/quagliotto2009.csv"
 
-df = pd.read_csv(SOURCE_FILE)
+df1 = pd.read_csv(SOURCE_FILE_1)
+df2 = pd.read_csv(SOURCE_FILE_2)
+
+df = pd.concat([df1, df2], axis=0)
 
 df["CMC"] = df["cmc (mM)"] / 1000
 df["Gamma_max"] = df["Γmax (mol/Å2) (10 10)"] / 10**10
@@ -19,11 +23,18 @@ replace_columns = {
 }
 
 drop_columns = [
-    "cmc (mM)",
-    "Γmax (mol/Å2) (10 10)",
     "Amin (Å2)",
     "C20 (mM)",
+    "Discontinuity before cmc conductivity (mM)",
+    "Discontinuity before cmc conductivity non-linear fit(mM)",
+    "Discontinuity before cmcc surface tension (mM)",
+    "cmc (mM)",
+    "cmc conductivity non-linear fit (mM)",
     "cmc/C20",
+    "Γmax (mol/Å2) (10 10)",
+    "β (%)",
+    "β at discontinuity conductivity",
+    "β conductivity non-linear fit (%)",
 ]
 
 df = df.rename(columns=replace_columns)

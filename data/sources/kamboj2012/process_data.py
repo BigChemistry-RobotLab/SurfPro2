@@ -8,9 +8,9 @@ PROCESSED_FILE = "processed_data/kamboj2012.csv"
 
 df = pd.read_csv(SOURCE_FILE)
 
-df["CMC"] = df["cmc surface tension mM"] / 1000
+df["CMC"] = df["cmc mM"] / 1000
 df["Gamma_max"] = df["106Γmax n=2 mol/m2"] / 10**6
-df["C20"] = df["C20 × 10−4"] / 10**4
+df["C20"] = df["C20 × 10-4"] / 10**4
 
 replace_columns = {
     "Surfactant": "identifier",
@@ -19,10 +19,8 @@ replace_columns = {
 }
 
 drop_columns = [
-    "cmc surface tension mM",
-    "cmc surface tension err mM",
-    "cmc conductivity mM",
-    "cmc conductivity err mM",
+    "cmc mM",
+    "cmc err mM",
     "β",
     "γ err mN/m",
     "106Γmax n=2 mol/m2",
@@ -32,7 +30,7 @@ drop_columns = [
     "Amin n=2 err nm2",
     "Amin n=3 nm2",
     "Amin n=3 err nm2",
-    "C20 × 10−4",
+    "C20 × 10-4",
     "cmc/C20",
     "ΔG°mic kJ/mol",
     "ΔG°mic err kJ/mol",

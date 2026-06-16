@@ -1,4 +1,7 @@
-Surfactant,cmc tensiometry (mM),cmc conductometry (mM),γcmc (mN/m),106 Γmax n=2 (mol/m2),106 Γmax n=3 (mol/m2),Amin n=1 (nm2),Amin n=2 (nm2),β,ΔG0ads kJ mol-1,ΔG0ads kJ mol-1.1,source_doi,reference_doi,Temp_Celsius,SMILES
-[C12im]2,0.12,0.259,35.5,1.38,0.92,1.21,1.8,0.64,-34.6,-60.9,10.1016/j.jcis.2013.07.029,,25.0,CN1C=C[N+](CC(C[N+]2=CN(C)C=C2)(COC(CCCCCCCCCCCC)=O)COC(CCCCCCCCCCCC)=O)=C1.[Br-].[Br-]
-[C14im]2,0.089,0.12,36.3,1.19,0.8,1.39,2.08,0.7,-38.6,-68.0,10.1016/j.jcis.2013.07.029,,25.0,CN1C=C[N+](CC(C[N+]2=CN(C)C=C2)(COC(CCCCCCCCCCCCCC)=O)COC(CCCCCCCCCCCCCC)=O)=C1.[Br-].[Br-]
-[C16im]2,0.029,0.042,49.3,3.56,2.51,0.47,0.66,0.7,-41.9,-48.2,10.1016/j.jcis.2013.07.029,,25.0,CN1C=C[N+](CC(C[N+]2=CN(C)C=C2)(COC(CCCCCCCCCCCCCCCC)=O)COC(CCCCCCCCCCCCCCCC)=O)=C1.[Br-].[Br-]
+Surfactant,cmc (mM),method,γcmc (mN/m),106 Γmax n=2 (mol/m2),106 Γmax n=3 (mol/m2),Amin n=1 (nm2),Amin n=2 (nm2),β,ΔG0ads kJ mol-1,ΔG0ads kJ mol-1.1,source_doi,reference_doi,Temp_Celsius,SMILES
+[C12im]2,0.12,tensiometry,35.5,1.38,0.92,1.21,1.8,0.64,-34.6,-60.9,10.1016/j.jcis.2013.07.029,,25,CN1C=C[N+](CC(C[N+]2=CN(C)C=C2)(COC(CCCCCCCCCCCC)=O)COC(CCCCCCCCCCCC)=O)=C1.[Br-].[Br-]
+[C14im]2,0.089,tensiometry,36.3,1.19,0.8,1.39,2.08,0.7,-38.6,-68,10.1016/j.jcis.2013.07.029,,25,CN1C=C[N+](CC(C[N+]2=CN(C)C=C2)(COC(CCCCCCCCCCCCCC)=O)COC(CCCCCCCCCCCCCC)=O)=C1.[Br-].[Br-]
+[C16im]2,0.029,tensiometry,49.3,3.56,2.51,0.47,0.66,0.7,-41.9,-48.2,10.1016/j.jcis.2013.07.029,,25,CN1C=C[N+](CC(C[N+]2=CN(C)C=C2)(COC(CCCCCCCCCCCCCCCC)=O)COC(CCCCCCCCCCCCCCCC)=O)=C1.[Br-].[Br-]
+[C12im]2,0.259,conductometry,,,,,,,,,10.1016/j.jcis.2013.07.029,,25,CN1C=C[N+](CC(C[N+]2=CN(C)C=C2)(COC(CCCCCCCCCCCC)=O)COC(CCCCCCCCCCCC)=O)=C1.[Br-].[Br-]
+[C14im]2,0.12,conductometry,,,,,,,,,10.1016/j.jcis.2013.07.029,,25,CN1C=C[N+](CC(C[N+]2=CN(C)C=C2)(COC(CCCCCCCCCCCCCC)=O)COC(CCCCCCCCCCCCCC)=O)=C1.[Br-].[Br-]
+[C16im]2,0.042,conductometry,,,,,,,,,10.1016/j.jcis.2013.07.029,,25,CN1C=C[N+](CC(C[N+]2=CN(C)C=C2)(COC(CCCCCCCCCCCCCCCC)=O)COC(CCCCCCCCCCCCCCCC)=O)=C1.[Br-].[Br-]

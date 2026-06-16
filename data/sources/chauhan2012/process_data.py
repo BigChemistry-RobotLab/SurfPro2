@@ -28,7 +28,7 @@ df["Molecular_Weight"] = mol_wts
 df["InChI"] = inchi_list
 
 
-df["CMC"] = df["CMC surface tension (mmol/L)"] / 1000
+df["CMC"] = df["CMC (mmol/L)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 
 df["C20"] = df["C20 (10−4)"] / 10000
@@ -48,10 +48,8 @@ df = df.rename(
 
 df = df.drop(
     columns=[
-        "CMC conductivity (mmol/L)",
-        "CMC conductivity err (mmol/L)",
-        "CMC surface tension (mmol/L)",
-        "CMC surface tension err (mmol/L)",
+        "CMC (mmol/L)",
+        "CMC err (mmol/L)",
         "C20 (10−4)",
         "γcmc err (mN/m)",
         "∏CMC (mN/m)",

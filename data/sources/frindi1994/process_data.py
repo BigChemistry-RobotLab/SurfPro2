@@ -8,16 +8,14 @@ PROCESSED_FILE = "processed_data/frindi1994.csv"
 
 df = pd.read_csv(SOURCE_FILE)
 
-df["CMC"] = df["cmc conductivity (mM)"] / 1000
+df["CMC"] = df["cmc (mM)"] / 1000
 
 replace_columns = {
     "surfactant": "identifier",
 }
 
 drop_columns = [
-    "cmc spectrofluorometry (mM)",
-    "cmc ultrasonic (mM)",
-    "cmc conductivity (mM)",
+    "cmc (mM)",
     "α",
 ]
 

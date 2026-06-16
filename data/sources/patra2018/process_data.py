@@ -9,7 +9,7 @@ PROCESSED_FILE = "processed_data/patra2018.csv"
 df = pd.read_csv(SOURCE_FILE)
 
 df = df[df["[MgCl2] (mM)"] == 0]
-df["CMC"] = df["Cond CMC (mM)"] / 1000
+df["CMC"] = df["CMC (mM)"] / 1000
 df["Gamma_max"] = df["106 x Γmax (mol/m2)"]/10**6
 
 replace_columns = {
@@ -18,9 +18,7 @@ replace_columns = {
 
 drop_columns = [
     "[MgCl2] (mM)",
-    "Cond CMC (mM)",
-    "Tens CMC (mM)",
-    "Fluo CMC (mM)",
+    "CMC (mM)",
     "Ave",
     "β",
     "ΔG0m (kJ/mol)",

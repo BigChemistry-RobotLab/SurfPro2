@@ -50,7 +50,6 @@ df = df.drop(
         "cmc/C20",
         "Gcmc (kJ mol-1)",
         "Gcmc/CH2 (kJ mol-1)",
-        "cmc Fluorescence (M)",
         "Nagg Fluorescence [surfactant] = 25 × cmc",
         "Nagg Fluorescence [surfactant] = 250 × cmc",
     ]

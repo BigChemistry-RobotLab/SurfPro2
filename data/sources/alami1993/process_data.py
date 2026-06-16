@@ -42,13 +42,11 @@ df = df.drop(
     columns=[
         "surfactant",
         "cmc (mM)",
-        "cmc conductivity (mM)",
         "-[dy/dlogc]T",
         "10^6Γ10 n=2 (mol/m-2)",
         "10^6Γ10 n=3 (mol/m-2)",
         "a n=3 (nms/molecule)",
         "a n=2 (nms/molecule)",
-        "cmc conductivity ref",
     ]
 )
 

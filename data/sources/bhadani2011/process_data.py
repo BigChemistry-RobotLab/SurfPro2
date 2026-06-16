@@ -8,7 +8,7 @@ PROCESSED_FILE = "processed_data/bhadani2011.csv"
 
 df = pd.read_csv(SOURCE_FILE)
 
-df["CMC"] = df["cmc surface tension (mM)"]/1000
+df["CMC"] = df["cmc (mM)"]/1000
 df["Gamma_max"]= df["106Γmax n = 2 (mol/m2)"]/10**6
 
 replace_columns = {
@@ -19,10 +19,8 @@ replace_columns = {
 }
 
 drop_columns = [
-    "cmc conductivity (mM)",
-    "cmc conductivity err (mM)",
-    "cmc surface tension (mM)",
-    "cmc surface tension err (mM)",
+    "cmc (mM)",
+    "cmc err (mM)",
     "β",
     "γcmc err mN/m",
     "106Γmax n = 2 (mol/m2)",

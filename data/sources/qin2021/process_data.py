@@ -54,6 +54,8 @@ df["InChI"] = inchi_list
 df["source_doi"] = "10.1021/acs.jpcb.1c05264"
 df["reference_doi"] = dois
 df["pCMC"] = -np.log10(df["Experimental CMC (M)"])
+df.loc[df["Temperature (°C)"] == "room temperature", "Temperature (°C)"] = ""
+
 df = df.rename(
     columns={
         "Surfactant": "identifier",

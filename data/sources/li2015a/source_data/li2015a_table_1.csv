@@ -1,5 +1,13 @@
-Surfactants,CMC surface tension (mM),CMC conductivity (mM),CMC fluorescence (mM),γmc (mN/m),Γmax n=3 (μmol/m2),Γmax n=2 (μmol/m2),Amin n=3 (nm2/mol),Amin n=2 (nm2/mol),α,ΔG0M (kJ/mol),source_doi,reference_doi,SMILES,Temp_Celsius
-C10C4C10(Pr),4.04,6.3,6.25,38.66,1.08,1.63,1.53,1.02,0.31,-27.52,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCC.[Br-].[Br-],25.0
-C12C4C12(Pr),0.59,0.79,0.95,38.92,0.91,1.36,1.83,1.22,0.39,-37.21,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCCCC.[Br-].[Br-],25.0
-C14C4C14(Pr),0.116,0.129,0.116,43.11,0.88,1.32,1.89,1.26,0.4,-46.78,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCCCCCC.[Br-].[Br-],25.0
-C16C4C16(Pr),0.0039,0.0106,0.0095,48.37,0.67,1.0,2.49,1.66,0.24,-68.94,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCCCCCCCC.[Br-].[Br-],25.0
+Surfactants,CMC (mM),method,γmc (mN/m),Γmax n=3 (μmol/m2),Γmax n=2 (μmol/m2),Amin n=3 (nm2/mol),Amin n=2 (nm2/mol),α,ΔG0M (kJ/mol),source_doi,reference_doi,SMILES,Temp_Celsius
+C10C4C10(Pr),4.04,tensiometry,38.66,1.08,1.63,1.53,1.02,,-27.52,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCC.[Br-].[Br-],25
+C12C4C12(Pr),0.59,tensiometry,38.92,0.91,1.36,1.83,1.22,,-37.21,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCCCC.[Br-].[Br-],25
+C14C4C14(Pr),0.116,tensiometry,43.11,0.88,1.32,1.89,1.26,,-46.78,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCCCCCC.[Br-].[Br-],25
+C16C4C16(Pr),0.0039,tensiometry,48.37,0.67,1,2.49,1.66,,-68.94,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCCCCCCCC.[Br-].[Br-],25
+C10C4C10(Pr),6.3,conductometry,,,,,,0.31,,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCC.[Br-].[Br-],25
+C12C4C12(Pr),0.79,conductometry,,,,,,0.39,,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCCCC.[Br-].[Br-],25
+C14C4C14(Pr),0.129,conductometry,,,,,,0.4,,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCCCCCC.[Br-].[Br-],25
+C16C4C16(Pr),0.0106,conductometry,,,,,,0.24,,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCCCCCCCC.[Br-].[Br-],25
+C10C4C10(Pr),6.25,fluorimetry,,,,,,,,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCC.[Br-].[Br-],25
+C12C4C12(Pr),0.95,fluorimetry,,,,,,,,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCCCC.[Br-].[Br-],25
+C14C4C14(Pr),0.116,fluorimetry,,,,,,,,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCCCCCC.[Br-].[Br-],25
+C16C4C16(Pr),0.0095,fluorimetry,,,,,,,,10.1016/j.colsurfa.2015.02.005,,CCCCCCCCCCCCCCCC[N+](CCC)(CCC)CCCC[N+](CCC)(CCC)CCCCCCCCCCCCCCCC.[Br-].[Br-],25

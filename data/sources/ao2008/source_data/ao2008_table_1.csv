@@ -1,7 +1,7 @@
-Surfactant,cmc (mmol/L),γcmc (mN/m),Γmax (μmol/m2),Amin (nm2),pc20,cmc/c20,source_doi,reference_doi,Temp_Celcius,SMILES
-[C10-4-C10im]Br2,4.5,35.2,1.25,1.33,3.14,6.16,10.1016/j.jcis.2008.06.048,,25.0,CCCCCCCCCC[N+]1=CN(CCCCN2C=C[N+](CCCCCCCCCC)=C2)C=C1.[Br-].[Br-]
-[C12-4-C12im]Br2,0.72,35.7,1.19,1.4,3.94,6.32,10.1016/j.jcis.2008.06.048,,25.0,CCCCCCCCCCCC[N+]1=CN(CCCCN2C=C[N+](CCCCCCCCCCCC)=C2)C=C1.[Br-].[Br-]
-[C14-4-C14im]Br2,0.1,37.2,0.88,1.88,5.04,10.85,10.1016/j.jcis.2008.06.048,,25.0,CCCCCCCCCCCCCC[N+]1=CN(CCCCN2C=C[N+](CCCCCCCCCCCCCC)=C2)C=C1.[Br-].[Br-]
-[C10mim]Br,29.3,39.7,1.72,0.97,2.15,4.14,10.1016/j.jcis.2008.06.048,10.1021/la0633029,25.0,CCCCCCCCCCn1c[n+](C)cc1.[Br-]
-[C12mim]Br,10.9,39.4,1.91,0.87,2.67,5.09,10.1016/j.jcis.2008.06.048,10.1016/j.colsurfa.2007.12.001,25.0,CCCCCCCCCCCCn1c[n+](C)cc1.[Br-]
-[C14mim]Br,2.8,39.2,1.96,0.85,3.33,5.96,10.1016/j.jcis.2008.06.048,10.1016/j.colsurfa.2007.12.001,25.0,CCCCCCCCCCCCCCn1c[n+](C)cc1.[Br-]
+Surfactant,cmc (mmol/L),γcmc (mN/m),Γmax (μmol/m2),Amin (nm2),pc20,cmc/c20,source_doi,reference_doi,Temp_Celcius,SMILES,method
+[C10-4-C10im]Br2,4.5,35.2,1.25,1.33,3.14,6.16,10.1016/j.jcis.2008.06.048,,25.0,CCCCCCCCCC[N+]1=CN(CCCCN2C=C[N+](CCCCCCCCCC)=C2)C=C1.[Br-].[Br-],tensiometry
+[C12-4-C12im]Br2,0.72,35.7,1.19,1.4,3.94,6.32,10.1016/j.jcis.2008.06.048,,25.0,CCCCCCCCCCCC[N+]1=CN(CCCCN2C=C[N+](CCCCCCCCCCCC)=C2)C=C1.[Br-].[Br-],tensiometry
+[C14-4-C14im]Br2,0.1,37.2,0.88,1.88,5.04,10.85,10.1016/j.jcis.2008.06.048,,25.0,CCCCCCCCCCCCCC[N+]1=CN(CCCCN2C=C[N+](CCCCCCCCCCCCCC)=C2)C=C1.[Br-].[Br-],tensiometry
+[C10mim]Br,29.3,39.7,1.72,0.97,2.15,4.14,10.1016/j.jcis.2008.06.048,10.1021/la0633029,25.0,CCCCCCCCCCn1c[n+](C)cc1.[Br-],tensiometry
+[C12mim]Br,10.9,39.4,1.91,0.87,2.67,5.09,10.1016/j.jcis.2008.06.048,10.1016/j.colsurfa.2007.12.001,25.0,CCCCCCCCCCCCn1c[n+](C)cc1.[Br-],tensiometry
+[C14mim]Br,2.8,39.2,1.96,0.85,3.33,5.96,10.1016/j.jcis.2008.06.048,10.1016/j.colsurfa.2007.12.001,25.0,CCCCCCCCCCCCCCn1c[n+](C)cc1.[Br-],tensiometry

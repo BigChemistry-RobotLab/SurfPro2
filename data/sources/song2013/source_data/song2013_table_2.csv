@@ -1,0 +1,13 @@
+Surfactant,Temperature (K),cac (mM),β,ΔGagg (kJ/mol),ΔHagg (kJ/mol),−TΔSagg (kJ/mol),method,source_doi,reference_doi,SMILES
+diC08GQ,298,10.81,0.63,−34.5,−5.29,−29.2,conductometry,10.1016/j.colsurfa.2012.11.004,,CCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCC.[Cl-].[Cl-]
+diC08GQ,303,11.36,0.63,−34.3,−5.47,−28.8,conductometry,10.1016/j.colsurfa.2012.11.004,,CCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCC.[Cl-].[Cl-]
+diC08GQ,308,11.50,0.70,−35.7,−5.90,−29.8,conductometry,10.1016/j.colsurfa.2012.11.004,,CCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCC.[Cl-].[Cl-]
+diC08GQ,313,11.57,0.74,−36.5,−6.24,−30.3,conductometry,10.1016/j.colsurfa.2012.11.004,,CCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCC.[Cl-].[Cl-]
+diC10GQ,298,0.91,0.58,−43.1,−11.43,−31.7,conductometry,10.1016/j.colsurfa.2012.11.004,,CCCCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCCCC.[Cl-].[Cl-]
+diC10GQ,303,0.93,0.56,−45.2,−14.44,−30.8,conductometry,10.1016/j.colsurfa.2012.11.004,,CCCCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCCCC.[Cl-].[Cl-]
+diC10GQ,308,1.00,0.55,−45.4,−11.98,−31.4,conductometry,10.1016/j.colsurfa.2012.11.004,,CCCCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCCCC.[Cl-].[Cl-]
+diC10GQ,313,1.04,0.64,−46.4,−13.09,−33.3,conductometry,10.1016/j.colsurfa.2012.11.004,,CCCCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCCCC.[Cl-].[Cl-]
+diC12GQ,298,0.19,0.57,−48.9,−14.14,−34.8,conductometry,10.1016/j.colsurfa.2012.11.004,,CCCCCCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCCCCCC.[Cl-].[Cl-]
+diC12GQ,303,0.21,0.56,−49.1,−14.53,−34.6,conductometry,10.1016/j.colsurfa.2012.11.004,,CCCCCCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCCCCCC.[Cl-].[Cl-]
+diC12GQ,308,0.22,0.56,−49.7,−15.01,−34.7,conductometry,10.1016/j.colsurfa.2012.11.004,,CCCCCCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCCCCCC.[Cl-].[Cl-]
+diC12GQ,313,0.23,0.63,−52.6,−16.20,−36.4,conductometry,10.1016/j.colsurfa.2012.11.004,,CCCCCCCCCCCC[N+](C)(C)CCC[N+](C)(C)CCCCCCCCCCCC.[Cl-].[Cl-]

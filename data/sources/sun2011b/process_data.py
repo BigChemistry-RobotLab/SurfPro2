@@ -12,12 +12,11 @@ df["Area_min"] = df["Amin (A2)"] / 100
 
 replace_columns = {
     "Samples": "identifier",
-    "CMC surface tension (mol/L)": "CMC",
+    "CMC (mol/L)": "CMC",
     "γ (mN/m)": "AW_ST_CMC",
 }
 
 drop_columns = [
-    "CMC conductivity (mol/L)",
     "ΓLa max x 10^10 (mol/cm2)",
     "Amin (A2)",
     "ΔG0ad (kJ/mol)",

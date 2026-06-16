@@ -7,7 +7,7 @@ SOURCE_FILE = "source_data/shaban2018_table_1.csv"
 PROCESSED_FILE = "processed_data/shaban2018.csv"
 
 df = pd.read_csv(SOURCE_FILE)
-df["CMC"] = df["CMC surface tension/ (mM·L−1)"] / 1000
+df["CMC"] = df["CMC/ (mM·L−1)"] / 1000
 df["C20"] = df["C20 ∗ 10−5 (mol·L−1)"] / 10**5
 df["Gamma_max"] = df["Гmax ∗ 10−10 (mol·cm−2)"] / 10**6
 df["Area_min"] = df["Amin/ A2"] / 100
@@ -19,8 +19,7 @@ replace_columns = {
 }
 
 drop_columns = [
-    "CMC surface tension/ (mM·L−1)",
-    "CMC conductometry/ (mM·L−1)",
+    "CMC/ (mM·L−1)",
     "α",
     "C20 ∗ 10−5 (mol·L−1)",
     "Гmax ∗ 10−10 (mol·cm−2)",

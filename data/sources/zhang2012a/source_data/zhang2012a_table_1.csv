@@ -1,6 +1,6 @@
-identifier,CMC (mmol/L),CMC err (mmol/L),γCMC (mN/m),pC20,Γmax 10^10 (mol/cm2),Γmax 10^10 err (mol/cm2),Amin (nm2),Amin err (nm2),Temp_Celsius,source_doi,reference_doi,SMILES
-DTAB,15.0,,39.0,2.1,,,,,25.0,10.1016/j.jcis.2012.04.052,10.1021/la060156y,CCCCCCCCCCCC[N+](C)(C)C.[Br-]
-DTAB,,,,,,,0.66,,25.0,10.1016/j.jcis.2012.04.052,10.1021/jp802243f,CCCCCCCCCCCC[N+](C)(C)C.[Br-]
-DTAAB,11.89,0.52,37.3,2.9,2.01,0.05,0.83,0.02,25.0,10.1016/j.jcis.2012.04.052,,CCCCCCCCCCCC[N+](C)(C)CCOC(C)=O.[Br-]
-12-fo-12,0.61,0.04,41.2,4.05,0.74,0.03,2.24,0.04,25.0,10.1016/j.jcis.2012.04.052,,CCCCCCCCCCCC[N+](C)(CCOC(CCC(OCC[N+](C)(C)CCCCCCCCCCCC)=O)=O)C.[Br-].[Br-]
-12-su-12,0.54,0.04,37.8,3.83,1.41,0.08,1.17,0.03,25.0,10.1016/j.jcis.2012.04.052,,CCCCCCCCCCCC[N+](C)(CCOC(/C=C/C(OCC[N+](C)(C)CCCCCCCCCCCC)=O)=O)C.[Br-].[Br-]
+identifier,CMC (mmol/L),CMC err (mmol/L),γCMC (mN/m),pC20,Γmax 10^10 (mol/cm2),Γmax 10^10 err (mol/cm2),Amin (nm2),Amin err (nm2),Temp_Celsius,source_doi,reference_doi,SMILES,method
+DTAB,15.0,,39.0,2.1,,,,,25.0,10.1016/j.jcis.2012.04.052,10.1021/la060156y,CCCCCCCCCCCC[N+](C)(C)C.[Br-],tensiometry
+DTAB,,,,,,,0.66,,25.0,10.1016/j.jcis.2012.04.052,10.1021/jp802243f,CCCCCCCCCCCC[N+](C)(C)C.[Br-],tensiometry
+DTAAB,11.89,0.52,37.3,2.9,2.01,0.05,0.83,0.02,25.0,10.1016/j.jcis.2012.04.052,,CCCCCCCCCCCC[N+](C)(C)CCOC(C)=O.[Br-],tensiometry
+12-fo-12,0.61,0.04,41.2,4.05,0.74,0.03,2.24,0.04,25.0,10.1016/j.jcis.2012.04.052,,CCCCCCCCCCCC[N+](C)(CCOC(CCC(OCC[N+](C)(C)CCCCCCCCCCCC)=O)=O)C.[Br-].[Br-],tensiometry
+12-su-12,0.54,0.04,37.8,3.83,1.41,0.08,1.17,0.03,25.0,10.1016/j.jcis.2012.04.052,,CCCCCCCCCCCC[N+](C)(CCOC(/C=C/C(OCC[N+](C)(C)CCCCCCCCCCCC)=O)=O)C.[Br-].[Br-],tensiometry

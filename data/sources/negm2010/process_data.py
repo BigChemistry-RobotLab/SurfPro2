@@ -3,7 +3,7 @@ import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 
-SOURCE_FILE = "source_data/neg2010_table_2.csv"
+SOURCE_FILE = "source_data/negm2010_table_2.csv"
 PROCESSED_FILE = "processed_data/negm2010.csv"
 
 df = pd.read_csv(SOURCE_FILE)

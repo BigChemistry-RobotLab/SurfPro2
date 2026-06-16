@@ -27,28 +27,27 @@ df["SMILES"] = smiles_list
 df["Molecular_Weight"] = mol_wts
 df["InChI"] = inchi_list
 
-df["CMC"] = df["CMC surface tension (mM)"] / 1000
+df["CMC"] = df["CMC (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 
-df["Gamma_max"] = df["Γmax 9 10-11 surface tension (mol cm-2)"] / 10**7
+df["Gamma_max"] = df["Γmax 9 10-11 (mol cm-2)"] / 10**7
 
 df = df.rename(
     columns={
         "Inhibitor name": "identifier",
-        "γCMC surface tension (mN m-1)": "AW_ST_CMC",
-        "πCMC surface tension (mN m-1)": "Pi_CMC",
-        "Amin surface tension (nm2)": "Area_min",
+        "γCMC (mN m-1)": "AW_ST_CMC",
+        "πCMC (mN m-1)": "Pi_CMC",
+        "Amin (nm2)": "Area_min",
     }
 )
 
 
 df = df.drop(
     columns=[
-        "CMC surface tension (mM)",
-        "Γmax 9 10-11 surface tension (mol cm-2)",
-        "CMC conductivity (mM)",
-        "β",
-        "ΔGomic conductivity (kJ mol-1)",
+        "CMC (mM)",
+        "Γmax 9 10-11 (mol cm-2)",
+        "beta",
+        "ΔGomic (kJ mol-1)",
     ]
 )
 

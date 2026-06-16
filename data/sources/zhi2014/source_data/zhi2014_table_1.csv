@@ -1,6 +1,6 @@
-Surfactant,cmc (mmol/L),γcmc (mN/m),pC20,cmc/C20,Γmax x 10^-10 (mol cm−2),Amin (Å2),SMILES,reference_doi,Temp_Celsius,source_doi
-C14MHGPB,8.14,35.62,3.17,11.92,1.345,123.5,O=C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O)NCCC[N+](CCCCCCCCCCCCCC)(CCO)C.[Br-],,25,10.1016/j.colsurfa.2014.05.042
-C12MHGPB,1.67,29.6,3.69,8.31,2.132,71.9,O=C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O)NCCC[N+](CCCCCCCCCCCC)(CCO)C.[Br-],,25,10.1016/j.colsurfa.2014.05.042
-C10MHGPB,0.67,28.23,4.06,7.7,2.403,69.1,O=C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O)NCCC[N+](CCCCCCCCCC)(CCO)C.[Br-],,25,10.1016/j.colsurfa.2014.05.042
-C14DGPBa,0.7,30.26,4.16,10.13,1.991,83.5,O=C(NCCC[N+](C)(CCCCCCCCCCCCCC)C)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO.[Br-],10.1016/j.colsurfa.2013.08.009,25,10.1016/j.colsurfa.2014.05.042
-C12DGPBa,4.75,28.36,3.69,23.41,1.449,114.0,O=C(NCCC[N+](C)(CCCCCCCCCCCC)C)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO.[Br-],10.1016/j.colsurfa.2013.08.009,25,10.1016/j.colsurfa.2014.05.042
+Surfactant,cmc (mmol/L),γcmc (mN/m),pC20,cmc/C20,Γmax x 10^-10 (mol cm−2),Amin (Å2),SMILES,reference_doi,Temp_Celsius,source_doi,method
+C14MHGPB,8.14,35.62,3.17,11.92,1.345,123.5,O=C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O)NCCC[N+](CCCCCCCCCCCCCC)(CCO)C.[Br-],,25,10.1016/j.colsurfa.2014.05.042,tensiometry
+C12MHGPB,1.67,29.6,3.69,8.31,2.132,71.9,O=C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O)NCCC[N+](CCCCCCCCCCCC)(CCO)C.[Br-],,25,10.1016/j.colsurfa.2014.05.042,tensiometry
+C10MHGPB,0.67,28.23,4.06,7.7,2.403,69.1,O=C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O)NCCC[N+](CCCCCCCCCC)(CCO)C.[Br-],,25,10.1016/j.colsurfa.2014.05.042,tensiometry
+C14DGPBa,0.7,30.26,4.16,10.13,1.991,83.5,O=C(NCCC[N+](C)(CCCCCCCCCCCCCC)C)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO.[Br-],10.1016/j.colsurfa.2013.08.009,25,10.1016/j.colsurfa.2014.05.042,tensiometry
+C12DGPBa,4.75,28.36,3.69,23.41,1.449,114.0,O=C(NCCC[N+](C)(CCCCCCCCCCCC)C)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO.[Br-],10.1016/j.colsurfa.2013.08.009,25,10.1016/j.colsurfa.2014.05.042,tensiometry

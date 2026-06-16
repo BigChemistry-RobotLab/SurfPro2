@@ -1,4 +1,7 @@
-Compounds,CMC surface tension (mM/L),γCMC surface tension (mN/m),Pi_CMC surface tension (mN/m),Γmax surface tension 10^11 (mol/cm2),Amin surface tension (nm2),CMC conductivity (mM/L),α conductivity,β conductivity,ΔGomic conductivity (kJ/mol),ΔGoads conductivity (kJ/mol),SMILES,Temp_Celsius,source_doi,reference_doi
-CSSB-10,3.16,35.94,36.06,8.1,2.057,3.19,0.379,0.621,23.5,27.93,CCCCCCCCCCOC(=O)C[N+](C)(C)CCCN=Cc1ccccc1O.[Cl-],30.0,10.1039/C5RA21626E,
-CSSB-14,0.43,33.04,38.96,7.5,2.21,0.48,0.396,0.604,31.32,35.7,CCCCCCCCCCCCCCOC(=O)C[N+](C)(C)CCCN=Cc1ccccc1O.[Cl-],30.0,10.1039/C5RA21626E,
-CSSB-16,0.08,31.64,40.36,5.5,3.02,0.11,0.408,0.592,37.84,43.57,CCCCCCCCCCCCCCCCOC(=O)C[N+](C)(C)CCCN=Cc1ccccc1O.[Cl-],30.0,10.1039/C5RA21626E,
+Compounds,CMC (mM/L),γCMC (mN/m),Pi_CMC (mN/m),Γmax 10^11 (mol/cm2),Amin (nm2),method,α conductivity,β conductivity,ΔGomic conductivity (kJ/mol),ΔGoads conductivity (kJ/mol),SMILES,Temp_Celsius,source_doi,reference_doi
+CSSB-10,3.16,35.94,36.06,8.1,2.057,tensiometry,,,,,CCCCCCCCCCOC(=O)C[N+](C)(C)CCCN=Cc1ccccc1O.[Cl-],30,10.1039/C5RA21626E,
+CSSB-14,0.43,33.04,38.96,7.5,2.21,tensiometry,,,,,CCCCCCCCCCCCCCOC(=O)C[N+](C)(C)CCCN=Cc1ccccc1O.[Cl-],30,10.1039/C5RA21626E,
+CSSB-16,0.08,31.64,40.36,5.5,3.02,tensiometry,,,,,CCCCCCCCCCCCCCCCOC(=O)C[N+](C)(C)CCCN=Cc1ccccc1O.[Cl-],30,10.1039/C5RA21626E,
+CSSB-10,3.19,,,,,conductometry,0.379,0.621,23.5,27.93,CCCCCCCCCCOC(=O)C[N+](C)(C)CCCN=Cc1ccccc1O.[Cl-],30,10.1039/C5RA21626E,
+CSSB-14,0.48,,,,,conductometry,0.396,0.604,31.32,35.7,CCCCCCCCCCCCCCOC(=O)C[N+](C)(C)CCCN=Cc1ccccc1O.[Cl-],30,10.1039/C5RA21626E,
+CSSB-16,0.11,,,,,conductometry,0.408,0.592,37.84,43.57,CCCCCCCCCCCCCCCCOC(=O)C[N+](C)(C)CCCN=Cc1ccccc1O.[Cl-],30,10.1039/C5RA21626E,

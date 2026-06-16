@@ -8,7 +8,7 @@ PROCESSED_FILE = "processed_data/zhuang2013.csv"
 
 df = pd.read_csv(SOURCE_FILE)
 
-df["CMC"] = df["cmc tensiometry (mM)"]/1000
+df["CMC"] = df["cmc (mM)"]/1000
 df["Gamma_max"] = df["106 Γmax n=3 (mol/m2)"]/10**6
 
 replace_columns = {
@@ -18,8 +18,7 @@ replace_columns = {
 }
 
 drop_columns = [
-    "cmc tensiometry (mM)",
-    "cmc conductometry (mM)",
+    "cmc (mM)",
     "106 Γmax n=2 (mol/m2)",
     "106 Γmax n=3 (mol/m2)",
     "Amin n=2 (nm2)",

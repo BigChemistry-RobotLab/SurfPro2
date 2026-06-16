@@ -1,10 +1,10 @@
-Compound,Temp_Celsius,CMC M x 10^-4,Pi_cmc mN/m,pC20,Γmax 10^11 (mol/cm2),Amin (A2),SMILES,source_doi,reference_doi
-APS-8,20,4.31,31.0,4.1,9.8,169,CCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,
-APS-8,40,3.98,32.5,4.5,9.2,180,CCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,
-APS-8,60,3.8,33.5,4.9,6.6,248,CCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,
-APS-12,20,4.08,33.0,4.8,9.2,180,CCCCCCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,
-APS-12,40,3.71,34.0,5.1,7.1,234,CCCCCCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,
-APS-12,60,3.1,35.0,5.5,6.2,264,CCCCCCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,
-APS-16,20,4.0,34.0,3.5,8.0,206,CCCCCCCCCCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,
-APS-16,40,3.99,36.0,4.3,6.8,242,CCCCCCCCCCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,
-APS-16,60,3.89,37.0,4.4,5.9,278,CCCCCCCCCCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,
+Compound,Temp_Celsius,CMC M x 10^-4,Pi_cmc mN/m,pC20,Γmax 10^11 (mol/cm2),Amin (A2),SMILES,source_doi,reference_doi,method
+APS-8,20,4.31,31.0,4.1,9.8,169,CCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,,tensiometry
+APS-8,40,3.98,32.5,4.5,9.2,180,CCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,,tensiometry
+APS-8,60,3.8,33.5,4.9,6.6,248,CCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,,tensiometry
+APS-12,20,4.08,33.0,4.8,9.2,180,CCCCCCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,,tensiometry
+APS-12,40,3.71,34.0,5.1,7.1,234,CCCCCCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,,tensiometry
+APS-12,60,3.1,35.0,5.5,6.2,264,CCCCCCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,,tensiometry
+APS-16,20,4.0,34.0,3.5,8.0,206,CCCCCCCCCCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,,tensiometry
+APS-16,40,3.99,36.0,4.3,6.8,242,CCCCCCCCCCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,,tensiometry
+APS-16,60,3.89,37.0,4.4,5.9,278,CCCCCCCCCCCCCCCC[N+](C)(C)c1ccc(C=Nc2c(C)n(C)n(-c3ccccc3)c2=O)cc1.[Br-],10.1016/j.ejpe.2017.05.006,,tensiometry
