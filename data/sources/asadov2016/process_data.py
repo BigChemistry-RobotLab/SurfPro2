@@ -53,6 +53,7 @@ df = df.drop(
         "CMC x 10^3 (mol dm-3)",
         "DGmic (kJ mol-1)",
         "DGad (kJ mol-1)",
+        "Amin x 102 (nm2)",
     ]
 )
 
