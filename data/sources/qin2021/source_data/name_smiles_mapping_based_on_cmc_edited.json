@@ -9,7 +9,7 @@
         "CCCCCCCCCCC(=O)OC[C@H]1O[C@H](OC[C@H]2O[C@H](OC[C@H]3O[C@H](O[C@]4(CO)O[C@H](CO)[C@@H](O)[C@@H]4O)[C@H](O)[C@@H](O)[C@@H]3O)[C@H](O)[C@@H](O)[C@H]2O)[C@H](O)[C@@H](O)[C@H]1O"
     ],
     "N-Decyl-N-Methyl Lactobionamide": [
-        "CCCCCCCCCCN(C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O[C@@H]1O[C@@H]([C@@H]([C@@H]([C@H]1O)O)O)O)O)O)=O)C"
+        "CCCCCCCCCCN(C)C(=O)[C@H](O)[C@@H](O)[C@H](O[C@@H]1O[C@H](O)[C@H](O)[C@H](O)[C@H]1O)[C@H](O)CO"
     ],
     "C12H25CH(SO3-Na+)COOC2H5": [
         "CCCCCCCCCCCCC(C(=O)OCC)S(=O)(=O)[O-].[Na+]"
@@ -51,7 +51,7 @@
         "CCCCCCCCOCCOCCOCCOCCOCCOCCO"
     ],
     "1-O-Heptanoyl-Xylitol": [
-        "CCCCCCC(=O)OCC(O)C(O)C(O)CO"
+        "CCCCCCC(OC[C@H]([C@@H]([C@H](CO)O)O)O)=O.CCCCCCC(OC[C@@H]([C@H]([C@@H](CO)O)O)O)=O"
     ],
     "propaethylene glycol monodecyl ether": [
         "CCCCCCCCCCOCCOCCOCCOCCO"
@@ -81,7 +81,7 @@
         "CCCCCCCCCCCCOCCOCCO"
     ],
     "S-Decyl 5-Thio-Arabinonolactone": [
-        "CCCCCCCCCCSC1OC(=O)C(O)C1O"
+        "O=C(O1)[C@@H](O)[C@H](O)[C@H]1CSCCCCCCCCCC"
     ],
     "triethylene glycol monododecyl ether": [
         "CCCCCCCCCCCCOCCOCCOCCO"
@@ -147,13 +147,13 @@
         "OCCOCCOCCOCCOCCOCCSCCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F"
     ],
     "hexyl-D-maltonamide": [
-        "CCCCCCNC(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO"
+        "O[C@H]([C@H](C(NCCCCCC)=O)O)[C@@H]([C@@H](CO)O)O[C@H]1O[C@H](CO)[C@H]([C@@H]([C@H]1O)O)O"
     ],
     "p-t-C8H17C6H4O(C2H4O)10H": [
         "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO)cc1"
     ],
     "6'-O-Dodecanoylmaltose": [
-        "CCCCCCCCCCCC(=O)OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O"
+        "O[C@H]([C@H](C(O[C@@H]1CO)OC(CCCCCCCCCCC)=O)O)[C@@H]1O[C@H]2O[C@H](CO)[C@H]([C@@H]([C@H]2O)O)O"
     ],
     "p-t-C8H17C6H4O(C2H4O)2H": [
         "CC(C)(C)CC(C)(C)c1ccc(OCCOCCO)cc1"
@@ -177,7 +177,7 @@
         "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCOCCOCCOCCOCCO)cc1"
     ],
     "N-Dodecyl-N-Methyl Lactobionamide": [
-        "CCCCCCCCCCCCN(C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O[C@@H]1O[C@@H]([C@@H]([C@@H]([C@H]1O)O)O)O)O)O)=O)C"
+        "O[C@@H]1[C@@H]([C@H]([C@@H](O[C@@H]1CO)O[C@@]([H])([C@@H]([C@H](C(N(C)CCCCCCCCCCCC)=O)O)O)[C@@H](CO)O)O)O"
     ],
     "p-t-C8H17C6H4O(C2H4O)8H": [
         "CC(C)(C)CC(C)(C)c1ccc(OCCOCCOCCOCCOCCOCCOCCOCCO)cc1"
@@ -297,10 +297,10 @@
         "CCCCCCCCCCC[n+]1ccccc1.[Br-]"
     ],
     "Octanoyl-N-Methylglucamine": [
-        "CCCCCCCC(=O)N(C)CC(O)C(O)C(O)C(O)CO"
+        "CCCCCCCC(=O)N(C)C[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO"
     ],
     "Octanoyl-Glucosylamine": [
-        "CCCCCCCC(=O)NC1OC(CO)C(O)C(O)C1O"
+        "CCCCCCCC(=O)N[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O"
     ],
     "C10H21N+(CH3)3Br-": [
         "CCCCCCCCCC[N+](C)(C)C.[Br-]"
@@ -333,7 +333,7 @@
         "CC(C)CCCC(C)CCO[C@@H]1O[C@@H]([C@H]([C@@H]([C@H]1O)O)O)CO"
     ],
     "3,7-Dimethyloctyl-Maltoside": [
-        "CC(C)CCCC(C)CCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O"
+        "CC(C)CCCC(C)CCOC1O[C@H](CO)[C@@H](O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O"
     ],
     "C12H25Pyr+I-": [
         "CCCCCCCCCCCC[n+]1ccccc1.[I-]"
@@ -369,22 +369,22 @@
         "CCCCCCCCCCCCN(C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O[C@@H]1O[C@@H]([C@@H]([C@@H]([C@H]1O)O)O)O)O)O)=O)C"
     ],
     "N-Hexadecyl-N-Methyl Lactobionamide": [
-        "CCCCCCCCCCCCCCCCN(C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O[C@@H]1O[C@@H]([C@@H]([C@@H]([C@H]1O)O)O)O)O)O)=O)C"
+        "O[C@@H]1[C@@H]([C@H]([C@@H](O[C@@H]1CO)O[C@@]([H])([C@@H]([C@H](C(N(C)CCCCCCCCCCCCCCCC)=O)O)O)[C@@H](CO)O)O)O"
     ],
     "N-Octadecyl-N-Methyl Lactobionamide": [
-        "CCCCCCCCCCCCCCCCCCN(C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O[C@@H]1O[C@@H]([C@@H]([C@@H]([C@H]1O)O)O)O)O)O)=O)C"
+        "O[C@@H]1[C@@H]([C@H]([C@@H](O[C@@H]1CO)O[C@@]([H])([C@@H]([C@H](C(N(C)CCCCCCCCCCCCCCCCCC)=O)O)O)[C@@H](CO)O)O)O"
     ],
     "N-Oleyl-N-Methyl Gluconamide": [
         "CN(CCCCCCCC/C=C\\CCCCCCCC)C([C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO)=O"
     ],
     "N-Oleyl-N-Methyl Lactobionamide": [
-        "CCCCCCCC/C=C\\CCCCCCCCN(C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O[C@@H]1O[C@@H]([C@@H]([C@@H]([C@H]1O)O)O)O)O)O)=O)C"
+        "O[C@H](CO)[C@H]([C@H](O)[C@@H](O)C(N(CCCCCCCC/C=C\\CCCCCCCC)C)=O)O[C@H](O1)[C@H](O)[C@@H](O)[C@@H](O)[C@H]1CO"
     ],
     "N-Tetradecyl-N-Methyl Gluconamide": [
         "CCCCCCCCCCCCCCCCN(C)C(=O)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO"
     ],
     "N-Tetradecyl-N-Methyl Lactobionamide": [
-        "CCCCCCCCCCCCCCN(C)C(=O)[C@H](O)[C@@H](O)[C@H](O[C@@H]1O[C@H](C)[C@H](O)[C@H](O)[C@H]1O)[C@H](O)CO"
+        "O[C@@H]1[C@@H]([C@H]([C@@H](O[C@@H]1CO)O[C@@]([H])([C@@H]([C@H](C(N(C)CCCCCCCCCCCCCC)=O)O)O)[C@@H](CO)O)O)O"
     ],
     "Dodecanoyl-N-Methylglyceramine": [
         "OCC(CN(C(CCCCCCCCC)=O)C)O"
@@ -411,7 +411,7 @@
         "CCCCCCCC/C=C\\CCCCCCCC(NCCOC(O[C@@H]1CO)[C@H](O)[C@@H](O)[C@@H]1O[C@H]2O[C@H](CO)[C@H]([C@@H]([C@H]2O)O)O)=O"
     ],
     "Oleyl-Maltoside": [
-        "CCCCCCCC/C=C\\CCCCCCCCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O"
+        "CCCCCCCC/C=C\\CCCCCCCCOC(O[C@@H]1CO)[C@H](O)[C@@H](O)[C@@H]1O[C@H]2O[C@H](CO)[C@H]([C@@H]([C@H]2O)O)O"
     ],
     "C16H33N+(CH3)2CH2COO-": [
         "CCCCCCCCCCCCCCCC[N+](C)(C)CC(=O)[O-]"
