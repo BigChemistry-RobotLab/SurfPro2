@@ -524,7 +524,7 @@
         "beckett1963",
         "omar1997",
         "jobe1984",
-        "vanos1991",
+        "os1991",
         "lange1965",
         "corkill1966",
         "lianos1982",
@@ -684,7 +684,7 @@
     "hegazy2016": ["primary_source"],
     "hu2013": ["primary_source"],
     "huibers1997": [
-        "vanos1993",
+        "os1993",
         "rosen1989",
         "mukerjee1971",
         "evans1956",
@@ -983,7 +983,7 @@
     "gaudin2015": ["inaccesible"],
     "mahmood2013": ["inaccesible"],
     "myers2006": ["inaccesible"],
-    "vanos1993": ["inaccesible"],
+    "os1993": ["inaccesible"],
     "gotte1969": ["inaccesible"],
     "puschel1967": ["inaccesible"],
     "puschel1974": ["inaccesible"],
@@ -1059,5 +1059,6 @@
     "maiti2010": ["primary_source"],
     "martin2010": ["primary_source"],
     "lv2019": ["alami1993", "chang2016", "chang2017"],
+    "jalali-heravi2003": ["os1993"],
     "alami1993": ["primary_source", "alami1993a"]
 }
