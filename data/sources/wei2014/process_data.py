@@ -18,7 +18,6 @@ replace_columns = {
 
 drop_columns = [
     "CMC mmol/kg",
-    "UV",
 ]
 
 df = df.rename(columns=replace_columns)
