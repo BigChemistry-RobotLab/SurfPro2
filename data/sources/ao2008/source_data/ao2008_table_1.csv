@@ -1,4 +1,4 @@
-Surfactant,cmc (mmol/L),γcmc (mN/m),Γmax (μmol/m2),Amin (nm2),pc20,cmc/c20,source_doi,reference_doi,Temp_Celcius,SMILES,method
+Surfactant,cmc (mmol/L),γcmc (mN/m),Γmax (μmol/m2),Amin (nm2),pc20,cmc/c20,source_doi,reference_doi,Temperature (◦C),SMILES,method
 [C10-4-C10im]Br2,4.5,35.2,1.25,1.33,3.14,6.16,10.1016/j.jcis.2008.06.048,,25.0,CCCCCCCCCC[N+]1=CN(CCCCN2C=C[N+](CCCCCCCCCC)=C2)C=C1.[Br-].[Br-],tensiometry
 [C12-4-C12im]Br2,0.72,35.7,1.19,1.4,3.94,6.32,10.1016/j.jcis.2008.06.048,,25.0,CCCCCCCCCCCC[N+]1=CN(CCCCN2C=C[N+](CCCCCCCCCCCC)=C2)C=C1.[Br-].[Br-],tensiometry
 [C14-4-C14im]Br2,0.1,37.2,0.88,1.88,5.04,10.85,10.1016/j.jcis.2008.06.048,,25.0,CCCCCCCCCCCCCC[N+]1=CN(CCCCN2C=C[N+](CCCCCCCCCCCCCC)=C2)C=C1.[Br-].[Br-],tensiometry
