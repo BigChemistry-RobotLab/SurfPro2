@@ -33,7 +33,7 @@ df["pCMC"] = -np.log10(df.CMC)
 df["C20"] = df["C20 10^3 (mol/L)"] / 1000
 df["pC20"] = -np.log10(df.C20)
 
-df["Gamma_max"] = df["Γmax 10^11 (mol/cm2)"] /10000000
+df["Gamma_max"] = df["Γmax 10^11 (mol/cm2)"] / 10**7
 
 df = df.rename(
     columns={
