@@ -7,4 +7,10 @@ The SMILES from these files were used as a starting point for mapping to the dat
 Upon inspection, many of the SMILES required updating for various reasons.
 Many of the sugar structures were updated manually based on the names given to the structures.
 
-Entries containing a temperature value of "room temperature" have had their temperature values removed.
+Entries containing a temperature value of "room temperature" have been updated with values from reference 5 in the SI of the paper:
+
+5. Gahan, C. G.; Patel, S. J.; Boursier, M. E.; Nyffeler, K. E.; Jennings, J.; Abbott, N. L.; Blackwell, H. E.; Van Lehn, R. C.; Lynn, D. M., Bacterial Quorum Sensing Signals Self-Assemble in Aqueous Media to Form Micelles and Vesicles: An Integrated Experimental and Molecular Dynamics Study. J. Phys. Chem 2020, 2020, 3628-3628.
+
+DOI: 10.1021/acs.jpcb.0c00496
+
+
