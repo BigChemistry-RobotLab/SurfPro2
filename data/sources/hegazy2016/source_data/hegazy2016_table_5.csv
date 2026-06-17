@@ -1,5 +1,5 @@
 Inhibitor name,CMC (mM),γCMC (mN m-1),πCMC (mN m-1),Γmax 9 10-11 (mol cm-2),Amin (nm2),ΔGomic (kJ mol-1),beta,SMILES,source_doi,reference_doi,Temp_Celsius,method
 I,1.01,29.7,42.3,7.84,2.12,,,CCCCCCCCCCCC[N+]1=CC=C(C=NC2=CC=C(C([O-])=O)C=C2)C=C1.[Na+].[Br-],10.1007/s11743-016-1824-9,,25,tensiometry
 II,0.51,28.7,43.3,7.72,2.15,,,CCCCCCCCCCCC[N+]1=CC=C(C=NC2=CC=[N+](CCCCCCCCCCCC)C=C2)C=C1.[Br-].[Br-],10.1007/s11743-016-1824-9,,25,tensiometry
-I,1.04,0.11,,,,-28,0.11,CCCCCCCCCCCC[N+]1=CC=C(C=NC2=CC=C(C([O-])=O)C=C2)C=C1.[Na+].[Br-],10.1007/s11743-016-1824-9,,25,conductometry
-II,0.55,0.16,,,,-28.07,0.16,CCCCCCCCCCCC[N+]1=CC=C(C=NC2=CC=[N+](CCCCCCCCCCCC)C=C2)C=C1.[Br-].[Br-],10.1007/s11743-016-1824-9,,25,conductometry
+I,1.04,,,,,-28,0.11,CCCCCCCCCCCC[N+]1=CC=C(C=NC2=CC=C(C([O-])=O)C=C2)C=C1.[Na+].[Br-],10.1007/s11743-016-1824-9,,25,conductometry
+II,0.55,,,,,-28.07,0.16,CCCCCCCCCCCC[N+]1=CC=C(C=NC2=CC=[N+](CCCCCCCCCCCC)C=C2)C=C1.[Br-].[Br-],10.1007/s11743-016-1824-9,,25,conductometry
