@@ -1,0 +1,6 @@
+Cn-OH,CMC (mmol/L),γcmc (mN/m),∂γ/∂ln C,1010Γmax (mol/cm2),Amin/(nm2),Temp_Celsius,source_doi,reference_doi,method,SMILES
+C10-OH,1.98,35.1,-8.71,1.52,1.09,25.0,10.1016/j.colsurfa.2016.07.012,,tensiometry,CCCCCCCCCC[N+](C)(C)CC(O)C[N+](C)(C)CCCCCCCCCC.[Cl-].[Cl-]
+C12-OH,0.53,34.5,-9.99,1.75,0.95,25.0,10.1016/j.colsurfa.2016.07.012,,tensiometry,CCCCCCCCCCCC[N+](C)(C)CC(O)C[N+](C)(C)CCCCCCCCCCCC.[Cl-].[Cl-]
+C14-OH,0.25,36.0,-12.28,2.15,0.77,25.0,10.1016/j.colsurfa.2016.07.012,,tensiometry,CCCCCCCCCCCCCC[N+](C)(C)CC(O)C[N+](C)(C)CCCCCCCCCCCCCC.[Cl-].[Cl-]
+C16-OH,0.17,47.2,-9.54,1.67,0.99,25.0,10.1016/j.colsurfa.2016.07.012,,tensiometry,CCCCCCCCCCCCCCCC[N+](C)(C)CC(O)C[N+](C)(C)CCCCCCCCCCCCCCCC.[Cl-].[Cl-]
+C18-OH,0.06,44.8,-13.69,2.40,0.69,25.0,10.1016/j.colsurfa.2016.07.012,,tensiometry,CCCCCCCCCCCCCCCCCC[N+](C)(C)CC(O)C[N+](C)(C)CCCCCCCCCCCCCCCCCC.[Cl-].[Cl-]
