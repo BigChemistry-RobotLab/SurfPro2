@@ -43,6 +43,7 @@ df = df.rename(
 
 df = df.drop(
     columns=[
+        "cmc (mmol/dm3)",
         "Γcmc (10^6 mol/m2)",
         "Foam 0 min (mL)",
         "Foam 10 min (min)",
