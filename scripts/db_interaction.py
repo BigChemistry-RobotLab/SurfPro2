@@ -199,10 +199,10 @@ def upsert_identifier(row, compound_id, source_id, cited_id, source_file, cursor
     return cursor.fetchone()[0]
 
 
-def upsert_unit(unit, dimension, cursor):
+def upsert_unit(unit, dimension, latex_unit, cursor):
     query = """
-    INSERT INTO units (name, dimension)
-    VALUES (?, ?)
+    INSERT INTO units (name, dimension, latex_math_text)
+    VALUES (?, ?, ?)
     ON CONFLICT(name) DO UPDATE SET
         updated_at = CURRENT_TIMESTAMP
     RETURNING unit_id;
@@ -210,10 +210,11 @@ def upsert_unit(unit, dimension, cursor):
 
     cursor.execute(
         query,
-        (unit, dimension),
+        (unit, dimension, latex_unit),
     )
 
     return cursor.fetchone()[0]
+
 
 def upsert_method(method, cursor):
     query = """
@@ -232,7 +233,6 @@ def upsert_method(method, cursor):
     return cursor.fetchone()[0]
 
 
-
 def upsert_citation(source_id, cited_id, cursor):
     query = """
     INSERT INTO citations (source_id, cited_id)
@@ -247,15 +247,15 @@ def upsert_citation(source_id, cited_id, cursor):
     return cursor.fetchone()[0]
 
 
-def upsert_property_type(name, cursor):
+def upsert_property_type(name, latex_name, cursor):
     query = """
-    INSERT INTO property_types (name)
-    VALUES (?)
+    INSERT INTO property_types (name, latex_math_text)
+    VALUES (?, ?)
     ON CONFLICT(name) DO UPDATE SET
         updated_at = CURRENT_TIMESTAMP
     RETURNING property_type_id;
     """
-    cursor.execute(query, (name,))
+    cursor.execute(query, (name, latex_name))
 
     return cursor.fetchone()[0]
 
@@ -285,7 +285,9 @@ def upsert_measurement(row, compound_id, source_id, cited_id, source_file, curso
 
     for property_type in PROPERTY_INFO:
         value = row.get(property_type)
-        unit, dimension, property_name = PROPERTY_INFO.get(property_type)
+        unit, dimension, property_name, latex_name, latex_unit = PROPERTY_INFO.get(
+            property_type
+        )
         temperature = row.get("Temp_Celsius")
 
         if temperature == "":
@@ -297,9 +299,9 @@ def upsert_measurement(row, compound_id, source_id, cited_id, source_file, curso
             continue
 
         method_id = upsert_method(method, cursor)
-        unit_id = upsert_unit(unit, dimension, cursor)
+        unit_id = upsert_unit(unit, dimension, latex_unit, cursor)
         citation_id = upsert_citation(source_id, cited_id, cursor)
-        property_type_id = upsert_property_type(property_name, cursor)
+        property_type_id = upsert_property_type(property_name, latex_name, cursor)
 
         cursor.execute(
             query,
