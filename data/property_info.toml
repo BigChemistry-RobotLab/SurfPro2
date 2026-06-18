@@ -1,6 +1,6 @@
 # property = ["unit", "quantity name", "short name"]
 CMC = ["M", "concentration", "CMC"]
-pC20 = ["no units", "log(val/unit)", "pC20"]
+C20 = ["M", "concentration", "C20"]
 Gamma_max = ["mol/m2", "surface excess concentration", "Gamma_max"]
 AW_ST_CMC = ["mN/m", "surface tension", "air_water_surface_tension_CMC"]
 Pi_CMC = ["mN/m", "surface tension", "Pi_CMC"]
