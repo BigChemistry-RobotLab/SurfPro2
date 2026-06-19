@@ -1,6 +1,6 @@
-# SurfPro2.0
+# SurfPro2
 
-This is the second major version of the [SurfPro](https://github.com/BigChemistry-RobotLab/SurfPro) database, SurfPro2.0.
+This is the second major version of the [SurfPro](https://github.com/BigChemistry-RobotLab/SurfPro) database, SurfPro2.
 This database is provided in the form of:
 
 - a set of source files (found in `data/sources/<ref_key>/source_data/`),
@@ -11,7 +11,7 @@ Each measurement has provenance as far back as we could trace the values in the 
 The database also incorporates a citation file (`data/CMC_database.bib`), and a manually assembled data citation graph (`data/citation_graph.json`).
 
 The schema for the database are given in `schema`.
-Relative paths for the various components in the SurfPro2.0 database are stored in `config.toml`.
+Relative paths for the various components in the SurfPro2 database are stored in `config.toml`.
 
 ## Installing Dependencies
 
@@ -39,7 +39,7 @@ The database is updated by modifying or creating files in `data/sources/<ref_key
 Running the `process_data.py` script in its parent directory should process the source data into a standardised file in the `processed_data` directory.
 Please see `curation.md` for guidance on how to curate the database.
 
-## Contributors to SurfPro2.0
+## Contributors to SurfPro2
 
 This database has been assembled and curated by:
 
