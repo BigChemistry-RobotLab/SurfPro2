@@ -42,9 +42,11 @@ df["InChI"] = inchi_list
 
 df["CMC"] = df["cmc (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
-# Incorrect units in paper?
-# df["Gamma_max"] = df["Γmax (mol cm-2)"] * 1000
 df["Area_min"] = df["Amin (Å2)"] / 100
+
+# Calculate Gamma_max based on equation (2) of the paper
+# A_min (Å2) = 10^16/Γ_cmc N_A
+df["Gamma_max"] = 10**16 / (df["Amin (Å2)"] * 6.02214076*10**23)
 
 df = df.drop(
     columns=[
