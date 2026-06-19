@@ -1840,3 +1840,33 @@ CCCCCCCCCCCCCC[N+](C)(C)CC(=O)[O-],zwitterionic,,
 CCCCCCCCCCCCCC[N+](C)(C)CCCS(=O)(=O)[O-],zwitterionic,,
 CCCCCCCCCCCCCCCC[N+](C)(C)CC(=O)[O-],zwitterionic,,
 CCCCCCCCOP(=O)([O-])OCCC[N+](C)(C)CCCCCCCC,zwitterionic,,
+CCCCCCCCCCC(CSCCSCC(CCCCCCCCCC)[n+]1ccccc1)[n+]1ccccc1.[Br-].[Br-],cationic,gemini,
+CCCCCCCCCCCCC(CSCCSCC(CCCCCCCCCCCC)[n+]1ccccc1)[n+]1ccccc1.[Br-].[Br-],cationic,gemini,
+CCCCCCCCCCCCCCCC(CSCCSCC(CCCCCCCCCCCCCC)[n+]1ccccc1)[n+]1ccccc1.[Br-].[Br-],cationic,gemini,
+CCCCCCCCCCCC[n+]1ccccc1CCCc1cccc[n+]1CCCCCCCCCCCC.[Br-].[Br-],cationic,gemini,
+CCCCCCCCCCCC[n+]1ccccc1CCCc1cccc[n+]1CCCCCCCCCCCC.[Cl-].[Cl-],cationic,gemini,
+CCCCCCCCCCCC[n+]1ccccc1CCCCc1cccc[n+]1CCCCCCCCCCCC.[Cl-].[Cl-],cationic,gemini,
+CCCCCCCCCCCC[n+]1ccccc1CCCCCCCCc1cccc[n+]1CCCCCCCCCCCC.[Cl-].[Cl-],cationic,gemini,
+CCCCCCCCCCCC[n+]1ccccc1CCCCCCCCCCCCc1cccc[n+]1CCCCCCCCCCCC.[Cl-].[Cl-],cationic,gemini,
+CCCCCCCCCCCC[n+]1ccccc1CCc1cccc[n+]1CCCCCCCCCCCC.CS(=O)(=O)[O-].CS(=O)(=O)[O-],cationic,gemini,organic counter ion
+CCCCCCCCCCCC[n+]1ccccc1CCCc1cccc[n+]1CCCCCCCCCCCC.CS(=O)(=O)[O-].CS(=O)(=O)[O-],cationic,gemini,organic counter ion
+CCCCCCCCCCCC[n+]1ccccc1CCCCc1cccc[n+]1CCCCCCCCCCCC.CS(=O)(=O)[O-].CS(=O)(=O)[O-],cationic,gemini,organic counter ion
+CCCCCCCCCCCC[n+]1ccccc1CCCCCCCCc1cccc[n+]1CCCCCCCCCCCC.CS(=O)(=O)[O-].CS(=O)(=O)[O-],cationic,gemini,organic counter ion
+CCCCCCCCCCCC[n+]1ccccc1CCCCCCCCCCCCc1cccc[n+]1CCCCCCCCCCCC.CS(=O)(=O)[O-].CS(=O)(=O)[O-],cationic,gemini,organic counter ion
+CCCCCCCCCCCCCCCC[N+]1(Cc2ccc(-c3ccc(C[N+]4(CCCCCCCCCCCCCCCC)CCOCC4)cc3)cc2)CCOCC1.[Cl-].[Cl-],cationic,gemini,organic counter ion
+CCCCCCCC[C@@H](C)O[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]1O,non-ionic,sugar based,
+CCCCCCC[C@H](CC)O[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]1O,non-ionic,sugar based,
+CCCCCC[C@@H](CCC)O[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]1O,non-ionic,sugar based,
+CCCCC[C@@H](CCCC)O[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]1O,non-ionic,sugar based,
+CCCCCCCCCCCC(=O)OC[C@@H](O)[C@H]1OC[C@H](O)[C@H]1O,non-ionic,sugar based,
+CCCC(=O)OC[C@@H](O)[C@H](O)[C@@H](O)CO.CCCC(=O)OC[C@H](O)[C@@H](O)[C@H](O)CO,non-ionic,sugar based,
+CCCCCCCCCCOC[C@@H](O)[C@H](O)[C@@H](O)CO.CCCCCCCCCCOC[C@H](O)[C@@H](O)[C@H](O)CO,non-ionic,sugar based,
+CCCCCCCCCCCOC[C@@H](O)[C@H](O)[C@@H](O)CO.CCCCCCCCCCCOC[C@H](O)[C@@H](O)[C@H](O)CO,non-ionic,sugar based,
+CCCCCCSC[C@@H](O)[C@H](O)[C@@H](O)CO.CCCCCSC[C@H](O)[C@@H](O)[C@H](O)CO,non-ionic,sugar based,
+CCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCC)cc2)cc1.[Br-].[Br-],cationic,gemini,
+CCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCC)cc2)cc1.[Br-].[Br-],cationic,gemini,
+CCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-],cationic,gemini,
+CCCCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-],cationic,gemini,
+CCCCCCCCCCCCCCCCOc1ccc(NC(=O)C[N+](C)(C)CCCC[N+](C)(C)CC(=O)Nc2ccc(OCCCCCCCCCCCCCCCC)cc2)cc1.[Br-].[Br-],cationic,gemini,
+CCOCCOCCOCCOC.C[Si](CCSCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO)(O[Si](C)(C)c1ccccc1)O[Si](C)(C)c1ccccc1,non-ionic,silicon based,
+C[Si](C)(O[Si](CCSCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO)(O[Si](C)(C)c1ccccc1)O[Si](C)(C)c1ccccc1)c1ccccc1,non-ionic,silicon based,
