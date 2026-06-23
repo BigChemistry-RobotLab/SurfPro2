@@ -26,10 +26,6 @@ bib_database = bibtexparser.loads(bibtex_string)
 
 manual_translations = json.loads(Path("source_data/manual_names.json").read_text())
 
-automatic_translations = json.loads(
-    Path("source_data/names_to_identifiers.json").read_text()
-)
-
 smiles_list = []
 inchi_list = []
 reference_doi = []
@@ -38,7 +34,6 @@ mol_wts = []
 for i, row in df.iterrows():
     name = row.Surfactant
     manual_smiles = manual_translations.get(name)
-    auto_smiles = automatic_translations.get(name)
 
     ref_no = row["Reference"]
     ref_key = ref_df.loc[ref_no].iloc[0]
@@ -53,14 +48,6 @@ for i, row in df.iterrows():
         sm = Chem.MolToSmiles(mol)
         mw = Descriptors.MolWt(mol)
         inchi = Chem.MolToInchi(mol)
-        smiles_list.append(sm)
-        inchi_list.append(inchi)
-        mol_wts.append(mw)
-    elif auto_smiles:
-        mol = Chem.MolFromSmiles(auto_smiles.get("SMILES"))
-        sm = Chem.MolToSmiles(mol)
-        inchi = Chem.MolToInchi(mol)
-        mw = Descriptors.MolWt(mol)
         smiles_list.append(sm)
         inchi_list.append(inchi)
         mol_wts.append(mw)
