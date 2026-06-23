@@ -7,7 +7,7 @@ from rdkit.Chem import Descriptors
 # Compare to manual transcription
 df = pd.read_csv("source_data/zhang2022c_table_1.csv")
 
-df = df.iloc[:2]
+df = df.iloc[[0, -1], :]
 
 # update the database with generated smiles
 new_smiles_list = []
