@@ -1,0 +1,1 @@
+Area_min values were recalculated based on Gamma_max as described in the main text.
