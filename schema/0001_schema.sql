@@ -115,6 +115,24 @@ CREATE TABLE IF NOT EXISTS units (
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
+CREATE TABLE IF NOT EXISTS data_flags (
+    data_flag_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT UNIQUE NOT NULL,
+    description TEXT
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS measurement_flags (
+    measurement_flag_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    measurement_id INTEGER NOT NULL,
+    data_flag_id INTEGER NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (data_flag_id) REFERENCES data_flags(data_flag_id),
+    FOREIGN KEY (measurement_id) REFERENCES measurements(measurement_id)
+);
+
 CREATE UNIQUE INDEX IF NOT EXISTS idx_notes_literature
 ON literature_notes(literature_id);
 
@@ -136,6 +154,10 @@ CREATE INDEX IF NOT EXISTS idx_identifiers_compound ON identifiers(compound_id);
 CREATE INDEX IF NOT EXISTS idx_citations_source ON citations(source_id);
 CREATE INDEX IF NOT EXISTS idx_citations_cited ON citations(cited_id);
 CREATE UNIQUE INDEX IF NOT EXISTS idx_citation_uniqueness ON citations (source_id, cited_id_norm);
+
+CREATE UNIQUE INDEX IF NOT EXISTS idx_measurement_flag_uniqueness ON measurement_flags(measurement_id, data_flag_id);
+
+CREATE UNIQUE INDEX IF NOT EXISTS idx_data_flag_uniqueness ON data_flags(name);
 
 CREATE TRIGGER IF NOT EXISTS update_measurements_updated_at
 BEFORE UPDATE ON measurements

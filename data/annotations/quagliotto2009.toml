@@ -1,0 +1,87 @@
+[[quagliotto2009]]
+property = "Gamma_max"
+value = 2.7e-10
+method = "tensiometry"
+temperature = 25.0
+identifier = "1a"
+flag = "possible unit conversion error"
+
+[[quagliotto2009]]
+property = "Gamma_max"
+value = 3.3e-10
+method = "tensiometry"
+temperature = 25.0
+identifier = "1b"
+flag = "possible unit conversion error"
+
+[[quagliotto2009]]
+property = "Gamma_max"
+value = 2.23e-10
+method = "tensiometry"
+temperature = 25.0
+identifier = "2a"
+flag = "possible unit conversion error"
+
+[[quagliotto2009]]
+property = "Gamma_max"
+value = 1.57e-10
+method = "tensiometry"
+temperature = 25.0
+identifier = "2a"
+flag = "possible unit conversion error"
+
+[[quagliotto2009]]
+property = "Gamma_max"
+value = 2.43e-10
+method = "tensiometry"
+temperature = 25.0
+identifier = "2b"
+flag = "possible unit conversion error"
+
+[[quagliotto2009]]
+property = "Gamma_max"
+value = 1.67e-10
+method = "tensiometry"
+temperature = 25.0
+identifier = "2b"
+flag = "possible unit conversion error"
+
+[[quagliotto2009]]
+property = "Gamma_max"
+value = 1.8e-10
+method = "tensiometry"
+temperature = 25.0
+identifier = "3a"
+flag = "possible unit conversion error"
+
+[[quagliotto2009]]
+property = "Gamma_max"
+value = 8.1e-11
+method = "tensiometry"
+temperature = 25.0
+identifier = "3a"
+flag = "possible unit conversion error"
+
+[[quagliotto2009]]
+property = "Gamma_max"
+value = 1.96e-10
+method = "tensiometry"
+temperature = 25.0
+identifier = "3b"
+flag = "possible unit conversion error"
+
+[[quagliotto2009]]
+property = "Gamma_max"
+value = 6.1e-11
+method = "tensiometry"
+temperature = 25.0
+identifier = "3b"
+flag = "possible unit conversion error"
+
+[[quagliotto2009]]
+property = "Gamma_max"
+value = 3.1e-11
+method = "tensiometry"
+temperature = 25.0
+identifier = "3b"
+flag = "possible unit conversion error"

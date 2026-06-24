@@ -386,6 +386,93 @@ def ingest_notes(key, DB_PATH, source_dir, bib_by_key):
                 upsert_literature_note(file.read(), lit_id, cursor)
 
 
+def upsert_flag(flag_name, description, cursor):
+    query = """
+    INSERT INTO data_flags (name, description)
+    VALUES (?, ?)
+    ON CONFLICT(name) DO UPDATE SET
+        updated_at = CURRENT_TIMESTAMP
+    RETURNING data_flag_id;
+    """
+
+    cursor.execute(
+        query,
+        (flag_name, description),
+    )
+
+    return cursor.fetchone()[0]
+
+
+def upsert_measurement_flag(measurement_id, flag_id, cursor):
+    query = """
+    INSERT INTO measurement_flags (measurement_id, data_flag_id)
+    VALUES (?, ?)
+    ON CONFLICT(measurement_id, data_flag_id) DO UPDATE SET
+        updated_at = CURRENT_TIMESTAMP
+    RETURNING measurement_flag_id;
+    """
+
+    cursor.execute(
+        query,
+        (measurement_id, flag_id),
+    )
+
+    return cursor.fetchone()[0]
+
+
+def ingest_flag_annotations(DB_PATH, DATA_ROOT):
+    source_dir = DATA_ROOT / "annotations"
+    with sqlite3.connect(DB_PATH) as connection:
+        cursor = connection.cursor()
+        cursor.execute("PRAGMA foreign_keys = ON")
+        for file in source_dir.iterdir():
+            if file.suffix != ".toml":
+                continue
+
+            annotations = toml.loads(file.read_text())
+
+            for ref in annotations:
+                ref_annotations = annotations[ref]
+                for annot in ref_annotations:
+                    # get measurement id
+                    cursor.execute(
+                    """
+                    SELECT measurement_id, m.source_file
+                    FROM measurements m
+                    LEFT JOIN property_types p USING(property_type_id)
+                    LEFT JOIN methods meth USING(method_id)
+                    LEFT JOIN identifiers i
+                        ON m.compound_id = i.compound_id
+                        AND m.citation_id = i.citation_id
+                    WHERE
+                        p.name = ?
+                        AND ABS(m.value - ?) < 1e-12
+                        AND meth.name = ?
+                        AND ABS(m.temperature - ?) < 0.01
+                        AND i.identifier = ?
+                    """,
+                        (
+                            annot["property"],
+                            annot["value"],
+                            annot["method"],
+                            annot["temperature"],
+                            annot["identifier"],
+                        ),
+                    )
+
+                    result = cursor.fetchall()
+                    if result:
+                        measurement_id = result[0][0]
+                    else:
+                        raise ValueError(f"{annot} not found in database.")
+
+                    # get flag_id
+                    flag_id = upsert_flag(annot["flag"], "", cursor)
+
+                    # insert flagged entry
+                    measurement_flag_id = upsert_measurement_flag(measurement_id, flag_id, cursor)
+
+
 def main():
     config = toml.loads(Path("config.toml").read_text())
 

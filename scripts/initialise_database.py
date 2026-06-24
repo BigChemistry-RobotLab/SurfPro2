@@ -8,6 +8,7 @@ from db_interaction import (
     create_database,
     ingest_file,
     ingest_notes,
+    ingest_flag_annotations,
     add_surfactant_types
 )
 
@@ -57,6 +58,7 @@ def initialise_database():
         ingest_notes(dir.name, DB_PATH, dir, bib_by_key)
 
     add_surfactant_types(DB_PATH)
+    ingest_flag_annotations(DB_PATH, Path(DATA_ROOT))
 
 def main():
     initialise_database()
