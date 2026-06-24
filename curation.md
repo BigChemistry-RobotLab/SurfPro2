@@ -184,3 +184,21 @@ Multiple values for the same property or measurement may exist across or within 
 - The database is designed to retain multiple measurements rather than report a single value per substance.
 - Differences between values should not be reconciled during ingestion unless there is clear justification.
 - Any selection or preference (e.g. choosing one of two reported CMCs) should be documented explicitly in the source's notes file.
+
+## Flagged entries
+
+Entries which are highly likely to be erroneous in the source literature, which cannot otherwise be corrected, can be flagged.
+The files in `data/annotations` are the primary source of these annotations.
+Each file should contain a set of entries in the following format:
+
+```toml
+[[quagliotto2009]]
+property = "Gamma_max"
+value = 2.43e-10
+method = "tensiometry"
+temperature = 25.0
+identifier = "2b"
+flag = "possible unit conversion error"
+```
+
+Please try to keep flags standardised as much as possible.
