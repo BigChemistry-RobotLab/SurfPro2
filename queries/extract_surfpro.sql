@@ -13,7 +13,9 @@ WITH full_table AS (
     JOIN compounds c USING(compound_id)
     JOIN citations cit USING(citation_id)
     JOIN literature l ON cit.source_id = l.literature_id
+    LEFT JOIN measurement_flags m_flag USING(measurement_id)
     JOIN methods meth USING(method_id)
+    WHERE m_flag.data_flag_id IS NULL -- remove flagged data
 ),
 ranked_measurements AS (
 SELECT
