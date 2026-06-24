@@ -13,8 +13,8 @@ df2 = pd.read_csv(SOURCE_FILE_2)
 df = pd.concat([df1, df2], axis=0)
 
 df["CMC"] = df["cmc (mM)"] / 1000
-df["Gamma_max"] = df["Γmax (mol/Å2) (10-10)"] / 10**10
 df["Area_min"] = df["Amin (Å2)"] / 100
+df["Gamma_max"] = 10**18 / (df["Area_min"] * 6.02214076*10**23)
 df["C20"] = df["C20 (mM)"] / 1000
 
 replace_columns = {

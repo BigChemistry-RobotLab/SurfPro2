@@ -1,0 +1,5 @@
+The values for "Γmax (mol/Å2) (10-10)" were unusually small, so are reported based on conversion of given values for "Amin (Å2)".
+
+Gamma_max = 10^18 / (Area_min * NA)
+
+Where NA is Avogadro's number and Area_min has units of nm^2.
