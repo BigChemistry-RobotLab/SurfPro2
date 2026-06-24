@@ -1,1 +1,3 @@
-The units for Γmax are not given in the main text. Based on the magnitude of the values, process_data.py assumes that the units are mol/cm2.
+The units for Γmax are not given in the main text.
+Based on the magnitude of the values, it could be guessed that the units are mol/cm2.
+A_min values also have no units.

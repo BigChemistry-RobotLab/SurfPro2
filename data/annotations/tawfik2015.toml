@@ -1,0 +1,143 @@
+[[tawfik2015]]
+property = "Area_min"
+value = 203.7
+method = "tensiometry"
+temperature = 25.0
+identifier = "G-2"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Area_min"
+value = 234.09
+method = "tensiometry"
+temperature = 40.0
+identifier = "G-2"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Area_min"
+value = 245.13
+method = "tensiometry"
+temperature = 55.0
+identifier = "G-2"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Area_min"
+value = 438.73
+method = "tensiometry"
+temperature = 25.0
+identifier = "G-6"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Area_min"
+value = 434.75
+method = "tensiometry"
+temperature = 40.0
+identifier = "G-6"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Area_min"
+value = 490.26
+method = "tensiometry"
+temperature = 55.0
+identifier = "G-6"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Area_min"
+value = 259.26
+method = "tensiometry"
+temperature = 25.0
+identifier = "G-12"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Area_min"
+value = 264.64
+method = "tensiometry"
+temperature = 40.0
+identifier = "G-12"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Area_min"
+value = 275.16
+method = "tensiometry"
+temperature = 55.0
+identifier = "G-12"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Gamma_max"
+value = 8.151e-11
+method = "tensiometry"
+temperature = 25.0
+identifier = "G-2"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Gamma_max"
+value = 7.093e-11
+method = "tensiometry"
+temperature = 40.0
+identifier = "G-2"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Gamma_max"
+value = 6.773e-11
+method = "tensiometry"
+temperature = 55.0
+identifier = "G-2"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Gamma_max"
+value = 3.784e-11
+method = "tensiometry"
+temperature = 25.0
+identifier = "G-6"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Gamma_max"
+value = 3.819e-11
+method = "tensiometry"
+temperature = 40.0
+identifier = "G-6"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Gamma_max"
+value = 3.387e-11
+method = "tensiometry"
+temperature = 55.0
+identifier = "G-6"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Gamma_max"
+value = 6.404e-11
+method = "tensiometry"
+temperature = 25.0
+identifier = "G-12"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Gamma_max"
+value = 6.274e-11
+method = "tensiometry"
+temperature = 40.0
+identifier = "G-12"
+flag = "missing units"
+
+[[tawfik2015]]
+property = "Gamma_max"
+value = 6.772e-11
+method = "tensiometry"
+temperature = 55.0
+identifier = "G-12"
+flag = "missing units"

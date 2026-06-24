@@ -33,8 +33,8 @@ df["CMC"] = df["CMC (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 
 # Assume units are mol/cm2
-df["Gamma_max"] = df["Γmax 10^-11"] / 10**7
-df["Area_min"] = df["Amin"] /100
+df["Gamma_max"] = df["Γmax 10^-11"] / 10**11
+df["Area_min"] = df["Amin"]
 
 df = df.rename(
     columns={
