@@ -16,11 +16,11 @@ All units should be standardised during the processing of source data in each so
 The standardised units currently used for properties in the database are:
 
 - $\text{CMC}$/ $M$
-- pC20: no units
-- $\Gamma_{max}$/ $\frac{mol}{m^2}$
-- $\gamma_{CMC}$/ $\frac{mN}{m}$
-- $\Pi_{CMC}$/ $\frac{mN}{m}$
-- $\text{Area}_{min}$/ nm2
+- $C_{20}$/ $M$
+- $\Gamma_{\text{max}}$/ $\frac{\text{mol}}{m^2}$
+- $\gamma_{\text{CMC}}$/ $\frac{\text{mN}}{m}$
+- $\Pi_{\text{CMC}}$/ $\frac{\text{mN}}{m}$
+- $\text{Area}_{\text{min}}$/ nm2
 
 ## Method Annotations
 
@@ -90,15 +90,15 @@ def enumerate_stereoisomers(smiles):
 For some surfactant classes such as gemini surfactants, it is common to report more than one $\Gamma_max$ and/or $\text{Area}_{min}$ value for different values of $n$ in the equation below:
 
 $$
-\Gamma_{max} = \frac{1}{2.303 n R T} (\frac{\partial \gamma}{\partial log(C)})_{T,P}
+\Gamma_{\text{max}} = \frac{1}{2.303 n R T} (\frac{\partial \gamma}{\partial log(C)})_{T,P}
 $$
 
 where $n$ is an integer constant, $\gamma$ is surface tension, $C$ is the surfactant concentration, $T$ is temperature, $P$ is pressure and $R$ is the ideal gas constant.
 
-The equation for $\text{Area}_{min}$ is:
+The equation for $\text{Area}_{min}$ (in $\text{nm}^2$) is:
 
 $$
-\text{Area}_{min} = \frac{10^20}{N_A \Gamma_{max}}
+\text{Area}_{\text{min}}/ \text{nm}^2 = \frac{10^18 \text{nm}^2/m^2}{N_A/ \text{mol} \Gamma_{\text{max}}/ \text{mol}/m^2}
 $$
 
 where $N_A$ is Avogadro's number.
@@ -113,7 +113,7 @@ In these cases, the CMC from the first breakpoint is reported.
 Critical aggregation concentrations (CACs) are also taken to be CMC values in this database.
 In future versions, CMC may be changed to CAC in the database, as CMC can be regarded as a type of CAC (micellisation is a form of aggregation).
 
-## Air-water surface tension at CMC ($\gamma_{CMC}$)
+## Air-water surface tension at CMC ($\gamma_{\text{CMC}}$)
 
 For pure, conventional surfactants, the air-water surface tension at CMC is the limiting surface tension obtained at 'infinite' surfactant concentration.
 However, under non-ideal conditions, such as in the presence of impurities, the surface tension at CMC does not necessarily reflect the surface tension at surfactant concentrations higher than CMC.
