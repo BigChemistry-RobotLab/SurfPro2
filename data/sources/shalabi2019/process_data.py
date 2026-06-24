@@ -10,11 +10,11 @@ df = pd.read_csv(SOURCE_FILE)
 
 df["CMC"] = df["CMCmM"] / 1000
 df["Gamma_max"] = df["Γmax mol cm−2"] * 10**4
+df["Area_min"] = 10**18 / (df["Gamma_max"] * 6.02214076 * 10**23)
 
 replace_columns = {
     "Surfactant": "identifier",
     "γCMC mN m−1": "AW_ST_CMC",
-    "Amin nm2": "Area_min",
     "ΠCMC mN m−1": "Pi_CMC",
 }
 
@@ -23,6 +23,7 @@ drop_columns = [
     "Γmax mol cm−2",
     "ΔGomic kJ mol−1",
     "ΔGaods kJ mol−1",
+    "Amin nm2",
 ]
 
 df = df.rename(columns=replace_columns)
