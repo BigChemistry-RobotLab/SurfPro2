@@ -1,0 +1,2 @@
+Area_min values as reported appeared to be larger than expected compared to the rest of the dataset.
+They were recalculated based on the reported values for Gamma_max.

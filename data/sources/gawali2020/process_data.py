@@ -34,13 +34,13 @@ df["C20"] = df["C20 10^3 (mol/L)"] / 1000
 df["pC20"] = -np.log10(df.C20)
 
 df["Gamma_max"] = df["Γmax 10^11 (mol/cm2)"] / 10**7
+df["Area_min"] = 10**18 / (df["Gamma_max"] * 6.02214076 * 10**23)
 
 df = df.rename(
     columns={
         "Compounds Name": "identifier",
-        "γCMC (mN/m)" : "AW_ST_CMC",
+        "γCMC (mN/m)": "AW_ST_CMC",
         "πCMC (mN/m)": "Pi_CMC",
-        "Amin (nm2)": "Area_min",
     }
 )
 
@@ -54,6 +54,7 @@ df = df.drop(
         "cmc/C20",
         "ΔGmic (KJ/mol)",
         "ΔGads (KJ/mol)",
+        "Amin (nm2)",
     ]
 )
 
