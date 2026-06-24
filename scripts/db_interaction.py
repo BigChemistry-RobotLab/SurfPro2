@@ -446,7 +446,7 @@ def ingest_flag_annotations(DB_PATH, DATA_ROOT):
                         AND m.citation_id = i.citation_id
                     WHERE
                         p.name = ?
-                        AND ABS(m.value - ?) < 1e-12
+                        AND ABS(m.value - ?) < 2e-12
                         AND meth.name = ?
                         AND ABS(m.temperature - ?) < 0.01
                         AND i.identifier = ?
