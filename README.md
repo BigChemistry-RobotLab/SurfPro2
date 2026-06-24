@@ -33,6 +33,11 @@ The database will then be created in the `target` directory (`target/surfpro.db`
 The database can then be browsed using standard SQLite browser software (e.g. [DB Browser for SQLite](https://sqlitebrowser.org/)), or interacted with via Python's `sqlite3`.
 Example scripts and queries to extract subsets of the data are give in the `scripts` and `queries` directories, respectively.
 
+## Extracting Database Subsets
+
+The `scripts` directory and the `queries` directory contain examples of how to extract useful subsets of SurfPro2.
+For example, an ML-ready subset of SurfPro2 containing each compound entry as a row with property ($\text{CMC}$, $\gamma_{\text{CMC}}$, $C_{20}$ and $\Gamma_{\text{max}}$), citation and temperature data annotated is given in `scripts/extract`
+
 ## Updating the Database
 
 The database is updated by modifying or creating files in `data/sources/<ref_key>/source_data`, and creating or updating the file `data/sources/<ref_key>/process_data.py`.
