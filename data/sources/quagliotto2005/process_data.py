@@ -44,9 +44,7 @@ df["CMC"] = df["cmc (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 df["Area_min"] = df["Amin (Å2)"] / 100
 
-# Calculate Gamma_max based on equation (2) of the paper
-# A_min (Å2) = 10^16/Γ_cmc N_A
-df["Gamma_max"] = 10**18 / (df["Area_min"] * 6.02214076*10**23)
+df["Gamma_max"] = df["Γmax (mol cm-2)"] * 10**4
 
 df = df.drop(
     columns=[
