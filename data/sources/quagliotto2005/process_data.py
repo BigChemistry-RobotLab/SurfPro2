@@ -46,11 +46,10 @@ df["Area_min"] = df["Amin (Å2)"] / 100
 
 # Calculate Gamma_max based on equation (2) of the paper
 # A_min (Å2) = 10^16/Γ_cmc N_A
-df["Gamma_max"] = 10**16 / (df["Amin (Å2)"] * 6.02214076*10**23)
+df["Gamma_max"] = 10**18 / (df["Area_min"] * 6.02214076*10**23)
 
 df = df.drop(
     columns=[
-        "compd",
         "cmc (mM)",
         "cmc/C20",
         "Γmax (mol cm-2)",
@@ -58,6 +57,7 @@ df = df.drop(
 )
 df = df.rename(
     columns={
+        "compd": "identifier",
         "γcmc (mN/m)": "AW_ST_CMC",
     }
 )
