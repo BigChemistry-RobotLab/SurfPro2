@@ -284,16 +284,28 @@ def upsert_measurement(row, compound_id, source_id, cited_id, source_file, curso
     # (compound_id, property_type, value, temperature, source_id, cited_id)
 
     for property_type in PROPERTY_INFO:
-        value = row.get(property_type)
         unit, dimension, property_name, latex_name, latex_unit = PROPERTY_INFO.get(
             property_type
         )
+
+        method = row.get("method")
+
+        if not method:
+            method = None
+
+        value = row.get(property_type)
+
+        try:
+            value = float(value)
+        except (TypeError, ValueError):
+            continue
+
         temperature = row.get("Temp_Celsius")
 
-        if temperature == "":
+        try:
+            temperature = float(temperature) if temperature else None
+        except (TypeError, ValueError):
             temperature = None
-
-        method = row.get("method", "")
 
         if value is None or value == "":
             continue
@@ -346,12 +358,16 @@ def insert_or_update_row(row, source_file, cursor, bib_database):
 def ingest_file(data_file, DB_PATH, bib_by_doi):
     with sqlite3.connect(DB_PATH) as connection:
         cursor = connection.cursor()
-        cursor.execute("PRAGMA foreign_keys = ON")
-        with open(data_file, "r", encoding="utf-8") as file:
-            reader = csv.DictReader(file)
-            for row in reader:
-                insert_or_update_row(row, data_file.name, cursor, bib_by_doi)
-        connection.commit()
+        try:
+            cursor.execute("PRAGMA foreign_keys = ON")
+            with open(data_file, "r", encoding="utf-8") as file:
+                reader = csv.DictReader(file)
+                for row in reader:
+                    insert_or_update_row(row, data_file.name, cursor, bib_by_doi)
+            connection.commit()
+        except Exception:
+            connection.rollback()
+            raise
 
 
 def add_surfactant_types(DB_PATH):
@@ -422,6 +438,91 @@ def upsert_measurement_flag(measurement_id, flag_id, cursor):
     return cursor.fetchone()[0]
 
 
+def find_measurement_id(cursor, annot, tol_value=0.01, tol_temp=0.01):
+    """
+    Find a unique measurement_id matching the annotation.
+
+    Parameters
+    ----------
+    annot : dict with keys:
+        property, value, method, temperature, identifier
+    tol_value : float
+        tolerance for value comparison
+    tol_temp : float
+        tolerance for temperature comparison
+
+    Returns
+    -------
+    measurement_id : int
+
+    Raises
+    ------
+    ValueError if no match or ambiguous match
+    """
+
+    required = ["property", "value", "method", "temperature", "identifier"]
+    for key in required:
+        if key not in annot:
+            raise ValueError(f"Missing required annotation field: {key}")
+
+    try:
+        value = float(annot["value"])
+    except (TypeError, ValueError):
+        raise ValueError(f"Invalid value: {annot['value']}")
+
+    try:
+        temperature = (
+            float(annot["temperature"])
+            if annot["temperature"] not in (None, "")
+            else None
+        )
+    except (TypeError, ValueError):
+        temperature = None
+
+    query = """
+        SELECT DISTINCT m.measurement_id
+        FROM measurements m
+        JOIN property_types p USING(property_type_id)
+        LEFT JOIN methods meth USING(method_id)
+        JOIN identifiers i
+            ON m.compound_id = i.compound_id
+            AND i.citation_id = m.citation_id
+        WHERE
+            p.name = ?
+            AND ABS(m.value - ?) < ?
+            AND (meth.name = ? OR (? IS NULL AND meth.name IS NULL))
+            AND (
+                (? IS NULL AND m.temperature IS NULL)
+                OR ABS(m.temperature - ?) < ?
+            )
+            AND i.identifier = ?
+    """
+
+    params = (
+        annot["property"],
+        value,
+        tol_value,
+        annot["method"],
+        annot["method"],
+        temperature,
+        temperature,
+        tol_temp,
+        annot["identifier"],
+    )
+
+    cursor.execute(query, params)
+    results = cursor.fetchall()
+
+    # --- enforce uniqueness ---
+    if len(results) == 0:
+        raise ValueError(f"No measurement found for annotation: {annot}")
+
+    if len(results) > 1:
+        raise ValueError(f"Ambiguous measurement match ({len(results)} rows): {annot}")
+
+    return results[0][0]
+
+
 def ingest_flag_annotations(DB_PATH, DATA_ROOT):
     source_dir = DATA_ROOT / "annotations"
     with sqlite3.connect(DB_PATH) as connection:
@@ -436,43 +537,18 @@ def ingest_flag_annotations(DB_PATH, DATA_ROOT):
             for ref in annotations:
                 ref_annotations = annotations[ref]
                 for annot in ref_annotations:
-                    # get measurement id
-                    cursor.execute(
-                    """
-                    SELECT measurement_id, m.source_file
-                    FROM measurements m
-                    LEFT JOIN property_types p USING(property_type_id)
-                    LEFT JOIN methods meth USING(method_id)
-                    LEFT JOIN identifiers i
-                        ON m.compound_id = i.compound_id
-                        AND m.citation_id = i.citation_id
-                    WHERE
-                        p.name = ?
-                        AND ABS(m.value - ?) < 2e-12
-                        AND meth.name = ?
-                        AND ABS(m.temperature - ?) < 0.01
-                        AND i.identifier = ?
-                    """,
-                        (
-                            annot["property"],
-                            annot["value"],
-                            annot["method"],
-                            annot["temperature"],
-                            annot["identifier"],
-                        ),
-                    )
 
-                    result = cursor.fetchall()
-                    if result:
-                        measurement_id = result[0][0]
-                    else:
-                        raise ValueError(f"{annot} not found in database.")
+                    measurement_id = find_measurement_id(
+                        cursor, annot, tol_value=2e-12, tol_temp=0.1
+                    )
 
                     # get flag_id
                     flag_id = upsert_flag(annot["flag"], "", cursor)
 
                     # insert flagged entry
-                    measurement_flag_id = upsert_measurement_flag(measurement_id, flag_id, cursor)
+                    measurement_flag_id = upsert_measurement_flag(
+                        measurement_id, flag_id, cursor
+                    )
 
 
 def main():
