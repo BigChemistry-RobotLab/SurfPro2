@@ -1,1 +1,3 @@
-The value or for Γmax (mol cm-2) has been excluded from the processed data, as the units are drastically unfeasible.
+The reported values for Γmax (mol cm-2) have been excluded from the processing, as the units are drastically unfeasible.
+A conversion factor is likely missing from the column.
+The value for Gamma_max has been calculated based on the values for Amin (Å2) using a rearranged version of Equation 2 from the source text.
