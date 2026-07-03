@@ -224,12 +224,13 @@ def upsert_method(method, cursor):
     RETURNING method_id;
     """
 
-    cursor.execute(
-        query,
-        (method,),
-    )
+    if method is not None and method.strip():
+        cursor.execute(
+            query,
+            (method,),
+        )
 
-    return cursor.fetchone()[0]
+        return cursor.fetchone()[0]
 
 
 
@@ -289,9 +290,6 @@ def upsert_measurement(row, compound_id, source_id, cited_id, source_file, curso
         )
 
         method = row.get("method")
-
-        if not method:
-            method = None
 
         value = row.get(property_type)
 
@@ -537,7 +535,6 @@ def ingest_flag_annotations(DB_PATH, DATA_ROOT):
             for ref in annotations:
                 ref_annotations = annotations[ref]
                 for annot in ref_annotations:
-
                     measurement_id = find_measurement_id(
                         cursor, annot, tol_value=2e-12, tol_temp=0.1
                     )
