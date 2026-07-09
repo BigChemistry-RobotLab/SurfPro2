@@ -53,13 +53,14 @@ We have applied the following rules to transcribing structures:
 
 ### Compounds containing a single, undefined chiral centre
 
-There are many synthesis reported in the database which synthesis compounds which contain a single chiral centre in the absence of chiral catalysts or enantiomerically pure starting materials.
+There are many syntheses reported in the database which synthesise compounds containing a single chiral centre in the absence of chiral catalysts or enantiomerically pure starting materials.
 In these cases, an enantiomeric mixture is implicit.
 These structures have been transcribed without stereochemical annotations.
 
 ### Compounds containing more than one undefined chiral centre
 
-Structures which are reported as enantiomeric mixtures, but which have more than one chiral centre (thus implying the potential for stereoisomers) have been transcribed as structural pairs enantiomers.
+Structures which are reported as enantiomeric mixtures, but which have more than one chiral centre (thus implying the potential for stereoisomers) have been transcribed as structural pairs of enantiomers.
+
 This reporting method prevents ambiguity between physically different stereoisomers.
 
 ### Enumerating Stereoisomers
