@@ -7,7 +7,7 @@ config = toml.loads(Path("config.toml").read_text())
 
 DB_PATH = config["DB_PATH"]
 
-query = Path("queries/extract_surfpro.sql").read_text()
+query = Path("queries/extract_ml_subset.sql").read_text()
 
 if not Path(DB_PATH).is_file():
     print(DB_PATH, "does not yet exist. Try building it first.")
