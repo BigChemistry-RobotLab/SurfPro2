@@ -1,57 +1,39 @@
-WITH first_reports_of_values AS (
-    SELECT
-        m.compound_id,
-        m.property_type_id,
-        m.value,
-        m.temperature,
-        ROUND(COALESCE(m.temperature, -9999), 0) AS rounded_temp,
-        l.date AS publication_year,
-        l.doi,
-        l.keyid,
-        ROW_NUMBER() OVER (
-            PARTITION BY
-                m.compound_id,
-                m.property_type_id,
-                m.value,
-                ROUND(COALESCE(m.temperature, -9999), 0)
-            ORDER BY l.date ASC, m.created_at ASC, m.measurement_id ASC
-        ) AS rn
-    FROM measurements m
-    JOIN citations c ON m.citation_id = c.citation_id
-    JOIN literature l ON c.source_id = l.literature_id
-),
-independent_measurements_only AS (
+WITH unique_identifiers AS (
     SELECT
         compound_id,
-        property_type_id,
-        value,
-        temperature,
-        rounded_temp,
-        publication_year,
-        doi,
-        keyid,
-        COUNT(*) OVER (
-            PARTITION BY
-                compound_id,
-                property_type_id,
-                rounded_temp
-        ) AS total_independent_values
-    FROM first_reports_of_values
-    WHERE rn = 1
+        identifier
+    FROM identifiers
+    GROUP BY compound_id
 )
 SELECT
-    comp.SMILES,
-    p.name AS property_name,
-    im.temperature AS exact_temperature,
-    im.value,
-    im.publication_year,
-    im.keyid
-FROM independent_measurements_only im
-JOIN property_types p ON im.property_type_id = p.property_type_id
-JOIN compounds comp ON im.compound_id = comp.compound_id
-WHERE im.total_independent_values > 1
-ORDER BY
-    im.compound_id ASC,
-    p.name ASC,
-    im.rounded_temp ASC,
-    im.publication_year ASC;
+    c.compound_id,
+    i.identifier,
+    c.SMILES,
+    p.name,
+    m.value,
+    meth.name as method,
+    m.temperature,
+    l.doi,
+    l.keyid
+FROM measurements m
+LEFT JOIN compounds c ON c.compound_id = m.compound_id
+LEFT JOIN citations cit ON m.citation_id = cit.citation_id
+LEFT JOIN literature l ON cit.source_id = l.literature_id
+LEFT JOIN unique_identifiers i ON i.compound_id = m.compound_id
+LEFT JOIN property_types p ON m.property_type_id = p.property_type_id
+LEFT JOIN methods meth ON meth.method_id = m.method_id
+WHERE p.name = "CMC"
+AND ABS(m.temperature - 25.0) < 1.0
+AND cit.cited_id IS NULL
+AND m.compound_id IN (
+    SELECT
+        compound_id
+    FROM measurements m2
+    LEFT JOIN citations cit2 USING(citation_id)
+    LEFT JOIN property_types p2 USING(property_type_id)
+    WHERE cit2.cited_id IS NULL
+    AND p2.name = "CMC"
+    AND ABS(m2.temperature - 25.0) < 1.0
+    GROUP BY m2.compound_id
+    HAVING COUNT(*) > 3
+);
