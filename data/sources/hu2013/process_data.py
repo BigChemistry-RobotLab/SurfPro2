@@ -35,6 +35,7 @@ df["CMC"] = df["CMC (mmol/L)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 
 df["Gamma_max"] = df["Γmax (μmol/m2)"]/1000000
+df["C20"] = 10**-df["pC20 (mol/L)"]
 
 df = df.rename(
     columns={
