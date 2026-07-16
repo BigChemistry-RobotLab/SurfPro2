@@ -99,7 +99,7 @@ where $n$ is an integer constant, $\gamma$ is surface tension, $C$ is the surfac
 The equation for $\text{Area}_{min}$ (in $\text{nm}^2$) is:
 
 $$
-\text{Area}_{\text{min}}/ \text{nm}^2 = \frac{10^18 \text{nm}^2/m^2}{N_A/ \text{mol} \Gamma_{\text{max}}/ \text{mol}/m^2}
+\text{Area}_{\text{min}}/ \text{nm}^2 = \frac{10^{18} \text{nm}^2/m^2}{N_A/ \text{mol } \Gamma_{\text{max}}/ \text{mol}/m^2}
 $$
 
 where $N_A$ is Avogadro's number.
@@ -140,7 +140,7 @@ While free-form, notes should be used whenever curation involves judgement or lo
 ## Literature
 
 Although DOIs are used as unique identifiers for literature sources, BibTeX-style keys are used for directory and file naming.
-However, the repository aslo makes use of BibTeX-style literature keys for directory and file naming.
+However, the repository also makes use of BibTeX-style literature keys for directory and file naming.
 Therefore, when adding a new literature source, care should be taken that the keys for any new sources added do not clash with those already in `CMC_database.bib`, and that the existing keys are not changed by updates.
 This situation is not convenient, but the benefit of using BibTeX keys during curation is too great to pass over in favour of DOIs, for example.
 
