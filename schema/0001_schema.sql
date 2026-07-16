@@ -103,6 +103,7 @@ CREATE TABLE IF NOT EXISTS methods (
 CREATE TABLE IF NOT EXISTS property_types (
     property_type_id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT UNIQUE NOT NULL,
+    latex_math_text TEXT,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
@@ -111,6 +112,7 @@ CREATE TABLE IF NOT EXISTS units (
     unit_id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT UNIQUE NOT NULL,
     dimension TEXT, -- e.g. concentration, surface_tension
+    latex_math_text TEXT,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
