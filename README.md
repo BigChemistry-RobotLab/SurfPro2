@@ -1,4 +1,4 @@
-# SurfPro2.0
+# SurfPro2
 
 This is the second major version of the [SurfPro](https://github.com/BigChemistry-RobotLab/SurfPro) database, SurfPro2.
 SurfPro2 is a curated database of surfactant physicochemical properties and associated molecular structures, assembled from the scientific literature.
@@ -94,7 +94,7 @@ BibTex:
 }
 ```
 
-## Contributors to SurfPro2.0
+## Contributors to SurfPro2
 
 This database has been assembled and curated by:
 

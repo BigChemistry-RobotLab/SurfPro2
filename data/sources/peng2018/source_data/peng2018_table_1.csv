@@ -1,0 +1,7 @@
+Name,cmc (mmol/L),γmcc (mN/m),Γmaxd (*10−5 mol/m2),Amine (nm2),method,source_doi,reference_doi,SMILES,Temp_Celsius
+C9F19AM,0.23,14.58,2.63,0.06,tensiometry,10.1016/j.apsusc.2017.10.012,,FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(=O)NCCCN(C)C,25.0
+C9F19AM,0.32,,,,fluorimetry,10.1016/j.apsusc.2017.10.012,,FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(=O)NCCCN(C)C,25.0
+C9F19AE,0.12,15.37,1.65,0.10,tensiometry,10.1016/j.apsusc.2017.10.012,,FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(=O)NCCCN(CC)CC,25.0
+C9F19AE,0.15,,,,fluorimetry,10.1016/j.apsusc.2017.10.012,,FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(=O)NCCCN(CC)CC,25.0
+C9F19AB,2.58,16.14,0.50,0.33,tensiometry,10.1016/j.apsusc.2017.10.012,,FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(=O)NCCCN(CCCC)CCCC,25.0
+C9F19AB,2.84,,,,fluorimetry,10.1016/j.apsusc.2017.10.012,,FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(=O)NCCCN(CCCC)CCCC,25.0

@@ -1,0 +1,5 @@
+Temperature annotations have been added based on inspection the cited literature.
+All values quoted are assumed to have been recorded at 40 °C, unless otherwise noted in the table.
+This assignmet is based on the statement:
+'The experimental determination of cmc for most of the anionic surfactants was at 25 °C or at 40 °C.'
+See also li2004 (10.1016/j.theochem.2004.08.039).

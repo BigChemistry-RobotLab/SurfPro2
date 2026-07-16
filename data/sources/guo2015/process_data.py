@@ -36,7 +36,7 @@ df["pCMC"] = -np.log10(df.CMC)
 
 df["Gamma_max"] = df["Γmax (μmol/m2)"] / 10**6
 
-df["Temp_Celcius"] = df["T (K)"] - 272.15
+df["Temp_Celsius"] = df["T (K)"] - 272.15
 
 df = df.rename(
     columns={

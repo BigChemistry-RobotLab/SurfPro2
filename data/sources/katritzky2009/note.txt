@@ -1,0 +1,1 @@
+Temperature and method annotations were added based on inspection of the cited literature sources.

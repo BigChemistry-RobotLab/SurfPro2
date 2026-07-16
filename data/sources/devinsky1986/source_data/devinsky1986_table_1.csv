@@ -1,4 +1,4 @@
-Compound,R,X,CMC/ mol/dm3,γcmc/ mN/m,-(dγ/dlogc)T,Γmax x 10^6/ mol/m2,F x 10^20/ m2,-ΔGm/ kJ/mol,(nCH2)eq,I,source_doi,SMILES,reference_doi,Temp_Celsius,
+Compound,R,X,CMC/ mol/dm3,γcmc/ mN/m,-(dγ/dlogc)T,Γmax x 10^6/ mol/m2,F x 10^20/ m2,-ΔGm/ kJ/mol,(nCH2)eq,I,source_doi,SMILES,reference_doi,Temp_Celsius,method
 I,Hexyl,CH2,0.42,42.4,15.54,1.38,119.9,2.1,,,10.1016/0021-9797(86)90417-0,C[N+](C)(CCCCCC)CCCCCCC[N+](C)(CCCCCC)C.[Br-].[Br-],,20,tensiometry
 II,Octyl,CH2,0.049,40.3,15.95,1.42,116.9,7.4,,,10.1016/0021-9797(86)90417-0,C[N+](C)(CCCCCCCC)CCCCCCC[N+](C)(CCCCCCCC)C.[Br-].[Br-],,20,tensiometry
 III,Nonyl,CH2,0.015,39.7,14.38,1.28,129.6,10.3,,,10.1016/0021-9797(86)90417-0,C[N+](C)(CCCCCCCCC)CCCCCCC[N+](C)(CCCCCCCCC)C.[Br-].[Br-],,20,tensiometry

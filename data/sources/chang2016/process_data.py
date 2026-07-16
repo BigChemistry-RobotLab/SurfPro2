@@ -3,21 +3,24 @@ import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 
-SOURCE_FILE = "source_data/wei2014.csv"
-PROCESSED_FILE = "processed_data/wei2014.csv"
+SOURCE_FILE = "source_data/chang2016_table_1.csv"
+PROCESSED_FILE = "processed_data/chang2016.csv"
 
 df = pd.read_csv(SOURCE_FILE)
 
-df["CMC"] = df["CMC mmol/kg"] / 1000
+df["CMC"] = df["CMC (mmol/L)"] / 1000
+df["Gamma_max"] = df["1010Γmax (mol/cm2)"] / 10**6
 
 replace_columns = {
-    "γCMC/ mN/m": "AW_ST_CMC",
-    "ILs": "identifier",
-    "∏CMC/ mN/m": "Pi_CMC",
+    "Cn-OH": "identifier",
+    "γcmc (mN/m)": "AW_ST_CMC",
+    "Amin/(nm2)": "Area_min",
 }
 
 drop_columns = [
-    "CMC mmol/kg",
+    "CMC (mmol/L)",
+    "∂γ/∂ln C",
+    "1010Γmax (mol/cm2)",
 ]
 
 df = df.rename(columns=replace_columns)

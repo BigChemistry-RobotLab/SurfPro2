@@ -42,8 +42,6 @@ df["InChI"] = inchi_list
 
 df["CMC"] = df["cmc (mM)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
-# Incorrect units in paper?
-# df["Gamma_max"] = df["Γmax (mol cm-2)"] * 1000
 df["Area_min"] = df["Amin (Å2)"] / 100
 
 df["Gamma_max"] = df["Γmax (mol cm-2)"] * 10**4

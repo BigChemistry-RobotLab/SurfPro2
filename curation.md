@@ -1,8 +1,8 @@
 # Curation Details
 
-This document details how curation has been performed for the SurfPro2.0 database.
+This document details how curation has been performed for the SurfPro2 database.
 Data curation is inherently non-trivial and involves judgement and interpretation.
-The details below provide users and curators with transparency and guidance on how the data in SurfPro2.0 were aggregated.
+The details below provide users and curators with transparency and guidance on how the data in SurfPro2 were aggregated.
 These rules serve as guidelines rather than strict guarantees.
 The presence of a curation rule does not imply that every data point in SurfPro2 strictly adheres to it, particularly for older entries.
 Rather, these guidelines are recorded here to aid curation and addition of new data to the database going forward.

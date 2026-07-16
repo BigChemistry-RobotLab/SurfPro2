@@ -13,7 +13,7 @@ df2 = pd.read_csv(SOURCE_FILE_2)
 df = pd.concat([df1, df2], axis=0)
 
 df["CMC"] = df["cmc (mM)"] / 1000
-df["Gamma_max"] = df["Γmax (mol/Å2) (10 10)"] / 10**10
+df["Gamma_max"] = df["Γmax (mol/Å2) (10-10)"] / 10**10
 df["Area_min"] = df["Amin (Å2)"] / 100
 df["C20"] = df["C20 (mM)"] / 1000
 
@@ -31,7 +31,7 @@ drop_columns = [
     "cmc (mM)",
     "cmc conductivity non-linear fit (mM)",
     "cmc/C20",
-    "Γmax (mol/Å2) (10 10)",
+    "Γmax (mol/Å2) (10-10)",
     "β (%)",
     "β at discontinuity conductivity",
     "β conductivity non-linear fit (%)",
