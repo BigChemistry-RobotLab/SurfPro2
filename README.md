@@ -1,7 +1,9 @@
 # SurfPro2.0
 
-This is the second major version of the [SurfPro](https://github.com/BigChemistry-RobotLab/SurfPro) database, SurfPro2.0.
-This database is provided in the form of:
+This is the second major version of the [SurfPro](https://github.com/BigChemistry-RobotLab/SurfPro) database, SurfPro2.
+SurfPro2 is a curated database of surfactant physicochemical properties and associated molecular structures, assembled from the scientific literature.
+This repository contains the source data, curation workflows, and scripts required to reproduce the SurfPro2 SQLite database.
+This database contains:
 
 - a set of source files (found in `data/sources/<ref_key>/source_data/`),
 - a set of accompanying curation scripts (`data/sources/<ref_key>/process_data.py` in each source directory) which output processed data (`data/sources/<ref_key>/processed_data/<ref_key>.csv`),
@@ -10,18 +12,29 @@ This database is provided in the form of:
 Each measurement has provenance as far back as we could trace the values in the literature.
 The database also incorporates a citation file (`data/CMC_database.bib`), and a manually assembled data citation graph (`data/citation_graph.json`).
 
-The schema for the database are given in `schema`.
-Relative paths for the various components in the SurfPro2.0 database are stored in `config.toml`.
+The schema for the database is given in `schema`.
+Relative paths for the various components in the SurfPro2 database are stored in `config.toml`.
 
-## Installing Dependencies
+## Getting started
 
-The scripts in this repository run using Python 3.12.11.
+To build SurfPro2 yourself, please follow the steps below.
+
+### Obtain a copy of the repository
+
+You can either clone the repository (`git clone https://github.com/BigChemistry-RobotLab/SurfPro2.0.git`) or download it.
+Once you have it on your computer, navigate to the SurfPro2 directory in your command line (the directory which contains this file).
+
+### Install Dependencies
+
+The scripts in this repository have been tested with Python 3.12.
+The dependencies can be installed by running the command below.
+Consider creating a virtual environment first (e.g. using anaconda/miniconda/mamba, UV, or venv, as you prefer).
 
 ```
 pip install -r requirements.txt
 ```
 
-## Building the Database
+### Build the Database
 
 After installing the dependencies, run the following command to build the database:
 
@@ -29,20 +42,54 @@ After installing the dependencies, run the following command to build the databa
 python scripts/initialise_database.py
 ```
 
-The database will then be created in the `target` directory (`target/surfpro.db`).
+This command runs a script which reads all of the curated data files, and compiles the data in them into the SurfPro2 database.
+It should only take a short time to run (<2 minutes).
+The resulting database will saved in the `target` directory (`target/surfpro.db`).
 The database can then be browsed using standard SQLite browser software (e.g. [DB Browser for SQLite](https://sqlitebrowser.org/)), or interacted with via Python's `sqlite3`.
-Example scripts and queries to extract subsets of the data are give in the `scripts` and `queries` directories, respectively.
+Example scripts and queries to extract subsets of the data are given in the `scripts` and `queries` directories, respectively.
 
 ## Extracting Database Subsets
 
-The `scripts` directory and the `queries` directory contain examples of how to extract useful subsets of SurfPro2.
-For example, an ML-ready subset of SurfPro2 containing each compound entry as a row with property ($\text{CMC}$, $\gamma_{\text{CMC}}$, $C_{20}$ and $\Gamma_{\text{max}}$), citation and temperature data annotated is given in `scripts/extract`
+The `scripts` directory and the `queries` directory contain examples of how to extract useful subsets of SurfPro2 using SQL and Python.
+For example, an ML-ready subset of SurfPro2 containing each compound entry as a row with property ($\text{CMC}$, $\gamma_{\text{CMC}}$, $C_{20}$ and $\Gamma_{\text{max}}$), citation and temperature data annotated is given in `scripts/extract_ml_subset.py`.
 
 ## Updating the Database
 
 The database is updated by modifying or creating files in `data/sources/<ref_key>/source_data`, and creating or updating the file `data/sources/<ref_key>/process_data.py`.
 Running the `process_data.py` script in its parent directory should process the source data into a standardised file in the `processed_data` directory.
-Please see `curation.md` for guidance on how to curate the database.
+Please see [`curation.md`](./curation.md) for guidance on how to curate the database.
+
+## Licence
+
+SurfPro2 is distributed under the CC BY-NC-SA 4.0 licence. See LICENSE for details.
+
+## Citation
+
+If you use SurfPro2 in academic work, please cite:
+
+Citation:
+
+Hödl, Stefan L., Luc Hermans, Pim F. J. Dankloff, Aigars Piruska, Wilhelm T. S. Huck, and William E. Robinson. ‘SurfPro – a Curated Database and Predictive Model of Experimental Properties of Surfactants’. Digital Discovery 4, no. 5 (2025): 1176–87. https://doi.org/10.1039/D4DD00393D.
+
+BibTex:
+
+```
+@article{hodl2025,
+  title = {{{SurfPro}} – a Curated Database and Predictive Model of Experimental Properties of Surfactants},
+  author = {Hödl, Stefan L. and Hermans, Luc and Dankloff, Pim F. J. and Piruska, Aigars and Huck, Wilhelm T. S. and Robinson, William E.},
+  date = {2025},
+  journaltitle = {Digital Discovery},
+  shortjournal = {Digit. Discov.},
+  volume = {4},
+  number = {5},
+  pages = {1176--1187},
+  issn = {2635-098X},
+  doi = {10.1039/D4DD00393D},
+  url = {https://xlink.rsc.org/?DOI=D4DD00393D},
+  urldate = {2026-02-22},
+  langid = {english}
+}
+```
 
 ## Contributors to SurfPro2.0
 
@@ -50,5 +97,5 @@ This database has been assembled and curated by:
 
 - William E. Robinson
 - Stefan L. Hödl
-- Pim Dankloff
-- Alexander Korotkevich
+- Pim F. J. Dankloff
+- Alexander A. Korotkevich
