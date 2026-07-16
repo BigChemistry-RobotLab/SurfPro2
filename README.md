@@ -59,9 +59,12 @@ The database is updated by modifying or creating files in `data/sources/<ref_key
 Running the `process_data.py` script in its parent directory should process the source data into a standardised file in the `processed_data` directory.
 Please see [`curation.md`](./curation.md) for guidance on how to curate the database.
 
-## Licence
+## License
 
-SurfPro2 is distributed under the CC BY-NC-SA 4.0 licence. See LICENSE for details.
+SurfPro2 is distributed under the CC BY-NC-SA 4.0 license.
+See LICENSE.txt for details.
+This is a non-commercial license.
+If you would like you use these data for commercial purposes, please contact Dr. William E. Robinson or Prof. Wilhelm T. S. Huck.
 
 ## Citation
 
@@ -74,7 +77,7 @@ Hödl, Stefan L., Luc Hermans, Pim F. J. Dankloff, Aigars Piruska, Wilhelm T. S.
 BibTex:
 
 ```
-@article{hodl2025,
+@article{hoedl2025,
   title = {{{SurfPro}} – a Curated Database and Predictive Model of Experimental Properties of Surfactants},
   author = {Hödl, Stefan L. and Hermans, Luc and Dankloff, Pim F. J. and Piruska, Aigars and Huck, Wilhelm T. S. and Robinson, William E.},
   date = {2025},
