@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 
@@ -43,6 +44,12 @@ df["CMC"] = df["CMC 10-5M"] * 10**-5
 df["AW_ST_CMC"] = df["γcmc(mN m-1)"]
 df["Gamma_max"] = df["Γmax(lmol m-2)"] * 1e-6
 df["Area_min"] = df["A min(Å2)"] / 100
+
+if "pC20" in df.columns:
+    df["C20"] = 10**-df.pC20
+elif "C20" in df.columns:
+    df["pC20"] = -np.log10(df.C20)
+
 df = df[df.SMILES != ""]
 
 df = df.rename(columns={"code": "identifier"})
