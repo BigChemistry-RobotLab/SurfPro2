@@ -30,6 +30,11 @@ df["InChI"] = inchi_list
 df["CMC"] = df["cmc (mmol/dm3)"] / 10000
 df["pCMC"] = -np.log10(df.CMC)
 
+if "pC20" in df.columns:
+    df["C20"] = 10**-df.pC20
+elif "C20" in df.columns:
+    df["pC20"] = -np.log10(df.C20)
+
 df["Gamma_max"] = df["Γcmc (10^6 mol/m2)"] / 1000000
 
 df = df.rename(
