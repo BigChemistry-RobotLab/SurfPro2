@@ -33,6 +33,11 @@ df["pCMC"] = -np.log10(df.CMC)
 df["Area_min"] = df["Amin (A2)"] / 100
 df["Gamma_max"] = df["Γmax 10^11 (mol/cm2)"] / 10**7
 
+if "pC20" in df.columns:
+    df["C20"] = 10**-df.pC20
+elif "C20" in df.columns:
+    df["pC20"] = -np.log10(df.C20)
+
 df = df.rename(
     columns={
         "Compound": "identifier",
