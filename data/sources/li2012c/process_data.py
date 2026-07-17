@@ -69,7 +69,11 @@ df["Gamma_max"] = df["Γcmc (μmol m−2)"] / 1000000
 df["Temp_Celsius"] = 20.0
 df["CMC"] = df["CMC (mmol dm−3)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
-df["C20"] = df["CMC"] / df["CMC/pC20"]
+
+if "pC20" in df.columns:
+    df["C20"] = 10**-df.pC20
+elif "C20" in df.columns:
+    df["pC20"] = -np.log10(df.C20)
 
 df = df.rename(
     columns={
