@@ -24,7 +24,7 @@ SELECT
     row_number() OVER (
         PARTITION BY SMILES, property
         ORDER BY
-            year DESC, -- prefer most recent reported values
+            year ASC, -- prefer oldest reported values
             (method_name IS NOT NULL) DESC, -- prefer annotated methods
             (method_name = 'tensiometry') DESC, -- prefer tensiometry
             (temperature IS NULL), -- prefer a temperature annotation
