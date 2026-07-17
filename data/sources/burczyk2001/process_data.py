@@ -55,6 +55,11 @@ df = df.rename(
 
 df["pCMC"] = -np.log10(df.CMC)
 
+if "pC20" in df.columns:
+    df["C20"] = 10**-df.pC20
+elif "C20" in df.columns:
+    df["pC20"] = -np.log10(df.C20)
+
 df = df.drop(
     columns=[
         "10^6 Γmax (mol/m2)",
