@@ -30,6 +30,11 @@ df["Molecular_Weight"] = mol_wts
 df["Gamma_max"] = df["106 Γcmc (mol/m2)"] / 1000000
 df["Area_min"] = (10**18) * (df["1020 A (m2)"] / 10**20)
 
+if "pC20" in df.columns:
+    df["C20"] = 10**-df.pC20
+elif "C20" in df.columns:
+    df["pC20"] = -np.log10(df.C20)
+
 df = df.rename(
     columns={
         "Surfactant": "identifier",
