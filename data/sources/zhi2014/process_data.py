@@ -31,6 +31,11 @@ df["pCMC"] = -np.log10(df.CMC)
 df["Area_min"] = df["Amin (Å2)"] / 100
 df["Gamma_max"] = df["Γmax x 10^-10 (mol cm−2)"] / 10**6
 
+if "pC20" in df.columns:
+    df["C20"] = 10**-df.pC20
+elif "C20" in df.columns:
+    df["pC20"] = -np.log10(df.C20)
+
 df = df.rename(
     columns={
         "Surfactant": "identifier",
