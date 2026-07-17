@@ -17,15 +17,16 @@ WITH full_table AS ( -- 1. create a table for all measurements
     LEFT JOIN measurement_flags m_flag USING(measurement_id)
     LEFT JOIN methods meth USING(method_id)
     WHERE m_flag.data_flag_id IS NULL -- remove flagged data
+    -- AND temperature BETWEEN 20 AND 30 -- optionally: filter temperature range
 ),
 ranked_measurements AS ( -- 2. Rank measurements in the full table
 SELECT
     row_number() OVER (
         PARTITION BY SMILES, property
         ORDER BY
-            year ASC, -- prefer most recent reported values
+            year DESC, -- prefer most recent reported values
             (method_name IS NOT NULL) DESC, -- prefer annotated methods
-            (method_name = "tensiometry") DESC, -- prefer tensiometry
+            (method_name = 'tensiometry') DESC, -- prefer tensiometry
             (temperature IS NULL), -- prefer a temperature annotation
             ABS(temperature - 25.0) ASC -- prefer temperature closer to 25.0 °C
     ) as ranking,
