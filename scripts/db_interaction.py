@@ -78,8 +78,7 @@ def upsert_literature(lit_entry, cursor):
         urldate=COALESCE(excluded.urldate, literature.urldate),
         abstract=COALESCE(excluded.abstract, literature.abstract),
         langid=COALESCE(excluded.langid, literature.langid),
-        keyid=COALESCE(excluded.keyid, literature.keyid),
-        updated_at=CURRENT_TIMESTAMP
+        keyid=COALESCE(excluded.keyid, literature.keyid)
     RETURNING literature_id;
     """
 
@@ -117,8 +116,7 @@ def upsert_literature_note(contents, literature_id, cursor):
     )
     VALUES (?, ?)
     ON CONFLICT(literature_id) DO UPDATE SET
-        content = excluded.content,
-        updated_at = CURRENT_TIMESTAMP
+        content = excluded.content
     RETURNING note_id;
     """
     # Execute and return the ID (New or Existing)
@@ -154,8 +152,7 @@ def upsert_compound(row, cursor):
         SMILES=COALESCE(excluded.SMILES, compounds.SMILES),
         Surfactant_Type=COALESCE(excluded.Surfactant_Type, compounds.Surfactant_Type),
         IUPAC_name=COALESCE(excluded.IUPAC_name, compounds.IUPAC_name),
-        Molecular_Weight=COALESCE(excluded.Molecular_Weight, compounds.Molecular_Weight),
-        updated_at=CURRENT_TIMESTAMP
+        Molecular_Weight=COALESCE(excluded.Molecular_Weight, compounds.Molecular_Weight)
     RETURNING compound_id;
     """
 
@@ -184,8 +181,7 @@ def upsert_identifier(row, compound_id, source_id, cited_id, source_file, cursor
         identifier=COALESCE(excluded.identifier, identifiers.identifier),
         citation_id=COALESCE(excluded.citation_id, identifiers.citation_id),
         compound_id=COALESCE(excluded.compound_id, identifiers.compound_id),
-        source_file=COALESCE(excluded.source_file, identifiers.source_file),
-        updated_at=CURRENT_TIMESTAMP
+        source_file=COALESCE(excluded.source_file, identifiers.source_file)
     RETURNING identifier_id;
     """
 
@@ -204,7 +200,9 @@ def upsert_unit(unit, dimension, latex_unit, cursor):
     INSERT INTO units (name, dimension, latex_math_text)
     VALUES (?, ?, ?)
     ON CONFLICT(name) DO UPDATE SET
-        updated_at = CURRENT_TIMESTAMP
+        name = excluded.name,
+        dimension = excluded.dimension,
+        latex_math_text = excluded.latex_math_text
     RETURNING unit_id;
     """
 
@@ -221,7 +219,7 @@ def upsert_method(method, cursor):
     INSERT INTO methods (name)
     VALUES (?)
     ON CONFLICT(name) DO UPDATE SET
-        updated_at = CURRENT_TIMESTAMP
+        name = excluded.name
     RETURNING method_id;
     """
 
@@ -238,8 +236,9 @@ def upsert_citation(source_id, cited_id, cursor):
     query = """
     INSERT INTO citations (source_id, cited_id)
     VALUES (?, ?)
-    ON CONFLICT(source_id, cited_id_norm) DO UPDATE SET
-        updated_at = CURRENT_TIMESTAMP
+    ON CONFLICT(source_id, cited_id_norm)
+    DO UPDATE SET
+        source_id = citations.source_id
     RETURNING citation_id;
     """
 
@@ -253,7 +252,8 @@ def upsert_property_type(name, latex_name, cursor):
     INSERT INTO property_types (name, latex_math_text)
     VALUES (?, ?)
     ON CONFLICT(name) DO UPDATE SET
-        updated_at = CURRENT_TIMESTAMP
+        name = excluded.name,
+        latex_math_text = excluded.latex_math_text
     RETURNING property_type_id;
     """
     cursor.execute(query, (name, latex_name))
@@ -275,12 +275,12 @@ def upsert_measurement(row, compound_id, source_id, cited_id, source_file, curso
     )
     VALUES (?, ?, ?, ?, ?, ?, ?, ?)
     ON CONFLICT (
-        compound_id, property_type_id, value, temperature_norm, method_id, citation_id
+        compound_id, property_type_id, value, temperature_norm, method_id_norm, citation_id
     )
     DO UPDATE SET
         unit_id = COALESCE(excluded.unit_id, measurements.unit_id),
-        source_file = COALESCE(excluded.source_file, measurements.source_file),
-        updated_at = CURRENT_TIMESTAMP;
+        source_file = COALESCE(excluded.source_file, measurements.source_file)
+    RETURNING measurement_id;
     """
     # (compound_id, property_type, value, temperature, source_id, cited_id)
 
@@ -327,6 +327,8 @@ def upsert_measurement(row, compound_id, source_id, cited_id, source_file, curso
             ),
         )
 
+        _ = cursor.fetchone()[0]
+
 
 def insert_or_update_row(row, source_file, cursor, bib_database):
     compound_id = upsert_compound(row, cursor)
@@ -369,7 +371,6 @@ def ingest_file(data_file, DB_PATH, bib_by_doi):
 
 
 def add_surfactant_types(DB_PATH):
-    comp_to_smiles = []
     query = """
     UPDATE compounds
     SET Surfactant_Type = ?
@@ -383,7 +384,6 @@ def add_surfactant_types(DB_PATH):
             reader = csv.DictReader(file)
             for r in reader:
                 cursor.execute(query, (r["Surfactant_Type_1"], r["SMILES"]))
-                comp_to_smiles.append(r)
         connection.commit()
 
 
@@ -400,6 +400,7 @@ def ingest_notes(key, DB_PATH, source_dir, bib_by_key):
         if notes_file.is_file():
             with open(notes_file, "r", encoding="utf-8") as file:
                 upsert_literature_note(file.read(), lit_id, cursor)
+        connection.commit()
 
 
 def upsert_flag(flag_name, description, cursor):
@@ -407,7 +408,8 @@ def upsert_flag(flag_name, description, cursor):
     INSERT INTO data_flags (name, description)
     VALUES (?, ?)
     ON CONFLICT(name) DO UPDATE SET
-        updated_at = CURRENT_TIMESTAMP
+        name = excluded.name,
+        description = excluded.description
     RETURNING data_flag_id;
     """
 
@@ -424,7 +426,8 @@ def upsert_measurement_flag(measurement_id, flag_id, cursor):
     INSERT INTO measurement_flags (measurement_id, data_flag_id)
     VALUES (?, ?)
     ON CONFLICT(measurement_id, data_flag_id) DO UPDATE SET
-        updated_at = CURRENT_TIMESTAMP
+        measurement_id = excluded.measurement_id,
+        data_flag_id = excluded.data_flag_id
     RETURNING measurement_flag_id;
     """
 
@@ -543,7 +546,7 @@ def ingest_flag_annotations(DB_PATH, DATA_ROOT):
                     flag_id = upsert_flag(annot["flag"], "", cursor)
 
                     # insert flagged entry
-                    measurement_flag_id = upsert_measurement_flag(
+                    _ = upsert_measurement_flag(
                         measurement_id, flag_id, cursor
                     )
 
@@ -557,7 +560,7 @@ def main():
     SCHEMA_FILE = Path(config["SCHEMA_FILE"])
 
     if not DB_PATH.parent.is_dir():
-        DB_PATH.mkdir(parents=True, exist_ok=True)
+        DB_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     bibtex_string = Path(LIT_DATABASE).read_text(encoding="utf-8")
     bib_database = bibtexparser.loads(bibtex_string)
