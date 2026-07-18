@@ -1,0 +1,2 @@
+Equation 2 of the main text omits the 2.303 conversion factor between log base 10 and base e.
+The calculations in processed_data.py correct this omission, recalculating Gamma_max and Area_min

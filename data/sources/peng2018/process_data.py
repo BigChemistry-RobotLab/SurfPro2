@@ -8,17 +8,21 @@ PROCESSED_FILE = "processed_data/peng2018.csv"
 
 df = pd.read_csv(SOURCE_FILE)
 
-df["Gamma_max"] = df["Γmaxd (*10−5 mol/m2)"] / 10**5
 df["CMC"] = df["cmc (mmol/L)"] / 1000
+# Equation 2 in the manuscript omits the 2.303 factor for log_10/log_e
+# conversion. The calculations below correct this ommission
+df["Gamma_max"] = df["Γmaxd (*10−5 mol/m2)"] / (2.303 * 10**5)
+NA = 6.02214076 * 10**23
+df["Area_min"] = (10**18) / (NA * df["Gamma_max"])
 
 replace_columns = {
     "Name": "identifier",
-    "Amine (nm2)": "Area_min",
     "γmcc (mN/m)": "AW_ST_CMC",
 }
 
 drop_columns = [
     "cmc (mmol/L)",
+    "Amine (nm2)",
     "Γmaxd (*10−5 mol/m2)",
 ]
 
