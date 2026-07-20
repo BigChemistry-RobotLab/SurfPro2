@@ -1,6 +1,5 @@
 # SurfPro2
 
-This is the second major version of the [SurfPro](https://github.com/BigChemistry-RobotLab/SurfPro) database, SurfPro2.
 SurfPro2 is a curated database of surfactant physicochemical properties and associated molecular structures, assembled from the scientific literature.
 This repository contains the source data, curation workflows, and scripts required to reproduce the SurfPro2 SQLite database.
 This database contains:
@@ -68,31 +67,8 @@ If you would like you use these data for commercial purposes, please contact Dr.
 
 ## Citation
 
-If you use SurfPro2 in academic work, please cite:
-
-Citation:
-
-Hödl, Stefan L., Luc Hermans, Pim F. J. Dankloff, Aigars Piruska, Wilhelm T. S. Huck, and William E. Robinson. ‘SurfPro – a Curated Database and Predictive Model of Experimental Properties of Surfactants’. Digital Discovery 4, no. 5 (2025): 1176–87. https://doi.org/10.1039/D4DD00393D.
-
-BibTex:
-
-```
-@article{hoedl2025,
-  title = {{{SurfPro}} – a Curated Database and Predictive Model of Experimental Properties of Surfactants},
-  author = {Hödl, Stefan L. and Hermans, Luc and Dankloff, Pim F. J. and Piruska, Aigars and Huck, Wilhelm T. S. and Robinson, William E.},
-  date = {2025},
-  journaltitle = {Digital Discovery},
-  shortjournal = {Digit. Discov.},
-  volume = {4},
-  number = {5},
-  pages = {1176--1187},
-  issn = {2635-098X},
-  doi = {10.1039/D4DD00393D},
-  url = {https://xlink.rsc.org/?DOI=D4DD00393D},
-  urldate = {2026-02-22},
-  langid = {english}
-}
-```
+If you use SurfPro2 in academic work, please cite this Zenodo repository [https://zenodo.org/records/21456552](https://zenodo.org/records/21456552).
+A publication is being submitted.
 
 ## Contributors to SurfPro2
 
