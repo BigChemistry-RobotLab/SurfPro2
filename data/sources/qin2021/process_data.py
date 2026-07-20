@@ -14,7 +14,7 @@ def get_doi(bibtex_key, bibtex_entries):
                 return doi
 
 
-json_text = Path("source_data/name_smiles_mapping_based_on_cmc_edited.json").read_text()
+json_text = Path("source_data/name_to_smiles_mapping.json").read_text()
 translations = json.loads(json_text)
 
 df = pd.read_csv("source_data/qin2021_table_S1.csv")

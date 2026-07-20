@@ -12,5 +12,3 @@ Entries containing a temperature value of "room temperature" have been updated w
 5. Gahan, C. G.; Patel, S. J.; Boursier, M. E.; Nyffeler, K. E.; Jennings, J.; Abbott, N. L.; Blackwell, H. E.; Van Lehn, R. C.; Lynn, D. M., Bacterial Quorum Sensing Signals Self-Assemble in Aqueous Media to Form Micelles and Vesicles: An Integrated Experimental and Molecular Dynamics Study. J. Phys. Chem 2020, 2020, 3628-3628.
 
 DOI: 10.1021/acs.jpcb.0c00496
-
-
