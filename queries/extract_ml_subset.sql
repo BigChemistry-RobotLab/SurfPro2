@@ -17,7 +17,7 @@ WITH full_table AS ( -- 1. create a table for all measurements
     LEFT JOIN measurement_flags m_flag USING(measurement_id)
     LEFT JOIN methods meth USING(method_id)
     WHERE m_flag.data_flag_id IS NULL -- remove flagged data
-    -- AND temperature BETWEEN 20 AND 30 -- optionally: filter temperature range
+    AND temperature BETWEEN 20 AND 40 -- filter on temperature
 ),
 ranked_measurements AS ( -- 2. Rank measurements in the full table
 SELECT
