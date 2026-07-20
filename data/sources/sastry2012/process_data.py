@@ -11,7 +11,6 @@ df1 = pd.read_csv(SOURCE_FILE_1)
 df2 = pd.read_csv(SOURCE_FILE_2)
 
 df = pd.concat([df1, df2], axis=0)
-df.to_csv("temp.csv")
 
 df["CMC"] = df["CAC (mM)"] / 1000
 df["Gamma_max"] = df["Γmax (10^10 mol cm-2)"] / 10**6
