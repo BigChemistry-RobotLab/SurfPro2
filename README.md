@@ -21,7 +21,7 @@ To build SurfPro2 yourself, please follow the steps below.
 
 ### Obtain a copy of the repository
 
-You can either clone the repository (`git clone https://github.com/BigChemistry-RobotLab/SurfPro2.0.git`) or download it.
+You can either clone the repository (`git clone https://github.com/BigChemistry-RobotLab/SurfPro2.git`) or download it.
 Once you have it on your computer, navigate to the SurfPro2 directory in your command line (the directory which contains this file).
 
 ### Install Dependencies
