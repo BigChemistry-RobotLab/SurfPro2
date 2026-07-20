@@ -11,7 +11,7 @@ if not Path(DB_PATH).is_file():
     print(DB_PATH, "does not yet exist. Try building it first.")
     quit()
 
-query = Path("queries/temperature_dependence.sql").read_text()
+query = Path("queries/value_distributions.sql").read_text()
 
 conn = sqlite3.connect(DB_PATH)
 
