@@ -1,0 +1,23 @@
+[[hegazy2016a]]
+property = "Area_min"
+value = 0.56
+method = "conductometry"
+temperature = 25.0
+identifier = "A"
+flag = "incorrect method assignment"
+
+[[hegazy2016a]]
+property = "Area_min"
+value = 0.58
+method = "conductometry"
+temperature = 25.0
+identifier = "B"
+flag = "incorrect method assignment"
+
+[[hegazy2016a]]
+property = "Area_min"
+value = 0.53
+method = "conductometry"
+temperature = 25.0
+identifier = "C"
+flag = "incorrect method assignment"
