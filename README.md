@@ -67,7 +67,7 @@ If you would like you use these data for commercial purposes, please contact Dr.
 
 ## Citation
 
-If you use SurfPro2 in academic work, please cite our preprint on ChemRxiv: [10.26434/chemrxiv.15006392/v1](10.26434/chemrxiv.15006392/v1).
+If you use SurfPro2 in academic work, please cite our preprint on ChemRxiv: [10.26434/chemrxiv.15006392/v1](https://chemrxiv.org/doi/abs/10.26434/chemrxiv.15006392/v1).
 
 ## Contributors to SurfPro2
 
