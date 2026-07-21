@@ -67,8 +67,7 @@ If you would like you use these data for commercial purposes, please contact Dr.
 
 ## Citation
 
-If you use SurfPro2 in academic work, please cite this Zenodo repository [https://zenodo.org/records/21456552](https://zenodo.org/records/21456552).
-A publication is being submitted.
+If you use SurfPro2 in academic work, please cite our preprint on ChemRxiv: [10.26434/chemrxiv.15006392/v1](10.26434/chemrxiv.15006392/v1).
 
 ## Contributors to SurfPro2
 
