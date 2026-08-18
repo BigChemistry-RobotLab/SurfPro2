@@ -1,0 +1,8 @@
+The temperatures in table 1 are reported as 283 and 298 K, however, in the main text their are reported as 283.15 and 298.15 K.
+The latter values have been reported here.
+
+Also note the following conditions: 'All aqueous trisiloxane solutions were made in a phosphate buffer (pH 7) in order to avoid hydrolysis'.
+
+The compounds are decribed as 'trisiloxanes', which formally is too generic to assign a specific structure.
+However, the term has been interpreted here as referring to compounds with the following SMILES headgroup: 'C[Si](C)(O[Si](O[Si](C)(C)C)(C)CCCO)C'.
+This would be consistent with similar structures cited by the paper in 10.1016/S0021-9797(03)00530-7 and 10.1021/la980072s.
