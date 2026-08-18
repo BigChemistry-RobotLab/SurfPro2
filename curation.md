@@ -10,6 +10,60 @@ Rather, these guidelines are recorded here to aid curation and addition of new d
 Please see the explanation in `README.md` for an overview of the organisation of the repository and installation requirements.
 For the organisation of relational database, please see the schema in the repository `schema` directory.
 
+## Adding New Sources
+
+This section provides a general overview of how to add a new source of data to SurfPro2.
+Please read the sections following it for more specific guidance on how data should be curated.
+
+### Adding New Data
+
+To add a new source to SurfPro2, first make sure that it is in the BibTeX file (`data/CMC_database.bib`).
+Create a new folder for it in `data/sources` named after its BibTex key (e.g. `wilk2001`).
+Inside this directory, create sub-directories named `source_data` and `processed_data`.
+Also create a file `process_data.py` based on the template given in `archetypes/process_data.py`.
+Add any source data required into `source_data`.
+The naming conventions adopted are to name the file after its BibTeX key, with a suffix indicating its origin in the source, for example, `source_data/wilk2001_table_1.csv`.
+The processed data file is simply named after the BibTeX key (e.g. `processed_data/wilk2001.csv`).
+Multiple files can be placed in this directory and can follow an sensible format (usually, comma-separated values).
+In addition to copied or transcribed data from the source, the following columns should be added (if possible):
+
+| Column name      | Description                                             |
+|------------------|---------------------------------------------------------|
+| SMILES           | SMILES string for the surfactant                        |
+| source_doi       | DOI string for the source publication                   |
+| reference_doi    | DOI string for cited literature                         |
+| method           | Experimental method used to determine values            |
+| Temp_Celsius     | Temperature of the measurement in degrees Celsius       |
+
+This information may also be included in separate files (in the `source_data` directory) and merged with the rest of the data during processing.
+
+### Processing Data
+
+The file `process_data.py` should contain all of the operations required to standardise column names and units, add in SMILES strings, or any other operations required.
+All processed data files should contain data with the following headers and units (headings with a \* are mandatory, although at least one property should be provided!):
+
+| Column name       | Description                                             |
+|-------------------|---------------------------------------------------------|
+| *SMILES           | SMILES string for the surfactant                        |
+| *InChI            | InChI string for the surfactant                         |
+| *Molecular_Weight | Molecular weight of the surfactant/ $g/mol$             |
+| *source_doi       | DOI string for the source publication                   |
+| identifier        | Name given to the surfactant in the source text         |
+| method            | Experimental method used to determine values            |
+| reference_doi     | DOI string for cited literature                         |
+| Temp_Celsius      | Temperature of the measurement in degrees Celsius       |
+| AW_ST_CMC         | Air-water surface tension at CMC/ $\text{mN}/m$         |
+| Area_min          | Minimum surfactant area/ $\text{nm}^2$                  |
+| C20               | Surfactant efficiency/ $M$                              |
+| CMC               | Critical micelle concentration (CMC)/ $M$               |
+| Gamma_max         | Maximum surface excess concentration/ $\text{mol}/m^2$  |
+| Pi_CMC            | Surface pressure at CMC/ $\text{mN}/m$                  |
+
+Addition of extra columns should not break anything, but please bear in mind that the purpose of this step is to prepare standardised data for integration into the database.
+Any extraneous columns will simply not be read in this process.
+Running `process_data.py` should be all that is required to prepare the data for incorporation into the relational database.
+Once the processed data file has been created, it will be read into the database along with the other files when running `scripts/initialise_database.py`.
+
 ## Units
 
 All units should be standardised during the processing of source data in each source's `process_data.py` file.
@@ -40,7 +94,6 @@ The current terms for methods are:
 There are sub-classes of each of these types which have not yet been incorporated in to the database.
 For instance, pendant drop and the Wilhelmy Plate methods of tensiometry fall under the 'tensiometry' method.
 In general, the method annotation should reflect the physical quantity measured to derive the parameter of interest (e.g. force for tensiometry, electrical conductivity for conductometry).
-
 
 ## Undefined stereochemical centres
 
