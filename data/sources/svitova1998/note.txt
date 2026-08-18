@@ -1,0 +1,3 @@
+The manuscript describes the structural formulae as follows: 'Trisiloxane surfactants ((CH3)3SiO2)2Si(CH3)(CH2)3(OCH2CH2)nOH denoted as BE-n, ethoxy group number n ) 6, 8'.
+This nomenclature implies hypervalent Si atoms (`(CH3)3SiO2`).
+The SMILES strings reported here omit the extra oxygen atom which would lead to hypervalency.

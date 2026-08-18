@@ -1,0 +1,4 @@
+surfactant,CAC mol/L,Γmax mol/m2 air,area per molecule a A2 air,Γmax mol/m2 tetradecane,area per molecule a A2 tetradecane,Temp_Celsius,source_doi,reference_doi,method,SMILES
+BE-6,9.6e-5,3.22e-6,51.6,1.98e-6,63.9,22.0,10.1021/la980072s,,tensiometry,C[Si](C)(C)O[Si](CCCOCCOCCOCCOCCOCCOCCO)(O[Si](C)(C)C)C
+BE-8,1.09e-4,3.38e-6,49,1.6e-6,68.4,22.0,10.1021/la980072s,,tensiometry,C[Si](C)(C)O[Si](CCCOCCOCCOCCOCCOCCOCCOCCOCCO)(O[Si](C)(C)C)C
+BE-12,2.7e-4,2.72e-6,61,1.15e-6,80.2,22.0,10.1021/la980072s,,tensiometry,C[Si](C)(C)O[Si](CCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO)(O[Si](C)(C)C)C
