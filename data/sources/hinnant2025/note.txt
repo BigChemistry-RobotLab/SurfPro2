@@ -1,0 +1,7 @@
+The data in this record were first described in 10.1016/j.colsurfa.2023.132533.
+In this article, it is stated that 'CMC Concentration, CMC Surface Tension, CMC Value - Surfactant  and mixture CMC were determined by measuring the surface tension of serial diluted surfactant solutions using a Du Noüy ring tensiometer (Sigma 701, Biolin Scientific, with a 1 cm platinum iridium ring at room temperature, 20–25 ◦C)'.
+The temperature for the measurements has been reported here as 22.5 degrees celsius.
+
+The CMC values are reported in wt%. They have been converted to molar assuming a solution density of 1 g/mL.
+
+The reference DOI to the first published description of the data is given (10.1016/j.colsurfa.2023.132533).
