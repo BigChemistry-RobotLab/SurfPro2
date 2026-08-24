@@ -35,6 +35,7 @@ Please review [`CURATION.md`](./CURATION.md) before making any changes to the da
 
 To add new data to SurfPro2, please follow the steps below:
 
+- [ ] Create a new git branch for your updates,
 - [ ] Add the new source publication to `data/bibliography.bib`, including a unique BibTeX key,
 - [ ] Create a source directory in `data/sources` named after the publication's BibTeX key,
 - [ ] Add new data in `data/sources/<key>/source`,
@@ -48,10 +49,13 @@ To add new data to SurfPro2, please follow the steps below:
 - [ ] Create a git commit detailing that the new source was added,
 - [ ] Make a pull request in the [project repository](https://github.com/BigChemistry-RobotLab/SurfPro2). Alternatively, contact the lead maintainer about your changes.
 
+Please do not alter `config.toml` or `version.toml`.
+
 ### Corrections (Patches)
 
 To make a correction to SurfPro2, please follow the steps below:
 
+- [ ] Create a new git branch for your updates,
 - [ ] Implement the updates,
 - [ ] Re-run any relevant processing scripts,
 - [ ] Verify that the updates have been made as intended,
@@ -72,12 +76,17 @@ short statement indicating changes.
 More details about the changes can be written two lines below the message.
 ```
 
+Please do not alter `config.toml` or `version.toml` when applying corrections.
+
 ### Major Updates
 
 Major updates (to schema, scripts, etc.) can be made.
+Please create a new git branch first.
 Ideally, they are made in isolation, for example without changing any data, so that actions like building the database can be reviewed more easily.
 These changes require more care, as changes to one file may affect others.
-Major changes should be accompanied with a git commit, pull request, etc.
+Major changes should be accompanied with a git commit and pull request.
+
+Please do not alter `config.toml` or `version.toml` when making major updates.
 
 #### Updating Schema
 
@@ -94,6 +103,7 @@ This checklist is provided here for the Lead Maintainer to follow.
 - [ ] Update CHANGELOG.md,
 - [ ] Regenerate the database and review it,
 - [ ] Commit the changes,
+- [ ] Merge/rebase changes into the main branch
 - [ ] Create a git tag,
 - [ ] Create a GitHub release,
 - [ ] Publish the Zenodo release with the database stored in the `target` directory.
