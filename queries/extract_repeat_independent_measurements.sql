@@ -23,7 +23,7 @@ LEFT JOIN unique_identifiers i ON i.compound_id = m.compound_id
 LEFT JOIN property_types p ON m.property_type_id = p.property_type_id
 LEFT JOIN methods meth ON meth.method_id = m.method_id
 WHERE p.name = "CMC"
-AND ABS(m.temperature - 25.0) < 1.0
+AND ABS(m.temperature - 25.0) <= 1.0
 AND cit.cited_id IS NULL
 AND m.compound_id IN (
     SELECT
@@ -33,7 +33,7 @@ AND m.compound_id IN (
     LEFT JOIN property_types p2 USING(property_type_id)
     WHERE cit2.cited_id IS NULL
     AND p2.name = "CMC"
-    AND ABS(m2.temperature - 25.0) < 1.0
+    AND ABS(m2.temperature - 25.0) <= 1.0
     GROUP BY m2.compound_id
     HAVING COUNT(*) > 3
 );
