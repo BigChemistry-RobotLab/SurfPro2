@@ -11,6 +11,10 @@ SELECT p.name, COUNT(*) FROM measurements m
 JOIN property_types p USING(property_type_id)
 GROUP BY p.name;
 """
+count_25_degrees_query = """
+SELECT COUNT(measurement_id) FROM measurements
+WHERE ABS(temperature - 25.0) <= 0.1;
+"""
 
 config = toml.loads(Path("config.toml").read_text())
 
@@ -32,3 +36,5 @@ cursor.execute(count_literature_query)
 print("Number of literature sources:", cursor.fetchall()[0])
 cursor.execute(count_properties_query)
 print("Property numbers:", cursor.fetchall())
+cursor.execute(count_25_degrees_query)
+print("Number of measurements at 25 (+/- 0.1) °C", cursor.fetchall()[0][0])
