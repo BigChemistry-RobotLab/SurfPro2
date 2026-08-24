@@ -20,6 +20,7 @@ df_cmc = (
     .rename(columns={0: "CMC/ wt%"})
 )
 
+df_smiles_replacements = pd.read_csv("source_data/SMILES_replacements.csv")
 
 df = pd.merge(df_cmc, df_names, left_on="identifier", right_on="identifier", how="left")
 # remove entries without SMILES
@@ -32,9 +33,14 @@ df = df.rename(columns={0: "SMILES"})
 # Add in temperature (see 10.1016/j.colsurfa.2023.132533)
 df["Temp_Celsius"] = 22.5
 
+# Replace SMILES
+df = pd.merge(
+    df, df_smiles_replacements, left_on="identifier", right_on="identifier", how="left"
+)
+df["SMILES"] = df["updated_SMILES"].fillna(df["SMILES"])
+df = df.drop(columns=["updated_SMILES", "source_SMILES"])
+
 # The remainder of this script can remain untouched.
-
-
 smiles_list = []
 inchi_list = []
 mol_wts = []

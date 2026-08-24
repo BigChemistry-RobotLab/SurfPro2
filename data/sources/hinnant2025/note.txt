@@ -5,3 +5,19 @@ The temperature for the measurements has been reported here as 22.5 degrees cels
 The CMC values are reported in wt%. They have been converted to molar assuming a solution density of 1 g/mL.
 
 The reference DOI to the first published description of the data is given (10.1016/j.colsurfa.2023.132533).
+
+Some compounds do not contain stereochemical annotations.
+Annotations have been added where possible using information from the source data file and articles.
+Some structures were tracked to these patents: WO2014135601A1, WO2013034521A1, US9687686B2 which are referred to indirectly in the main text (searching for the SMILES strings in PubChem gives one substructure match).
+
+The main text of the source states:
+
+"Twelve surfactants with the nomenclature “MD” were synthesized by NAWS China
+Lake. Final structures are intended to be monodisperse based on the reactant
+materials. Efforts were made to purify the surfactant products; however, active
+content levels were not determined for the synthesized products. All 12
+chemical structures have been previously published, through  papers or patents,
+and assigned a CAS#."
+
+For CL_MD2102-54, the following PubChem entry was used: 101515554.
+It is unclear if this is the compound referred to, but it was the only match searching for the SMILES given in the source data as a subtructure.

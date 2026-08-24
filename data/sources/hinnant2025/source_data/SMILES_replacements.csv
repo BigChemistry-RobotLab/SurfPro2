@@ -1,0 +1,6 @@
+identifier,source_SMILES,updated_SMILES
+CL_MD2086-97,C[Si](C)(C)O[Si](CCCNCCNC(=O)C(O)C(O)C(O)C(O)CO)(O[Si](C)(C)C)O[Si](C)(C)C,C[Si](C)(O[Si](O[Si](C)(C)C)(O[Si](C)(C)C)CCCNCCNC([C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO)=O)C
+CL_MD2102-54,C[Si](C)(C)O[Si](C)(CCCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O)O[Si](C)(C)C,C[Si](O[Si](O[Si](C)(C)C)(C)CCCO[C@@H]1O[C@H](CO)[C@@H](O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O)(C)C
+CL_MD2102-118,C[Si](C)(C)O[Si](CCCNC(=O)C(O)C(O)C(OC1OC(CO)C(O)C(O)C1O)C(O)CO)(O[Si](C)(C)C)O[Si](C)(C)C,C[Si](C)(C)O[Si](CCCNC(=O)[C@@H]([C@H]([C@@H]([C@@H](CO)O)O[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)O)O)(O[Si](C)(C)C)O[Si](C)(C)C
+CL_MD2102-112,C[Si](C)(C)O[Si](CCCOC1OC(CO)C(OC2OC(CO)C(O)C(O)C2O)C(O)C1O)(O[Si](C)(C)C)O[Si](C)(C)C,C[Si](C)(O[Si](O[Si](C)(C)C)(O[Si](C)(C)C)CCCO[C@@H]1O[C@@H]([C@H]([C@@H]([C@H]1O)O)O[C@H]2O[C@@H]([C@H]([C@@H]([C@H]2O)O)O)CO)CO)C
+NRL_N10478-240,C[Si](C)(C)O[Si](C)(CCCNC(=O)C(O)C(O)C(O)C(O)CO)O[Si](C)(C)C,C[Si](C)(O[Si](CCCNC([C@@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O)=O)(O[Si](C)(C)C)C)C
