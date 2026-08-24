@@ -1897,3 +1897,8 @@ C[Si](C)(C)O[Si](C)(CCCOCCOCCOCCOCCOCCO)O[Si](C)(C)C,non-ionic,silicon based,
 C[Si](C)(C)O[Si](C)(CCCOCCOCCOCCOCCOCCOCCO)O[Si](C)(C)C,non-ionic,silicon based,
 C[Si](C)(C)O[Si](C)(CCCOCCOCCOCCOCCOCCOCCOCCO)O[Si](C)(C)C,non-ionic,silicon based,
 C[Si](C)(C)O[Si](C)(CCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO)O[Si](C)(C)C,non-ionic,silicon based,
+C[Si](C)(C)O[Si](CCCNCCNC(=O)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO)(O[Si](C)(C)C)O[Si](C)(C)C,non-ionic,silicon based,sugar based
+C[Si](C)(C)O[Si](C)(CCCO[C@@H]1O[C@H](CO)[C@@H](O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O)O[Si](C)(C)C,non-ionic,silicon based,sugar based
+C[Si](C)(C)O[Si](CCCNC(=O)[C@H](O)[C@@H](O)[C@H](O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)[C@H](O)CO)(O[Si](C)(C)C)O[Si](C)(C)C,non-ionic,silicon based,sugar based
+C[Si](C)(C)O[Si](CCCO[C@@H]1O[C@H](CO)[C@@H](O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O)(O[Si](C)(C)C)O[Si](C)(C)C,non-ionic,silicon based,sugar based
+C[Si](C)(C)O[Si](C)(CCCNC(=O)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO)O[Si](C)(C)C,non-ionic,silicon based,sugar based
