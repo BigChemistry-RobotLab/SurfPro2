@@ -1,3 +1,6 @@
+import subprocess
+
+
 def biblio_by_doi(bib_database):
     bibliography = {}
     for e in bib_database.entries:
@@ -20,3 +23,13 @@ def biblio_by_key(bib_database):
     return bibliography
 
 
+def get_current_git_commit(short: bool = False):
+    if short:
+        command = ["git", "rev-parse", "--short", "HEAD"]
+    else:
+        command = ["git", "rev-parse", "HEAD"]
+
+    try:
+        return subprocess.check_output(command, text=True).strip()
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return "unknown"

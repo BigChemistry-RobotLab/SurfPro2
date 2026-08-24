@@ -4,21 +4,28 @@ import bibtexparser
 from pathlib import Path
 from utilities import biblio_by_doi
 from utilities import biblio_by_key
+from utilities import get_current_git_commit
 from db_interaction import (
     create_database,
     ingest_file,
     ingest_notes,
     ingest_flag_annotations,
-    add_surfactant_types
+    add_surfactant_types,
+    update_metadata,
 )
 
 config = toml.loads(Path("config.toml").read_text())
+version = toml.loads(Path("version.toml").read_text())
 
 DATA_ROOT = config["DATA_ROOT"]
 DB_PATH = config["DB_PATH"]
 LIT_DATABASE = config["LIT_DATABASE"]
 CITATION_GRAPH = config["CITATION_GRAPH"]
+VERSION = version["version"]
+DATE = version["release_date"]
 SCHEMA_FILE = config["SCHEMA_FILE"]
+COMMIT = get_current_git_commit(short=True)
+
 
 def initialise_database():
     bibtex_string = Path(LIT_DATABASE).read_text(encoding="utf-8")
@@ -58,7 +65,11 @@ def initialise_database():
         ingest_notes(dir.name, DB_PATH, dir, bib_by_key)
 
     add_surfactant_types(DB_PATH)
+
     ingest_flag_annotations(DB_PATH, Path(DATA_ROOT))
+
+    update_metadata(DB_PATH, VERSION, DATE, COMMIT)
+
 
 def main():
     initialise_database()

@@ -1,10 +1,7 @@
 import toml
 import csv
 import sqlite3
-import bibtexparser
 from pathlib import Path
-from utilities import biblio_by_doi
-from utilities import biblio_by_key
 
 PROPERTY_INFO = toml.loads(Path("data/property_info.toml").read_text())
 
@@ -514,7 +511,6 @@ def find_measurement_id(cursor, annot, tol_value=0.01, tol_temp=0.01):
     cursor.execute(query, params)
     results = cursor.fetchall()
 
-    # --- enforce uniqueness ---
     if len(results) == 0:
         raise ValueError(f"No measurement found for annotation: {annot}")
 
@@ -546,38 +542,32 @@ def ingest_flag_annotations(DB_PATH, DATA_ROOT):
                     flag_id = upsert_flag(annot["flag"], "", cursor)
 
                     # insert flagged entry
-                    _ = upsert_measurement_flag(
-                        measurement_id, flag_id, cursor
-                    )
+                    _ = upsert_measurement_flag(measurement_id, flag_id, cursor)
+
+        connection.commit()
 
 
-def main():
-    config = toml.loads(Path("config.toml").read_text())
+def update_metadata(DB_PATH, version, release_date, git_commit):
+    query = """
+    INSERT INTO metadata (
+        metadata_id,
+        version,
+        release_date,
+        git_commit
+    )
+    VALUES (1, ?, ?, ?)
+    ON CONFLICT(metadata_id)
+    DO UPDATE SET
+        version = excluded.version,
+        release_date = excluded.release_date,
+        git_commit = excluded.git_commit;
+    """
 
-    DATA_ROOT = Path(config["DATA_ROOT"])
-    DB_PATH = Path(config["DB_PATH"])
-    LIT_DATABASE = Path(config["LIT_DATABASE"])
-    SCHEMA_FILE = Path(config["SCHEMA_FILE"])
-
-    if not DB_PATH.parent.is_dir():
-        DB_PATH.parent.mkdir(parents=True, exist_ok=True)
-
-    bibtex_string = Path(LIT_DATABASE).read_text(encoding="utf-8")
-    bib_database = bibtexparser.loads(bibtex_string)
-    bib_by_doi = biblio_by_doi(bib_database)
-    bib_by_key = biblio_by_key(bib_database)
-
-    create_database(DB_PATH, SCHEMA_FILE)
-
-    ingestion_keys = []
-    for key in ingestion_keys:
-        source_dir = DATA_ROOT / "sources" / key
-        processed_data_dir = source_dir / "processed_data"
-        for file in processed_data_dir.iterdir():
-            ingest_file(file, DB_PATH, bib_by_doi)
-
-        ingest_notes(key, DB_PATH, source_dir, bib_by_key)
-
-
-if __name__ == "__main__":
-    main()
+    with sqlite3.connect(DB_PATH) as connection:
+        cursor = connection.cursor()
+        cursor.execute("PRAGMA foreign_keys = ON")
+        cursor.execute(
+            query,
+            (version, release_date, git_commit),
+        )
+        connection.commit()
