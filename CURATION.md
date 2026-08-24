@@ -1,6 +1,7 @@
 # Curation Details
 
 This document details how curation has been performed for the SurfPro2 database.
+Contributors to SurfPro2 should read this document carefully, and follow the checklists in [`MAINTENANCE.md`](./MAINTENANCE.md) to make updates.
 Data curation is inherently non-trivial and involves judgement and interpretation.
 The details below provide users and curators with transparency and guidance on how the data in SurfPro2 were aggregated.
 These rules serve as guidelines rather than strict guarantees.

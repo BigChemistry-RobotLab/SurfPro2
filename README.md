@@ -56,7 +56,7 @@ For example, an ML-ready subset of SurfPro2 containing each compound entry as a 
 
 The database is updated by modifying or creating files in `data/sources/<ref_key>/source_data`, and creating or updating the file `data/sources/<ref_key>/process_data.py`.
 Running the `process_data.py` script in its parent directory should process the source data into a standardised file in the `processed_data` directory.
-Please see [`curation.md`](./curation.md) for guidance on how to curate the database.
+Please see [`CURATION.md`](./CURATION.md) and [`MAINTENANCE.md`](./MAINTENANCE.md) for guidance on how to curate the database.
 
 ## License
 
