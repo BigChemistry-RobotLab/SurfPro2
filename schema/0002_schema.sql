@@ -125,7 +125,7 @@ CREATE TABLE IF NOT EXISTS measurement_flags (
     FOREIGN KEY (measurement_id) REFERENCES measurements(measurement_id)
 );
 
-CREATE TABLE metadata (
+CREATE TABLE IF NOT EXISTS metadata (
     metadata_id INTEGER PRIMARY KEY CHECK(metadata_id = 1),
     version TEXT NOT NULL,
     release_date TEXT NOT NULL,
