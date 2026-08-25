@@ -45,6 +45,7 @@ This command runs a script which reads all of the curated data files, and compil
 It should only take a short time to run (<2 minutes).
 The resulting database will saved in the `target` directory (`target/surfpro.db`).
 The database can then be browsed using standard SQLite browser software (e.g. [DB Browser for SQLite](https://sqlitebrowser.org/)), or interacted with via Python's `sqlite3`.
+Another option for a graphical interface which may be used to browse SurfPro2 is [Datasette](https://datasette.io/).
 Example scripts and queries to extract subsets of the data are given in the `scripts` and `queries` directories, respectively.
 
 ## Extracting Database Subsets
