@@ -104,8 +104,9 @@ This checklist is provided here for the Lead Maintainer to follow.
 - [ ] Regenerate the database and review it,
 - [ ] Commit the changes,
 - [ ] Merge/rebase changes into the main branch
-- [ ] Create a git tag,
-- [ ] Create a GitHub release,
+- [ ] Create a git tag (`git tag v2.0.0; git push; git push --tags`),
+- [ ] Prepare the built files (`python scripts/release.py`)
+- [ ] Create a GitHub release (attach built files),
 - [ ] Publish the Zenodo release with the database stored in the `target` directory.
 
 ### Check Dependencies

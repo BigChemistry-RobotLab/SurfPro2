@@ -21,8 +21,17 @@ def extract_ml_subset(db_path, query_file):
 def prepare_ml_subset(df):
     df = df.replace(-9999, np.nan)
 
-    df["pCMC"] = -np.log10(df["CMC"])
-    df["pC20"] = -np.log10(df["C20"])
+    df["pCMC"] = np.where(
+        df["CMC"] > 0,
+        -np.log10(df["CMC"]),
+        np.nan,
+    )
+
+    df["pC20"] = np.where(
+        df["C20"] > 0,
+        -np.log10(df["C20"]),
+        np.nan,
+    )
 
     df = df.drop(columns=["CMC", "C20"])
 
@@ -58,41 +67,41 @@ def report_dataset(df):
     print(df.describe())
 
 
-def ml_subset_release():
-    config = toml.loads(Path("config.toml").read_text())
+def build_ml_subset(db_file):
+    if not Path(db_file).is_file():
+        raise RuntimeError("Database was not generated.")
 
     df = extract_ml_subset(
-        config["DB_PATH"],
+        db_file,
         "queries/extract_ml_subset.sql",
     )
 
     df = prepare_ml_subset(df)
 
-    output = Path("target/surfpro2_ml_subset.csv")
+    return df
 
-    output.parent.mkdir(exist_ok=True)
 
-    df.to_csv(output, index=False)
+def ml_subset_release(db_file, output_file):
+    if output_file.exists():
+        print(f"Deleting {output_file} for fresh build.")
+        output_file.unlink(missing_ok=True)
+
+    df = build_ml_subset(db_file)
+    df.to_csv(output_file, index=False)
+
 
 def main():
     config = toml.loads(Path("config.toml").read_text())
+    output_file = Path(config["ML_SUBSET_PATH"])
+    db_file = Path(config["DB_PATH"])
 
-    df = extract_ml_subset(
-        config["DB_PATH"],
-        "queries/extract_ml_subset.sql",
-    )
-
-    df = prepare_ml_subset(df)
+    df = build_ml_subset(db_file)
 
     report_dataset(df)
 
-    output = Path("target/surfpro2_ml_subset.csv")
+    df.to_csv(output_file, index=False)
 
-    output.parent.mkdir(exist_ok=True)
-
-    df.to_csv(output, index=False)
-
-    print(f"Saved to {output}")
+    print(f"Saved to {output_file}")
 
 
 if __name__ == "__main__":

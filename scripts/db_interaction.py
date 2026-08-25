@@ -1,3 +1,7 @@
+"""
+Functions for interaction with the SurfPro2 SQLite database.
+"""
+
 import toml
 import csv
 import sqlite3
@@ -571,3 +575,15 @@ def update_metadata(DB_PATH, version, release_date, git_commit):
             (version, release_date, git_commit),
         )
         connection.commit()
+
+
+def validate_database(db_path):
+    with sqlite3.connect(db_path) as conn:
+        cursor = conn.cursor()
+
+        cursor.execute("PRAGMA foreign_key_check")
+
+        errors = cursor.fetchall()
+
+        if errors:
+            raise RuntimeError(f"Foreign key violations found: {errors}")
