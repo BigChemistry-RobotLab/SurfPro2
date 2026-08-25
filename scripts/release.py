@@ -60,7 +60,7 @@ def main():
     release_dir.mkdir()
 
     print("Checking repository state...")
-    # check_clean_git_tree()
+    check_clean_git_tree()
 
     print("Building database...")
     database_release()
