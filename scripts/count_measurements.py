@@ -27,4 +27,3 @@ cursor.execute(query)
 df = pd.DataFrame([dict(s) for s in cursor.fetchall()])
 
 print(df)
-

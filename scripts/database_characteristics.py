@@ -42,9 +42,7 @@ for i, row in df_prop.iterrows():
     df = pd.read_sql(measurement_query, conn, params={"prop_id": row.property_type_id})
     unit = df.unit_latex.iloc[0]
     if row.property in log_convert_props:
-        ax_title = (
-            "$-\\log_{10}(\\frac{" + row.latex_math_text + "}{" + unit + "})$"
-        )
+        ax_title = "$-\\log_{10}(\\frac{" + row.latex_math_text + "}{" + unit + "})$"
         ax[i].hist(-np.log10(df.value))
     else:
         ax_title = f"${row.latex_math_text}/ {unit}$"
