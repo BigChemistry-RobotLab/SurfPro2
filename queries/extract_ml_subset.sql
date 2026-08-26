@@ -17,6 +17,8 @@ WITH full_table AS ( -- 1. create a table for all measurements
     LEFT JOIN measurement_flags m_flag USING(measurement_id)
     LEFT JOIN methods meth USING(method_id)
     WHERE m_flag.data_flag_id IS NULL -- remove flagged data
+    AND c.surfactant_type IS NOT 'cationic mixture' -- remove mixtures
+    AND c.surfactant_type IS NOT 'anionic-cationic mixture' -- remove mixtures
     AND temperature BETWEEN 20 AND 40 -- filter on temperature
 ),
 ranked_measurements AS ( -- 2. Rank measurements in the full table
