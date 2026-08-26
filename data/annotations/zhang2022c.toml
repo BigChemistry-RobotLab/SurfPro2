@@ -4,7 +4,7 @@ value = 21.8
 method = "tensiometry"
 temperature = 25
 identifier = "DTAC"
-flag = "severe AW_ST_CMC mismatch to 5 other references, questionable measurement"
+flag = "This value of air_water_surface_tension_CMC for DTAC is differs significantly from the estimates reported in ikeda1994, kim1996, kim1996a, song2013 and tatsumi2001a. It is therefore flagged as being potentially erroneous."
 
 [[zhang2022c]]
 property = "Pi_CMC"
@@ -12,4 +12,4 @@ value = 50.2
 method = "tensiometry"
 temperature = 25
 identifier = "DTAC"
-flag = "severe AW_ST_CMC mismatch to 5 other references, questionable measurement"
+flag = "This Pi_CMC value was likely derived from a flagged value of air_water_surface_tension_CMC"
