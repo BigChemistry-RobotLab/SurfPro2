@@ -1,0 +1,15 @@
+[[zhang2022c]]
+property = "air_water_surface_tension_CMC"
+value = 21.8
+method = "tensiometry"
+temperature = 25
+identifier = "DTAC"
+flag = "severe AW_ST_CMC mismatch to 5 other references, questionable measurement"
+
+[[zhang2022c]]
+property = "Pi_CMC"
+value = 50.2
+method = "tensiometry"
+temperature = 25
+identifier = "DTAC"
+flag = "severe AW_ST_CMC mismatch to 5 other references, questionable measurement"
