@@ -1,4 +1,4 @@
-# SurfPro2
+# SurfPro2 - a relational database, curation workflow and repository of surfactant physicochemical data
 
 SurfPro2 is a curated database of surfactant physicochemical properties and associated molecular structures, assembled from the scientific literature.
 This repository contains the source data, curation workflows, and scripts required to reproduce the SurfPro2 SQLite database.
@@ -20,7 +20,7 @@ To build SurfPro2 yourself, please follow the steps below.
 
 ### Obtain a copy of the repository
 
-You can either clone the repository (`git clone https://github.com/BigChemistry-RobotLab/SurfPro2.git`) or download it from [GitHub](https://github.com/BigChemistry-RobotLab/SurfPro2.git) or [Zenodo](https://doi.org/10.5281/zenodo.21456552).
+You can either clone the repository (`git clone https://github.com/BigChemistry-RobotLab/SurfPro2.git`) or download it from [GitHub](https://github.com/BigChemistry-RobotLab/SurfPro2.git) or [Zenodo](https://doi.org/10.5281/zenodo.21456551).
 Once you have it on your computer, navigate to the SurfPro2 directory in your command line (the directory which contains this file).
 
 ### Install Dependencies
@@ -45,13 +45,18 @@ This command runs a script which reads all of the curated data files, and compil
 It should only take a short time to run (<2 minutes).
 The resulting database will saved in the `target` directory (`target/surfpro.db`).
 The database can then be browsed using standard SQLite browser software (e.g. [DB Browser for SQLite](https://sqlitebrowser.org/)), or interacted with via Python's `sqlite3`.
-Another option for a graphical interface which may be used to browse SurfPro2 is [Datasette](https://datasette.io/).
+Another option for a graphical interface which may be used to browse SurfPro2 is [Datasette](https://datasette.io/), run (`datasette target/surfpro.db`) after installation.
 Example scripts and queries to extract subsets of the data are given in the `scripts` and `queries` directories, respectively.
 
 ## Extracting Database Subsets
 
 The `scripts` directory and the `queries` directory contain examples of how to extract useful subsets of SurfPro2 using SQL and Python.
-For example, an ML-ready subset of SurfPro2 containing each compound entry as a row with property ($\text{CMC}$, $\gamma_{\text{CMC}}$, $C_{20}$ and $\Gamma_{\text{max}}$), citation and temperature data annotated is given in `scripts/extract_ml_subset.py`.
+For example, a subset of SurfPro2 ready for machine learning containing each compound entry (SMILES) as a row with property ($\text{pCMC}$, $\gamma_{\text{CMC}}$, $\Gamma_{\text{max}}$ and $\text{pC}_{20}$), citation and temperature data annotated is given in `scripts/extract_ml_subset.py`.
+The ML-ready subset is also provided as a CSV in [`target/surfpro2_ml_subset.csv`](./target/surfpro2_ml_subset.csv).
+
+```
+python scripts/extract_ml_subset.py
+```
 
 ## Updating the Database
 
@@ -62,7 +67,7 @@ Please see [`CURATION.md`](./CURATION.md) and [`MAINTENANCE.md`](./MAINTENANCE.m
 ## License
 
 SurfPro2 is distributed under the CC BY-NC-SA 4.0 license.
-See LICENSE.txt for details.
+See [`LICENSE.txt`](./LICENSE.txt) for details.
 This is a non-commercial license.
 If you would like you use these data for commercial purposes, please contact Dr. William E. Robinson or Prof. Wilhelm T. S. Huck.
 
