@@ -44,6 +44,22 @@ def prepare_ml_subset(df):
         }
     )
 
+    order = ["SMILES", "surfactant_type", "pCMC", "AW_ST_CMC", "Gamma_max", "pC20"]
+    colnames = order + [col for col in df.columns if col not in order]
+    df = df[colnames]
+
+    return df
+
+
+def postprocess_ml_subset(df):
+    # exclude one Gamma_max outlier measurement
+    df.loc[df['Gamma_max'] > 1e-5, 'Gamma_max'] = np.nan
+
+    # exclude cationic-anionic mixtures and cationic mixtures
+    df = df[~df['surfactant_type'].isin(['anionic-cationic mixture', 'cationic mixture'])]
+
+    df = df.sort_values(by=['surfactant_type', 'pCMC_doi', 'AW_ST_CMC_doi', 'SMILES'])
+
     return df
 
 
@@ -78,6 +94,8 @@ def build_ml_subset(db_file):
 
     df = prepare_ml_subset(df)
 
+    df = postprocess_ml_subset(df)
+
     return df
 
 
@@ -87,6 +105,7 @@ def ml_subset_release(db_file, output_file):
         output_file.unlink(missing_ok=True)
 
     df = build_ml_subset(db_file)
+
     df.to_csv(output_file, index=False)
 
 
