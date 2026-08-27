@@ -43,15 +43,16 @@ python scripts/initialise_database.py
 
 This command runs a script which reads all of the curated data files, and compiles the data in them into the SurfPro2 database.
 It should only take a short time to run (<2 minutes).
-The resulting database will saved in the `target` directory (`target/surfpro.db`).
+The resulting database will saved in the `target` directory (`target/surfpro2.db`).
 The database can then be browsed using standard SQLite browser software (e.g. [DB Browser for SQLite](https://sqlitebrowser.org/)), or interacted with via Python's `sqlite3`.
-Another option for a graphical interface which may be used to browse SurfPro2 is [Datasette](https://datasette.io/).
+Another option for a graphical interface which may be used to browse SurfPro2 is [Datasette](https://datasette.io/) (run `datasette target/surfpro2.db` after Datasette installation).
 Example scripts and queries to extract subsets of the data are given in the `scripts` and `queries` directories, respectively.
 
 ## Extracting Database Subsets
 
 The `scripts` directory and the `queries` directory contain examples of how to extract useful subsets of SurfPro2 using SQL and Python.
-For example, an ML-ready subset of SurfPro2 containing each compound entry as a row with property ($\text{CMC}$, $\gamma_{\text{CMC}}$, $C_{20}$ and $\Gamma_{\text{max}}$), citation and temperature data annotated is given in `scripts/extract_ml_subset.py`.
+For example, an machine learning ready subset of SurfPro2 containing each compound entry as a row with property ($\text{CMC}$, $\gamma_{\text{CMC}}$, $C_{20}$ and $\Gamma_{\text{max}}$), citation and temperature data annotated is given in `scripts/extract_ml_subset.py` (see also the SQL query given in `queries/extract_ml_subset.sql`).
+Running this script will deposit the data subset in the file `target/surfpro2_ml_subset.csv`.
 
 ## Updating the Database
 
