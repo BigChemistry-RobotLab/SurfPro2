@@ -31,7 +31,7 @@ df["InChI"] = inchi_list
 df["CMC"] = df["CMC (mmol/L)"] / 1000
 df["pCMC"] = -np.log10(df.CMC)
 
-df["C20"] = df["C20 (10−4)"] / 10000
+df["C20"] = df["C20 (10-4)"] / 10000
 df["pC20"] = -np.log10(df.C20)
 
 # Incorrect units? Orders of magnitude higher than other Γmax values
@@ -50,7 +50,7 @@ df = df.drop(
     columns=[
         "CMC (mmol/L)",
         "CMC err (mmol/L)",
-        "C20 (10−4)",
+        "C20 (10-4)",
         "γcmc err (mN/m)",
         "∏CMC (mN/m)",
         "τmax (mol/m2)",
