@@ -4,7 +4,7 @@
 
 Initial release
 
-## v1.0.0 (--/--/----)
+## v1.0.0 (27/08/2026)
 
 ## Additions
 
@@ -15,7 +15,8 @@ Initial release
 
 ## Updates
 
-- Updated source data (perez1996)
+- Updated source data (perez1996, zhao1998, aveyard1998, chauhan2012, kamboj2012)
+- Updated data flags (zhang2022c)
 - Updated dependencies
 - Updated curation guide
 - Updated schema to include a metadata table
