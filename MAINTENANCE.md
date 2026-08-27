@@ -30,6 +30,22 @@ SurfPro2 will follow a rolling release schedule, with new versions released when
 ## Contribution Checklist
 
 Please review [`CURATION.md`](./CURATION.md) before making any changes to the database.
+Any updates made to SurfPro2 should be under version control.
+When writing a git commit for the changes, please adopt the format below.
+The first line should be written as a title, as if you are completing the line `A git commit to...`.
+Though more details about the commit can be written two lines below the message, doing so is in general not necessary.
+Please avoid adding more details beyond the first line of the commit.
+The changes made should be plain by diffing the commit, and any decisions made or considerations should be documented in the repository.
+Please keep to one update per commit.
+For example, if multiple sources of data are updated, place the updates in separate commits, noting which sources were updated in the commit message.
+
+```
+short statement indicating changes.
+
+More details about the changes can be written two lines below the message.
+```
+
+Please do not alter `config.toml` or `version.toml` when applying corrections.
 
 ### Addition of New Data (Minor updates)
 
@@ -63,20 +79,6 @@ To make a correction to SurfPro2, please follow the steps below:
 - [ ] Review the changes in the built database,
 - [ ] Create a git commit briefly indicating the changes made (see example below).
 - [ ] Make a pull request in the [project repository](https://github.com/BigChemistry-RobotLab/SurfPro2). Alternatively, contact the lead maintainer about your changes.
-
-When writing a git commit for the changes, please adopt the format below.
-The first line should be written as a title, as if you are completing the line `A git commit to...`.
-Though more details about the commit can be written two lines below the message, doing so is in general not necessary.
-Please avoid adding more details beyond the first line of the commit.
-The changes made should be plain by diffing the commit, and any decisions made or considerations should be documented in the repository.
-
-```
-short statement indicating changes.
-
-More details about the changes can be written two lines below the message.
-```
-
-Please do not alter `config.toml` or `version.toml` when applying corrections.
 
 ### Major Updates
 
