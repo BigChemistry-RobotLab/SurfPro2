@@ -1,5 +1,8 @@
 # Maintenance
 
+SurfPro2 releases are reproducible from the tagged Git repository state corresponding to the release.
+The source data, processing scripts, schema definition and release metadata should therefore be regarded as the canonical source of truth for the project.
+
 ## Versioning
 
 SurfPro2 follows a semantic versioning scheme (`vMAJOR.MINOR.PATCH`).
@@ -16,7 +19,7 @@ The following updates are examples of minor versions:
 - addition of a new literature source,
 - extraction of additional data from a literature source.
 
-**Patches** are for corrections and small updates to data or processing scripts.
+**Patches** are assigned for corrections and minor updates to data or processing scripts.
 Examples of patches include:
 
 - fixing errors in source data,
@@ -25,9 +28,11 @@ Examples of patches include:
 
 ## Release Schedule
 
-SurfPro2 will follow a rolling release schedule, with new versions released when significant enough changes have been made to the database.
+SurfPro2 follows a rolling release schedule.
+New versions will be released when sufficient additions or corrections have accumulated to warrant a new release.
+One to two releases per year are expected, although no release will be issued if substantial changes have not been made since the previous version.
 
-## Contribution Checklist
+## Contribution Checklists
 
 Please review [`CURATION.md`](./CURATION.md) before making any changes to the database.
 Any updates made to SurfPro2 should be under version control.
@@ -45,16 +50,17 @@ short statement indicating changes.
 More details about the changes can be written two lines below the message.
 ```
 
-Please do not alter `config.toml` or `version.toml` when applying corrections.
+Please do not alter `config.toml` or `version.toml` as part of routine data updates.
+These files are maintained by the Lead Maintainer during releases.
 
 ### Addition of New Data (Minor updates)
 
 To add new data to SurfPro2, please follow the steps below:
 
-- [ ] Create a new git branch for your updates,
+- [ ] Create a new git branch from the current main branch for your updates,
 - [ ] Add the new source publication to `data/bibliography.bib`, including a unique BibTeX key,
 - [ ] Create a source directory in `data/sources` named after the publication's BibTeX key,
-- [ ] Add new data in `data/sources/<key>/source`,
+- [ ] Add new data in `data/sources/<key>/source_data`,
 - [ ] Validate chemical structures in the data.
 - [ ] Write a processing script for the data (a template is available in `archetypes/process_data.py`),
 - [ ] If necessary, add notes or flags in `data/sources/<key>/note.txt` or in `data/annotations`,
@@ -65,13 +71,14 @@ To add new data to SurfPro2, please follow the steps below:
 - [ ] Create a git commit detailing that the new source was added,
 - [ ] Make a pull request in the [project repository](https://github.com/BigChemistry-RobotLab/SurfPro2). Alternatively, contact the lead maintainer about your changes.
 
-Please do not alter `config.toml` or `version.toml`.
+Please do not alter `config.toml` or `version.toml` as part of routine data updates.
+These files are maintained by the Lead Maintainer during releases.
 
 ### Corrections (Patches)
 
 To make a correction to SurfPro2, please follow the steps below:
 
-- [ ] Create a new git branch for your updates,
+- [ ] Create a new git branch from the current main branch for your updates,
 - [ ] Implement the updates,
 - [ ] Re-run any relevant processing scripts,
 - [ ] Verify that the updates have been made as intended,
@@ -103,13 +110,16 @@ This checklist is provided here for the Lead Maintainer to follow.
 - [ ] Review changes since the last version,
 - [ ] Update version.toml,
 - [ ] Update CHANGELOG.md,
-- [ ] Regenerate the database and review it,
 - [ ] Commit the changes,
+- [ ] Prepare the built files (`python scripts/release.py`)
+- [ ] Review the built database
 - [ ] Merge/rebase changes into the main branch
 - [ ] Create a git tag (`git tag v2.0.0; git push; git push --tags`),
-- [ ] Prepare the built files (`python scripts/release.py`)
+- [ ] Rebuild the release files from the tagged repository state (`python scripts/release.py`)
 - [ ] Create a GitHub release (attach built files),
 - [ ] Publish the Zenodo release with the database stored in the `target` directory.
+
+The release files generated from the tagged repository state should be always be attached to their corresponding GitHub and Zenodo releases.
 
 ### Check Dependencies
 
