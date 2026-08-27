@@ -26,6 +26,7 @@ SELECT
     m.temperature,
     m.value,
     u.name AS unit,
+    u.latex_math_text AS latex_unit,
     pt.latex_math_text,
     meth.name AS method
 FROM measurements m
