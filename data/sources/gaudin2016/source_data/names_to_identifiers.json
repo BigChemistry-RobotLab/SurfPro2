@@ -89,10 +89,10 @@
     "N-tetradecyl-N-methyl gluconamide": {"SMILES": "CCCCCCCCCCCCCCCCN(C)C(=O)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO"},
     "N-oleyl-N-methyl gluconamide": {"SMILES": "CN(CCCCCCCC/C=C\\CCCCCCCC)C([C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO)=O"},
     "decyl-D-lactobionamide": {
-        "SMILES": "CCCCCCCCCCNC(=O)[C@H](O)[C@@H](O)[C@H](O[C@@H]1O[C@H](O)[C@H](O)[C@H](O)[C@H]1O)[C@H](O)CO"
+        "SMILES": "O[C@@H]1[C@H](O)[C@@H](O)[C@H](O[C@@]([C@H](O)CO)([H])[C@H](O)[C@@H](O)C(NCCCCCCCCCC)=O)O[C@@H]1CO"
     },
     "N-decyl-N-methyl lactobionamide": {
-        "SMILES": "CCCCCCCCCCN(C)C(=O)[C@H](O)[C@@H](O)[C@H](O[C@@H]1O[C@H](O)[C@H](O)[C@H](O)[C@H]1O)[C@H](O)CO"
+        "SMILES": "O[C@@H]1[C@H](O)[C@@H](O)[C@H](O[C@@]([C@H](O)CO)([H])[C@H](O)[C@@H](O)C(N(C)CCCCCCCCCC)=O)O[C@@H]1CO"
     },
     "N-dodecyl-N-methyl lactobionamide": {
         "SMILES": "O[C@@H]1[C@@H]([C@H]([C@@H](O[C@@H]1CO)O[C@@]([H])([C@@H]([C@H](C(N(C)CCCCCCCCCCCC)=O)O)O)[C@@H](CO)O)O)O"
