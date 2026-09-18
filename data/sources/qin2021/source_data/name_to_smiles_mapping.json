@@ -9,7 +9,7 @@
         "CCCCCCCCCCC(=O)OC[C@H]1O[C@H](OC[C@H]2O[C@H](OC[C@H]3O[C@H](O[C@]4(CO)O[C@H](CO)[C@@H](O)[C@@H]4O)[C@H](O)[C@@H](O)[C@@H]3O)[C@H](O)[C@@H](O)[C@H]2O)[C@H](O)[C@@H](O)[C@H]1O"
     ],
     "N-Decyl-N-Methyl Lactobionamide": [
-        "CCCCCCCCCCN(C)C(=O)[C@H](O)[C@@H](O)[C@H](O[C@@H]1O[C@H](O)[C@H](O)[C@H](O)[C@H]1O)[C@H](O)CO"
+        "O[C@@H]1[C@H](O)[C@@H](O)[C@H](O[C@@]([C@H](O)CO)([H])[C@H](O)[C@@H](O)C(N(C)CCCCCCCCCC)=O)O[C@@H]1CO"
     ],
     "C12H25CH(SO3-Na+)COOC2H5": [
         "CCCCCCCCCCCCC(C(=O)OCC)S(=O)(=O)[O-].[Na+]"
@@ -366,7 +366,7 @@
         "CCCCCCCCCCCCCCC[n+]1ccccc1.[Br-]"
     ],
     "N-Dodecyl-N-Methyl Gluconamide": [
-        "CCCCCCCCCCCCN(C([C@@H]([C@H]([C@@H]([C@@H](CO)O)O[C@@H]1O[C@@H]([C@@H]([C@@H]([C@H]1O)O)O)O)O)O)=O)C"
+        "CCCCCCCCCCCCN(C)C(=O)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO"
     ],
     "N-Hexadecyl-N-Methyl Lactobionamide": [
         "O[C@@H]1[C@@H]([C@H]([C@@H](O[C@@H]1CO)O[C@@]([H])([C@@H]([C@H](C(N(C)CCCCCCCCCCCCCCCC)=O)O)O)[C@@H](CO)O)O)O"
