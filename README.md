@@ -20,7 +20,7 @@ To build SurfPro2 yourself, please follow the steps below.
 
 ### Obtain a copy of the repository
 
-You can either clone the repository (`git clone https://github.com/BigChemistry-RobotLab/SurfPro2.git`) or download it from [GitHub](https://github.com/BigChemistry-RobotLab/SurfPro2.git) or [Zenodo](https://doi.org/10.5281/zenodo.21456552).
+You can either clone the repository (`git clone https://github.com/BigChemistry-RobotLab/SurfPro2.git`) or download it from [GitHub](https://github.com/BigChemistry-RobotLab/SurfPro2.git) or [Zenodo](https://doi.org/10.5281/zenodo.21456551).
 Once you have it on your computer, navigate to the SurfPro2 directory in your command line (the directory which contains this file).
 
 ### Install Dependencies
@@ -69,7 +69,7 @@ If you would like you use these data for commercial purposes, please contact Dr.
 
 ## Citation
 
-If you use SurfPro2 in academic work, please cite our preprint on ChemRxiv: [10.26434/chemrxiv.15006392/v1](https://chemrxiv.org/doi/abs/10.26434/chemrxiv.15006392/v1).
+If you use SurfPro2 in academic work, please cite our publication: [Commit: SurfPro2: a relational database, curation workflow and repository of surfactant physicochemical data](https://doi.org/10.1039/d6dd00522e).
 
 ## Contributors to SurfPro2
 
